@@ -8,7 +8,7 @@ export default async function LogosAdmin() {
   const items = await prisma.clientLogo.findMany({ orderBy: [{ sortOrder: "asc" }, { createdAt: "desc" }] });
   return (
     <div className="space-y-6">
-      <div><h1 className="font-display text-3xl font-semibold tracking-tight text-ink">Client logos</h1><p className="text-[14px] text-slate">The trust bar under the homepage hero.</p></div>
+      <div><h1 className="font-display text-3xl font-semibold tracking-tight text-ink">Client logos</h1><p className="text-[14px] text-slate">The moving trust bar under the homepage hero. Until you add real client logos here, the site shows placeholder brand marks.</p></div>
       <Card title="Add client logo"><LogoForm /></Card>
       <div className="grid gap-3 md:grid-cols-2">
         {items.map((l) => (

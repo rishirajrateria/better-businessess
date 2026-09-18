@@ -28,7 +28,7 @@
   --animate-float: float 9s ease-in-out infinite;
   --animate-float-slow: float 14s ease-in-out infinite;
   --animate-shimmer: shimmer 3.5s linear infinite;
-  --animate-marquee: marquee 40s linear infinite;
+  --animate-marquee: marquee 60s linear infinite;
   --animate-pulse-soft: pulseSoft 4s ease-in-out infinite;
   --animate-spin-slow: spin 30s linear infinite;
 

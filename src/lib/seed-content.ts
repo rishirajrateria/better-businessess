@@ -24,11 +24,6 @@ export async function seedStarterContent(prisma: PrismaClient) {
     created.push("testimonials");
   }
 
-  if ((await prisma.clientLogo.count()) === 0) {
-    await prisma.clientLogo.createMany({ data: ["Maple Ridge Dental", "Northwind HVAC", "Harbourline Legal", "Pacific Peak Realty", "Gagnon Rénovations", "Bergeron Electrical", "Aurora Wellness", "Summit Logistics"].map((name, i) => ({ name, sortOrder: i })) });
-    created.push("client logos");
-  }
-
   if ((await prisma.project.count()) === 0) {
     await prisma.project.createMany({
       data: [
