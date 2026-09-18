@@ -1,0 +1,388 @@
+import type { SeedPost } from "./types";
+
+export const part1: SeedPost[] = [
+  {
+    slug: "how-much-does-seo-cost-in-canada",
+    title: "How Much Does SEO Cost in Canada in 2026? Real Prices, Pricing Models and What You Get",
+    excerpt: "Canadian SEO pricing explained without the fog: monthly retainer ranges, hourly and project rates, what each tier actually includes, and how to tell a real program from a $299 package.",
+    category: "SEO",
+    tags: "SEO pricing, SEO cost Canada, SEO retainer, small business SEO, Toronto SEO, Vancouver SEO",
+    readingMinutes: 9,
+    publishedAt: "2026-08-25",
+    featured: true,
+    seoTitle: "How Much Does SEO Cost in Canada? 2026 Pricing Guide (CAD)",
+    seoDescription: "SEO costs in Canada range from about $800 to $5,000+ per month. See 2026 retainer, hourly and project prices, what each tier includes, and the red flags in cheap packages.",
+    faqs: [
+      { question: "How much does SEO cost per month in Canada?", answer: "Most Canadian small and mid-sized businesses pay between CAD $1,200 and $5,000 per month for a real SEO program. Single-location local SEO typically starts around $800 to $1,500, while competitive markets like Toronto and Vancouver or multi-location companies usually need $2,500 or more." },
+      { question: "Is cheap SEO worth it?", answer: "Packages under about $500 per month are almost always automated tools, offshore link spam or a few directory listings. They rarely move rankings and can trigger Google penalties that cost far more to repair than the money saved." },
+      { question: "How long before SEO pays for itself?", answer: "Local and long-tail terms usually start producing leads within two to four months. Most businesses reach break-even on their SEO spend between months six and twelve, after which the cost per lead keeps falling because rankings compound." },
+      { question: "Should I pay hourly, monthly or per project?", answer: "Monthly retainers suit ongoing growth because SEO needs consistent work. Fixed-price projects fit one-time needs such as an audit or a migration. Hourly billing works for consulting or when you have an in-house team that just needs direction." },
+    ],
+    content: `## The short answer
+
+If you run a Canadian business and want SEO that actually produces leads, plan for **CAD $1,200 to $5,000 per month**. Below that range you are usually buying software or offshore labour dressed up as a service. Above it you are in enterprise or national e-commerce territory.
+
+Here is how 2026 pricing breaks down across the market. Ranges are in Canadian dollars and reflect what agencies in Toronto, Vancouver, Calgary, Montreal and smaller markets are quoting today.
+
+| Pricing model | Typical range (CAD) | Best for |
+| --- | --- | --- |
+| Local SEO retainer (one location) | $800 – $1,500 / month | Trades, clinics, restaurants, professional practices |
+| Growth retainer with content | $1,500 – $3,500 / month | Service businesses competing city-wide |
+| Competitive or multi-location retainer | $3,500 – $7,500 / month | Multi-city companies, e-commerce, legal, finance |
+| Enterprise or national | $7,500 – $15,000+ / month | National brands, large catalogues |
+| One-time technical audit | $1,500 – $6,000 | Diagnosing a stalled or penalized site |
+| Website migration SEO | $2,500 – $10,000 | Redesigns, platform changes, domain moves |
+| Hourly consulting | $125 – $250 / hour | In-house teams needing direction |
+
+Industry surveys of several hundred agencies in 2026 put roughly half of all SEO retainers between $1,500 and $5,000 per month, with most of the rest under $1,500. That matches what we see across Canada.
+
+## Why the range is so wide
+
+Three variables drive almost every SEO quote.
+
+### 1. Competition in your market
+
+Ranking a plumber in Red Deer is a different job from ranking a personal injury lawyer in Toronto. The Toronto lawyer competes against firms that have spent a decade and six figures on content and links. Closing that gap takes more content, more authority-building and more time each month. Regional markets in Atlantic Canada, the Prairies and Northern Ontario are far less crowded, which is why local businesses there often see faster results on smaller budgets.
+
+### 2. How many pages you need to rank
+
+A business with one service and one location can rank with a handful of well-built pages. A company that offers six services across eight cities needs 48 service-and-location pages plus supporting content, each researched, written and optimized. Multi-location SEO costs more because there is simply more to build and maintain.
+
+### 3. The condition of your website
+
+Slow load times, broken internal links, thin pages and messy URL structures all have to be fixed before content and links can work. If your site was built five years ago on a template, the first two or three months of any SEO program are usually foundation repair. A modern, fast site built with SEO in mind skips most of that cost, which is one reason we recommend planning [website development](/services/website-development) and SEO together.
+
+## What each tier should include
+
+Price alone tells you little. What matters is the deliverables behind it. Use this as a checklist when comparing proposals.
+
+**Every legitimate program, at any tier:**
+
+- A written strategy and keyword map you can read and question
+- Google Business Profile optimization and citation cleanup
+- Technical fixes: crawl errors, speed, mobile usability, schema markup
+- Monthly reporting on rankings, organic traffic **and leads**, not just rankings
+- Access to your own Google Search Console and Analytics accounts
+
+**Growth tier ($1,500 – $3,500) adds:**
+
+- Two to six optimized pages or articles per month written for buyer questions
+- Internal linking architecture and content refreshes
+- Review generation strategy
+- Local link building from Canadian directories, associations and partners
+
+**Competitive tier ($3,500+) adds:**
+
+- Location pages for every city you serve
+- Digital PR and editorial link acquisition
+- Conversion-rate optimization on landing pages
+- AI search optimization: structured data, entity consistency and content designed to be cited by ChatGPT, Gemini and Google's AI Overviews
+
+If a proposal at $2,500 per month does not list how many pieces of content you get, who writes them and how links will be earned, ask. Vagueness at the proposal stage becomes vagueness in the reporting stage.
+
+## The $299 package problem
+
+Search for "affordable SEO Canada" and you will find packages between $199 and $499 per month promising first-page rankings. Here is what those budgets actually buy at Canadian labour rates: two to four hours of work per month. That is not enough time to write one good article, let alone run a program.
+
+What typically happens instead:
+
+1. Automated software submits your site to hundreds of low-quality directories.
+2. Spun or AI-generated articles are published on private blog networks that link to you.
+3. Reports show "keyword rankings" for terms nobody searches.
+4. Six to twelve months later, traffic is flat or has dropped after a Google spam update.
+
+Cleaning up toxic links and rebuilding trust after this can cost more than a year of a proper retainer. If a price seems too good, it is.
+
+## How Canadian SEO pricing compares to the US
+
+Canadian rates run slightly below equivalent US markets, mostly because of the exchange rate and lower agency overhead outside Toronto and Vancouver. However, Canadian businesses face a unique cost: **bilingual markets**. Ranking in Quebec or New Brunswick means French content, French keyword research and, since Bill 96, legal obligations around French-language websites. Budget 40 to 70 percent more for a fully bilingual program. We cover the details in our guide to [bilingual marketing in Quebec](/blog/bill-96-bilingual-website-marketing-quebec).
+
+## How to know if you are getting value
+
+Judge SEO on three numbers, in this order:
+
+1. **Leads from organic search.** Calls, forms and bookings attributed to organic visitors. This is the only number that pays your invoices.
+2. **Organic traffic to commercial pages.** Visits to service and location pages, not just blog traffic.
+3. **Rankings for terms with buyer intent.** "Emergency plumber Ottawa," not "what is a P-trap."
+
+A program that improves rankings but not leads has a targeting or conversion problem, and a good agency will say so and fix the landing pages rather than celebrate the rankings.
+
+## Our pricing
+
+At Better Businesses, [SEO programs](/services/seo) start at $1,200 per month for local businesses and are scoped after a free audit. Every plan includes technical SEO, Google Business Profile work, content, Canadian link building, AI search optimization and reporting tied to leads. There are no long-term lock-ins; retainers run month to month after an initial 90 days, which is the minimum any honest agency needs to show results.
+
+If you want a number for your specific market, [request a free audit](/contact). We will show you the competition, the gap and the realistic budget to close it.`,
+  },
+  {
+    slug: "google-ads-cost-canada-cpc-benchmarks",
+    title: "How Much Does Google Ads Cost in Canada? 2026 CPC Benchmarks by Industry and City",
+    excerpt: "What Canadian businesses really pay per click and per lead on Google Ads in 2026, how Toronto compares with Halifax, and the budget you need before the numbers become reliable.",
+    category: "Lead Generation",
+    tags: "Google Ads cost, CPC Canada, PPC benchmarks, cost per lead, Google Ads budget, paid search Canada",
+    readingMinutes: 9,
+    publishedAt: "2026-08-11",
+    seoTitle: "Google Ads Cost in Canada 2026: CPC & Cost-Per-Lead Benchmarks",
+    seoDescription: "Google Ads in Canada costs anywhere from under $1 to $45+ per click depending on industry and city. See 2026 CPC and cost-per-lead benchmarks and the minimum budget that works.",
+    faqs: [
+      { question: "What is the average cost per click for Google Ads in Canada?", answer: "Across all industries, Canadian advertisers pay roughly CAD $3 to $7 per click in 2026. Legal and insurance queries in Toronto and Vancouver can exceed $40, while low-competition local services in smaller cities often cost under $2." },
+      { question: "What is a good cost per lead on Google Ads?", answer: "It depends entirely on what a customer is worth to you. Home services businesses typically see CAD $40 to $120 per qualified lead, dental and medical $60 to $200, and legal $150 to $600. A good cost per lead is one that is well under a third of the gross profit from an average new customer." },
+      { question: "What is the minimum Google Ads budget in Canada?", answer: "For local campaigns we recommend at least CAD $1,500 per month in ad spend. Below that, Google's algorithms do not receive enough conversion data to optimize, and you end up paying learning-phase prices indefinitely." },
+      { question: "Is Google Ads cheaper outside Toronto and Vancouver?", answer: "Yes. Clicks in Atlantic Canada, the Prairies and smaller Ontario and BC markets typically cost 20 to 40 percent less than in Toronto or Vancouver for the same keywords, which makes paid search particularly attractive for regional businesses." },
+    ],
+    content: `## What you actually pay for a click
+
+Google Ads has no price list. You bid against other advertisers for each search, and the cost depends on how many businesses want that click and how relevant Google thinks your ad and landing page are. That is why the same keyword can cost $2 in Moncton and $14 in Mississauga.
+
+Benchmarks from tens of thousands of campaigns analysed between 2025 and 2026 put the cross-industry average cost per click (CPC) at a little over **USD $5**, with legal services at the top near $10 and restaurants and entertainment near $2. Canadian prices track those figures closely once converted, with two important twists we cover below.
+
+## 2026 Canadian CPC benchmarks by industry
+
+The ranges below reflect what we see managing accounts across Canada. The low end is a smaller city or a specific long-tail keyword; the high end is a competitive head term in Toronto, Vancouver or Calgary.
+
+| Industry | Typical CPC (CAD) | Typical cost per lead (CAD) |
+| --- | --- | --- |
+| Home services (HVAC, plumbing, roofing, electrical) | $6 – $25 | $40 – $120 |
+| Dental and medical clinics | $4 – $18 | $60 – $200 |
+| Legal services | $8 – $45+ | $150 – $600 |
+| Insurance and financial services | $15 – $50+ | $80 – $400 |
+| Real estate (residential) | $3 – $12 | $30 – $150 |
+| Real estate (commercial) | $15 – $40 | $200 – $800 |
+| B2B services and SaaS | $4 – $30 | $100 – $500 |
+| Education and training | $3 – $15 | $40 – $150 |
+| Retail and e-commerce | $1 – $5 | varies by order value |
+| Restaurants and hospitality | $1 – $4 | $5 – $30 |
+
+Two things to notice. First, the spread within each industry is bigger than the spread between industries: where and how you run the campaign matters more than what you sell. Second, cost per lead is what you should manage to, not cost per click. A $30 click that converts one in four visitors is cheaper than a $6 click that converts one in fifty.
+
+## The two Canadian twists
+
+### Geography changes everything
+
+Canada's population is concentrated, and so is advertiser competition. Toronto and Vancouver consistently post the highest CPCs in the country. Calgary, Ottawa, Edmonton and Montreal sit in the middle. Atlantic Canada, Saskatchewan, Manitoba and smaller Ontario and BC cities typically run 20 to 40 percent cheaper for identical keywords.
+
+For a regional business this is a durable advantage. A roofing company in Halifax or Regina can dominate its local market for a budget that would barely register in the GTA. For multi-city companies, it means budgets should be split by market and judged on each market's own cost per lead, not a national average.
+
+### Bilingual markets
+
+French-language keywords in Quebec often cost less than their English equivalents because fewer advertisers bid on them well. Running properly written French campaigns (not machine translations) with French landing pages can produce some of the lowest cost-per-lead numbers in the country. It also keeps you on the right side of Quebec's language rules, which apply to advertising as well as websites.
+
+## How much budget you need
+
+Google's bidding algorithms learn from conversions. A campaign that generates fewer than roughly 30 conversions a month never leaves the learning phase and keeps paying inflated prices. Work backwards from that:
+
+- If your expected cost per lead is $50, you need about $1,500 per month to reach 30 leads.
+- If it is $150, you need $4,500 or you should narrow the campaign to fewer services and a tighter geography.
+
+This is why we recommend a **minimum of CAD $1,500 per month in ad spend** for local campaigns, and why a $500 monthly test almost always "proves" that Google Ads does not work when the real problem is that it never had enough data.
+
+Management fees come on top of ad spend. Canadian agencies typically charge a flat $800 to $2,500 per month or 10 to 20 percent of spend. We prefer flat fees so our incentive is your results, not your budget.
+
+## Where money leaks out of Canadian accounts
+
+When we audit accounts, the same problems appear again and again. Fixing them usually cuts wasted spend by 20 to 30 percent before anything else changes.
+
+1. **Broad match without negatives.** A Toronto dentist paying for clicks on "dental assistant jobs" or "dentist salary."
+2. **Location targeting set to "presence or interest."** You pay for people in Manila researching Canada.
+3. **Sending every click to the homepage.** Dedicated landing pages routinely double conversion rates. See our guide on [why landing pages fail to convert](/blog/why-your-landing-page-isnt-converting).
+4. **Counting the wrong conversions.** Page views and button clicks inflate the numbers and mislead the algorithm. Track calls, forms and bookings only.
+5. **No call tracking.** In home services and healthcare, half of all leads are phone calls. If you cannot see them, you cannot optimize for them.
+6. **Ads running 24/7 when nobody answers the phone.** A weekend lead that goes to voicemail is a lead your competitor closes on Monday.
+
+## Google Ads versus SEO in Canada
+
+Ads deliver leads in days and stop the moment you stop paying. SEO takes months and then keeps producing at a falling cost per lead. Most Canadian businesses should run both in sequence: start ads for cash flow and data, feed the winning keywords into your SEO plan, and shift budget as organic leads grow. We compare the two in detail in [Google Ads vs SEO for Canadian small business](/blog/google-ads-vs-seo-canadian-small-business).
+
+## A realistic example
+
+A two-truck HVAC company in Calgary comes to us spending $2,000 a month with a cost per lead of $190. After restructuring by service (furnace repair, AC installation, maintenance plans), adding negatives, building three landing pages with call tracking and pausing overnight hours, cost per lead settles around $75 within 60 days. Same budget, two and a half times the leads. That pattern, not a magic keyword, is what good [Google Ads management](/services/google-ads) looks like.
+
+If you want to know what Google Ads would cost in your city and industry, [request a free audit](/contact). We will pull live auction data for your market and give you a cost-per-lead estimate before you spend a dollar.`,
+  },
+  {
+    slug: "local-seo-checklist-canadian-small-business",
+    title: "The Local SEO Checklist for Canadian Small Businesses: 27 Steps to Own the Map Pack",
+    excerpt: "Nearly half of Google searches have local intent and the map pack sits at the top of most of them. Here is the complete checklist we use to get Canadian businesses into it and keep them there.",
+    category: "SEO",
+    tags: "local SEO, Google Business Profile, map pack, near me, local search Canada, citations, reviews",
+    readingMinutes: 11,
+    publishedAt: "2026-07-28",
+    seoTitle: "Local SEO Checklist for Canadian Businesses (27 Steps, 2026)",
+    seoDescription: "A step-by-step local SEO checklist for Canadian small businesses: Google Business Profile, citations, reviews, location pages, schema and AI search. Get into the map pack and stay there.",
+    faqs: [
+      { question: "What is the Google map pack?", answer: "The map pack, or local three-pack, is the block of three business listings with a map that Google shows at the top of results for searches with local intent, such as 'dentist near me' or 'plumber Winnipeg'. It appears in the top position for the vast majority of local queries and captures a large share of clicks and calls." },
+      { question: "How long does local SEO take to work?", answer: "Google Business Profile fixes and citation cleanup often move rankings within four to eight weeks. Building reviews, location pages and local links to reach the top three in a competitive city typically takes three to six months." },
+      { question: "Can I rank in cities where I don't have an office?", answer: "In organic results, yes, through well-built service-area pages. The map pack strongly favours proximity to the searcher, so ranking in the map for a distant city usually requires a verified location there." },
+      { question: "Do I need a website for local SEO or is Google Business Profile enough?", answer: "You need both. Google uses your website to understand your services and confirm your business details, and a strong site is one of the top local ranking factors. A profile without a good website rarely reaches the top three in a competitive market." },
+    ],
+    content: `## Why local SEO deserves your attention first
+
+Roughly **46 percent of all Google searches have local intent**, and the local three-pack appears at the top of results for more than nine out of ten of them. Three out of four people who search for something local on their phone visit a business within a day. If you serve customers in a physical area, whether from a storefront or a service van, the map pack is the most valuable real estate on the internet for your business.
+
+The good news is that local SEO is more predictable than national SEO. Google has told us the three factors that decide local rankings: **relevance** (how well your listing matches the search), **distance** (how close you are to the searcher) and **prominence** (how well known and well reviewed you are). Every item below strengthens one of those three.
+
+Work through the checklist in order. Items in the first two sections deliver the fastest results.
+
+## Part 1: Google Business Profile (relevance and prominence)
+
+1. **Claim and verify your profile** at business.google.com. Video verification is now common; have your signage, vehicles or interior ready to show.
+2. **Use your exact legal business name.** No keywords stuffed in ("Joe's Plumbing Toronto Emergency 24/7" gets suspended). The name must match your website and signage.
+3. **Choose the most specific primary category.** "Emergency plumber" outranks "Plumber" for emergency searches. Add every relevant secondary category.
+4. **List every service** with a description and, where sensible, a price range. Google matches these to searches.
+5. **Write a 750-character description** that says what you do, where, and for whom, in plain language. Top-ranking profiles average around 70 words of clear description.
+6. **Set accurate hours**, including holiday hours. Profiles marked "closed" at search time lose calls.
+7. **Add 20 or more photos** to start and keep adding monthly: exterior, interior, team, vehicles, completed work. Profiles with more images get more direction requests and calls.
+8. **Enable messaging and booking** if you can respond within a few hours.
+9. **Post weekly.** Offers, completed projects and tips. Posts signal an active business.
+10. **Answer the Q&A section yourself.** Seed it with the ten questions customers ask most.
+
+## Part 2: Reviews (prominence)
+
+11. **Build a repeatable review request process.** Ask every customer at the moment of satisfaction, by text or email, with a direct link to your review form. Consumers now read an average of seven reviews before trusting a business and a third will not trust one with fewer than twenty.
+12. **Aim for velocity, not a burst.** Four new reviews a month for a year beats forty in one week, which looks unnatural.
+13. **Respond to every review within 48 hours**, positive and negative, using the customer's name and mentioning the service. Responses count as fresh content on your profile.
+14. **Never gate reviews** (only asking happy customers) or offer incentives. Both violate Google policy and Canada's Competition Act rules on misleading reviews.
+15. **Encourage detail.** A review that says "installed our furnace in Airdrie within 24 hours" teaches Google and AI assistants what you do and where. Our full [review generation guide](/blog/how-to-get-more-google-reviews-canada) covers scripts and timing.
+
+## Part 3: Citations and consistency (prominence and trust)
+
+16. **Standardize your NAP**: name, address and phone number, formatted identically everywhere. "St." versus "Street" and "(416)" versus "416-" are enough to confuse data aggregators.
+17. **Claim the core Canadian citations**: Apple Business Connect, Bing Places, Yelp, Yellow Pages Canada, 411.ca, Canada411, Facebook, and your provincial or municipal business directory.
+18. **Add industry citations**: HomeStars for trades, RateMDs for clinics, Lawyer directories for firms, TripAdvisor for hospitality.
+19. **Join your local Chamber of Commerce and BIA.** Their member directories are trusted local links most competitors ignore.
+20. **Audit and fix duplicates** on Google and across directories. Duplicate listings split your review count and confuse rankings.
+
+## Part 4: Your website (relevance)
+
+21. **Create a dedicated page for each service** with 600 or more words answering real customer questions, not a single "Services" page with bullet points.
+22. **Create a page for each city or area you serve** with genuinely local content: neighbourhoods, local landmarks, specific projects, relevant regulations. Doorway pages that swap the city name and nothing else get filtered.
+23. **Add LocalBusiness and Service schema markup** with your NAP, hours, geo-coordinates and service areas. This structured data is also how AI assistants confirm your details.
+24. **Embed your Google map and match your footer NAP** to your profile exactly.
+25. **Make it fast and mobile-first.** Most local searches are on phones. Aim for a Largest Contentful Paint under 2.5 seconds. Slow sites lose both rankings and the impatient customer who was about to call.
+
+## Part 5: Local links and AI search (prominence)
+
+26. **Earn five to ten local links a quarter**: sponsor a minor hockey team, offer expert quotes to local news, partner with complementary businesses, list on supplier "find a dealer" pages, publish a local guide worth referencing.
+27. **Optimize for AI answers.** Nearly half of consumers now use AI tools such as ChatGPT and Gemini to find local businesses, up from a small fraction a year ago. Consistent NAP, detailed reviews, FAQ content and schema markup are the signals these systems use to recommend you. We explain the approach in our [AI search optimization guide](/blog/ai-search-optimization-guide-canadian-businesses).
+
+## How to measure progress
+
+Track three things monthly in your Google Business Profile insights and Search Console:
+
+- **Map pack rankings** for your five most valuable searches, checked from different neighbourhoods (rankings vary by searcher location; use a grid-tracking tool).
+- **Profile actions**: calls, direction requests, website clicks and messages.
+- **Leads** attributed to local search, using call tracking and form source fields.
+
+If profile views rise but calls do not, your reviews or photos need work. If calls rise but jobs do not, the problem is sales follow-up, not SEO.
+
+## Getting help
+
+Every item above is doable in-house with time and discipline. Most owners lack the time, and the discipline part is where programs die. Our [local SEO service](/services/local-seo) runs this entire checklist for you, including the monthly review, posting and link work that keeps rankings from slipping once you reach the top. [Request a free local SEO audit](/contact) and we will show you exactly where your profile and site stand against the three businesses currently in your map pack.`,
+  },
+  {
+    slug: "how-to-get-more-google-reviews-canada",
+    title: "How to Get More Google Reviews in Canada: A System That Works and Stays Legal",
+    excerpt: "Reviews now decide who gets the call. Here is the request timing, the scripts, the follow-up sequence and the Canadian rules you need to know to grow reviews steadily without risking a suspension.",
+    category: "Local SEO",
+    tags: "Google reviews, review generation, reputation management, Competition Act reviews, local SEO Canada",
+    readingMinutes: 8,
+    publishedAt: "2026-07-14",
+    seoTitle: "How to Get More Google Reviews in Canada (Legally) – 2026 Guide",
+    seoDescription: "A proven system for earning more Google reviews for your Canadian business: when to ask, exact scripts, automation, responding to negatives, and the Competition Act and Google rules to follow.",
+    faqs: [
+      { question: "Is it legal to ask customers for Google reviews in Canada?", answer: "Yes. Asking for honest reviews is legal and encouraged. What is prohibited under Canada's Competition Act and Google's policies is paying for reviews, writing fake ones, or selectively asking only happy customers (review gating). Ask everyone, offer nothing in return." },
+      { question: "Can I offer a discount for a review?", answer: "No. Incentives for reviews violate Google's policies and can be treated as misleading advertising by the Competition Bureau. You may run a contest or thank-you unrelated to reviews, but it cannot be conditional on leaving one." },
+      { question: "How many Google reviews do I need?", answer: "Consumers read about seven reviews before trusting a business, and a third will not trust one with fewer than twenty. Aim to pass twenty quickly, then focus on a steady pace of new reviews every month and a rating above 4.5." },
+      { question: "Should I respond to negative reviews?", answer: "Always, within 48 hours, calmly and briefly. Acknowledge, apologize where appropriate, state what you will do, and move the conversation offline. Prospective customers read your responses as closely as the reviews themselves." },
+    ],
+    content: `## Reviews are the new referral
+
+Ninety-seven percent of consumers read reviews before choosing a local business, and the share who say they *always* read them jumped from 29 percent to 41 percent in a single year. Most people want to see a 4-star minimum, and many homeowners now filter out anything under 4.5 stars entirely. In home services, roughly seven in ten homeowners say they would pay up to 10 percent more for a contractor with a stronger reputation.
+
+Reviews also feed rankings. Google's own guidance lists review count and quality among the prominence signals for the map pack, and AI assistants such as ChatGPT and Gemini lean heavily on review text when they recommend local businesses.
+
+So reviews are not a vanity metric. They are a lead source, a pricing lever and a ranking factor. Here is the system we set up for clients across Canada.
+
+## Step 1: Get the link and the timing right
+
+Create a short, memorable review link. In your Google Business Profile, open "Ask for reviews" to get a direct link, then shorten it with a branded domain (for example, yourcompany.ca/review, redirected to the Google form).
+
+Ask at the **moment of satisfaction**, not days later:
+
+- Trades and home services: when the job is complete and the customer is walking through the finished work.
+- Clinics and salons: at checkout, backed by a text within an hour.
+- Professional services: when the matter closes or a milestone is reached.
+- Restaurants and retail: on the receipt and a follow-up text the same evening.
+
+Response rates fall by roughly half for every day you wait.
+
+## Step 2: Ask in person, then follow up by text
+
+The in-person ask sets the expectation; the text makes it easy. A script that works in the field:
+
+> "Thanks so much for choosing us. Reviews are how small businesses like ours get found. I'm going to text you a link right now. If you have thirty seconds, it would mean a lot to the whole team."
+
+The text, sent within minutes:
+
+> "Hi Sarah, it's Mike from Northwind Heating. Thank you for having us today. If you were happy with the work, a quick Google review would help us a lot: yourcompany.ca/review. Thank you!"
+
+Keep it personal, name the technician, and never mention stars. Follow up once, three days later, if no review appears. Then stop.
+
+## Step 3: Automate it without making it robotic
+
+Most CRMs and field-service tools (Jobber, ServiceTitan, Housecall Pro, HubSpot, GoHighLevel) can trigger the text automatically when a job is marked complete or an invoice is paid. Set up:
+
+1. Text at completion or payment
+2. Email the next morning with the same link
+3. One reminder text after 72 hours
+
+Automation is what turns "we should ask more" into four to eight reviews a month, every month. Steady velocity matters: forty reviews in one week looks manufactured to Google's filters; four a month for a year looks like a healthy business.
+
+## Step 4: Encourage detail (the SEO multiplier)
+
+A five-star rating with no text helps your average. A review that says "Replaced our furnace in Airdrie the same day, explained the rebate paperwork, left the basement cleaner than they found it" does far more: it tells Google and AI assistants what you do, where and how well. You cannot dictate content, but you can prompt it:
+
+> "If you can, mention what we did and which area you're in. It really helps other homeowners find us."
+
+Over time, your reviews become a keyword-rich, trust-building content library you did not have to write.
+
+## Step 5: Respond to every review
+
+Respond within 48 hours. For positive reviews, thank the customer by name and mention the service ("Glad the new AC is keeping your Kelowna home cool, Priya"). For negative reviews:
+
+1. Stay calm and brief. You are writing for the hundred people who will read it later, not for the reviewer.
+2. Acknowledge the specific issue and apologize for the experience if appropriate.
+3. State what you are doing about it.
+4. Move it offline: "Please call me directly at … so I can make this right."
+
+A well-handled negative review often converts better than a perfect five-star wall, because it proves you are real and accountable.
+
+## Step 6: Know the rules in Canada
+
+Two sets of rules apply.
+
+**Google's policies** prohibit review gating (only asking customers you know are happy), incentives of any kind, reviews from employees or family, review kiosks on your premises, and bulk solicitation from the same IP address. Violations can get reviews removed or your profile suspended.
+
+**Canada's Competition Act** treats fake or misleading reviews and undisclosed incentives as deceptive marketing. The Competition Bureau has actively pursued businesses for astroturfing, and penalties can reach into the millions for corporations. Provincial consumer protection laws add further exposure.
+
+The safe rule is simple: **ask everyone, offer nothing, never write or edit a review yourself.**
+
+## Step 7: Handle fake and unfair reviews
+
+Flag reviews that violate Google's policies (competitor sabotage, reviews from people who were never customers, hate speech, off-topic rants) through your profile. Include a short factual explanation. Escalate through Google Business Profile support if the first flag is rejected. Do not respond to an obvious fake review as if it were real, but do respond briefly stating you have no record of the person as a customer.
+
+## Step 8: Put your reviews to work
+
+Reviews should not live only on Google:
+
+- Feature them on your homepage and service pages with the reviewer's first name and city.
+- Add Review or AggregateRating schema so Google can show star ratings in search results.
+- Turn standout reviews into social posts and ad creative (with permission).
+- Include a "read our reviews" link in every proposal and email signature.
+
+## What good looks like
+
+Within six months, a business following this system typically moves from a handful of reviews to 40 or more, with a rating above 4.7 and new reviews arriving every week. Map pack rankings improve, calls from the profile increase, and close rates go up because prospects arrive already convinced.
+
+We build this system, including the automation and the response templates, as part of every [local SEO engagement](/services/local-seo). If you want a review process that runs itself, [get in touch](/contact).`,
+  },
+];
