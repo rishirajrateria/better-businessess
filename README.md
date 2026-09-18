@@ -46,14 +46,30 @@ Admin: `http://localhost:3000/admin` — log in with `ADMIN_EMAIL` / `ADMIN_PASS
 
 ## Deploying (Vercel + Postgres recommended)
 
-1. Create a Postgres database (Neon, Supabase, Vercel Postgres, Railway…).
-2. In `prisma/schema.prisma` change `provider = "sqlite"` to `provider = "postgresql"`.
-3. Set `DATABASE_URL` to the Postgres connection string (plus all other env vars) in Vercel → Settings → Environment Variables.
-4. Deploy. Then run once from your machine (with production `DATABASE_URL` in `.env`):
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frishirajrateria%2Fbetter-businessess&env=DATABASE_URL,AUTH_SECRET,ADMIN_EMAIL,ADMIN_PASSWORD,NEXT_PUBLIC_SITE_URL&envDescription=Postgres%20connection%20string%2C%20admin%20login%20and%20site%20URL&project-name=better-businesses&repository-name=better-businesses)
+
+The repo is **zero-config for Vercel**: `scripts/prepare-db.mjs` reads `DATABASE_URL` and switches the Prisma
+provider to Postgres automatically, and `npm run vercel-build` pushes the schema to the database before building.
+You only need to provide the environment variables.
+
+### One-click path
+1. Click the button above (or import the GitHub repo in Vercel).
+2. In the Vercel project go to **Storage → Create Database → Postgres (Neon)** and connect it, or paste any Postgres
+   connection string. Set `DATABASE_URL` to that string (Vercel Postgres exposes it as `POSTGRES_PRISMA_URL`; copy the value into `DATABASE_URL`).
+3. Set `AUTH_SECRET` (long random string), `ADMIN_EMAIL`, `ADMIN_PASSWORD`, `NEXT_PUBLIC_SITE_URL=https://betterbusinesses.ca`.
+   Optional: `RESEND_API_KEY`, `LEAD_NOTIFY_EMAIL`, `NEXT_PUBLIC_GA_ID`, `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION`.
+4. Deploy. After the first deploy, seed the admin user and starter content once from your machine:
    ```bash
-   npx prisma db push && npm run db:seed
+   DATABASE_URL="<production postgres url>" ADMIN_EMAIL=... ADMIN_PASSWORD=... npm run db:seed
    ```
-5. Point `betterbusinesses.ca` at Vercel. Submit `https://betterbusinesses.ca/sitemap.xml` in Google Search Console and Bing Webmaster Tools.
+5. Add the `betterbusinesses.ca` domain in Vercel → Domains and update your DNS.
+
+### Manual path
+
+1. Create a Postgres database (Neon, Supabase, Vercel Postgres, Railway…).
+2. Set `DATABASE_URL` to the Postgres connection string plus the other env vars in Vercel → Settings → Environment Variables. The provider switch is automatic.
+3. Deploy, then seed once: `DATABASE_URL="<prod url>" npm run db:seed`.
+4. Point `betterbusinesses.ca` at Vercel. Submit `https://betterbusinesses.ca/sitemap.xml` in Google Search Console and Bing Webmaster Tools.
 
 Any Node host works as well (`npm run build && npm start`). The build command already runs `prisma generate`.
 

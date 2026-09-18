@@ -2,20 +2,22 @@
   "name": "better-businesses",
   "version": "1.0.0",
   "private": true,
-  "description": "Better Businesses — Canadian digital growth agency. Lead generation, SEO, website development and branding.",
+  "description": "Better Businesses \u2014 Canadian digital growth agency. Lead generation, SEO, website development and branding.",
   "scripts": {
     "dev": "next dev",
-    "build": "prisma generate && next build",
+    "build": "node scripts/prepare-db.mjs && prisma generate && next build",
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "db:generate": "prisma generate",
-    "db:push": "prisma db push",
+    "db:push": "node scripts/prepare-db.mjs && prisma db push",
     "db:migrate": "prisma migrate dev",
-    "db:deploy": "prisma migrate deploy",
-    "db:seed": "tsx prisma/seed.ts",
+    "db:deploy": "node scripts/prepare-db.mjs && prisma migrate deploy",
+    "db:seed": "node scripts/prepare-db.mjs && tsx prisma/seed.ts",
     "db:studio": "prisma studio",
-    "postinstall": "prisma generate"
+    "postinstall": "node scripts/prepare-db.mjs && prisma generate",
+    "db:prepare": "node scripts/prepare-db.mjs",
+    "vercel-build": "node scripts/prepare-db.mjs && prisma generate && prisma db push --accept-data-loss --skip-generate && next build"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"
