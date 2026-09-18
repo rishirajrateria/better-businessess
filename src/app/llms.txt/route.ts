@@ -34,7 +34,7 @@ export function GET() {
     `- [Contact](${site.url}/contact): Free growth audit and proposals.`,
     ``,
     `## Pricing guidance (CAD)`,
-    ...services.slice(0, 4).map((s) => `- ${s.name}: ${s.faqs.find((f) => /cost|budget/i.test(f.question))?.answer ?? "Contact for a quote."}`),
+    ...services.map((s) => `- ${s.name}: starts from $${s.startingPrice.amount.toLocaleString("en-CA")} CAD${s.startingPrice.unit === "month" ? " per month" : " per project"}. ${s.faqs.find((f) => /cost|budget/i.test(f.question))?.answer ?? "Fixed quotes after a free consultation."}`),
     ``,
     `## Optional`,
     `- [Full content for LLMs](${site.url}/llms-full.txt)`,

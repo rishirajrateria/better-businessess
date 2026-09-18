@@ -125,6 +125,15 @@ export function serviceSchema(service: Service, opts: { path: string; areaName?:
     provider: { "@id": orgId },
     areaServed: area,
     availableChannel: { "@type": "ServiceChannel", serviceUrl: absoluteUrl("/contact"), availableLanguage: ["English", "French"] },
+    offers: {
+      "@type": "Offer",
+      priceCurrency: "CAD",
+      price: service.startingPrice.amount,
+      priceSpecification: { "@type": "UnitPriceSpecification", priceCurrency: "CAD", price: service.startingPrice.amount, ...(service.startingPrice.unit === "month" ? { unitCode: "MON", billingIncrement: 1 } : {}) },
+      description: `Starting price${service.startingPrice.unit === "month" ? " per month" : " per project"}; fixed quotes after a free consultation.`,
+      availability: "https://schema.org/InStock",
+      url: absoluteUrl("/contact"),
+    },
     hasOfferCatalog: { "@type": "OfferCatalog", name: `${service.name} deliverables`, itemListElement: service.deliverables.map((d) => ({ "@type": "Offer", itemOffered: { "@type": "Service", name: d } })) },
   };
 }

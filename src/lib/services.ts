@@ -28,6 +28,8 @@ export type Service = {
   keywords: string[];
   related: string[];
   schemaServiceType: string;
+  /** Entry price shown on cards and service pages (CAD) */
+  startingPrice: { amount: number; unit: "month" | "project" };
 };
 
 export const services: Service[] = [
@@ -87,6 +89,7 @@ export const services: Service[] = [
     keywords: ["lead generation services", "lead generation agency Canada", "B2B lead generation", "PPC management", "Google Ads agency", "Facebook ads agency", "landing page design"],
     related: ["google-ads", "social-media-advertising", "seo", "website-development"],
     schemaServiceType: "Lead Generation Service",
+    startingPrice: { amount: 1500, unit: "month" },
   },
   {
     slug: "seo",
@@ -145,6 +148,7 @@ export const services: Service[] = [
     keywords: ["SEO services Canada", "SEO agency", "local SEO", "technical SEO", "SEO company", "AI search optimization", "generative engine optimization"],
     related: ["local-seo", "website-development", "lead-generation", "branding"],
     schemaServiceType: "Search Engine Optimization",
+    startingPrice: { amount: 1200, unit: "month" },
   },
   {
     slug: "website-development",
@@ -203,6 +207,7 @@ export const services: Service[] = [
     keywords: ["website development Canada", "web design company", "web development agency", "Next.js developers", "WordPress development", "Shopify development", "custom website design"],
     related: ["ecommerce-development", "seo", "branding", "lead-generation"],
     schemaServiceType: "Web Development",
+    startingPrice: { amount: 6000, unit: "project" },
   },
   {
     slug: "branding",
@@ -261,6 +266,7 @@ export const services: Service[] = [
     keywords: ["branding agency Canada", "logo design", "brand identity design", "graphic design services", "brand strategy", "rebranding"],
     related: ["logo-design", "graphic-design", "website-development", "seo"],
     schemaServiceType: "Brand Design",
+    startingPrice: { amount: 1500, unit: "project" },
   },
 
   // ---------------- Sub-services ----------------
@@ -306,6 +312,7 @@ export const services: Service[] = [
     keywords: ["Google Ads management Canada", "PPC agency", "Google Ads agency", "pay per click management"],
     related: ["lead-generation", "social-media-advertising", "seo"],
     schemaServiceType: "Pay-Per-Click Advertising",
+    startingPrice: { amount: 800, unit: "month" },
   },
   {
     slug: "social-media-advertising",
@@ -349,6 +356,7 @@ export const services: Service[] = [
     keywords: ["social media advertising Canada", "Facebook ads agency", "Instagram ads", "LinkedIn ads agency", "TikTok ads"],
     related: ["lead-generation", "google-ads", "branding"],
     schemaServiceType: "Social Media Advertising",
+    startingPrice: { amount: 800, unit: "month" },
   },
   {
     slug: "local-seo",
@@ -392,6 +400,7 @@ export const services: Service[] = [
     keywords: ["local SEO Canada", "Google Business Profile optimization", "map pack SEO", "local SEO services"],
     related: ["seo", "website-development", "lead-generation"],
     schemaServiceType: "Local Search Engine Optimization",
+    startingPrice: { amount: 900, unit: "month" },
   },
   {
     slug: "ecommerce-development",
@@ -435,6 +444,7 @@ export const services: Service[] = [
     keywords: ["e-commerce development Canada", "Shopify developers", "online store design", "headless commerce"],
     related: ["website-development", "seo", "google-ads"],
     schemaServiceType: "E-commerce Development",
+    startingPrice: { amount: 10000, unit: "project" },
   },
   {
     slug: "logo-design",
@@ -478,6 +488,7 @@ export const services: Service[] = [
     keywords: ["logo design Canada", "logo designer", "professional logo design", "custom logo"],
     related: ["branding", "graphic-design", "website-development"],
     schemaServiceType: "Logo Design",
+    startingPrice: { amount: 1500, unit: "project" },
   },
   {
     slug: "graphic-design",
@@ -521,6 +532,7 @@ export const services: Service[] = [
     keywords: ["graphic design services Canada", "graphic designer", "social media graphics", "brochure design"],
     related: ["branding", "logo-design", "social-media-advertising"],
     schemaServiceType: "Graphic Design",
+    startingPrice: { amount: 600, unit: "month" },
   },
 ];
 

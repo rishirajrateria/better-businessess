@@ -4,3 +4,6 @@ export function cn(...classes: (string | false | null | undefined)[]) {
 export const formatDate = (d: Date | string | null | undefined, opts: Intl.DateTimeFormatOptions = { year: "numeric", month: "long", day: "numeric" }) =>
   d ? new Intl.DateTimeFormat("en-CA", opts).format(new Date(d)) : "";
 export const formatNumber = (n: number) => new Intl.NumberFormat("en-CA").format(n);
+
+export const formatPrice = (n: number) => `$${new Intl.NumberFormat("en-CA").format(n)}`;
+export const priceLabel = (p: { amount: number; unit: "month" | "project" }) => `${formatPrice(p.amount)} CAD${p.unit === "month" ? "/mo" : ""}`;

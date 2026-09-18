@@ -8,7 +8,7 @@ import type { Service } from "@/lib/services";
 import { coreServices, getSubServices } from "@/lib/services";
 import type { City, Province } from "@/lib/locations";
 import { site } from "@/lib/site";
-import { cn } from "@/lib/utils";
+import { cn, formatPrice } from "@/lib/utils";
 
 /* ---------- Services grid ---------- */
 export function ServicesGrid({ title, subtitle, eyebrow = "What we do", locationName, hrefFor }: { title?: React.ReactNode; subtitle?: string; eyebrow?: string; locationName?: string; hrefFor?: (s: Service) => string }) {
@@ -37,15 +37,21 @@ export function ServicesGrid({ title, subtitle, eyebrow = "What we do", location
                     <li key={d} className="flex items-start gap-2"><Check size={16} className="mt-1 shrink-0 text-gold" /> {d}</li>
                   ))}
                 </ul>
-                {subs.length > 0 && (
-                  <div className="mt-6 flex flex-wrap gap-2 border-t border-line pt-5">
-                    {subs.map((sub) => (
-                      <Link key={sub.slug} href={`/services/${sub.slug}`} className="rounded-full bg-ink/5 px-3 py-1.5 text-[13px] font-medium text-graphite transition-colors hover:bg-gold-pale hover:text-gold-deep">
-                        {sub.shortName}
-                      </Link>
-                    ))}
-                  </div>
-                )}
+                <div className="mt-6 flex flex-wrap items-center justify-between gap-3 border-t border-line pt-5">
+                  <p className="text-[13px] text-slate">
+                    Starts from <span className="font-display text-xl font-semibold tracking-tight text-ink">{formatPrice(s.startingPrice.amount)}</span>
+                    <span className="ml-1 text-[12.5px] text-slate">CAD{s.startingPrice.unit === "month" ? " / month" : " / project"}</span>
+                  </p>
+                  {subs.length > 0 && (
+                    <div className="flex flex-wrap gap-2">
+                      {subs.map((sub) => (
+                        <Link key={sub.slug} href={`/services/${sub.slug}`} className="rounded-full bg-ink/5 px-3 py-1.5 text-[13px] font-medium text-graphite transition-colors hover:bg-gold-pale hover:text-gold-deep">
+                          {sub.shortName}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </div>
               </GlassCard>
             </div>
           );

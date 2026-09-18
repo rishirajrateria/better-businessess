@@ -17,6 +17,7 @@ import type { Service, Faq } from "@/lib/services";
 import { getSubServices, getService, coreServices } from "@/lib/services";
 import type { City, Province } from "@/lib/locations";
 import { site } from "@/lib/site";
+import { formatPrice } from "@/lib/utils";
 
 export type ServicePageProps = {
   service: Service;
@@ -52,8 +53,11 @@ export function ServicePageTemplate(p: ServicePageProps) {
           <Button href="/contact" size="lg" track="cta_service_hero">Get a free proposal <ArrowIcon /></Button>
           <Button href="#pricing-faq" variant="glass" size="lg">See FAQs &amp; pricing</Button>
         </div>
+        <p className="mt-6 text-[14px] text-slate">
+          Starts from <span className="font-display text-lg font-semibold text-ink">{formatPrice(s.startingPrice.amount)} CAD</span>{s.startingPrice.unit === "month" ? " per month" : " per project"}. Fixed quotes after a free consultation.
+        </p>
         {parent && (
-          <p className="mt-6 text-[14px] text-slate">Part of our <Link href={`/services/${parent.slug}`} className="font-semibold text-gold-deep hover:underline">{parent.name}</Link> service.</p>
+          <p className="mt-3 text-[14px] text-slate">Part of our <Link href={`/services/${parent.slug}`} className="font-semibold text-gold-deep hover:underline">{parent.name}</Link> service.</p>
         )}
       </PageHero>
 
