@@ -11,7 +11,7 @@ recommended by AI assistants (ChatGPT, Claude, Gemini, Perplexity).
 | Area | Details |
 | --- | --- |
 | **Framework** | Next.js 16 (App Router, React 19, TypeScript), Tailwind CSS v4 |
-| **Design** | Minimal, Apple-inspired "liquid glass" UI using the brand's black / gold / off-white palette. Fonts: **Sora** (display) + **Manrope** (body), self-hosted via Fontsource. No Apple fonts. |
+| **Design** | Minimal, Apple-inspired "liquid glass" UI using the brand's black / gold / off-white palette. Fonts: **Bricolage Grotesque** (display) + **Instrument Sans** (body), self-hosted via Fontsource. No Apple fonts. |
 | **Public pages** | Home · Services hub · 4 core service pages · 6 specialty pages · Service × Canada (4) · Service × Province (52) · Service × City (264) · Province hubs (13) · City hubs (66) · Blog · Projects · About · Contact · FAQ · Privacy · Terms · 404 |
 | **Programmatic SEO** | `src/lib/content.ts` generates unique copy, FAQs, industry angles and internal links per service/location combination. Pages are statically generated (437 at build time). |
 | **AI / LLM optimization** | `/llms.txt` and `/llms-full.txt`, AI-crawler-friendly `robots.txt`, JSON-LD on every page (Organization, LocalBusiness, Service, FAQPage, BreadcrumbList, Article, WebPage with `speakable`), "At a glance" fact blocks, entity-consistent NAP, semantic HTML. |

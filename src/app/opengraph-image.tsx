@@ -26,7 +26,7 @@ export default function OG() {
         </div>
         <div style={{ display: "flex", justifyContent: "space-between", fontSize: 24, color: "#9A7628", fontWeight: 600 }}>
           <span>{site.domain}</span>
-          <span>Serving every province and territory 🇨🇦</span>
+          <span>Serving every province and territory in Canada</span>
         </div>
       </div>
     ),

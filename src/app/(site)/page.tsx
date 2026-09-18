@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowUpRight, Bot, Gauge, ShieldCheck, Sparkles } from "lucide-react";
+import { ArrowUpRight, Bot, Gauge, ShieldCheck, Award } from "lucide-react";
 import type { Metadata } from "next";
 import { HomeHero } from "@/components/site/Hero";
 import { LogoCloud } from "@/components/site/LogoCloud";
@@ -72,7 +72,7 @@ export default async function HomePage() {
         <ul className="mt-8 grid gap-3 sm:grid-cols-3">
           {[
             { Icon: ShieldCheck, t: "You own everything", d: "Accounts, code, files and data." },
-            { Icon: Sparkles, t: "Senior team only", d: "No hand-offs to juniors." },
+            { Icon: Award, t: "Senior team only", d: "No hand-offs to juniors." },
             { Icon: Gauge, t: "Reported on revenue", d: "Leads and sales, not clicks." },
           ].map(({ Icon, t, d }) => (
             <li key={t} className="glass rounded-2xl p-4">
@@ -98,7 +98,7 @@ export default async function HomePage() {
       {projects.length > 0 && (
         <Section id="projects">
           <div className="mb-12 flex flex-col justify-between gap-6 md:flex-row md:items-end" data-reveal>
-            <SectionHeader eyebrow="Selected work" title={<>Results our clients <span className="text-gold-gradient">can bank on.</span></>} align="left" className="mb-0" />
+            <SectionHeader eyebrow="Selected work" title={<>Selected work and <span className="text-gold-gradient">measurable outcomes.</span></>} align="left" className="mb-0" />
             <Button href="/projects" variant="outline">All projects <ArrowIcon /></Button>
           </div>
           <div className="grid gap-5 md:grid-cols-3">

@@ -6,16 +6,15 @@ export function CtaBanner({ title, subtitle, primary = "Get a free proposal", pr
   return (
     <section className={cn("relative", compact ? "py-10" : "py-20 md:py-28", className)}>
       <div className="mx-auto max-w-7xl px-5 sm:px-8">
-        <div className="relative overflow-hidden rounded-[2.5rem] bg-ink px-8 py-14 text-paper md:px-16 md:py-20 noise" data-reveal>
+        <div className="relative overflow-hidden rounded-[2.5rem] bg-ink px-8 py-14 text-paper md:px-16 md:py-20" data-reveal>
           <div className="pointer-events-none absolute inset-0" aria-hidden="true">
             <div className="absolute -left-20 -top-32 h-[28rem] w-[28rem] rounded-full bg-gold/25 blur-3xl animate-float-slow" />
             <div className="absolute -bottom-40 right-0 h-[30rem] w-[30rem] rounded-full bg-gold-light/15 blur-3xl animate-float" />
-            <div className="absolute inset-0 grid-fade opacity-30" />
           </div>
           <div className="relative grid items-center gap-10 lg:grid-cols-5">
             <div className="lg:col-span-3">
               <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-gold-light">Ready when you are</p>
-              <h2 className="mt-4 font-display text-balance text-3xl font-semibold leading-[1.08] tracking-tight md:text-5xl">{title ?? <>Let&apos;s build a business that gets <span className="text-gold-gradient">found, chosen and remembered.</span></>}</h2>
+              <h2 className="mt-4 font-display text-balance text-3xl font-medium leading-[1.06] tracking-tight md:text-5xl">{title ?? <>Ready to grow? <span className="text-gold-light">Let&apos;s talk about your next quarter.</span></>}</h2>
               <p className="mt-5 max-w-xl text-pretty text-lg leading-8 text-paper/70">{subtitle ?? "Book a free 30-minute strategy call. We'll audit your current presence and show you the three highest-impact moves for your market."}</p>
             </div>
             <div className="flex flex-col gap-3 lg:col-span-2 lg:items-end">

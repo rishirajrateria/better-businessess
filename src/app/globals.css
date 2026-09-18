@@ -1,6 +1,6 @@
 @import "tailwindcss";
-@import "@fontsource-variable/sora";
-@import "@fontsource-variable/manrope";
+@import "@fontsource-variable/bricolage-grotesque";
+@import "@fontsource-variable/instrument-sans";
 
 /* ---------- Brand tokens (from the Better Businesses logo) ---------- */
 @theme {
@@ -9,18 +9,18 @@
   --color-graphite: #3a3a3a;
   --color-slate: #6b6b6b;
   --color-mist: #a8a8a8;
-  --color-line: #e6e3dc;
-  --color-paper: #fbfaf7;
-  --color-cream: #f4f1ea;
+  --color-line: #e8e8e6;
+  --color-paper: #fdfdfc;
+  --color-cream: #f4f4f2;
   --color-gold: #c19a3e;
   --color-gold-light: #e3c97f;
   --color-gold-deep: #9a7628;
-  --color-gold-pale: #f7efdc;
+  --color-gold-pale: #f6f2e7;
 
-  --font-display: "Sora Variable", ui-sans-serif, system-ui, sans-serif;
-  --font-sans: "Manrope Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Bricolage Grotesque Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Instrument Sans Variable", ui-sans-serif, system-ui, sans-serif;
 
-  --radius-glass: 1.75rem;
+  --radius-glass: 1.25rem;
   --shadow-glass: 0 1px 0 0 rgba(255, 255, 255, 0.6) inset, 0 20px 60px -20px rgba(10, 10, 10, 0.18), 0 8px 24px -12px rgba(193, 154, 62, 0.15);
   --shadow-glass-dark: 0 1px 0 0 rgba(255, 255, 255, 0.08) inset, 0 30px 80px -30px rgba(0, 0, 0, 0.6);
   --shadow-float: 0 30px 80px -30px rgba(10, 10, 10, 0.35);
@@ -57,7 +57,6 @@ html {
 }
 body {
   @apply bg-paper text-ink font-sans antialiased;
-  font-feature-settings: "ss01", "cv11";
   text-rendering: optimizeLegibility;
 }
 ::selection {
@@ -66,7 +65,8 @@ body {
 }
 h1, h2, h3, h4, .font-display {
   font-family: var(--font-display);
-  letter-spacing: -0.02em;
+  letter-spacing: -0.025em;
+  font-variation-settings: "opsz" 96, "wdth" 100;
 }
 :focus-visible {
   outline: 2px solid var(--color-gold);
@@ -134,10 +134,7 @@ h1, h2, h3, h4, .font-display {
 
 /* Gold text & lines */
 .text-gold-gradient {
-  background: linear-gradient(100deg, #9a7628 0%, #c19a3e 40%, #e3c97f 60%, #c19a3e 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  color: #b08a32;
 }
 .bg-gold-gradient {
   background: linear-gradient(100deg, #9a7628 0%, #c19a3e 45%, #e3c97f 100%);
@@ -158,9 +155,9 @@ h1, h2, h3, h4, .font-display {
 /* Ambient background */
 .ambient {
   background:
-    radial-gradient(1200px 600px at 10% -10%, rgba(193, 154, 62, 0.16), transparent 60%),
-    radial-gradient(900px 500px at 100% 0%, rgba(227, 201, 127, 0.16), transparent 60%),
-    radial-gradient(800px 800px at 50% 120%, rgba(10, 10, 10, 0.06), transparent 60%),
+    radial-gradient(1200px 600px at 10% -10%, rgba(193, 154, 62, 0.10), transparent 60%),
+    radial-gradient(900px 500px at 100% 0%, rgba(227, 201, 127, 0.10), transparent 60%),
+    radial-gradient(800px 800px at 50% 120%, rgba(10, 10, 10, 0.04), transparent 60%),
     var(--color-paper);
 }
 .grid-fade {

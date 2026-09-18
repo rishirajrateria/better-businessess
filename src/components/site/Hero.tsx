@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowUpRight, Sparkles, TrendingUp, Users } from "lucide-react";
+import { ArrowUpRight, TrendingUp, Users, Zap } from "lucide-react";
 import { Button, ArrowIcon } from "@/components/ui/Button";
 import { Eyebrow } from "@/components/ui/Section";
 import { Orbs, GrowthChart } from "./Visuals";
@@ -11,11 +11,10 @@ export function HomeHero() {
   return (
     <section className="relative overflow-hidden pb-16 pt-10 md:pb-24 md:pt-16">
       <Orbs />
-      <div className="pointer-events-none absolute inset-x-0 top-0 h-[60rem] grid-fade opacity-70" aria-hidden="true" />
       <div className="relative mx-auto grid max-w-7xl items-center gap-14 px-5 sm:px-8 lg:grid-cols-12">
         <div className="lg:col-span-7" data-reveal>
           <Eyebrow>Canadian digital growth agency</Eyebrow>
-          <h1 className="mt-6 font-display text-balance text-[2.75rem] font-semibold leading-[1.02] tracking-tight text-ink sm:text-6xl md:text-7xl">
+          <h1 className="mt-6 font-display text-balance text-[2.75rem] font-medium leading-[1.0] tracking-tight text-ink sm:text-6xl md:text-7xl">
             Strategy. Growth.
             <br />
             <span className="shimmer-text">Results.</span>
@@ -50,9 +49,8 @@ export function HomeHero() {
         {/* Visual composition */}
         <div className="relative lg:col-span-5" data-reveal data-reveal-delay={150} aria-hidden="true">
           <div className="relative mx-auto aspect-[4/5] w-full max-w-md">
-            <div className="absolute inset-0 rounded-[3rem] bg-gradient-to-br from-gold-pale via-white to-cream shadow-glass" />
-            <div className="absolute inset-0 rounded-[3rem] noise" />
-            {/* main glass card */}
+            <div className="absolute inset-0 rounded-[2.5rem] bg-gradient-to-br from-white via-cream to-gold-pale shadow-glass" />
+                        {/* main glass card */}
             <div className="glass glass-strong absolute left-6 right-6 top-8 rounded-3xl p-5 animate-float">
               <div className="flex items-center justify-between">
                 <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-slate">Organic growth</span>
@@ -62,7 +60,7 @@ export function HomeHero() {
             </div>
             {/* floating lead card */}
             <div className="glass-dark absolute -left-2 bottom-24 w-56 rounded-2xl p-4 text-paper animate-float-slow sm:-left-8" style={{ animationDelay: "-4s" }}>
-              <div className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-gold-light"><Sparkles size={12} /> New lead</div>
+              <div className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-gold-light"><Zap size={12} /> New lead</div>
               <p className="mt-2 font-display text-[15px] font-semibold">Quote request · Calgary</p>
               <p className="text-[12px] text-paper/60">Google Ads · $18.40 CPL</p>
               <div className="mt-3 h-1.5 w-full overflow-hidden rounded-full bg-white/10"><div className="h-full w-4/5 rounded-full bg-gold-gradient" /></div>
@@ -76,11 +74,11 @@ export function HomeHero() {
                 <span className="h-7 w-7 rounded-lg bg-gold-pale ring-1 ring-gold/30" />
                 <span className="h-7 w-7 rounded-lg bg-paper ring-1 ring-ink/10" />
               </div>
-              <p className="mt-3 font-display text-[15px] font-semibold tracking-tight">Aa · Sora</p>
+              <p className="mt-3 font-display text-[15px] font-semibold tracking-tight">Aa · Bricolage</p>
             </div>
             {/* AI badge */}
             <div className="glass-pill absolute right-6 top-2 rounded-full px-3 py-1.5 text-[11.5px] font-semibold text-ink animate-float-slow" style={{ animationDelay: "-2s" }}>
-              ✦ Recommended by AI search
+              Cited in AI search results
             </div>
           </div>
         </div>
@@ -98,7 +96,7 @@ export function PageHero({ eyebrow, title, subtitle, children, breadcrumbs, comp
         <div className={`grid items-center gap-12 ${visual ? "lg:grid-cols-12" : ""}`}>
           <div className={visual ? "lg:col-span-7" : "max-w-4xl"} data-reveal>
             {eyebrow && <Eyebrow className="mb-6">{eyebrow}</Eyebrow>}
-            <h1 className="font-display text-balance text-4xl font-semibold leading-[1.05] tracking-tight text-ink sm:text-5xl md:text-6xl">{title}</h1>
+            <h1 className="font-display text-balance text-4xl font-medium leading-[1.04] tracking-tight text-ink sm:text-5xl md:text-6xl">{title}</h1>
             {subtitle && <p className="mt-6 max-w-2xl text-pretty text-lg leading-8 text-graphite md:text-xl" data-speakable>{subtitle}</p>}
             {children}
           </div>

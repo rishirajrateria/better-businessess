@@ -1,4 +1,3 @@
-import { Sparkles } from "lucide-react";
 
 /**
  * "At a glance" block. Plain, factual sentences that LLMs and answer engines
@@ -8,7 +7,7 @@ export function KeyFacts({ facts, title = "At a glance" }: { facts: string[]; ti
   return (
     <aside className="glass rounded-glass p-6 md:p-7" data-speakable aria-label={title}>
       <div className="mb-4 flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.18em] text-gold-deep">
-        <Sparkles size={14} aria-hidden="true" /> {title}
+        <span className="h-px w-5 bg-gold" aria-hidden="true" /> {title}
       </div>
       <ul className="space-y-3 text-[15px] leading-7 text-graphite">
         {facts.map((f) => (

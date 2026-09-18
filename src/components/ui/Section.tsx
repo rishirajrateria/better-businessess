@@ -4,8 +4,8 @@ import { Container } from "./Container";
 
 export function Eyebrow({ children, className, dark }: { children: ReactNode; className?: string; dark?: boolean }) {
   return (
-    <span className={cn("inline-flex items-center gap-2 rounded-full px-3.5 py-1.5 text-[11px] font-semibold uppercase tracking-[0.18em]", dark ? "border border-white/15 bg-white/5 text-gold-light" : "glass-pill text-gold-deep", className)}>
-      <span className="h-1.5 w-1.5 rounded-full bg-gold-gradient" />
+    <span className={cn("inline-flex items-center gap-3 text-[12px] font-semibold uppercase tracking-[0.16em]", dark ? "text-gold-light" : "text-gold-deep", className)}>
+      <span className="h-px w-6 bg-gold" aria-hidden="true" />
       {children}
     </span>
   );
@@ -15,7 +15,7 @@ export function SectionHeader({ eyebrow, title, subtitle, align = "center", dark
   return (
     <div className={cn("mb-12 md:mb-16", align === "center" ? "mx-auto max-w-3xl text-center" : "max-w-3xl", className)} data-reveal>
       {eyebrow && <Eyebrow dark={dark} className="mb-5">{eyebrow}</Eyebrow>}
-      <Tag className={cn("font-display text-balance text-3xl font-semibold leading-[1.08] tracking-tight sm:text-4xl md:text-5xl", dark ? "text-paper" : "text-ink")}>{title}</Tag>
+      <Tag className={cn("font-display text-balance text-3xl font-medium leading-[1.06] tracking-tight sm:text-4xl md:text-5xl", dark ? "text-paper" : "text-ink")}>{title}</Tag>
       {subtitle && <p className={cn("mt-5 text-pretty text-lg leading-8", dark ? "text-paper/70" : "text-slate")}>{subtitle}</p>}
     </div>
   );

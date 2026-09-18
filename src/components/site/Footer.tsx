@@ -92,7 +92,7 @@ export function Footer() {
 
         <div className="mt-16 hairline opacity-60" />
         <div className="mt-6 flex flex-col items-start justify-between gap-4 text-[13px] text-paper/45 md:flex-row md:items-center">
-          <p>© {new Date().getFullYear()} {site.legalName} · {site.tagline} · Proudly Canadian 🇨🇦</p>
+          <p>© {new Date().getFullYear()} {site.legalName} · {site.tagline} · Proudly Canadian</p>
           <p>
             {site.name} is a digital growth agency offering lead generation, SEO, website development and branding across Canada.
           </p>

@@ -11,7 +11,7 @@ export function ServiceIcon({ icon, className, size = 22 }: { icon: Service["ico
 
 export function IconBadge({ icon, className, dark }: { icon: Service["icon"]; className?: string; dark?: boolean }) {
   return (
-    <span className={cn("inline-flex h-12 w-12 items-center justify-center rounded-2xl", dark ? "bg-white/10 text-gold-light ring-1 ring-white/10" : "bg-gold-pale text-gold-deep ring-1 ring-gold/20", className)}>
+    <span className={cn("inline-flex h-12 w-12 items-center justify-center rounded-full border", dark ? "border-white/15 text-gold-light" : "border-ink/10 bg-white text-ink", className)}>
       <ServiceIcon icon={icon} />
     </span>
   );

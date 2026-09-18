@@ -14,7 +14,7 @@ import { cn } from "@/lib/utils";
 export function ServicesGrid({ title, subtitle, eyebrow = "What we do", locationName, hrefFor }: { title?: React.ReactNode; subtitle?: string; eyebrow?: string; locationName?: string; hrefFor?: (s: Service) => string }) {
   return (
     <Section id="services">
-      <SectionHeader eyebrow={eyebrow} title={title ?? <>Four disciplines. <span className="text-gold-gradient">One growth system.</span></>} subtitle={subtitle ?? "Each service is powerful alone. Together they compound: brand builds trust, websites convert, SEO scales reach and lead generation fills the calendar."} />
+      <SectionHeader eyebrow={eyebrow} title={title ?? <>Everything your growth needs, <span className="text-gold-gradient">under one roof.</span></>} subtitle={subtitle ?? "Each service is powerful alone. Together they compound: brand builds trust, websites convert, SEO scales reach and lead generation fills the calendar."} />
       <div className="grid gap-5 md:grid-cols-2">
         {coreServices.map((s, i) => {
           const subs = getSubServices(s.slug);
@@ -112,7 +112,7 @@ export function RichBlock({ eyebrow, title, paragraphs, visual, reverse, childre
       <div className={cn("grid items-center gap-12 lg:grid-cols-2", reverse && "lg:[&>*:first-child]:order-2")}>
         <div data-reveal>
           {eyebrow && <Eyebrow className="mb-5">{eyebrow}</Eyebrow>}
-          <h2 className="font-display text-balance text-3xl font-semibold leading-[1.1] tracking-tight text-ink md:text-4xl">{title}</h2>
+          <h2 className="font-display text-balance text-3xl font-medium leading-[1.08] tracking-tight text-ink md:text-4xl">{title}</h2>
           <div className="mt-6 space-y-5 text-[16px] leading-8 text-graphite">
             {paragraphs.map((p) => (
               <p key={p.slice(0, 40)}>{p}</p>

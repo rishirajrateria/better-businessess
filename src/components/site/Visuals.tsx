@@ -139,7 +139,7 @@ export function BrandVisual({ className }: { className?: string }) {
       <div className="rounded-2xl bg-graphite" />
       <div className="col-span-4 flex items-center justify-between rounded-2xl bg-white/70 px-4 py-3 ring-1 ring-ink/5">
         <span className="font-display text-lg font-semibold tracking-tight">Aa</span>
-        <span className="font-sans text-sm text-slate">Sora · Manrope</span>
+        <span className="font-sans text-sm text-slate">Bricolage · Instrument</span>
         <span className="text-[10px] uppercase tracking-[0.2em] text-gold-deep">Identity system</span>
       </div>
     </div>
@@ -186,7 +186,6 @@ export function ProjectTile({ seed, accent, className, title }: { seed: string; 
     <div className={cn("relative overflow-hidden bg-ink", className)} aria-hidden="true">
       <div className="absolute -right-10 -top-10 h-56 w-56 rounded-full opacity-70 blur-2xl" style={{ background: a, transform: `rotate(${rot}deg)` }} />
       <div className="absolute -bottom-16 left-1/4 h-64 w-64 rounded-full opacity-40 blur-3xl" style={{ background: "#E3C97F" }} />
-      <div className="absolute inset-0 grid-fade opacity-40" />
       {title && <span className="absolute bottom-5 left-5 font-display text-xl font-semibold tracking-tight text-paper/90">{title}</span>}
     </div>
   );
