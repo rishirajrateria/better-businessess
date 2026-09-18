@@ -5,6 +5,7 @@ import { prisma } from "./db";
 import { createSession, destroySession, getSession, hashPassword, verifyCredentials } from "./auth";
 import { slugify, readingTime, excerptFrom } from "./markdown";
 import bcrypt from "bcryptjs";
+import { seedStarterContent } from "./seed-content";
 
 export type ActionState = { ok?: boolean; error?: string; email?: string } | undefined;
 
@@ -270,4 +271,12 @@ export async function deleteFaqAction(fd: FormData) {
   await prisma.faq.delete({ where: { id: str(fd, "id") } });
   revalidateSite();
   revalidatePath("/admin/faqs");
+}
+
+/* ---------------- starter content ---------------- */
+export async function seedContentAction(_: ActionState, __: FormData): Promise<ActionState> {
+  await guard();
+  const created = await seedStarterContent(prisma);
+  revalidateSite();
+  return created.length ? { ok: true } : { error: "Starter content is already present (tables are not empty), nothing was added." };
 }

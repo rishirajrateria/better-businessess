@@ -43,7 +43,16 @@ export async function requireSession(): Promise<Session> {
 }
 
 export async function verifyCredentials(email: string, password: string) {
-  const user = await prisma.user.findUnique({ where: { email: email.toLowerCase().trim() } });
+  const normalized = email.toLowerCase().trim();
+  let user = await prisma.user.findUnique({ where: { email: normalized } });
+  // First-run bootstrap: if no admin exists yet and the credentials match the
+  // ADMIN_EMAIL / ADMIN_PASSWORD environment variables, create the account.
+  if (!user && process.env.ADMIN_EMAIL && process.env.ADMIN_PASSWORD && (await prisma.user.count()) === 0) {
+    if (normalized === process.env.ADMIN_EMAIL.toLowerCase().trim() && password === process.env.ADMIN_PASSWORD) {
+      const { ensureAdmin } = await import("./seed-content");
+      user = await ensureAdmin(prisma, normalized, password);
+    }
+  }
   if (!user) return null;
   const ok = await bcrypt.compare(password, user.passwordHash);
   return ok ? user : null;
