@@ -1,0 +1,185 @@
+// Better Businesses — data model
+// Local dev uses SQLite. For production switch `provider` to "postgresql"
+// and point DATABASE_URL at your Postgres database (see README → Deploying).
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+/// Admin users who can log in to /admin
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  name         String
+  passwordHash String
+  role         String   @default("ADMIN")
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+/// Inbound leads from contact / quote forms
+model Lead {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  phone     String?
+  company   String?
+  website   String?
+  service   String?
+  budget    String?
+  city      String?
+  message   String?
+  source    String?  // page path the form was submitted from
+  referrer  String?
+  utmSource String?
+  utmMedium String?
+  utmCampaign String?
+  status    String   @default("NEW") // NEW | CONTACTED | QUALIFIED | WON | LOST
+  notes     String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([status])
+  @@index([createdAt])
+}
+
+/// Blog posts (Markdown content)
+model Post {
+  id              String    @id @default(cuid())
+  slug            String    @unique
+  title           String
+  excerpt         String
+  content         String    // Markdown
+  coverImage      String?
+  coverAlt        String?
+  category        String?
+  tags            String?   // comma separated
+  author          String    @default("Better Businesses")
+  readingMinutes  Int       @default(5)
+  seoTitle        String?
+  seoDescription  String?
+  faqs            String?   // JSON: [{question, answer}]
+  published       Boolean   @default(false)
+  featured        Boolean   @default(false)
+  publishedAt     DateTime?
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  @@index([published, publishedAt])
+}
+
+/// Portfolio / case studies
+model Project {
+  id              String    @id @default(cuid())
+  slug            String    @unique
+  title           String
+  client          String
+  industry        String?
+  location        String?   // e.g. "Toronto, ON"
+  services        String?   // comma separated service slugs
+  summary         String
+  challenge       String?   // Markdown
+  solution        String?   // Markdown
+  results         String?   // JSON: [{label, value}]
+  content         String?   // Markdown (long form)
+  coverImage      String?
+  coverAlt        String?
+  gallery         String?   // JSON: string[] of image URLs
+  websiteUrl      String?
+  testimonial     String?
+  testimonialBy   String?
+  accentColor     String?   // hex — used for generated visuals when no image
+  seoTitle        String?
+  seoDescription  String?
+  published       Boolean   @default(false)
+  featured        Boolean   @default(false)
+  sortOrder       Int       @default(0)
+  completedAt     DateTime?
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  @@index([published, featured])
+}
+
+/// Client testimonials shown on the homepage & service pages
+model Testimonial {
+  id         String   @id @default(cuid())
+  name       String
+  role       String?
+  company    String?
+  location   String?
+  quote      String
+  rating     Int      @default(5)
+  service    String?  // service slug
+  avatarUrl  String?
+  published  Boolean  @default(true)
+  featured   Boolean  @default(false)
+  sortOrder  Int      @default(0)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+}
+
+/// Client logos for the trust bar
+model ClientLogo {
+  id        String   @id @default(cuid())
+  name      String
+  logoUrl   String?  // if empty, a typographic wordmark is rendered
+  website   String?
+  published Boolean  @default(true)
+  sortOrder Int      @default(0)
+  createdAt DateTime @default(now())
+}
+
+/// Editable FAQs (global or per service)
+model Faq {
+  id        String   @id @default(cuid())
+  question  String
+  answer    String
+  category  String   @default("general") // general | service slug
+  published Boolean  @default(true)
+  sortOrder Int      @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+/// First-party analytics — one row per page view
+model PageView {
+  id        String   @id @default(cuid())
+  path      String
+  referrer  String?
+  referrerHost String?
+  sessionId String
+  visitorId String?
+  device    String?  // desktop | mobile | tablet
+  browser   String?
+  os        String?
+  country   String?
+  region    String?
+  city      String?
+  utmSource String?
+  utmMedium String?
+  utmCampaign String?
+  isBot     Boolean  @default(false)
+  createdAt DateTime @default(now())
+
+  @@index([createdAt])
+  @@index([path])
+  @@index([sessionId])
+}
+
+/// Custom events (cta_click, form_start, form_submit, phone_click ...)
+model Event {
+  id        String   @id @default(cuid())
+  name      String
+  path      String
+  sessionId String
+  meta      String?  // JSON
+  createdAt DateTime @default(now())
+
+  @@index([name, createdAt])
+}

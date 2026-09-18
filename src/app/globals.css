@@ -1,0 +1,226 @@
+@import "tailwindcss";
+@import "@fontsource-variable/sora";
+@import "@fontsource-variable/manrope";
+
+/* ---------- Brand tokens (from the Better Businesses logo) ---------- */
+@theme {
+  --color-ink: #0a0a0a;
+  --color-ink-soft: #1c1c1c;
+  --color-graphite: #3a3a3a;
+  --color-slate: #6b6b6b;
+  --color-mist: #a8a8a8;
+  --color-line: #e6e3dc;
+  --color-paper: #fbfaf7;
+  --color-cream: #f4f1ea;
+  --color-gold: #c19a3e;
+  --color-gold-light: #e3c97f;
+  --color-gold-deep: #9a7628;
+  --color-gold-pale: #f7efdc;
+
+  --font-display: "Sora Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Manrope Variable", ui-sans-serif, system-ui, sans-serif;
+
+  --radius-glass: 1.75rem;
+  --shadow-glass: 0 1px 0 0 rgba(255, 255, 255, 0.6) inset, 0 20px 60px -20px rgba(10, 10, 10, 0.18), 0 8px 24px -12px rgba(193, 154, 62, 0.15);
+  --shadow-glass-dark: 0 1px 0 0 rgba(255, 255, 255, 0.08) inset, 0 30px 80px -30px rgba(0, 0, 0, 0.6);
+  --shadow-float: 0 30px 80px -30px rgba(10, 10, 10, 0.35);
+
+  --animate-float: float 9s ease-in-out infinite;
+  --animate-float-slow: float 14s ease-in-out infinite;
+  --animate-shimmer: shimmer 3.5s linear infinite;
+  --animate-marquee: marquee 40s linear infinite;
+  --animate-pulse-soft: pulseSoft 4s ease-in-out infinite;
+  --animate-spin-slow: spin 30s linear infinite;
+
+  @keyframes float {
+    0%, 100% { transform: translate3d(0, 0, 0) rotate(0deg); }
+    50% { transform: translate3d(0, -18px, 0) rotate(1.5deg); }
+  }
+  @keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  @keyframes pulseSoft {
+    0%, 100% { opacity: 0.55; transform: scale(1); }
+    50% { opacity: 0.9; transform: scale(1.04); }
+  }
+}
+
+/* ---------- Base ---------- */
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  @apply bg-paper text-ink font-sans antialiased;
+  font-feature-settings: "ss01", "cv11";
+  text-rendering: optimizeLegibility;
+}
+::selection {
+  background: rgba(193, 154, 62, 0.28);
+  color: #0a0a0a;
+}
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+/* ---------- Liquid glass ---------- */
+.glass {
+  position: relative;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.72), rgba(255, 255, 255, 0.42));
+  backdrop-filter: blur(24px) saturate(160%);
+  -webkit-backdrop-filter: blur(24px) saturate(160%);
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  box-shadow: var(--shadow-glass);
+}
+.glass::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, rgba(255,255,255,0.9), rgba(193,154,62,0.25) 40%, rgba(255,255,255,0.1) 60%, rgba(193,154,62,0.35));
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+.glass-strong {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7));
+}
+/* Navigation surfaces that float over arbitrary content need to stay legible */
+.glass-solid {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(251, 250, 247, 0.92));
+}
+.glass-dark {
+  position: relative;
+  background: linear-gradient(135deg, rgba(24, 24, 24, 0.94), rgba(10, 10, 10, 0.86));
+  backdrop-filter: blur(24px) saturate(140%);
+  -webkit-backdrop-filter: blur(24px) saturate(140%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: var(--shadow-glass-dark);
+}
+.glass-dark::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, rgba(255,255,255,0.25), rgba(193,154,62,0.45) 40%, rgba(255,255,255,0.02) 60%, rgba(193,154,62,0.4));
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+.glass-pill {
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(16px) saturate(150%);
+  -webkit-backdrop-filter: blur(16px) saturate(150%);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset, 0 8px 30px -12px rgba(10,10,10,0.15);
+}
+
+/* Gold text & lines */
+.text-gold-gradient {
+  background: linear-gradient(100deg, #9a7628 0%, #c19a3e 40%, #e3c97f 60%, #c19a3e 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.bg-gold-gradient {
+  background: linear-gradient(100deg, #9a7628 0%, #c19a3e 45%, #e3c97f 100%);
+}
+.shimmer-text {
+  background: linear-gradient(100deg, #9a7628 0%, #e3c97f 45%, #c19a3e 55%, #9a7628 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: var(--animate-shimmer);
+}
+.hairline {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(193,154,62,0.7), transparent);
+}
+
+/* Ambient background */
+.ambient {
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(193, 154, 62, 0.16), transparent 60%),
+    radial-gradient(900px 500px at 100% 0%, rgba(227, 201, 127, 0.16), transparent 60%),
+    radial-gradient(800px 800px at 50% 120%, rgba(10, 10, 10, 0.06), transparent 60%),
+    var(--color-paper);
+}
+.grid-fade {
+  background-image:
+    linear-gradient(to right, rgba(10,10,10,0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(10,10,10,0.05) 1px, transparent 1px);
+  background-size: 48px 48px;
+  -webkit-mask-image: radial-gradient(ellipse at center, #000 30%, transparent 75%);
+  mask-image: radial-gradient(ellipse at center, #000 30%, transparent 75%);
+}
+.noise::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  mix-blend-mode: multiply;
+}
+
+/* Reveal on scroll (progressive — content visible without JS) */
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.8s cubic-bezier(0.2, 0.7, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+[data-reveal].is-visible { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal] { opacity: 1; transform: none; transition: none; }
+  * { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; }
+}
+
+/* Prose (blog / rich text) */
+.prose-bb {
+  @apply text-graphite leading-relaxed;
+  font-size: 1.0625rem;
+}
+.prose-bb > * + * { margin-top: 1.1em; }
+.prose-bb h2 { @apply text-ink font-display text-2xl md:text-3xl font-semibold mt-12 mb-4 tracking-tight; }
+.prose-bb h3 { @apply text-ink font-display text-xl md:text-2xl font-semibold mt-9 mb-3 tracking-tight; }
+.prose-bb h4 { @apply text-ink font-semibold text-lg mt-6 mb-2; }
+.prose-bb p  { @apply leading-8; }
+.prose-bb a  { @apply text-gold-deep underline decoration-gold/40 underline-offset-4 hover:decoration-gold; }
+.prose-bb strong { @apply text-ink font-semibold; }
+.prose-bb ul { @apply list-disc pl-6 space-y-2; }
+.prose-bb ol { @apply list-decimal pl-6 space-y-2; }
+.prose-bb li::marker { color: var(--color-gold); }
+.prose-bb blockquote { @apply border-l-2 border-gold pl-5 italic text-ink-soft; }
+.prose-bb img { @apply rounded-2xl my-6 w-full; }
+.prose-bb hr { @apply border-line my-10; }
+.prose-bb code { @apply bg-cream rounded px-1.5 py-0.5 text-sm text-ink; }
+.prose-bb pre { @apply bg-ink text-paper rounded-2xl p-5 overflow-x-auto text-sm; }
+.prose-bb pre code { @apply bg-transparent p-0 text-paper; }
+.prose-bb table { @apply w-full text-sm border-collapse; }
+.prose-bb th { @apply text-left font-semibold text-ink border-b border-line py-2 pr-4; }
+.prose-bb td { @apply border-b border-line py-2 pr-4 align-top; }
+
+/* Scrollbar */
+* { scrollbar-width: thin; scrollbar-color: rgba(193,154,62,0.5) transparent; }
+
+/* Utility: hide scrollbar */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
