@@ -30,6 +30,7 @@ export function GET() {
     `- [About](${site.url}/about): Mission, values and approach.`,
     `- [Projects](${site.url}/projects): Case studies with measurable results.`,
     `- [Blog](${site.url}/blog): Guides on lead generation, SEO, AI search, web performance and branding.`,
+    `- [Industries](${site.url}/industries): Industry-specific marketing guides (trades, healthcare, professional services, hospitality, retail) for Canada.`,
     `- [FAQ](${site.url}/faq): Pricing, timelines and process for every service.`,
     `- [Contact](${site.url}/contact): Free growth audit and proposals.`,
     ``,

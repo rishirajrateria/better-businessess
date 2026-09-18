@@ -12,6 +12,7 @@ import { cn } from "@/lib/utils";
 
 const nav = [
   { href: "/services", label: "Services", mega: true },
+  { href: "/industries", label: "Industries" },
   { href: "/locations", label: "Locations" },
   { href: "/projects", label: "Projects" },
   { href: "/blog", label: "Blog" },
@@ -101,11 +102,11 @@ export function Header() {
 
           <div className="hidden items-center gap-2 lg:flex">
             {site.phone && (
-              <a href={site.phoneHref} className="px-3 text-[14px] font-medium text-graphite hover:text-gold-deep" data-track="phone_click">
+              <a href={site.phoneHref} className="hidden whitespace-nowrap px-3 text-[14px] font-medium text-graphite hover:text-gold-deep xl:block" data-track="phone_click">
                 {site.phone}
               </a>
             )}
-            <Button href="/contact" size="sm" track="cta_header">
+            <Button href="/contact" size="sm" track="cta_header" className="whitespace-nowrap">
               Get a proposal
             </Button>
           </div>

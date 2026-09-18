@@ -34,7 +34,7 @@ export function Logo({ className, dark, size = "md" }: { className?: string; dar
         <span className={cn("font-display font-semibold tracking-[0.12em] uppercase", size === "lg" ? "text-lg" : "text-[15px]", dark ? "text-paper" : "text-ink")}>
           Better <span className="text-gold-gradient">Businesses</span>
         </span>
-        <span className={cn("mt-1 text-[9.5px] font-medium uppercase tracking-[0.22em]", dark ? "text-paper/50" : "text-slate")}>Strategy. Growth. Results.</span>
+        <span className={cn("mt-1 whitespace-nowrap text-[9.5px] font-medium uppercase tracking-[0.22em]", dark ? "text-paper/50" : "text-slate")}>Strategy. Growth. Results.</span>
       </span>
     </Link>
   );
