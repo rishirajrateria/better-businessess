@@ -48,14 +48,14 @@ Admin: `http://localhost:3000/admin` — log in with `ADMIN_EMAIL` / `ADMIN_PASS
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frishirajrateria%2Fbetter-businessess&env=DATABASE_URL,AUTH_SECRET,ADMIN_EMAIL,ADMIN_PASSWORD,NEXT_PUBLIC_SITE_URL&envDescription=Postgres%20connection%20string%2C%20admin%20login%20and%20site%20URL&project-name=better-businesses&repository-name=better-businesses)
 
-The repo is **zero-config for Vercel**: `scripts/prepare-db.mjs` reads `DATABASE_URL` and switches the Prisma
-provider to Postgres automatically, and `npm run vercel-build` pushes the schema to the database before building.
-You only need to provide the environment variables.
+The repo is **zero-config for Vercel**: the build finds the database connection string under whatever name your
+storage integration created (`DATABASE_URL`, `STORAGE_URL`, `POSTGRES_URL`, `PRISMA_DATABASE_URL`…), switches the
+Prisma provider to Postgres automatically and pushes the schema before building. You only need to add the environment variables.
 
 ### One-click path
 1. Click the button above (or import the GitHub repo in Vercel).
 2. In the Vercel project go to **Storage → Create Database → Postgres (Neon)** and connect it, or paste any Postgres
-   connection string. Set `DATABASE_URL` to that string (Vercel Postgres exposes it as `POSTGRES_PRISMA_URL`; copy the value into `DATABASE_URL`).
+   connection string. Any variable name works (for example the `STORAGE` prefix Vercel suggests); the app detects it.
 3. Set `AUTH_SECRET` (long random string), `ADMIN_EMAIL`, `ADMIN_PASSWORD`, `NEXT_PUBLIC_SITE_URL=https://betterbusinesses.ca`.
    Optional: `RESEND_API_KEY`, `LEAD_NOTIFY_EMAIL`, `NEXT_PUBLIC_GA_ID`, `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION`.
 4. Deploy. After the first deploy, seed the admin user and starter content once from your machine:

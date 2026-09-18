@@ -4,8 +4,9 @@
  */
 import { PrismaClient } from "@prisma/client";
 import bcrypt from "bcryptjs";
+import { resolveDatabaseUrl } from "../src/lib/db-url";
 
-const prisma = new PrismaClient();
+const prisma = new PrismaClient({ datasourceUrl: resolveDatabaseUrl() });
 
 async function main() {
   const email = (process.env.ADMIN_EMAIL || "admin@betterbusinesses.ca").toLowerCase();
