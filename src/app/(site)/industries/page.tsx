@@ -28,9 +28,14 @@ const sectors: { name: string; match: RegExp }[] = [
 
 export default async function IndustriesPage() {
   const posts = await getPublishedPosts({ category: "Industry Guides" });
-  const grouped = sectors.map((s) => ({ ...s, posts: posts.filter((p) => s.match.test(`${p.slug} ${p.title}`.toLowerCase())) }));
-  const matched = new Set(grouped.flatMap((g) => g.posts.map((p) => p.id)));
-  const other = posts.filter((p) => !matched.has(p.id));
+  // First matching sector wins, so a guide never appears twice.
+  const claimed = new Set<string>();
+  const grouped = sectors.map((s) => {
+    const group = posts.filter((p) => !claimed.has(p.id) && s.match.test(`${p.slug} ${p.title}`.toLowerCase()));
+    group.forEach((p) => claimed.add(p.id));
+    return { ...s, posts: group };
+  });
+  const other = posts.filter((p) => !claimed.has(p.id));
   if (other.length) grouped.push({ name: "More industries", match: /./, posts: other });
   const crumbs = [{ name: "Home", path: "/" }, { name: "Industries", path: "/industries" }];
 
