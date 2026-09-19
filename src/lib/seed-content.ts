@@ -102,30 +102,41 @@ export async function seedStarterContent(prisma: PrismaClient) {
     created.push("projects");
   }
 
-  // Blog posts: add any starter article whose slug does not exist yet (safe to re-run as new articles are added)
-  const existingSlugs = new Set((await prisma.post.findMany({ select: { slug: true } })).map((p) => p.slug));
-  const missing = seedPosts.filter((p) => !existingSlugs.has(p.slug));
-  for (const p of missing) {
-    await prisma.post.create({
-      data: {
-        slug: p.slug,
-        title: p.title,
-        excerpt: p.excerpt,
-        content: p.content,
-        category: p.category,
-        tags: p.tags,
-        author: "Better Businesses",
-        readingMinutes: p.readingMinutes,
-        seoTitle: p.seoTitle ?? null,
-        seoDescription: p.seoDescription,
-        faqs: p.faqs?.length ? JSON.stringify(p.faqs) : null,
-        published: true,
-        featured: p.featured ?? false,
-        publishedAt: new Date(p.publishedAt),
-      },
-    });
+  // Blog posts: add any starter article whose slug is missing, and refresh starter articles that have
+  // never been edited in the admin (updatedAt still equals createdAt) so improved copy reaches existing sites.
+  const existingPosts = await prisma.post.findMany({ select: { slug: true, createdAt: true, updatedAt: true } });
+  const bySlug = new Map(existingPosts.map((p) => [p.slug, p]));
+  let added = 0;
+  let refreshed = 0;
+  for (const p of seedPosts) {
+    const data = {
+      slug: p.slug,
+      title: p.title,
+      excerpt: p.excerpt,
+      content: p.content,
+      category: p.category,
+      tags: p.tags,
+      author: "Better Businesses",
+      readingMinutes: p.readingMinutes,
+      seoTitle: p.seoTitle ?? null,
+      seoDescription: p.seoDescription,
+      faqs: p.faqs?.length ? JSON.stringify(p.faqs) : null,
+      published: true,
+      featured: p.featured ?? false,
+      publishedAt: new Date(p.publishedAt),
+    };
+    const ex = bySlug.get(p.slug);
+    if (!ex) {
+      await prisma.post.create({ data });
+      added++;
+    } else if (Math.abs(ex.updatedAt.getTime() - ex.createdAt.getTime()) < 2000) {
+      // keep the "never edited" marker so future refreshes still apply
+      await prisma.post.update({ where: { slug: p.slug }, data: { ...data, updatedAt: ex.createdAt } });
+      refreshed++;
+    }
   }
-  if (missing.length) created.push(`${missing.length} blog post${missing.length === 1 ? "" : "s"}`);
+  if (added) created.push(`${added} blog post${added === 1 ? "" : "s"}`);
+  if (refreshed) created.push(`${refreshed} refreshed article${refreshed === 1 ? "" : "s"}`);
 
   if ((await prisma.faq.count()) === 0) {
     await prisma.faq.createMany({
