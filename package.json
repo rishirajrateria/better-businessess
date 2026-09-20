@@ -2,7 +2,7 @@
   "name": "better-businesses",
   "version": "1.0.0",
   "private": true,
-  "description": "Better Businesses — Canadian digital growth agency. Lead generation, SEO, website development and branding.",
+  "description": "Better Businesses \u2014 Canadian digital growth agency. Lead generation, SEO, website development and branding.",
   "scripts": {
     "dev": "next dev",
     "build": "node scripts/build.mjs",
@@ -17,7 +17,8 @@
     "db:studio": "prisma studio",
     "postinstall": "node scripts/prepare-db.mjs && prisma generate",
     "db:prepare": "node scripts/prepare-db.mjs",
-    "vercel-build": "node scripts/build.mjs --push"
+    "vercel-build": "node scripts/build.mjs --push --seed-if-empty",
+    "db:seed-if-empty": "node scripts/build.mjs --seed-if-empty --no-next"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"

@@ -58,9 +58,10 @@ Prisma provider to Postgres automatically and pushes the schema before building.
    connection string. Any variable name works (for example the `STORAGE` prefix Vercel suggests); the app detects it.
 3. Set `AUTH_SECRET` (long random string), `ADMIN_EMAIL`, `ADMIN_PASSWORD`, `NEXT_PUBLIC_SITE_URL=https://betterbusinesses.ca`.
    Optional: `RESEND_API_KEY`, `LEAD_NOTIFY_EMAIL`, `NEXT_PUBLIC_GA_ID`, `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION`.
-4. Deploy. Open `https://<your-app>.vercel.app/admin/login` and sign in with `ADMIN_EMAIL` / `ADMIN_PASSWORD`:
-   the admin account is created automatically on first login. Then, optionally, click **Account → Load starter content**
-   to add sample testimonials, projects and posts (edit or delete them later).
+4. Deploy. The first deploy seeds the starter content automatically (65 articles, projects, testimonials, FAQs) because
+   the database is empty; later deploys skip seeding so nothing you delete comes back. Open
+   `https://<your-app>.vercel.app/admin/login` and sign in with `ADMIN_EMAIL` / `ADMIN_PASSWORD`: the admin account is
+   created on first login. If the blog is ever empty, **Account → Load starter content** loads it manually.
 5. Add the `betterbusinesses.ca` domain in Vercel → Domains and update your DNS.
 
 ### Manual path
