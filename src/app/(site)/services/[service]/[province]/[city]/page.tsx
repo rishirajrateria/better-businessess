@@ -3,9 +3,10 @@ import { notFound } from "next/navigation";
 import { ServicePageTemplate } from "@/components/site/ServicePage";
 import { JsonLd } from "@/components/site/JsonLd";
 import { coreServices, getService } from "@/lib/services";
-import { cities, getCity, getProvince } from "@/lib/locations";
+import { cities, getCity, getProvince, isCityIndexable } from "@/lib/locations";
 import { serviceCityContent } from "@/lib/content";
 import { getTestimonials, getPublishedProjects } from "@/lib/queries";
+import { getRelatedGuides } from "@/lib/related-guides";
 import { buildMetadata, breadcrumbSchema, faqSchema, graph, placeSchema, serviceSchema, webPageSchema } from "@/lib/seo";
 
 export const revalidate = 86400;
@@ -27,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const r = await resolve(params);
   if (!r) return {};
   const content = serviceCityContent(r.s, r.c);
-  return buildMetadata({ title: content.title, description: content.description, path: `/services/${r.s.slug}/${r.p.slug}/${r.c.slug}`, keywords: r.s.keywords.map((k) => `${k} ${r.c.name}`) });
+  return buildMetadata({ title: content.title, description: content.description, path: `/services/${r.s.slug}/${r.p.slug}/${r.c.slug}`, noIndex: !isCityIndexable(r.c), keywords: r.s.keywords.map((k) => `${k} ${r.c.name}`) });
 }
 
 export default async function ServiceCityPage({ params }: Props) {
@@ -37,7 +38,7 @@ export default async function ServiceCityPage({ params }: Props) {
   const content = serviceCityContent(s, c);
   const path = `/services/${s.slug}/${p.slug}/${c.slug}`;
   const crumbs = [{ name: "Home", path: "/" }, { name: "Services", path: "/services" }, { name: s.name, path: `/services/${s.slug}` }, { name: p.name, path: `/services/${s.slug}/${p.slug}` }, { name: c.name, path }];
-  const [testimonials, projects] = await Promise.all([getTestimonials({ service: s.slug, limit: 3 }), getPublishedProjects({ service: s.slug, limit: 3 })]);
+  const [testimonials, projects, guides] = await Promise.all([getTestimonials({ service: s.slug, limit: 3 }), getPublishedProjects({ service: s.slug, limit: 3 }), getRelatedGuides({ service: s, city: c })]);
 
   return (
     <>
@@ -53,6 +54,7 @@ export default async function ServiceCityPage({ params }: Props) {
         whySection={content.whySection}
         industries={content.industries}
         faqs={content.faqs}
+        guides={guides}
         keyFacts={content.keyFacts}
         testimonials={testimonials}
         projects={projects}

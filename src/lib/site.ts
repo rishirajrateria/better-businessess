@@ -13,9 +13,11 @@ export const site = {
   url: (process.env.NEXT_PUBLIC_SITE_URL || "https://betterbusinesses.ca").replace(/\/$/, ""),
   domain: "betterbusinesses.ca",
   email: "hello@betterbusinesses.ca",
-  // TODO: replace with your real business phone (leave empty to hide phone CTAs)
-  phone: "+1 (888) 555-0199",
-  phoneHref: "tel:+18885550199",
+  // Set your real business phone here (E.164 in phoneHref). Leaving both empty hides every
+  // phone CTA and omits `telephone` from the LocalBusiness schema — never ship a placeholder,
+  // a wrong number in structured data damages local rankings and AI answers.
+  phone: "",
+  phoneHref: "",
   // TODO: replace with your headquarters. Shown in the footer, contact page & schema.
   hq: {
     street: "",
@@ -46,6 +48,17 @@ export const site = {
     yearsExperience: `${new Date().getFullYear() - 2019}+`,
   },
   bookingUrl: "/contact",
+  /**
+   * Named author for blog articles (E-E-A-T). Fill in a real person: name, role, a public profile
+   * URL (LinkedIn) and a one-line bio. With an empty name, articles stay attributed to the company.
+   */
+  author: { name: "", role: "", url: "", bio: "" },
+  /**
+   * Date the fixed site copy (services, locations, FAQs) last changed. Drives <lastmod> for the
+   * ~420 non-CMS pages in the sitemap. Bump it when you edit content — never on every deploy,
+   * or search engines learn to ignore the sitemap's dates.
+   */
+  staticContentUpdated: "2026-09-25",
 } as const;
 
 export type Site = typeof site;

@@ -10,7 +10,7 @@ import { provinces, cities } from "@/lib/locations";
 import { buildMetadata, breadcrumbSchema, graph, webPageSchema } from "@/lib/seo";
 import { site } from "@/lib/site";
 
-const title = "Locations | Digital Marketing Agency Serving Every Province in Canada";
+const title = "Locations We Serve Across Canada";
 const description = `${site.name} serves businesses in all 10 provinces and 3 territories. Find lead generation, SEO, web development and branding services for your city.`;
 export const metadata: Metadata = buildMetadata({ title, description, path: "/locations" });
 

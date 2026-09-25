@@ -21,7 +21,7 @@ export function GET() {
     ``,
     `## Service areas`,
     `- [All locations](${site.url}/locations): Serving all of Canada.`,
-    ...provinces.map((p) => `- [${p.name}](${site.url}/locations/${p.slug}): ${p.largestCity}, ${p.capital} and more.`),
+    ...provinces.map((p) => `- [${p.name}](${site.url}/locations/${p.slug}): ${[...new Set([p.largestCity, p.capital])].join(", ")} and more.`),
     ``,
     `## Major city pages`,
     ...majorCities.map((c) => `- [${c.name}](${site.url}/locations/${c.province}/${c.slug})`),

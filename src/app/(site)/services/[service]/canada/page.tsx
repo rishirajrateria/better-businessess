@@ -6,6 +6,7 @@ import { coreServices, getService } from "@/lib/services";
 import { provinces, majorCities } from "@/lib/locations";
 import { serviceCountryContent } from "@/lib/content";
 import { getTestimonials, getPublishedProjects } from "@/lib/queries";
+import { getRelatedGuides } from "@/lib/related-guides";
 import { buildMetadata, breadcrumbSchema, faqSchema, graph, serviceSchema, webPageSchema } from "@/lib/seo";
 
 export const revalidate = 3600;
@@ -27,7 +28,7 @@ export default async function ServiceCanadaPage({ params }: Props) {
   const c = serviceCountryContent(s);
   const path = `/services/${s.slug}/canada`;
   const crumbs = [{ name: "Home", path: "/" }, { name: "Services", path: "/services" }, { name: s.name, path: `/services/${s.slug}` }, { name: "Canada", path }];
-  const [testimonials, projects] = await Promise.all([getTestimonials({ service: s.slug, limit: 3 }), getPublishedProjects({ service: s.slug, limit: 3 })]);
+  const [testimonials, projects, guides] = await Promise.all([getTestimonials({ service: s.slug, limit: 3 }), getPublishedProjects({ service: s.slug, limit: 3 }), getRelatedGuides({ service: s })]);
   return (
     <>
       <JsonLd data={graph(webPageSchema({ path, name: c.title, description: c.description }), serviceSchema(s, { path, areaName: "Canada", areaType: "Country", description: c.description }), breadcrumbSchema(crumbs), faqSchema(c.faqs))} />
@@ -39,6 +40,7 @@ export default async function ServiceCanadaPage({ params }: Props) {
         subtitle={c.description}
         intro={c.intro}
         faqs={c.faqs}
+        guides={guides}
         keyFacts={c.keyFacts}
         testimonials={testimonials}
         projects={projects}

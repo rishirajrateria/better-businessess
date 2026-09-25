@@ -16,6 +16,8 @@ import { provinces, getProvince } from "@/lib/locations";
 import { coreServices } from "@/lib/services";
 import { provinceHubContent } from "@/lib/content";
 import { getTestimonials } from "@/lib/queries";
+import { getRelatedGuides } from "@/lib/related-guides";
+import { RelatedGuides } from "@/components/site/RelatedGuides";
 import { buildMetadata, breadcrumbSchema, faqSchema, graph, placeSchema, webPageSchema } from "@/lib/seo";
 import { site } from "@/lib/site";
 
@@ -38,7 +40,7 @@ export default async function ProvincePage({ params }: Props) {
   const c = provinceHubContent(p);
   const path = `/locations/${p.slug}`;
   const crumbs = [{ name: "Home", path: "/" }, { name: "Locations", path: "/locations" }, { name: p.name, path }];
-  const testimonials = await getTestimonials({ limit: 3 });
+  const [testimonials, guides] = await Promise.all([getTestimonials({ limit: 3 }), getRelatedGuides({ province: p })]);
   return (
     <>
       <JsonLd data={graph(webPageSchema({ path, name: c.title, description: c.description }), placeSchema(undefined, p), breadcrumbSchema(crumbs), faqSchema(c.faqs))} />
@@ -66,6 +68,7 @@ export default async function ProvincePage({ params }: Props) {
         </div>
         <InlineCta text={`Growing a business in ${p.name}? Let's talk.`} />
       </Section>
+      <RelatedGuides guides={guides} title={<>Marketing guides for <span className="text-gold-gradient">{p.name} businesses.</span></>} subtitle={`Playbooks chosen for ${p.name}'s leading sectors: ${p.industries.slice(0, 3).join(", ").toLowerCase()}.`} />
       <TestimonialsSection items={testimonials} />
       <Section size="sm">
         <SectionHeader eyebrow="FAQ" title={<>{p.name} <span className="text-gold-gradient">questions.</span></>} align="left" className="mb-8" />

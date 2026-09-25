@@ -39,7 +39,10 @@ Admin: `http://localhost:3000/admin` — log in with `ADMIN_EMAIL` / `ADMIN_PASS
    Keep the NAP (name, address, phone) *identical* to your Google Business Profile and directories; this is the
    single most important entity signal for both Google and AI models.
 2. **`.env`** — `NEXT_PUBLIC_SITE_URL`, `AUTH_SECRET` (long random string), `RESEND_API_KEY` for lead alerts,
-   `NEXT_PUBLIC_GA_ID` (optional), `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` (optional).
+   `NEXT_PUBLIC_GA_ID` (optional), `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` and `NEXT_PUBLIC_BING_SITE_VERIFICATION` (optional),
+   `INDEXNOW_KEY` (optional; a stable key is derived from the domain and served at `/indexnow-key.txt`),
+   `NOINDEX_MINOR_CITIES=1` (optional; keeps only major cities + provinces indexable while smaller city pages stay live as noindex,follow).
+   Also set `site.author` (a real, named author) and bump `site.staticContentUpdated` whenever fixed page copy changes (it drives sitemap `<lastmod>`).
 3. **`public/brand/logo.png`** — your logo (already included). `public/icon.svg` and `public/apple-icon.png` are the favicons.
 4. Optional copy tweaks: `src/lib/services.ts` (service copy, deliverables, FAQs, pricing guidance) and
    `src/lib/locations.ts` (provinces/cities; add or remove cities freely — pages regenerate automatically).
@@ -105,7 +108,7 @@ branded short URLs for ads, use redirects (e.g. `seo.betterbusinesses.ca → /se
 
 ## SEO & AI-visibility checklist after launch
 
-- [ ] Verify domain in Google Search Console + Bing Webmaster Tools; submit the sitemap.
+- [ ] Verify domain in Google Search Console + Bing Webmaster Tools; submit `/sitemap.xml`. The CMS pings IndexNow (Bing/ChatGPT search) automatically on publish; `/feed.xml` is the RSS feed.
 - [ ] Create/claim Google Business Profile with the exact same NAP as `site.ts`; add services and photos; collect reviews.
 - [ ] Fill in social profile URLs in `site.ts` (they feed the Organization `sameAs` schema).
 - [ ] Publish 2+ blog posts per month; add at least 3 projects and 6 testimonials (seeded examples can be replaced).

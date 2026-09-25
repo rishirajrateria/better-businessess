@@ -22,8 +22,9 @@ import { majorCities, provinces } from "@/lib/locations";
 export const revalidate = 300;
 
 export const metadata: Metadata = buildMetadata({
-  title: `${site.name} | Lead Generation, SEO, Web Development & Branding Agency in Canada`,
-  description: `${site.name} is a Canadian digital growth agency. We deliver lead generation, SEO, website development and branding that gets your business found on Google, recommended by AI and chosen by customers.`,
+  title: `${site.name} | Digital Growth Agency in Canada`,
+  absoluteTitle: true,
+  description: `Canadian digital growth agency for lead generation, SEO, website development and branding. Get found on Google, recommended by AI and chosen by customers.`,
   path: "/",
 });
 

@@ -12,10 +12,12 @@ import { KeyFacts } from "@/components/site/KeyFacts";
 import { ContactForm } from "@/components/site/ContactForm";
 import { TestimonialsSection } from "@/components/site/Testimonials";
 import { Section, SectionHeader } from "@/components/ui/Section";
-import { cities, getCity, getProvince } from "@/lib/locations";
+import { cities, getCity, getProvince, isCityIndexable } from "@/lib/locations";
 import { coreServices, subServices } from "@/lib/services";
 import { cityHubContent } from "@/lib/content";
 import { getTestimonials } from "@/lib/queries";
+import { getRelatedGuides } from "@/lib/related-guides";
+import { RelatedGuides } from "@/components/site/RelatedGuides";
 import { buildMetadata, breadcrumbSchema, faqSchema, graph, placeSchema, webPageSchema } from "@/lib/seo";
 import { site } from "@/lib/site";
 
@@ -30,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const c = getCity(city);
   if (!c || c.province !== province) return {};
   const content = cityHubContent(c);
-  return buildMetadata({ title: content.title, description: content.description, path: `/locations/${province}/${city}` });
+  return buildMetadata({ title: content.title, description: content.description, path: `/locations/${province}/${city}`, noIndex: !isCityIndexable(c) });
 }
 
 export default async function CityPage({ params }: Props) {
@@ -41,7 +43,7 @@ export default async function CityPage({ params }: Props) {
   const content = cityHubContent(c);
   const path = `/locations/${p.slug}/${c.slug}`;
   const crumbs = [{ name: "Home", path: "/" }, { name: "Locations", path: "/locations" }, { name: p.name, path: `/locations/${p.slug}` }, { name: c.name, path }];
-  const testimonials = await getTestimonials({ limit: 3 });
+  const [testimonials, guides] = await Promise.all([getTestimonials({ limit: 3 }), getRelatedGuides({ city: c })]);
   return (
     <>
       <JsonLd data={graph(webPageSchema({ path, name: content.title, description: content.description }), placeSchema(c, p), breadcrumbSchema(crumbs), faqSchema(content.faqs))} />
@@ -71,6 +73,7 @@ export default async function CityPage({ params }: Props) {
         <InlineCta text={`Ready to grow in ${c.name}?`} cta="Get a free audit" />
       </Section>
       <CityLinks cities={content.nearby} hrefFor={(ci) => `/locations/${ci.province}/${ci.slug}`} title={<>Also serving communities <span className="text-gold-gradient">near {c.name}.</span></>} eyebrow="Nearby" columns={3} />
+      <RelatedGuides guides={guides} title={<>Marketing guides for <span className="text-gold-gradient">{c.name} businesses.</span></>} subtitle={`Playbooks chosen for ${c.name}'s leading sectors: ${c.industries.slice(0, 3).join(", ").toLowerCase()}.`} />
       <TestimonialsSection items={testimonials} />
       <Section size="sm">
         <SectionHeader eyebrow="FAQ" title={<>{c.name} <span className="text-gold-gradient">questions.</span></>} align="left" className="mb-8" />

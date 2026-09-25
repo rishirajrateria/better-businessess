@@ -5,7 +5,9 @@ import { JsonLd } from "@/components/site/JsonLd";
 import { services, getService, getSubServices } from "@/lib/services";
 import { provinces, majorCities } from "@/lib/locations";
 import { getTestimonials, getPublishedProjects, getFaqs } from "@/lib/queries";
+import { getRelatedGuides } from "@/lib/related-guides";
 import { buildMetadata, breadcrumbSchema, faqSchema, graph, serviceSchema, webPageSchema } from "@/lib/seo";
+import { fit, TITLE_MAX } from "@/lib/content";
 import { site } from "@/lib/site";
 
 export const revalidate = 3600;
@@ -18,13 +20,13 @@ type Props = { params: Promise<{ service: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const s = getService((await params).service);
   if (!s) return {};
-  return buildMetadata({ title: `${s.name} Services Canada | ${s.tagline}`, description: s.metaDescription, path: `/services/${s.slug}`, keywords: s.keywords });
+  return buildMetadata({ title: fit([`${s.name} Services in Canada`, `${s.shortName} Services in Canada`], TITLE_MAX), description: s.metaDescription, path: `/services/${s.slug}`, keywords: s.keywords });
 }
 
 export default async function ServicePage({ params }: Props) {
   const s = getService((await params).service);
   if (!s) notFound();
-  const [testimonials, projects, dbFaqs] = await Promise.all([getTestimonials({ service: s.slug, limit: 6 }), getPublishedProjects({ service: s.slug, limit: 3 }), getFaqs(s.slug)]);
+  const [testimonials, projects, dbFaqs, guides] = await Promise.all([getTestimonials({ service: s.slug, limit: 6 }), getPublishedProjects({ service: s.slug, limit: 3 }), getFaqs(s.slug), getRelatedGuides({ service: s })]);
   const faqs = [...s.faqs, ...dbFaqs];
   const path = `/services/${s.slug}`;
   const crumbs = [{ name: "Home", path: "/" }, { name: "Services", path: "/services" }, ...(s.parent ? [{ name: getService(s.parent)!.name, path: `/services/${s.parent}` }] : []), { name: s.name, path }];
@@ -41,6 +43,7 @@ export default async function ServicePage({ params }: Props) {
         subtitle={s.tagline + " " + s.metaDescription.split(". ").slice(1).join(". ")}
         intro={s.intro}
         faqs={faqs}
+        guides={guides}
         keyFacts={[
           `${site.name} provides ${s.noun} to businesses across Canada.`,
           `Deliverables include ${s.deliverables.slice(0, 4).map((d) => d.toLowerCase()).join(", ")}.`,

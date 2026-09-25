@@ -14,6 +14,7 @@ import { Button, ArrowIcon } from "@/components/ui/Button";
 import { getProjectBySlug, getPublishedProjects, parseJson, splitList } from "@/lib/queries";
 import { renderMarkdown } from "@/lib/markdown";
 import { breadcrumbSchema, buildMetadata, graph, webPageSchema } from "@/lib/seo";
+import { TITLE_MAX } from "@/lib/content";
 import { getService } from "@/lib/services";
 import { prisma } from "@/lib/db";
 import { site } from "@/lib/site";
@@ -33,7 +34,8 @@ type Props = { params: Promise<{ slug: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const p = await getProjectBySlug((await params).slug);
   if (!p) return {};
-  return buildMetadata({ title: p.seoTitle || `${p.title} | Case Study`, description: p.seoDescription || p.summary, path: `/projects/${p.slug}`, type: "article", image: p.coverImage ?? undefined });
+  const title = p.seoTitle || `${p.title} | Case Study`;
+  return buildMetadata({ title, absoluteTitle: title.length > TITLE_MAX, description: p.seoDescription || p.summary, path: `/projects/${p.slug}`, type: "article", image: p.coverImage ?? undefined });
 }
 
 export default async function ProjectPage({ params }: Props) {

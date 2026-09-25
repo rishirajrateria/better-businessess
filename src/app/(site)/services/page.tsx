@@ -13,8 +13,8 @@ import { buildMetadata, breadcrumbSchema, faqSchema, graph, webPageSchema } from
 import { services, subServices } from "@/lib/services";
 import { site } from "@/lib/site";
 
-const title = `Digital Marketing Services in Canada | Lead Gen, SEO, Web & Branding`;
-const description = `Explore ${site.name}' services: lead generation, SEO, website development and branding, plus Google Ads, social advertising, local SEO, e-commerce, logo and graphic design for Canadian businesses.`;
+const title = `Digital Marketing Services in Canada`;
+const description = `Lead generation, SEO, website development and branding for Canadian businesses, plus Google Ads, social ads, local SEO, e-commerce, logo and graphic design.`;
 export const metadata: Metadata = buildMetadata({ title, description, path: "/services" });
 
 const faqs = [

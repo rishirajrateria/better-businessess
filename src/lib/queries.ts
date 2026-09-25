@@ -14,21 +14,26 @@ const safe = async <T,>(fn: () => Promise<T>, fallback: T): Promise<T> => {
   }
 };
 
-export const getPublishedPosts = (opts: { limit?: number; category?: string; tag?: string; q?: string } = {}) =>
+const postWhere = (opts: { category?: string; tag?: string; q?: string }) => ({
+  published: true,
+  ...(opts.category ? { category: opts.category } : {}),
+  ...(opts.tag ? { tags: { contains: opts.tag } } : {}),
+  ...(opts.q ? { OR: [{ title: { contains: opts.q } }, { excerpt: { contains: opts.q } }, { content: { contains: opts.q } }] } : {}),
+});
+
+export const getPublishedPosts = (opts: { limit?: number; skip?: number; category?: string; tag?: string; q?: string } = {}) =>
   safe(
     () =>
       prisma.post.findMany({
-        where: {
-          published: true,
-          ...(opts.category ? { category: opts.category } : {}),
-          ...(opts.tag ? { tags: { contains: opts.tag } } : {}),
-          ...(opts.q ? { OR: [{ title: { contains: opts.q } }, { excerpt: { contains: opts.q } }, { content: { contains: opts.q } }] } : {}),
-        },
+        where: postWhere(opts),
         orderBy: [{ featured: "desc" }, { publishedAt: "desc" }],
         take: opts.limit,
+        skip: opts.skip,
       }),
     [],
   );
+
+export const countPublishedPosts = (opts: { category?: string; tag?: string; q?: string } = {}) => safe(() => prisma.post.count({ where: postWhere(opts) }), 0);
 
 export const getPostBySlug = (slug: string) => safe(() => prisma.post.findFirst({ where: { slug, published: true } }), null);
 

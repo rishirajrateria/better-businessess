@@ -149,3 +149,10 @@ export const getNearbyCities = (city: City, limit = 6) =>
     .sort((a, b) => a.d - b.d)
     .slice(0, limit)
     .map((x) => x.c);
+
+/**
+ * Indexing tier for programmatic city pages. Everything is indexable by default. Set
+ * NOINDEX_MINOR_CITIES=1 to keep only `major` cities (and every province) in the index while the
+ * smaller markets stay live for visitors and internal linking (noindex,follow; excluded from sitemap).
+ */
+export const isCityIndexable = (c: City) => Boolean(c.major) || process.env.NOINDEX_MINOR_CITIES !== "1";

@@ -6,6 +6,7 @@ import { coreServices, getService } from "@/lib/services";
 import { provinces, getProvince } from "@/lib/locations";
 import { serviceProvinceContent } from "@/lib/content";
 import { getTestimonials, getPublishedProjects } from "@/lib/queries";
+import { getRelatedGuides } from "@/lib/related-guides";
 import { buildMetadata, breadcrumbSchema, faqSchema, graph, placeSchema, serviceSchema, webPageSchema } from "@/lib/seo";
 
 export const revalidate = 86400;
@@ -31,7 +32,7 @@ export default async function ServiceProvincePage({ params }: Props) {
   const c = serviceProvinceContent(s, p);
   const path = `/services/${s.slug}/${p.slug}`;
   const crumbs = [{ name: "Home", path: "/" }, { name: "Services", path: "/services" }, { name: s.name, path: `/services/${s.slug}` }, { name: p.name, path }];
-  const [testimonials, projects] = await Promise.all([getTestimonials({ service: s.slug, limit: 3 }), getPublishedProjects({ service: s.slug, limit: 3 })]);
+  const [testimonials, projects, guides] = await Promise.all([getTestimonials({ service: s.slug, limit: 3 }), getPublishedProjects({ service: s.slug, limit: 3 }), getRelatedGuides({ service: s, province: p })]);
   return (
     <>
       <JsonLd data={graph(webPageSchema({ path, name: c.title, description: c.description }), serviceSchema(s, { path, areaName: p.name, areaType: "State", description: c.description }), placeSchema(undefined, p), breadcrumbSchema(crumbs), faqSchema(c.faqs))} />
@@ -43,6 +44,7 @@ export default async function ServiceProvincePage({ params }: Props) {
         subtitle={c.description}
         intro={c.intro}
         faqs={c.faqs}
+        guides={guides}
         keyFacts={c.keyFacts}
         testimonials={testimonials}
         projects={projects}

@@ -14,8 +14,8 @@ import { site } from "@/lib/site";
 import { cn } from "@/lib/utils";
 
 export const revalidate = 60;
-const title = "Projects & Case Studies | Results for Canadian Businesses";
-const description = `Explore ${site.name} case studies: lead generation, SEO, website development and branding projects with measurable results for Canadian companies.`;
+const title = "Projects & Case Studies";
+const description = `${site.name} case studies: lead generation, SEO, website development and branding projects with measurable results for Canadian companies.`;
 export const metadata: Metadata = buildMetadata({ title, description, path: "/projects" });
 
 export default async function ProjectsPage({ searchParams }: { searchParams: Promise<{ service?: string }> }) {

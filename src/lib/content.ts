@@ -27,6 +27,16 @@ const list = (items: string[], max = 3, conj = "and") => {
 };
 const lower = (s: string) => s.toLowerCase();
 
+/**
+ * SERP length budgets. The root layout appends " | Better Businesses" (19 chars) to every
+ * title, so page titles get 40 chars to land at or under Google's ~60-char display limit.
+ * Descriptions are capped at 155 chars so they are not truncated in results.
+ */
+export const TITLE_MAX = 40;
+export const DESC_MAX = 155;
+/** Return the first candidate within the budget, else the shortest one. */
+export const fit = (candidates: string[], max: number) => candidates.find((c) => c.length <= max) ?? candidates.reduce((a, b) => (a.length <= b.length ? a : b));
+
 /* ---------------- service-specific local angles ---------------- */
 const localAngles: Record<string, (c: City, p: Province) => string[]> = {
   "lead-generation": (c, p) => [
@@ -158,8 +168,15 @@ export function serviceCityContent(service: Service, city: City): LocationPageCo
 
   return {
     h1,
-    title: `${service.name} ${city.name} | ${service.shortName} Agency in ${city.name}, ${province.code} | ${site.name}`,
-    description: `${service.name} services in ${city.name}, ${province.name}. ${site.name} helps ${city.name} businesses grow with ${service.noun}: ${service.deliverables.slice(0, 3).map(lower).join(", ")}. Free consultation.`,
+    title: fit([`${service.name} Agency in ${city.name}, ${province.code}`, `${service.shortName} Agency in ${city.name}, ${province.code}`, `${service.shortName} in ${city.name}, ${province.code}`], TITLE_MAX),
+    description: fit(
+      [
+        `${service.name} for ${city.name}, ${province.name} businesses. ${site.name} delivers ${service.noun} measured on leads and revenue, not vanity metrics. Free consultation.`,
+        `${service.name} for ${city.name} businesses. ${site.name} delivers ${service.noun} measured on leads and revenue. Free consultation.`,
+        `${service.shortName} for ${city.name} businesses by ${site.name}, measured on leads and revenue. Free consultation.`,
+      ],
+      DESC_MAX,
+    ),
     eyebrow: `${service.name} · ${city.name}, ${province.code}`,
     intro: [pick(introVariants, seed)],
     angles,
@@ -202,8 +219,15 @@ export function serviceProvinceContent(service: Service, province: Province) {
   ];
   return {
     h1,
-    title: `${service.name} ${province.name} | ${service.shortName} Services in ${province.code} | ${site.name}`,
-    description: `${service.name} services across ${province.name}. ${site.name} helps businesses in ${list(cities.slice(0, 4).map((c) => c.name), 4)} and all of ${province.code} grow with expert ${service.noun}.`,
+    title: fit([`${service.name} Services in ${province.name}`, `${service.name} in ${province.name}`, `${service.shortName} Services in ${province.name}`, `${service.shortName} in ${province.name}`], TITLE_MAX),
+    description: fit(
+      [
+        `${service.name} across ${province.name} for businesses in ${list(cities.slice(0, 3).map((c) => c.name), 3)}. ${site.name} delivers ${service.noun} measured on results. Free consultation.`,
+        `${service.name} across ${province.name}. ${site.name} delivers ${service.noun} for ${province.code} businesses, measured on results. Free consultation.`,
+        `${service.shortName} across ${province.name} by ${site.name}, measured on results. Free consultation.`,
+      ],
+      DESC_MAX,
+    ),
     intro,
     cities,
     faqs,
@@ -219,8 +243,14 @@ export function serviceProvinceContent(service: Service, province: Province) {
 export function serviceCountryContent(service: Service) {
   return {
     h1: `${service.name} Services in Canada`,
-    title: `${service.name} Canada | Canadian ${service.shortName} Agency | ${site.name}`,
-    description: `${service.name} for businesses across Canada. ${site.name} is a Canadian agency serving all provinces and territories with ${service.noun} that delivers measurable results.`,
+    title: fit([`Canadian ${service.name} Agency`, `Canadian ${service.shortName} Agency`], TITLE_MAX),
+    description: fit(
+      [
+        `${service.name} for businesses across Canada. ${site.name} serves every province and territory with ${service.noun} that delivers measurable results.`,
+        `${service.name} across Canada. ${site.name} serves every province and territory with results-driven ${service.noun}.`,
+      ],
+      DESC_MAX,
+    ),
     intro: [
       `${site.name} is a Canadian agency providing ${service.noun} to businesses in every province and territory, from British Columbia to Newfoundland and Labrador. Canada's 40 million consumers and 1.2 million small and medium businesses shop, research and hire online, and ${service.noun} is how you reach them at the right moment.`,
       `Canadian markets differ enormously: bilingual Quebec, resource-driven Alberta, tech-heavy Ontario and BC, and tight-knit Atlantic and Northern communities. We localize ${service.noun} for each, while keeping strategy, brand and reporting unified for national or multi-province companies.`,
@@ -245,8 +275,14 @@ export function cityHubContent(city: City) {
   const nearby = getNearbyCities(city, 6);
   return {
     h1: `Digital Marketing Agency in ${city.name}, ${province.code}`,
-    title: `Digital Marketing Agency ${city.name} | SEO, Lead Gen, Web Design & Branding | ${site.name}`,
-    description: `${site.name} is a digital growth agency serving ${city.name}, ${province.name}. Lead generation, SEO, website development and branding for ${city.name} businesses.`,
+    title: fit([`Digital Marketing Agency in ${city.name}, ${province.code}`, `Marketing Agency in ${city.name}, ${province.code}`], TITLE_MAX),
+    description: fit(
+      [
+        `${site.name} is a digital growth agency serving ${city.name}, ${province.name}: lead generation, SEO, website development and branding for local businesses.`,
+        `${site.name} serves ${city.name} with lead generation, SEO, website development and branding for local businesses. Free consultation.`,
+      ],
+      DESC_MAX,
+    ),
     intro: [
       `${site.name} helps businesses in ${city.name} grow with lead generation, SEO, website development and branding. ${city.name} is ${city.descriptor}, home to roughly ${city.population} people and ${city.fact}. Its ${list(city.industries.map(lower), 3)} sectors make it one of ${province.name}'s most dynamic markets, and one where the businesses that show up first online win.`,
       `From ${list(city.areas.slice(0, 4), 4)}, ${city.name} companies rely on us to be found on Google, recommended by AI assistants, and chosen over the competition. Below is everything we offer in ${city.name}.`,
@@ -271,8 +307,14 @@ export function provinceHubContent(province: Province) {
   const cities = getCitiesInProvince(province.slug);
   return {
     h1: `Digital Marketing Agency in ${province.name}`,
-    title: `Digital Marketing Agency ${province.name} | SEO, Lead Generation, Web Design | ${site.name}`,
-    description: `${site.name} serves businesses across ${province.name} with lead generation, SEO, website development and branding. Cities include ${list(cities.slice(0, 4).map((c) => c.name), 4)}.`,
+    title: fit([`Digital Marketing Agency in ${province.name}`, `Marketing Agency in ${province.name}`], TITLE_MAX),
+    description: fit(
+      [
+        `${site.name} serves ${province.name} businesses with lead generation, SEO, website development and branding, in ${list(cities.slice(0, 3).map((c) => c.name), 3)} and beyond.`,
+        `${site.name} serves ${province.name} businesses with lead generation, SEO, website development and branding. Free consultation.`,
+      ],
+      DESC_MAX,
+    ),
     intro: [
       `${site.name} is a Canadian digital growth agency serving businesses throughout ${province.name}. ${province.economy} With about ${province.population} residents and strengths in ${list(province.industries.map(lower), 4)}, ${province.name} rewards companies that invest in visibility, conversion and brand.`,
       `We provide lead generation, SEO, website development and branding to ${province.name} businesses in ${list(cities.map((c) => c.name), Math.min(cities.length, 6))}${cities.length > 6 ? " and beyond" : ""}. ${province.bilingual ? "All deliverables are available in both French and English." : ""}`,

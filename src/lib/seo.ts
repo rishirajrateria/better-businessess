@@ -5,6 +5,16 @@ import { coreServices } from "./services";
 import type { City, Province } from "./locations";
 
 /* ---------------- Metadata ---------------- */
+/** Keep meta descriptions inside Google's ~155-char display budget, cutting at a sentence or word boundary. */
+export function clampDescription(text: string, max = 155) {
+  const t = text.replace(/\s+/g, " ").trim();
+  if (t.length <= max) return t;
+  const head = t.slice(0, max);
+  const sentence = Math.max(head.lastIndexOf(". "), head.lastIndexOf("! "), head.lastIndexOf("? "));
+  if (sentence >= max * 0.55) return head.slice(0, sentence + 1);
+  return `${head.slice(0, head.lastIndexOf(" ")).replace(/[,;:]$/, "")}…`;
+}
+
 export function buildMetadata(opts: {
   title: string;
   description: string;
@@ -15,26 +25,29 @@ export function buildMetadata(opts: {
   publishedTime?: string;
   modifiedTime?: string;
   keywords?: string[];
+  /** Use the title verbatim instead of running it through the layout's "%s | Brand" template. */
+  absoluteTitle?: boolean;
 }): Metadata {
   const url = absoluteUrl(opts.path);
   const image = opts.image ?? absoluteUrl("/opengraph-image");
+  const description = clampDescription(opts.description);
   return {
-    title: opts.title,
-    description: opts.description,
+    title: opts.absoluteTitle ? { absolute: opts.title } : opts.title,
+    description,
     keywords: opts.keywords,
     alternates: { canonical: url },
-    robots: opts.noIndex ? { index: false, follow: false } : { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 } },
+    robots: opts.noIndex ? { index: false, follow: true } : { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 } },
     openGraph: {
       type: opts.type ?? "website",
       url,
       title: opts.title,
-      description: opts.description,
+      description,
       siteName: site.name,
       locale: "en_CA",
       images: [{ url: image, width: 1200, height: 630, alt: opts.title }],
       ...(opts.publishedTime ? { publishedTime: opts.publishedTime, modifiedTime: opts.modifiedTime } : {}),
     },
-    twitter: { card: "summary_large_image", title: opts.title, description: opts.description, images: [image] },
+    twitter: { card: "summary_large_image", title: opts.title, description, images: [image] },
   };
 }
 
@@ -159,19 +172,40 @@ export function placeSchema(city: City | undefined, province: Province) {
   return { "@type": "State", name: province.name, containedInPlace: { "@type": "Country", name: "Canada" } };
 }
 
-export function articleSchema(opts: { path: string; title: string; description: string; image?: string; datePublished: string; dateModified: string; author: string; tags?: string[] }) {
+export const authorId = `${site.url}/#author`;
+
+/** A named human author when configured in site.ts, otherwise the organization. */
+export function authorSchema(fallbackName: string) {
+  if (site.author.name) {
+    return {
+      "@type": "Person",
+      "@id": authorId,
+      name: site.author.name,
+      ...(site.author.role ? { jobTitle: site.author.role } : {}),
+      ...(site.author.url ? { url: site.author.url, sameAs: [site.author.url] } : {}),
+      ...(site.author.bio ? { description: site.author.bio } : {}),
+      worksFor: { "@id": orgId },
+    };
+  }
+  return { "@type": "Organization", name: fallbackName, "@id": orgId };
+}
+
+export function articleSchema(opts: { path: string; title: string; description: string; image?: string; datePublished: string; dateModified: string; author: string; tags?: string[]; section?: string | null; wordCount?: number }) {
   return {
-    "@type": "Article",
+    "@type": "BlogPosting",
     "@id": `${absoluteUrl(opts.path)}#article`,
     headline: opts.title,
     description: opts.description,
     image: opts.image ? [opts.image] : [absoluteUrl("/opengraph-image")],
     datePublished: opts.datePublished,
     dateModified: opts.dateModified,
-    author: { "@type": "Organization", name: opts.author, "@id": orgId },
+    author: authorSchema(opts.author),
     publisher: { "@id": orgId },
     mainEntityOfPage: absoluteUrl(opts.path),
+    isPartOf: { "@id": websiteId },
     keywords: opts.tags?.join(", "),
+    ...(opts.section ? { articleSection: opts.section } : {}),
+    ...(opts.wordCount ? { wordCount: opts.wordCount } : {}),
     inLanguage: "en-CA",
   };
 }

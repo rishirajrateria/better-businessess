@@ -16,8 +16,8 @@ import { coreServices } from "@/lib/services";
 import { majorCities } from "@/lib/locations";
 
 export const revalidate = 3600;
-const title = `Contact ${site.name} | Free Growth Audit & Proposal`;
-const description = `Contact ${site.name} for a free digital growth audit. Lead generation, SEO, web development and branding for Canadian businesses. Reply within one business day.`;
+const title = `Contact Us | Free Growth Audit & Proposal`;
+const description = `Contact ${site.name} for a free digital growth audit. Lead generation, SEO, web development and branding for Canadian businesses. One-business-day reply.`;
 export const metadata: Metadata = buildMetadata({ title, description, path: "/contact" });
 
 const faqs = [

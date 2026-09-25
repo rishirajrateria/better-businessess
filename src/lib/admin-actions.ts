@@ -1,6 +1,7 @@
 "use server";
 import { redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
+import { pingIndexNow } from "./indexnow";
 import { prisma } from "./db";
 import { createSession, destroySession, getSession, hashPassword, verifyCredentials } from "./auth";
 import { slugify, readingTime, excerptFrom } from "./markdown";
@@ -119,6 +120,10 @@ export async function deleteLeadAction(fd: FormData) {
 function revalidateSite() {
   revalidatePath("/", "layout");
 }
+/** Tell Bing-powered engines (and ChatGPT search via Bing) which public URLs changed. */
+function notifyIndexers(paths: string[]) {
+  void pingIndexNow(paths);
+}
 export async function savePostAction(_: ActionState, fd: FormData): Promise<ActionState> {
   await guard();
   try {
@@ -146,8 +151,10 @@ export async function savePostAction(_: ActionState, fd: FormData): Promise<Acti
       featured: bool(fd, "featured"),
       publishedAt: date(fd, "publishedAt") ?? (published ? new Date() : null),
     };
+    const before = id ? await prisma.post.findUnique({ where: { id }, select: { slug: true, published: true } }) : null;
     const post = id ? await prisma.post.update({ where: { id }, data }) : await prisma.post.create({ data });
     revalidateSite();
+    if (published || before?.published) notifyIndexers([`/blog/${post.slug}`, ...(before && before.slug !== post.slug ? [`/blog/${before.slug}`] : []), "/blog", "/industries", "/feed.xml"]);
     redirect(`/admin/posts/${post.id}?saved=1`);
   } catch (e) {
     if ((e as Error & { digest?: string }).digest?.startsWith("NEXT_REDIRECT")) throw e;
@@ -156,8 +163,9 @@ export async function savePostAction(_: ActionState, fd: FormData): Promise<Acti
 }
 export async function deletePostAction(fd: FormData) {
   await guard();
-  await prisma.post.delete({ where: { id: str(fd, "id") } });
+  const removed = await prisma.post.delete({ where: { id: str(fd, "id") } });
   revalidateSite();
+  if (removed.published) notifyIndexers([`/blog/${removed.slug}`, "/blog"]);
   redirect("/admin/posts");
 }
 
@@ -198,6 +206,7 @@ export async function saveProjectAction(_: ActionState, fd: FormData): Promise<A
     };
     const p = id ? await prisma.project.update({ where: { id }, data }) : await prisma.project.create({ data });
     revalidateSite();
+    if (p.published) notifyIndexers([`/projects/${p.slug}`, "/projects"]);
     redirect(`/admin/projects/${p.id}?saved=1`);
   } catch (e) {
     if ((e as Error & { digest?: string }).digest?.startsWith("NEXT_REDIRECT")) throw e;
@@ -206,8 +215,9 @@ export async function saveProjectAction(_: ActionState, fd: FormData): Promise<A
 }
 export async function deleteProjectAction(fd: FormData) {
   await guard();
-  await prisma.project.delete({ where: { id: str(fd, "id") } });
+  const removed = await prisma.project.delete({ where: { id: str(fd, "id") } });
   revalidateSite();
+  if (removed.published) notifyIndexers([`/projects/${removed.slug}`, "/projects"]);
   redirect("/admin/projects");
 }
 

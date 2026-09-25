@@ -12,7 +12,7 @@ import { buildMetadata, breadcrumbSchema, faqSchema, graph, webPageSchema } from
 import { site } from "@/lib/site";
 
 export const revalidate = 3600;
-const title = `FAQ | Digital Marketing, SEO, Web Design & Branding Questions Answered`;
+const title = "Frequently Asked Questions";
 const description = `Answers to the most common questions about working with ${site.name}: pricing, timelines, SEO, lead generation, website development and branding in Canada.`;
 export const metadata: Metadata = buildMetadata({ title, description, path: "/faq" });
 
@@ -31,7 +31,7 @@ export default async function FaqPage() {
   const all = [...general, ...dbGeneral, ...services.flatMap((s) => s.faqs)];
   return (
     <>
-      <JsonLd data={graph(webPageSchema({ path: "/faq", name: title, description, type: "FAQPage" }), breadcrumbSchema(crumbs), faqSchema(all))} />
+      <JsonLd data={graph(webPageSchema({ path: "/faq", name: title, description }), breadcrumbSchema(crumbs), faqSchema(all))} />
       <PageHero compact eyebrow="FAQ" breadcrumbs={<Breadcrumbs items={crumbs} />} title={<>Everything you want to know, <span className="text-gold-gradient">answered plainly.</span></>} subtitle="Pricing, timelines, process and results for every service we offer." />
       <Section size="sm">
         <SectionHeader eyebrow="General" title="Working with us" align="left" className="mb-6" />

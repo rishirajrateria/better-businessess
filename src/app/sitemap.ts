@@ -1,16 +1,24 @@
 import type { MetadataRoute } from "next";
 import { site } from "@/lib/site";
 import { services, coreServices } from "@/lib/services";
-import { provinces, cities } from "@/lib/locations";
+import { provinces, cities as allCities, isCityIndexable } from "@/lib/locations";
 import { prisma } from "@/lib/db";
 
 export const revalidate = 3600;
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const now = new Date();
-  const u = (p: string, priority: number, changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"] = "monthly", lastModified: Date = now) => ({ url: `${site.url}${p}`, lastModified, changeFrequency, priority });
+  // Fixed copy carries a real "last changed" date (see site.staticContentUpdated) instead of the
+  // build time, so <lastmod> stays trustworthy. CMS entries use their own updatedAt below.
+  const staticDate = new Date(site.staticContentUpdated);
+  const cities = allCities.filter(isCityIndexable);
+  const u = (p: string, priority: number, changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"] = "monthly", lastModified: Date = staticDate) => ({ url: `${site.url}${p}`, lastModified, changeFrequency, priority });
 
-  const staticPages = [u("/", 1, "weekly"), u("/services", 0.9, "weekly"), u("/about", 0.7), u("/contact", 0.9), u("/faq", 0.7), u("/locations", 0.8), u("/industries", 0.8, "weekly"), u("/blog", 0.8, "daily"), u("/projects", 0.8, "weekly"), u("/privacy", 0.2, "yearly"), u("/terms", 0.2, "yearly")];
+  let latestPost: Date | undefined;
+  try {
+    latestPost = (await prisma.post.findFirst({ where: { published: true }, orderBy: { updatedAt: "desc" }, select: { updatedAt: true } }))?.updatedAt;
+  } catch {}
+  const listingDate = latestPost && latestPost > staticDate ? latestPost : staticDate;
+  const staticPages = [u("/", 1, "weekly", listingDate), u("/services", 0.9, "weekly"), u("/about", 0.7), u("/contact", 0.9), u("/faq", 0.7), u("/locations", 0.8), u("/industries", 0.8, "weekly", listingDate), u("/blog", 0.8, "daily", listingDate), u("/projects", 0.8, "weekly"), u("/privacy", 0.2, "yearly"), u("/terms", 0.2, "yearly")];
   const servicePages = services.map((s) => u(`/services/${s.slug}`, 0.9, "weekly"));
   const countryPages = coreServices.map((s) => u(`/services/${s.slug}/canada`, 0.8));
   const provincePages = provinces.map((p) => u(`/locations/${p.slug}`, 0.7));

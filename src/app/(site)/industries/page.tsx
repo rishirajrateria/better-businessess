@@ -13,8 +13,8 @@ import { buildMetadata, breadcrumbSchema, graph, webPageSchema } from "@/lib/seo
 import { site } from "@/lib/site";
 
 export const revalidate = 300;
-const title = "Industries We Serve | Digital Marketing Guides by Industry in Canada";
-const description = `${site.name} works with businesses across Canada in trades, healthcare, professional services, hospitality, retail and more. Explore our industry-specific marketing guides.`;
+const title = "Industries We Serve in Canada";
+const description = `Marketing guides for Canadian trades, healthcare, professional services, hospitality, retail and more. See how ${site.name} grows your industry.`;
 export const metadata: Metadata = buildMetadata({ title, description, path: "/industries" });
 
 /** Map a guide to a sector by keywords in its slug/title so the hub groups sensibly. */

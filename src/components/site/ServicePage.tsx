@@ -9,6 +9,8 @@ import { CtaBanner } from "./CtaBanner";
 import { ContactForm } from "./ContactForm";
 import { TestimonialsSection, type TestimonialItem } from "./Testimonials";
 import { ProjectCard, type ProjectCardData } from "./Cards";
+import { RelatedGuides } from "./RelatedGuides";
+import type { Guide } from "@/lib/related-guides";
 import { ProcessSteps, BenefitsGrid, StatsStrip, RichBlock, InlineCta, CityLinks, ProvinceLinks } from "./Sections";
 import { Section, SectionHeader, Eyebrow } from "@/components/ui/Section";
 import { Button, ArrowIcon } from "@/components/ui/Button";
@@ -37,6 +39,7 @@ export type ServicePageProps = {
   cityLinks?: { cities: City[]; hrefFor: (c: City) => string; title: React.ReactNode; eyebrow?: string; subtitle?: string; columns?: 3 | 4 | 5 };
   provinceLinks?: { provinces: Province[]; hrefFor: (p: Province) => string; title: React.ReactNode; subtitle?: string };
   siblingLinks?: { label: string; href: string }[];
+  guides?: Guide[];
   defaultCity?: string;
 };
 
@@ -148,7 +151,7 @@ export function ServicePageTemplate(p: ServicePageProps) {
             ))}
           </ul>
         </div>
-        <InlineCta text={`Get a free ${s.shortName.toLowerCase()} audit${loc}.`} />
+        <InlineCta text={`Get a free ${s.noun} audit${loc}.`} />
       </Section>
 
       {subs.length > 0 && (
@@ -201,6 +204,10 @@ export function ServicePageTemplate(p: ServicePageProps) {
         </div>
       </Section>
 
+      {p.guides && p.guides.length > 0 && (
+        <RelatedGuides guides={p.guides} title={p.locationName ? <>Marketing guides for <span className="text-gold-gradient">{p.locationName} businesses.</span></> : <>Guides on <span className="text-gold-gradient">{s.noun}.</span></>} subtitle={`In-depth, Canada-specific playbooks from our team${p.locationName ? `, chosen for ${p.locationName}'s leading sectors` : ""}.`} />
+      )}
+
       {p.cityLinks && <CityLinks {...p.cityLinks} />}
       {p.provinceLinks && <ProvinceLinks {...p.provinceLinks} />}
 
@@ -219,7 +226,7 @@ export function ServicePageTemplate(p: ServicePageProps) {
         <div className="grid items-start gap-12 lg:grid-cols-12">
           <div className="lg:col-span-5" data-reveal>
             <Eyebrow dark className="mb-5">Start today</Eyebrow>
-            <h2 className="font-display text-balance text-3xl font-semibold leading-[1.1] tracking-tight md:text-5xl">Get a free {s.shortName.toLowerCase()} proposal{loc}.</h2>
+            <h2 className="font-display text-balance text-3xl font-semibold leading-[1.1] tracking-tight md:text-5xl">Get a free {s.noun} proposal{loc}.</h2>
             <p className="mt-5 text-lg leading-8 text-paper/70">Tell us about your goals. A senior strategist will review your current presence and reply within one business day with a clear, fixed-price plan.</p>
             <ul className="mt-8 space-y-3 text-[15px] text-paper/80">
               {["Free audit of your current digital presence", "Fixed pricing, no lock-in contracts", "Senior specialists on every account", "Transparent reporting on leads and revenue"].map((x) => (

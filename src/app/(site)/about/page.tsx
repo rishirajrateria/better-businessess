@@ -16,8 +16,8 @@ import { site } from "@/lib/site";
 import { coreServices, subServices } from "@/lib/services";
 
 export const revalidate = 3600;
-const title = `About ${site.name} | Canadian Digital Growth Agency`;
-const description = `${site.name} is a Canadian digital growth agency founded in ${site.foundedYear}. Learn about our mission, values, team approach and how we deliver lead generation, SEO, web development and branding across Canada.`;
+const title = `About Us | Canadian Digital Growth Agency`;
+const description = `${site.name} is a Canadian digital growth agency. Learn about our mission, values and how we deliver lead generation, SEO, web development and branding.`;
 export const metadata: Metadata = buildMetadata({ title, description, path: "/about" });
 
 const values = [

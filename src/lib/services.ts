@@ -41,7 +41,7 @@ export const services: Service[] = [
     core: true,
     tagline: "Predictable pipelines of qualified leads, not vanity traffic.",
     metaDescription:
-      "Lead generation services in Canada. Better Businesses builds Google Ads, Meta Ads, landing page and conversion systems that deliver qualified, sales-ready leads.",
+      "Lead generation services in Canada. Google Ads, Meta Ads, landing pages and conversion systems that deliver qualified, sales-ready leads. Free consult.",
     icon: "target",
     accent: "#C19A3E",
     intro: [
@@ -99,7 +99,7 @@ export const services: Service[] = [
     core: true,
     tagline: "Rank on Google and get recommended by AI. Compounding organic growth.",
     metaDescription:
-      "SEO services in Canada. Technical SEO, local SEO, content strategy, link building and AI search optimization from Better Businesses. Rank higher on Google and get cited by ChatGPT, Gemini and Perplexity.",
+      "SEO services in Canada: technical SEO, local SEO, content, links and AI search optimization. Rank higher on Google and get cited by ChatGPT and Gemini.",
     icon: "search",
     accent: "#9A7628",
     intro: [
@@ -158,7 +158,7 @@ export const services: Service[] = [
     core: true,
     tagline: "Fast, beautiful, conversion-engineered websites built to rank.",
     metaDescription:
-      "Website design and development in Canada. Better Businesses builds fast, SEO-ready, conversion-optimized websites on Next.js, WordPress and Shopify for Canadian businesses.",
+      "Website design and development in Canada. Fast, SEO-ready, conversion-optimized websites on Next.js, WordPress and Shopify for Canadian businesses.",
     icon: "code",
     accent: "#1C1C1C",
     intro: [
@@ -217,7 +217,7 @@ export const services: Service[] = [
     core: true,
     tagline: "Logos, identities and design systems that make you the obvious choice.",
     metaDescription:
-      "Branding agency in Canada. Logo design, brand identity, brand strategy and graphic design from Better Businesses. Build a brand your customers remember and trust.",
+      "Branding agency in Canada. Logo design, brand identity, brand strategy and graphic design. Build a brand your customers remember and trust.",
     icon: "palette",
     accent: "#E3C97F",
     intro: [
@@ -279,7 +279,7 @@ export const services: Service[] = [
     core: false,
     tagline: "Capture buyers at the exact moment they search for you.",
     metaDescription:
-      "Google Ads management in Canada. Certified PPC specialists at Better Businesses build and optimize Search, Performance Max and Local Services campaigns that lower cost per lead.",
+      "Google Ads management in Canada. PPC specialists who build and optimize Search, Performance Max and Local Services campaigns that lower your cost per lead.",
     icon: "megaphone",
     accent: "#C19A3E",
     intro: [
@@ -323,7 +323,7 @@ export const services: Service[] = [
     core: false,
     tagline: "Meta, Instagram, LinkedIn and TikTok campaigns that turn attention into leads.",
     metaDescription:
-      "Social media advertising agency in Canada. Better Businesses runs Facebook, Instagram, LinkedIn and TikTok ad campaigns engineered for leads and sales, not likes.",
+      "Social media advertising agency in Canada. Facebook, Instagram, LinkedIn and TikTok ad campaigns engineered for leads and sales, not likes.",
     icon: "share",
     accent: "#9A7628",
     intro: [
@@ -367,7 +367,7 @@ export const services: Service[] = [
     core: false,
     tagline: "Own the map pack and every 'near me' search in your service area.",
     metaDescription:
-      "Local SEO services in Canada. Google Business Profile optimization, citations, reviews and location pages from Better Businesses to rank in the map pack across your service area.",
+      "Local SEO services in Canada. Google Business Profile optimization, citations, reviews and location pages that rank you in the map pack across your area.",
     icon: "map-pin",
     accent: "#C19A3E",
     intro: [
@@ -411,7 +411,7 @@ export const services: Service[] = [
     core: false,
     tagline: "Online stores that load fast, rank high and sell more.",
     metaDescription:
-      "E-commerce website development in Canada. Shopify, headless and custom online stores from Better Businesses with conversion optimization, SEO and payment integration.",
+      "E-commerce website development in Canada. Shopify, headless and custom online stores with conversion optimization, SEO and payment integration built in.",
     icon: "shopping-bag",
     accent: "#1C1C1C",
     intro: [
@@ -499,7 +499,7 @@ export const services: Service[] = [
     core: false,
     tagline: "Print, digital and social design that stays perfectly on-brand.",
     metaDescription:
-      "Graphic design services in Canada. Brochures, social media graphics, ads, presentations, signage and packaging from Better Businesses' in-house design team.",
+      "Graphic design services in Canada. Brochures, social media graphics, ads, presentations, signage and packaging from an in-house design team.",
     icon: "layers",
     accent: "#C19A3E",
     intro: [
