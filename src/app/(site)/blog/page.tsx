@@ -34,6 +34,7 @@ export default async function BlogPage({ searchParams }: { searchParams: Promise
             <input name="q" defaultValue={sp.q} placeholder="Search articles…" className="glass-pill h-10 w-56 rounded-full px-4 text-[14px] outline-none placeholder:text-mist focus:ring-2 focus:ring-gold/40" aria-label="Search articles" />
           </form>
         </div>
+        <h2 className="sr-only">All articles</h2>
         {posts.length === 0 ? (
           <div className="glass rounded-glass p-12 text-center" data-reveal>
             <p className="font-display text-2xl font-semibold text-ink">No articles yet{sp.q ? ` for “${sp.q}”` : ""}.</p>

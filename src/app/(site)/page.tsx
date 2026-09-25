@@ -145,14 +145,14 @@ export default async function HomePage() {
         <SectionHeader eyebrow="Coast to coast" title={<>Serving businesses in <span className="text-gold-gradient">every province and territory.</span></>} subtitle="Local strategy for local markets, from Vancouver to St. John's." />
         <div className="flex flex-wrap justify-center gap-2" data-reveal>
           {provinces.map((p) => (
-            <Link key={p.slug} href={`/locations/${p.slug}`} className="glass-pill rounded-full px-4 py-2 text-[13.5px] font-medium text-graphite transition-all hover:-translate-y-0.5 hover:text-ink">
+            <Link key={p.slug} href={`/locations/${p.slug}`} prefetch={false} className="glass-pill rounded-full px-4 py-2 text-[13.5px] font-medium text-graphite transition-all hover:-translate-y-0.5 hover:text-ink">
               {p.name}
             </Link>
           ))}
         </div>
         <div className="mt-4 flex flex-wrap justify-center gap-2" data-reveal>
           {majorCities.slice(0, 16).map((c) => (
-            <Link key={c.slug} href={`/locations/${c.province}/${c.slug}`} className="inline-flex items-center gap-1 rounded-full px-3 py-1.5 text-[13px] text-slate transition-colors hover:text-gold-deep">
+            <Link key={c.slug} href={`/locations/${c.province}/${c.slug}`} prefetch={false} className="inline-flex items-center gap-1 rounded-full px-3 py-1.5 text-[13px] text-slate transition-colors hover:text-gold-deep">
               {c.name} <ArrowUpRight size={12} />
             </Link>
           ))}

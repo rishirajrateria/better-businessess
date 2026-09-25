@@ -140,7 +140,7 @@ export function CityLinks({ cities, hrefFor, title, eyebrow = "Service areas", s
       <ul className={cn("grid gap-2 sm:grid-cols-2", columns === 3 ? "lg:grid-cols-3" : columns === 5 ? "lg:grid-cols-5" : "lg:grid-cols-4")}>
         {cities.map((c) => (
           <li key={c.slug}>
-            <Link href={hrefFor(c)} className="group flex items-center justify-between rounded-2xl border border-ink/5 bg-white/50 px-4 py-3 text-[14.5px] font-medium text-graphite transition-all hover:-translate-y-0.5 hover:border-gold/40 hover:bg-white hover:text-ink">
+            <Link href={hrefFor(c)} prefetch={false} className="group flex items-center justify-between rounded-2xl border border-ink/5 bg-white/50 px-4 py-3 text-[14.5px] font-medium text-graphite transition-all hover:-translate-y-0.5 hover:border-gold/40 hover:bg-white hover:text-ink">
               {c.name}
               <ArrowUpRight size={15} className="text-mist transition-colors group-hover:text-gold" />
             </Link>
@@ -158,7 +158,7 @@ export function ProvinceLinks({ provinces, hrefFor, title, eyebrow = "Across Can
       <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {provinces.map((p) => (
           <li key={p.slug}>
-            <Link href={hrefFor(p)} className="group glass flex items-center justify-between rounded-2xl px-5 py-4 transition-all hover:-translate-y-0.5 hover:shadow-float">
+            <Link href={hrefFor(p)} prefetch={false} className="group glass flex items-center justify-between rounded-2xl px-5 py-4 transition-all hover:-translate-y-0.5 hover:shadow-float">
               <span>
                 <span className="block font-display text-[16px] font-semibold tracking-tight text-ink">{p.name}</span>
                 <span className="block text-[12.5px] text-slate">{p.largestCity} · {p.population}</span>

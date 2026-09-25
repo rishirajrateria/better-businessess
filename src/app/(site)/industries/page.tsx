@@ -52,7 +52,7 @@ export default async function IndustriesPage() {
           <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {g.posts.sort((a, b) => a.title.localeCompare(b.title)).map((p) => (
               <li key={p.id}>
-                <Link href={`/blog/${p.slug}`} className="group glass flex h-full items-start justify-between gap-3 rounded-glass p-5 transition-all hover:-translate-y-0.5 hover:shadow-float">
+                <Link href={`/blog/${p.slug}`} prefetch={false} className="group glass flex h-full items-start justify-between gap-3 rounded-glass p-5 transition-all hover:-translate-y-0.5 hover:shadow-float">
                   <span>
                     <span className="block font-display text-[16px] font-semibold leading-snug tracking-tight text-ink">{p.title}</span>
                     <span className="mt-2 block text-[13.5px] leading-6 text-slate">{p.excerpt}</span>

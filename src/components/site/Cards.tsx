@@ -28,7 +28,7 @@ export function PostCard({ p, featured }: { p: PostCardData; featured?: boolean 
           <Link href={`/blog/${p.slug}`} className="transition-colors group-hover:text-gold-deep">{p.title}</Link>
         </h3>
         <p className="mt-3 flex-1 text-[15px] leading-7 text-slate">{p.excerpt}</p>
-        <Link href={`/blog/${p.slug}`} className="mt-5 inline-flex items-center gap-1 text-[14px] font-semibold text-ink transition-colors hover:text-gold-deep">
+        <Link href={`/blog/${p.slug}`} className="mt-5 inline-flex items-center gap-1 py-1.5 text-[14px] font-semibold text-ink transition-colors hover:text-gold-deep">
           Read article <ArrowUpRight size={16} />
         </Link>
       </div>

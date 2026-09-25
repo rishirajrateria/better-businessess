@@ -14,7 +14,7 @@ export function Breadcrumbs({ items, dark }: { items: Crumb[]; dark?: boolean })
               {last ? (
                 <span aria-current="page" className={dark ? "text-paper" : "text-ink"}>{c.name}</span>
               ) : (
-                <Link href={c.path} className="transition-colors hover:text-gold-deep">{c.name}</Link>
+                <Link href={c.path} className="inline-block py-1 transition-colors hover:text-gold-deep">{c.name}</Link>
               )}
               {!last && <ChevronRight size={14} className="opacity-50" aria-hidden="true" />}
             </li>

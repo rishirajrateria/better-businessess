@@ -1,10 +1,11 @@
 import type { PrismaClient } from "@prisma/client";
 import bcrypt from "bcryptjs";
+import { ADMIN_EMAIL, ADMIN_PASSWORD } from "./admin-credentials";
 import { seedPosts } from "./seed-posts";
 
 export async function ensureAdmin(prisma: PrismaClient, email?: string, password?: string) {
-  const e = (email || process.env.ADMIN_EMAIL || "admin@betterbusinesses.ca").toLowerCase();
-  const p = password || process.env.ADMIN_PASSWORD || "change-me-now";
+  const e = (email || ADMIN_EMAIL).toLowerCase();
+  const p = password || ADMIN_PASSWORD;
   return prisma.user.upsert({ where: { email: e }, update: {}, create: { email: e, name: "Admin", passwordHash: await bcrypt.hash(p, 12) } });
 }
 

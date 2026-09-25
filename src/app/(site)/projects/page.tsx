@@ -36,6 +36,7 @@ export default async function ProjectsPage({ searchParams }: { searchParams: Pro
             <Link key={s.slug} href={`/projects?service=${s.slug}`} className={cn("rounded-full px-4 py-2 text-[13.5px] font-medium", sp.service === s.slug ? "bg-ink text-paper" : "glass-pill text-graphite hover:text-ink")}>{s.name}</Link>
           ))}
         </div>
+        <h2 className="sr-only">All projects</h2>
         {projects.length === 0 ? (
           <div className="glass rounded-glass p-12 text-center" data-reveal>
             <p className="font-display text-2xl font-semibold text-ink">Case studies coming soon.</p>

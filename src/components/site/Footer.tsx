@@ -7,7 +7,7 @@ import { provinces, majorCities } from "@/lib/locations";
 import { site } from "@/lib/site";
 
 const col = "text-[11px] font-semibold uppercase tracking-[0.18em] text-paper/40";
-const link = "text-[14px] text-paper/70 transition-colors hover:text-gold-light";
+const link = "block py-1.5 text-[14px] text-paper/70 transition-colors hover:text-gold-light sm:py-0.5";
 
 export function Footer() {
   return (
@@ -22,8 +22,8 @@ export function Footer() {
             <Logo dark size="md" />
             <p className="mt-6 max-w-sm text-[15px] leading-7 text-paper/65">{site.description}</p>
             <ul className="mt-6 space-y-3 text-[14px] text-paper/75">
-              <li className="flex items-center gap-3"><Mail size={16} className="text-gold" /> <a href={`mailto:${site.email}`} className="hover:text-gold-light">{site.email}</a></li>
-              {site.phone && <li className="flex items-center gap-3"><Phone size={16} className="text-gold" /> <a href={site.phoneHref} className="hover:text-gold-light" data-track="phone_click">{site.phone}</a></li>}
+              <li className="flex items-center gap-3"><Mail size={16} className="text-gold" /> <a href={`mailto:${site.email}`} className="inline-block py-1 hover:text-gold-light">{site.email}</a></li>
+              {site.phone && <li className="flex items-center gap-3"><Phone size={16} className="text-gold" /> <a href={site.phoneHref} className="inline-block py-1 hover:text-gold-light" data-track="phone_click">{site.phone}</a></li>}
               <li className="flex items-center gap-3"><MapPin size={16} className="text-gold" /> {site.hq.city}, {site.hq.province}, Canada · Serving all provinces</li>
             </ul>
             <div className="mt-6 flex gap-2">
@@ -42,19 +42,19 @@ export function Footer() {
 
           <div className="lg:col-span-2">
             <p className={col}>Services</p>
-            <ul className="mt-4 space-y-2.5">
+            <ul className="mt-4 space-y-1 sm:space-y-2">
               {coreServices.map((s) => (
-                <li key={s.slug}><Link href={`/services/${s.slug}`} className={link}>{s.name}</Link></li>
+                <li key={s.slug}><Link href={`/services/${s.slug}`} prefetch={false} className={link}>{s.name}</Link></li>
               ))}
               {subServices.map((s) => (
-                <li key={s.slug}><Link href={`/services/${s.slug}`} className={link}>{s.shortName}</Link></li>
+                <li key={s.slug}><Link href={`/services/${s.slug}`} prefetch={false} className={link}>{s.shortName}</Link></li>
               ))}
             </ul>
           </div>
 
           <div className="lg:col-span-2">
             <p className={col}>Company</p>
-            <ul className="mt-4 space-y-2.5">
+            <ul className="mt-4 space-y-1 sm:space-y-2">
               {[
                 ["/about", "About us"],
                 ["/industries", "Industries"],
@@ -67,25 +67,25 @@ export function Footer() {
                 ["/privacy", "Privacy policy"],
                 ["/terms", "Terms of service"],
               ].map(([href, label]) => (
-                <li key={href}><Link href={href} className={link}>{label}</Link></li>
+                <li key={href}><Link href={href} prefetch={false} className={link}>{label}</Link></li>
               ))}
             </ul>
           </div>
 
           <div className="lg:col-span-2">
             <p className={col}>Provinces</p>
-            <ul className="mt-4 space-y-2.5">
+            <ul className="mt-4 space-y-1 sm:space-y-2">
               {provinces.map((p) => (
-                <li key={p.slug}><Link href={`/locations/${p.slug}`} className={link}>{p.name}</Link></li>
+                <li key={p.slug}><Link href={`/locations/${p.slug}`} prefetch={false} className={link}>{p.name}</Link></li>
               ))}
             </ul>
           </div>
 
           <div className="lg:col-span-2">
             <p className={col}>Major cities</p>
-            <ul className="mt-4 space-y-2.5">
+            <ul className="mt-4 space-y-1 sm:space-y-2">
               {majorCities.slice(0, 14).map((c) => (
-                <li key={c.slug}><Link href={`/locations/${c.province}/${c.slug}`} className={link}>{c.name}</Link></li>
+                <li key={c.slug}><Link href={`/locations/${c.province}/${c.slug}`} prefetch={false} className={link}>{c.name}</Link></li>
               ))}
             </ul>
           </div>

@@ -38,7 +38,7 @@ export function HomeHero() {
           <ul className="mt-8 flex flex-wrap gap-2">
             {coreServices.map((s) => (
               <li key={s.slug}>
-                <Link href={`/services/${s.slug}`} className="glass-pill inline-flex items-center gap-1.5 rounded-full px-4 py-2 text-[13.5px] font-medium text-graphite transition-all hover:-translate-y-0.5 hover:text-ink">
+                <Link href={`/services/${s.slug}`} className="glass-pill inline-flex items-center gap-1.5 rounded-full px-4 py-2.5 text-[13.5px] font-medium text-graphite transition-all hover:-translate-y-0.5 hover:text-ink">
                   {s.name} <ArrowUpRight size={14} className="text-gold" />
                 </Link>
               </li>

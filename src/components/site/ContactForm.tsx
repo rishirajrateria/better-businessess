@@ -52,7 +52,7 @@ export function ContactForm({ defaultService, defaultCity, compact, dark, headin
 
   return (
     <form onSubmit={onSubmit} className={cn("rounded-glass p-6 md:p-8", dark ? "glass-dark text-paper" : "glass glass-strong")} onFocus={() => { if (!started) { setStarted(true); track("form_start"); } }} noValidate>
-      {heading && <h3 className="mb-6 font-display text-2xl font-semibold tracking-tight">{heading}</h3>}
+      {heading && <h2 className="mb-6 font-display text-2xl font-semibold tracking-tight">{heading}</h2>}
       {/* honeypot */}
       <input type="text" name="website_url" tabIndex={-1} autoComplete="off" className="hidden" aria-hidden="true" />
       <div className={cn("grid gap-4", compact ? "" : "sm:grid-cols-2")}>

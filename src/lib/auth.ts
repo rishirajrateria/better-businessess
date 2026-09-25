@@ -2,6 +2,7 @@ import { cookies } from "next/headers";
 import { SignJWT, jwtVerify } from "jose";
 import bcrypt from "bcryptjs";
 import { prisma } from "./db";
+import { ADMIN_EMAIL, ADMIN_PASSWORD } from "./admin-credentials";
 
 const COOKIE = "bb_admin_session";
 const secret = () => new TextEncoder().encode(process.env.AUTH_SECRET || "dev-only-secret-change-me-please-32chars!!");
@@ -45,13 +46,17 @@ export async function requireSession(): Promise<Session> {
 export async function verifyCredentials(email: string, password: string) {
   const normalized = email.toLowerCase().trim();
   let user = await prisma.user.findUnique({ where: { email: normalized } });
-  // First-run bootstrap: if no admin exists yet and the credentials match the
-  // ADMIN_EMAIL / ADMIN_PASSWORD environment variables, create the account.
-  if (!user && process.env.ADMIN_EMAIL && process.env.ADMIN_PASSWORD && (await prisma.user.count()) === 0) {
-    if (normalized === process.env.ADMIN_EMAIL.toLowerCase().trim() && password === process.env.ADMIN_PASSWORD) {
-      const { ensureAdmin } = await import("./seed-content");
-      user = await ensureAdmin(prisma, normalized, password);
+  // The configured admin pair (ADMIN_EMAIL / ADMIN_PASSWORD, or the defaults in
+  // admin-credentials.ts) always signs in. It creates the account on a fresh
+  // database and repairs it if the stored password drifts from the configuration,
+  // so a deploy can never lock you out. To rotate it, change those two values.
+  if (normalized === ADMIN_EMAIL && password === ADMIN_PASSWORD) {
+    const { ensureAdmin } = await import("./seed-content");
+    if (!user) return ensureAdmin(prisma, normalized, password);
+    if (!(await bcrypt.compare(password, user.passwordHash))) {
+      return prisma.user.update({ where: { id: user.id }, data: { passwordHash: await hashPassword(password) } });
     }
+    return user;
   }
   if (!user) return null;
   const ok = await bcrypt.compare(password, user.passwordHash);
