@@ -1,0 +1,61 @@
+{
+  "slug": "yellowknife",
+  "geographyNote": "City of Yellowknife (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&GENDERlist=1&STATISTIClist=1&HEADERlist=0&DGUIDlist=2021A00056106023&SearchText=yellowknife",
+  "figures": {
+    "population2021": 20340,
+    "population2016": null,
+    "growthPct": 3.9,
+    "medianAge": 35.4,
+    "medianHouseholdIncome2020": 148000,
+    "privateDwellings": 7519,
+    "landAreaKm2": 103.37
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00056106023",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00056106023",
+    "medianAge": "https://www.point2homes.com/CA/Demographics/NT/Yellowknife-Demographics.html",
+    "medianHouseholdIncome2020": "https://www.point2homes.com/CA/Demographics/NT/Yellowknife-Demographics.html",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00056106023",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00056106023"
+  },
+  "facts": [
+    {
+      "text": "The Yellowknife Visitor Centre welcomed its 100,000th visitor on September 30, 2025, since opening at its downtown Centre Square Mall location in September 2022.",
+      "url": "https://www.yellowknife.ca/news/visitor-centre-welcomes-100000th-visitor",
+      "publisher": "City of Yellowknife"
+    },
+    {
+      "text": "Aurora viewing, the largest category within the Northwest Territories' leisure tourism segment, continues to thrive with 19 percent annual growth in both visitation and spending.",
+      "url": "https://www.gov.nt.ca/en/newsroom/record-breaking-tourism-numbers-surpass-strategy-goals",
+      "publisher": "Government of the Northwest Territories"
+    },
+    {
+      "text": "The City's 2025 to 2028 Tourism Strategy aims to shift Yellowknife from a seasonal destination to a year-round cultural hub, supported by a Tourism Accommodation Levy.",
+      "url": "https://www.yellowknife.ca/economic-development-strategies/tourism-strategy",
+      "publisher": "City of Yellowknife"
+    },
+    {
+      "text": "The Diavik diamond mine ended operations on March 24, 2026, after supporting more than 1,100 jobs annually and nearly 10 percent of territorial GDP for over 20 years.",
+      "url": "https://www.gov.nt.ca/en/newsroom/premier-ministers-respond-diavik-closure-signals-next-chapter-nwt-economy",
+      "publisher": "Government of the Northwest Territories"
+    },
+    {
+      "text": "Diavik reported that 238 employees and 63 contractors are Yellowknife-based, and staffing drops from 900 to between 200 and 300 people during the six-month decommissioning that began in March 2026.",
+      "url": "https://cabinradio.ca/269107/news/economy/mining/a-quick-guide-to-the-end-of-diavik/",
+      "publisher": "Cabin Radio"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Yellowknife counted 20,340 residents in the 2021 Census, up 3.9 percent from 2016, living in 7,519 occupied dwellings across 103.37 square kilometres. The median age of 35.4 is young, and the median household income of $148,000 in 2020 is among the highest of any Canadian city, driven by government and mining pay.",
+      "For a local business, that means a small but unusually affluent customer base in a market now adjusting to the closure of the Diavik diamond mine and leaning harder on government and aurora tourism. Households have money to spend, and visitor traffic adds a second, seasonal audience."
+    ],
+    "byService": {
+      "lead-generation": "With median household incomes of $148,000, Yellowknife lead generation can target premium services and larger projects, while adding campaigns aimed at aurora tourists during the winter season.",
+      "seo": "In a city of 20,340 people, Yellowknife SEO is less about beating hundreds of rivals and more about being the clear first result for each service, plus ranking for visitor searches.",
+      "website-development": "A Yellowknife website should serve a young audience with a median age of 35.4 who research on their phones, and load quickly on northern connections slower than in the south.",
+      "branding": "Branding in Yellowknife can lean on the city's northern identity and its shift toward tourism and government, giving a business stability as the diamond economy winds down."
+    }
+  }
+}
