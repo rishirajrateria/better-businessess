@@ -17,6 +17,8 @@ import { coreServices, subServices } from "@/lib/services";
 import { cityHubContent } from "@/lib/content";
 import { getTestimonials } from "@/lib/queries";
 import { getRelatedGuides } from "@/lib/related-guides";
+import { getCityData, hasCityData } from "@/lib/city-data";
+import { LocalMarket } from "@/components/site/LocalMarket";
 import { RelatedGuides } from "@/components/site/RelatedGuides";
 import { buildMetadata, breadcrumbSchema, faqSchema, graph, placeSchema, webPageSchema } from "@/lib/seo";
 import { site } from "@/lib/site";
@@ -41,12 +43,14 @@ export default async function CityPage({ params }: Props) {
   const p = getProvince(province);
   if (!c || !p || c.province !== p.slug) notFound();
   const content = cityHubContent(c);
+  const cd = getCityData(c.slug);
+  const market = hasCityData(cd) ? cd : null;
   const path = `/locations/${p.slug}/${c.slug}`;
   const crumbs = [{ name: "Home", path: "/" }, { name: "Locations", path: "/locations" }, { name: p.name, path: `/locations/${p.slug}` }, { name: c.name, path }];
   const [testimonials, guides] = await Promise.all([getTestimonials({ limit: 3 }), getRelatedGuides({ city: c })]);
   return (
     <>
-      <JsonLd data={graph(webPageSchema({ path, name: content.title, description: content.description }), placeSchema(c, p), breadcrumbSchema(crumbs), faqSchema(content.faqs))} />
+      <JsonLd data={graph(webPageSchema({ path, name: content.title, description: content.description }), placeSchema(c, p, market), breadcrumbSchema(crumbs), faqSchema(content.faqs))} />
       <PageHero eyebrow={`${c.name}, ${p.code}`} breadcrumbs={<Breadcrumbs items={crumbs} />} title={<>Digital marketing agency in <span className="text-gold-gradient">{c.name}.</span></>} subtitle={content.intro[0]} />
       <Section size="sm">
         <div className="grid gap-10 lg:grid-cols-12">
@@ -60,6 +64,7 @@ export default async function CityPage({ params }: Props) {
           <div className="lg:col-span-5" data-reveal data-reveal-delay={100}><KeyFacts facts={content.keyFacts} /></div>
         </div>
       </Section>
+      {market && <LocalMarket data={market} city={c} province={p} />}
       <ServicesGrid eyebrow={`Services in ${c.name}`} title={<>What we do for <span className="text-gold-gradient">{c.name} businesses.</span></>} subtitle={`Each service has a dedicated ${c.name} page with local insight, pricing guidance and FAQs.`} locationName={c.name} hrefFor={(s) => `/services/${s.slug}/${p.slug}/${c.slug}`} />
       <Section tone="cream" size="sm">
         <SectionHeader eyebrow="Specialties" title={<>More ways we help in <span className="text-gold-gradient">{c.name}.</span></>} align="left" className="mb-6" />

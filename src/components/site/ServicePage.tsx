@@ -40,6 +40,8 @@ export type ServicePageProps = {
   provinceLinks?: { provinces: Province[]; hrefFor: (p: Province) => string; title: React.ReactNode; subtitle?: string };
   siblingLinks?: { label: string; href: string }[];
   guides?: Guide[];
+  /** City pages: the verified local market snapshot, rendered between the intro and the deliverables. */
+  localMarket?: React.ReactNode;
   defaultCity?: string;
 };
 
@@ -95,6 +97,8 @@ export function ServicePageTemplate(p: ServicePageProps) {
           </div>
         </div>
       </Section>
+
+      {p.localMarket}
 
       {/* Deliverables */}
       <Section tone="cream">

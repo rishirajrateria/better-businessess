@@ -103,8 +103,28 @@ export async function seedStarterContent(prisma: PrismaClient) {
     created.push("projects");
   }
 
-  // Blog posts: add any starter article whose slug is missing, and refresh starter articles that have
-  // never been edited in the admin (updatedAt still equals createdAt) so improved copy reaches existing sites.
+  created.push(...(await refreshStarterPosts(prisma, { addMissing: true })));
+  if ((await prisma.faq.count()) === 0) {
+    await prisma.faq.createMany({
+      data: [
+        { question: "Do you work with businesses outside of Ontario?", answer: "Yes. We serve clients in every province and territory and deliver in both English and French.", category: "general", sortOrder: 1 },
+        { question: "Can you take over from our current agency?", answer: "Yes. We audit existing accounts and websites, migrate everything into accounts you own and ensure no rankings or data are lost in the transition.", category: "general", sortOrder: 2 },
+      ],
+    });
+    created.push("FAQs");
+  }
+  return created;
+}
+
+/**
+ * Keeps the starter articles current on sites that already have content. Articles the owner has
+ * edited in the admin (updatedAt no longer equals createdAt) are never touched; untouched starter
+ * articles receive the latest copy (e.g. new citations) and keep their "never edited" marker.
+ * With addMissing, starter articles absent from the database are created too (first deploy /
+ * one-click seed); the build-time refresh leaves deleted articles deleted.
+ */
+export async function refreshStarterPosts(prisma: PrismaClient, opts: { addMissing: boolean }): Promise<string[]> {
+  const created: string[] = [];
   const existingPosts = await prisma.post.findMany({ select: { slug: true, createdAt: true, updatedAt: true } });
   const bySlug = new Map(existingPosts.map((p) => [p.slug, p]));
   let added = 0;
@@ -128,6 +148,7 @@ export async function seedStarterContent(prisma: PrismaClient) {
     };
     const ex = bySlug.get(p.slug);
     if (!ex) {
+      if (!opts.addMissing) continue;
       await prisma.post.create({ data });
       added++;
     } else if (Math.abs(ex.updatedAt.getTime() - ex.createdAt.getTime()) < 2000) {
@@ -138,15 +159,5 @@ export async function seedStarterContent(prisma: PrismaClient) {
   }
   if (added) created.push(`${added} blog post${added === 1 ? "" : "s"}`);
   if (refreshed) created.push(`${refreshed} refreshed article${refreshed === 1 ? "" : "s"}`);
-
-  if ((await prisma.faq.count()) === 0) {
-    await prisma.faq.createMany({
-      data: [
-        { question: "Do you work with businesses outside of Ontario?", answer: "Yes. We serve clients in every province and territory and deliver in both English and French.", category: "general", sortOrder: 1 },
-        { question: "Can you take over from our current agency?", answer: "Yes. We audit existing accounts and websites, migrate everything into accounts you own and ensure no rankings or data are lost in the transition.", category: "general", sortOrder: 2 },
-      ],
-    });
-    created.push("FAQs");
-  }
   return created;
 }

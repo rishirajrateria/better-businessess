@@ -12,7 +12,7 @@ import { InlineCta } from "@/components/site/Sections";
 import { Section, Eyebrow } from "@/components/ui/Section";
 import { Container } from "@/components/ui/Container";
 import { getPostBySlug, getPublishedPosts, parseJson, splitList } from "@/lib/queries";
-import { renderMarkdown, extractHeadings } from "@/lib/markdown";
+import { renderMarkdown, extractHeadings, extractSources } from "@/lib/markdown";
 import { articleSchema, breadcrumbSchema, buildMetadata, faqSchema, graph } from "@/lib/seo";
 import { TITLE_MAX } from "@/lib/content";
 import { formatDate } from "@/lib/utils";
@@ -58,7 +58,7 @@ export default async function PostPage({ params }: Props) {
 
   return (
     <>
-      <JsonLd data={graph(articleSchema({ path, title: post.title, description: post.excerpt, image: post.coverImage ?? undefined, datePublished: published.toISOString(), dateModified: post.updatedAt.toISOString(), author: post.author, tags, section: post.category, wordCount: post.content.split(/\s+/).filter(Boolean).length }), breadcrumbSchema(crumbs), faqSchema(faqs))} />
+      <JsonLd data={graph(articleSchema({ path, title: post.title, description: post.excerpt, image: post.coverImage ?? undefined, datePublished: published.toISOString(), dateModified: post.updatedAt.toISOString(), author: post.author, tags, section: post.category, wordCount: post.content.split(/\s+/).filter(Boolean).length, citations: extractSources(post.content) }), breadcrumbSchema(crumbs), faqSchema(faqs))} />
       <article>
         <header className="relative overflow-hidden pb-10 pt-6">
           <Container>

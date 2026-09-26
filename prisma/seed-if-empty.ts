@@ -5,14 +5,17 @@
  */
 import { PrismaClient } from "@prisma/client";
 import { resolveDatabaseUrl } from "../src/lib/db-url";
-import { seedStarterContent } from "../src/lib/seed-content";
+import { seedStarterContent, refreshStarterPosts } from "../src/lib/seed-content";
 
 const prisma = new PrismaClient({ datasourceUrl: resolveDatabaseUrl() });
 
 async function main() {
   const posts = await prisma.post.count();
   if (posts > 0) {
-    console.log(`[seed-if-empty] ${posts} posts already present, skipping.`);
+    // Existing site: only refresh starter articles the owner has never edited (new citations,
+    // corrections). Nothing is added back and nothing edited in the admin is overwritten.
+    const refreshed = await refreshStarterPosts(prisma, { addMissing: false });
+    console.log(`[seed-if-empty] ${posts} posts already present; ${refreshed.length ? refreshed.join(", ") : "no starter articles to refresh"}.`);
     return;
   }
   const created = await seedStarterContent(prisma);

@@ -167,8 +167,15 @@ export function webPageSchema(opts: { path: string; name: string; description: s
   };
 }
 
-export function placeSchema(city: City | undefined, province: Province) {
-  if (city) return { "@type": "City", name: city.name, containedInPlace: { "@type": "State", name: province.name }, geo: { "@type": "GeoCoordinates", latitude: city.lat, longitude: city.lng } };
+export function placeSchema(city: City | undefined, province: Province, data?: { population2021?: number | null; censusProfileUrl?: string } | null) {
+  if (city)
+    return {
+      "@type": "City",
+      name: city.name,
+      containedInPlace: { "@type": "State", name: province.name },
+      geo: { "@type": "GeoCoordinates", latitude: city.lat, longitude: city.lng },
+      ...(data?.population2021 ? { additionalProperty: [{ "@type": "PropertyValue", name: "Population (2021 Census of Population)", value: data.population2021, ...(data.censusProfileUrl ? { url: data.censusProfileUrl } : {}) }] } : {}),
+    };
   return { "@type": "State", name: province.name, containedInPlace: { "@type": "Country", name: "Canada" } };
 }
 
@@ -190,7 +197,7 @@ export function authorSchema(fallbackName: string) {
   return { "@type": "Organization", name: fallbackName, "@id": orgId };
 }
 
-export function articleSchema(opts: { path: string; title: string; description: string; image?: string; datePublished: string; dateModified: string; author: string; tags?: string[]; section?: string | null; wordCount?: number }) {
+export function articleSchema(opts: { path: string; title: string; description: string; image?: string; datePublished: string; dateModified: string; author: string; tags?: string[]; section?: string | null; wordCount?: number; citations?: { name: string; url: string; publisher?: string }[] }) {
   return {
     "@type": "BlogPosting",
     "@id": `${absoluteUrl(opts.path)}#article`,
@@ -206,6 +213,7 @@ export function articleSchema(opts: { path: string; title: string; description: 
     keywords: opts.tags?.join(", "),
     ...(opts.section ? { articleSection: opts.section } : {}),
     ...(opts.wordCount ? { wordCount: opts.wordCount } : {}),
+    ...(opts.citations?.length ? { citation: opts.citations.map((c) => ({ "@type": "WebPage", name: c.name, url: c.url, ...(c.publisher ? { publisher: { "@type": "Organization", name: c.publisher } } : {}) })) } : {}),
     inLanguage: "en-CA",
   };
 }

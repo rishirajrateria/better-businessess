@@ -7,6 +7,8 @@ import { cities, getCity, getProvince, isCityIndexable } from "@/lib/locations";
 import { serviceCityContent } from "@/lib/content";
 import { getTestimonials, getPublishedProjects } from "@/lib/queries";
 import { getRelatedGuides } from "@/lib/related-guides";
+import { getCityData, hasCityData } from "@/lib/city-data";
+import { LocalMarket } from "@/components/site/LocalMarket";
 import { buildMetadata, breadcrumbSchema, faqSchema, graph, placeSchema, serviceSchema, webPageSchema } from "@/lib/seo";
 
 export const revalidate = 86400;
@@ -35,6 +37,8 @@ export default async function ServiceCityPage({ params }: Props) {
   const r = await resolve(params);
   if (!r) notFound();
   const { s, c, p } = r;
+  const cd = getCityData(c.slug);
+  const market = hasCityData(cd) ? cd : null;
   const content = serviceCityContent(s, c);
   const path = `/services/${s.slug}/${p.slug}/${c.slug}`;
   const crumbs = [{ name: "Home", path: "/" }, { name: "Services", path: "/services" }, { name: s.name, path: `/services/${s.slug}` }, { name: p.name, path: `/services/${s.slug}/${p.slug}` }, { name: c.name, path }];
@@ -42,7 +46,7 @@ export default async function ServiceCityPage({ params }: Props) {
 
   return (
     <>
-      <JsonLd data={graph(webPageSchema({ path, name: content.title, description: content.description }), serviceSchema(s, { path, areaName: `${c.name}, ${p.code}`, areaType: "City", description: content.description }), placeSchema(c, p), breadcrumbSchema(crumbs), faqSchema(content.faqs))} />
+      <JsonLd data={graph(webPageSchema({ path, name: content.title, description: content.description }), serviceSchema(s, { path, areaName: `${c.name}, ${p.code}`, areaType: "City", description: content.description }), placeSchema(c, p, market), breadcrumbSchema(crumbs), faqSchema(content.faqs))} />
       <ServicePageTemplate
         service={s}
         crumbs={crumbs}
@@ -55,6 +59,7 @@ export default async function ServiceCityPage({ params }: Props) {
         industries={content.industries}
         faqs={content.faqs}
         guides={guides}
+        localMarket={market ? <LocalMarket data={market} city={c} province={p} serviceSlug={s.slug} /> : undefined}
         keyFacts={content.keyFacts}
         testimonials={testimonials}
         projects={projects}
