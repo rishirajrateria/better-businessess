@@ -1,0 +1,57 @@
+{
+  "slug": "nanaimo",
+  "geographyNote": "City of Nanaimo (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Nanaimo&DGUIDlist=2021A00055921007&GENDERlist=1%2C2%2C3&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 99863,
+    "population2016": 90504,
+    "growthPct": 10.3,
+    "medianAge": 45.2,
+    "medianHouseholdIncome2020": 75500,
+    "privateDwellings": 43164,
+    "landAreaKm2": 90.45
+  },
+  "figureSources": {
+    "population2021": "https://www.nanaimo.ca/NewsReleases/NR220211CensusDataHighlightsRecordGrowthInNanaimo.html",
+    "population2016": "https://en.wikipedia.org/wiki/Nanaimo",
+    "growthPct": "https://www.nanaimo.ca/NewsReleases/NR220211CensusDataHighlightsRecordGrowthInNanaimo.html",
+    "medianAge": "https://www.point2homes.com/CA/Demographics/BC/Nanaimo-Demographics.html",
+    "medianHouseholdIncome2020": "https://www.point2homes.com/CA/Demographics/BC/Nanaimo-Demographics.html",
+    "privateDwellings": "https://en.wikipedia.org/wiki/Nanaimo",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00055921007"
+  },
+  "facts": [
+    {
+      "text": "Healthcare and social services is Nanaimo's largest employment sector with 7,460 jobs, and retail is second with 7,380 jobs for local residents.",
+      "url": "https://www.nanaimo.ca/doing-business/economic-development/business/key-industries",
+      "publisher": "City of Nanaimo"
+    },
+    {
+      "text": "In 2022 the City had 3,610 businesses with employees, and about 87% of them, or 3,140 businesses, employ between 1 and 19 people.",
+      "url": "https://www.nanaimo.ca/docs/doing-business/economic-development/2023-nanaimostateeconomy-web.pdf",
+      "publisher": "City of Nanaimo, 2023 State of the Nanaimo Economy"
+    },
+    {
+      "text": "Construction (18.9%), retail trade (12.6%) and professional, scientific and technical services (12.6%) lead Nanaimo's business licences, with the top five sectors making up 65% of licences.",
+      "url": "https://www.nanaimo.ca/doing-business/economic-development/business/key-industries",
+      "publisher": "City of Nanaimo"
+    },
+    {
+      "text": "School District 68 and Vancouver Island University are two of Nanaimo's largest employers, and Nanaimo Regional General Hospital serves the tertiary needs of 450,000 people.",
+      "url": "https://investnanaimo.com/nanaimo-stats-strengths/statistics-at-a-glance/",
+      "publisher": "Nanaimo Prosperity Corporation"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Nanaimo grew to 99,863 residents in the 2021 Census, a 10.3 per cent rise from 90,504 in 2016. The median age of 45.2 is higher than most Canadian cities, and households reported a median total income of $75,500 in 2020, so buyers tend to be older, careful and loyal once won.",
+      "The city covers only 90.45 square kilometres, so the 43,164 occupied dwellings sit close to one another and to the mid-island customers who drive in from surrounding areas. With 3,610 employer businesses competing in 2022, most of them very small, a clear local presence separates a firm from the rest."
+    ],
+    "byService": {
+      "lead-generation": "Lead generation in Nanaimo should lean on referrals and healthcare, education and construction employers, since those sectors supply the steadiest paying customers among the city's 99,863 residents.",
+      "seo": "With 3,610 employer businesses inside 90.45 square kilometres, local search rankings for Nanaimo and mid-island terms decide who gets the call, so SEO must own the map listings first.",
+      "website-development": "Design for a median age of 45.2: larger type, plain navigation and phone-first contact options convert older Nanaimo households with a 2020 median income of $75,500.",
+      "branding": "A brand in Nanaimo should signal permanence and community roots, because 10.3 per cent growth since 2016 brought newcomers who still choose the businesses long-time residents trust."
+    }
+  }
+}
