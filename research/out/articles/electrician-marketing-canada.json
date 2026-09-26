@@ -1,0 +1,83 @@
+{
+  "slug": "electrician-marketing-canada",
+  "sources": [
+    {
+      "quote": "requires a Licensed Electrical Contractor to display the ECRA/ESA licence number within 90 days of issuance on contracts, invoices, business cards and advertising",
+      "url": "https://esasafe.com/contractors/display-your-licence/",
+      "publisher": "Electrical Safety Authority (ESA)",
+      "title": "Requirements to Display Your Licence - ESA",
+      "evidence": "Licensed Electrical Contractors must prominently display their ECRA/ESA electrical contractor licence number in all correspondence, contracts and advertisements, on business vehicles and in all situations where they communicate with the public. This includes Yellow Pages ads and websites, and must be done within 90 days of the date on the licence. These requirements are mandated under Ontario Regulation 570/05."
+    },
+    {
+      "quote": "Since September 2022 the Safety Standards General Regulation has required licensed contractors to show the company name and Technical Safety BC licence number in advertising",
+      "url": "https://www.technicalsafetybc.ca/regulatory-resources/codes-standards-regulations/advertising-guidelines",
+      "publisher": "Technical Safety BC",
+      "title": "Advertising Guidelines | Display Your Licence | Technical Safety BC",
+      "evidence": "On September 6, 2022, changes to the Safety Standards General Regulation came into effect that require licensed contractors to publish their company name and Technical Safety BC licence number when advertising their services to the public. Contractors should include their licence number in the following format: TSBC LXX1234567 or LIC-1234567."
+    },
+    {
+      "quote": "The titles Professional Electrical Contractor, Certified Master Electrician and Registered Master Electrician are protected under the Professional and Occupational Associations Registration Act",
+      "url": "https://alis.alberta.ca/occinfo/certifications-in-alberta/electrical-contractor-master-electrician/",
+      "publisher": "Government of Alberta (alis)",
+      "title": "Electrical Contractor / Master Electrician: Certifications in Alberta - alis",
+      "evidence": "Professional Electrical Contractor (PEC), Certified Master Electrician (CME), and Registered Master Electrician (RME) are titles awarded by the Electrical Contractors Association of Alberta (ECAA), and these titles and abbreviations are protected under Alberta's Professional and Occupational Associations Registration Act. You do not have to be registered with ECAA if you do not use one of these titles or abbreviations."
+    },
+    {
+      "quote": "RBQ rules require the licence number on advertising",
+      "url": "https://www.rbq.gouv.qc.ca/en/licence/fulfilling-your-obligations/displaying-your-licence/",
+      "publisher": "Régie du bâtiment du Québec (RBQ)",
+      "title": "Displaying your licence - Régie du bâtiment du Québec - RBQ",
+      "evidence": "Contractors must display their licence number on the company's vehicle, in the company's advertisements or in its website or page. Contractors who are members of the Corporation des maîtres électriciens du Québec or the Corporation des maîtres mécaniciens en tuyauterie du Québec are not required to display their RBQ licence number."
+    },
+    {
+      "quote": "with markedly predominant French text alongside a non-French trademark on exterior signage since June 1, 2025",
+      "url": "https://www.quebec.ca/en/government/policies-orientations/french-language/modernization-charter-french-language",
+      "publisher": "Gouvernement du Québec",
+      "title": "Modernization of the Charter of the French language | Gouvernement du Québec",
+      "evidence": "As of June 1, 2025, French must appear in a markedly predominant manner in all signage visible from outside a location that contains a business name in a language other than French or a trademark in a language other than French that is recognized under trademark law and has no French version."
+    },
+    {
+      "quote": "In October 2025 the Google Verified badge consolidated the older Google Guaranteed, Google Screened and License Verified badges",
+      "url": "https://support.google.com/localservices/answer/16498018?hl=en",
+      "publisher": "Google (Local Services Help)",
+      "title": "About Google Verified badge - Local Services Help",
+      "evidence": "Effective October 20, 2025, the Google Guarantee green checkmark badge changed to blue and the Local Services Ads references Google Guaranteed, Google Screened, and License Verified by Google changed to Google Verified. As part of this change, Google discontinued the Money Back Guarantee associated with the Google Guarantee badge."
+    },
+    {
+      "quote": "Google launched AI Mode in Canada in August 2025",
+      "url": "https://blog.google/intl/en-ca/products/explore-get-answers/google-search-introducing-ai-mode-in-canada/",
+      "publisher": "Google (The Keyword blog)",
+      "title": "Google Search: Introducing AI Mode in Canada",
+      "evidence": "Google began rolling out AI Mode in Google Search for users in Canada on August 21, 2025. Starting to roll out in English in Canada, users see it appear as a tab on their Search results page, and in the Google app for Android and iOS."
+    },
+    {
+      "quote": "CMHC reported year-to-date housing starts through August 2026 down about 4% against 2025",
+      "url": "https://www.cmhc-schl.gc.ca/media-newsroom/news-releases/2026/housing-starts-construction-data-august-2026",
+      "publisher": "Canada Mortgage and Housing Corporation (CMHC)",
+      "title": "Housing starts and construction data for August 2026 | CMHC",
+      "evidence": "The year-to-date total was 149,542 units, down 4% from the same period in 2025. The total monthly SAAR of housing starts for all areas in Canada was flat in August (229,046 units) compared to July (229,360 units)."
+    },
+    {
+      "quote": "the federal EV Affordability Program restarted in February 2026",
+      "url": "https://tc.canada.ca/en/road-transportation/innovative-technologies/zero-emission-vehicles/electric-vehicle-affordability-program-evap",
+      "publisher": "Transport Canada",
+      "title": "Electric Vehicle Affordability Program (EVAP)",
+      "evidence": "Dealerships and authorized sellers can submit requests through the portal as of February 16, 2026, for EVs bought or leased on or after that date. Incentives will be available to Canadians who buy or lease (12 months or more) new eligible EVs between February 16, 2026, and March 31, 2031 (subject to funding availability). Battery electric vehicles and hydrogen fuel cell vehicles are eligible for up to $5,000."
+    },
+    {
+      "quote": "pays C$600 toward a Level 2 unit",
+      "url": "https://www.quebec.ca/en/transports/electric-transportation/ecorecharge-grant-charging-station/home-charging-station/eligible-expenses",
+      "publisher": "Gouvernement du Québec",
+      "title": "Eligible expenses for a home charging station | Gouvernement du Québec",
+      "evidence": "The amount of the government grant you may receive for the purchase of a home charging station is $600. To be eligible for the incentive, the purchase cost of the charging station (purchase or lease) must exceed $600 before taxes. Ensure that the model of the charging station that you acquired appears on the list of the eligible models."
+    },
+    {
+      "quote": "In British Columbia, Go Electric covers half of a Level 2 charger up to C$350 through BC Hydro, plus up to C$200 for an energy management device",
+      "url": "https://www.bchydro.com/powersmart/electric-vehicles/rebates-incentives/rebates-home-chargers.html",
+      "publisher": "BC Hydro",
+      "title": "Electric vehicle charger rebate program for single-family homes",
+      "evidence": "These rebates can cover up to 50% of the cost, to a maximum of $350 for the purchase and installation of a charger. The offer applies for chargers installed at single-family homes, row homes, and duplexes. BC Hydro is offering an additional rebate of $200 for single family home customers who install an EV power management device."
+    }
+  ],
+  "flags": []
+}
