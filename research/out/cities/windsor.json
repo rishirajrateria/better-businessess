@@ -1,0 +1,57 @@
+{
+  "slug": "windsor",
+  "geographyNote": "City of Windsor (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Windsor&GENDERlist=1%2C2%2C3&STATISTIClist=1&DGUIDlist=2021A00053537039&HEADERlist=0",
+  "figures": {
+    "population2021": 229660,
+    "population2016": 217188,
+    "growthPct": 5.7,
+    "medianAge": 40.8,
+    "medianHouseholdIncome2020": 70000,
+    "privateDwellings": 94273,
+    "landAreaKm2": 146.02
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053537039",
+    "population2016": "https://en.wikipedia.org/wiki/Windsor,_Ontario",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053537039",
+    "medianAge": "https://www.citywindsor.ca/documents/residents/planning/plans-and-community-information/about-windsor/demographics/Windsor%202021%20Census%20Snapshot.pdf",
+    "medianHouseholdIncome2020": "https://www.citywindsor.ca/documents/residents/planning/plans-and-community-information/about-windsor/demographics/Windsor%202021%20Census%20Snapshot.pdf",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053537039",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053537039"
+  },
+  "facts": [
+    {
+      "text": "Stellantis is Windsor's top private-sector employer with approximately 3,600 employees in automotive assembly, and Caesars Windsor employs 2,100 people.",
+      "url": "https://www.investwindsoressex.com/about-us/reports/top-employers/",
+      "publisher": "Invest WindsorEssex"
+    },
+    {
+      "text": "The $5 billion NextStar Energy battery plant, a Stellantis and LG Energy Solution joint venture in Windsor, is expected to create over 2,500 direct jobs and over 10,000 indirect jobs.",
+      "url": "https://www.investwindsoressex.com/why-windsoressex/construction-and-development/next-star-energy-ev-battery-manufacturing-plant/",
+      "publisher": "Invest WindsorEssex"
+    },
+    {
+      "text": "Since NextStar announced its Windsor plant, the city has attracted more than $100 million of investment from battery tray, insulation and cell sheet manufacturers plus a battery R&D facility.",
+      "url": "https://www.investwindsoressex.com/battery-boom-in-canadas-motor-city-sparks-dreams-of-auto-sector-rebirth/",
+      "publisher": "Invest WindsorEssex"
+    },
+    {
+      "text": "Windsor's economy is projected to grow 2.9 percent a year between 2025 and 2028, one of the highest growth rates in the country.",
+      "url": "https://www.investwindsoressex.com/battery-boom-in-canadas-motor-city-sparks-dreams-of-auto-sector-rebirth/",
+      "publisher": "Invest WindsorEssex"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Windsor's population reached 229,660 in the 2021 Census, up 5.7 percent from 217,188 in 2016, with 94,273 occupied private dwellings on a compact 146.02 square kilometres. The median age is 40.8, close to the national picture.",
+      "The median household income was $70,000 in 2020, the lowest among the cities profiled here, so price and value weigh heavily in buying decisions. At the same time, large automotive and battery investments are bringing new jobs and workers to the city. A local business that positions itself early with these new households can grow alongside the regional economy."
+    ],
+    "byService": {
+      "lead-generation": "Windsor grew 5.7 percent between 2016 and 2021 and is drawing new workers to major industrial projects, so lead generation should target relocating households and the businesses serving them.",
+      "seo": "In a compact city of 229,660 people, Windsor SEO is won by dominating a handful of city-wide service keywords and keeping reviews and listings current across the whole market.",
+      "website-development": "With household income at a $70,000 median, a Windsor website should lead with clear pricing, financing options and quick quotes so budget-conscious visitors can act without hesitation.",
+      "branding": "Windsor's identity is tied to manufacturing and cross-border trade, so a brand that feels hard-working, dependable and locally rooted will resonate more than upscale styling."
+    }
+  }
+}
