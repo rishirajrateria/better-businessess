@@ -1,0 +1,56 @@
+{
+  "slug": "langley",
+  "geographyNote": "Township of Langley (district municipality, census subdivision), not the City of Langley",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Langley&DGUIDlist=2021A00055915001&GENDERlist=1%2C2%2C3&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 132603,
+    "population2016": null,
+    "growthPct": 13.1,
+    "medianAge": 40.8,
+    "medianHouseholdIncome2020": 108000,
+    "privateDwellings": 46928,
+    "landAreaKm2": 307.22
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00055915001",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00055915001",
+    "medianAge": "https://townfolio.co/bc/langley-township/demographics",
+    "medianHouseholdIncome2020": "https://www.point2homes.com/CA/Demographics/BC/Langley-Township-Demographics.html",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00055915001",
+    "landAreaKm2": "https://en.wikipedia.org/wiki/Langley,_British_Columbia_(district_municipality)"
+  },
+  "facts": [
+    {
+      "text": "More than 7,300 companies operate within the Township of Langley, which has a goal of one job for every resident in the employed labour force.",
+      "url": "https://www.tol.ca/en/the-township/about-the-township.aspx",
+      "publisher": "Township of Langley"
+    },
+    {
+      "text": "The Fraser Highway Employment Lands, a corridor between 228 Street and 240 Street, comprise about 500 acres outside the Agricultural Land Reserve set aside to expand industrial land supply.",
+      "url": "https://www.tol.ca/en/connect/fraser-highway-employment-lands.aspx",
+      "publisher": "Township of Langley"
+    },
+    {
+      "text": "Willoughby has emerged as one of the Lower Mainland's busiest development hubs, with nearly 6,700 homes submitted as development applications amid a condo and townhome construction boom.",
+      "url": "https://renx.ca/unsung-langley-neighbourhood-emerges-as-bustling-development-hub",
+      "publisher": "Real Estate News Exchange (RENX)"
+    },
+    {
+      "text": "Over the past 35 years Willoughby has grown from around 3% of the Township's population to 30%, and Council is updating the Willoughby Community Plan for completion in early 2026.",
+      "url": "https://www.tol.ca/en/connect/willoughby-community-plan-update.aspx",
+      "publisher": "Township of Langley"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "The Township of Langley counted 132,603 residents in the 2021 Census, up 13.1 per cent from 2016, which is well ahead of the provincial pace. Households reported a median total income of $108,000 in 2020 and a median age of 40.8, so the customer base is largely families with buying power spread across 46,928 occupied dwellings.",
+      "That population sits on 307.22 square kilometres, so demand is split between distinct communities such as Willoughby, Walnut Grove, Fort Langley and Aldergrove. With more than 7,300 companies already operating, a local business needs to stand out neighbourhood by neighbourhood rather than rely on a single town centre."
+    ],
+    "byService": {
+      "lead-generation": "Because Langley added 13.1 per cent more residents between 2016 and 2021, lead generation should target newcomers in Willoughby who have not yet chosen their local suppliers.",
+      "seo": "Search campaigns in the Township work best when pages are built for each community, since 132,603 people live across 307.22 square kilometres and search with neighbourhood names.",
+      "website-development": "A website serving households with a median 2020 income of $108,000 should present clear pricing, booking and directions, since customers here can compare more than 7,300 local companies.",
+      "branding": "With a median age of 40.8 and a fast-growing family population, branding in Langley should feel established and dependable while still speaking to newly arrived residents."
+    }
+  }
+}
