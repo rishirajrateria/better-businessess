@@ -1,0 +1,61 @@
+{
+  "slug": "medicine-hat",
+  "geographyNote": "City of Medicine Hat (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Medicine+Hat&GENDERlist=1%2C2%2C3&STATISTIClist=1&DGUIDlist=2021A00054801006&HEADERlist=0",
+  "figures": {
+    "population2021": 63271,
+    "population2016": 63260,
+    "growthPct": 0.0,
+    "medianAge": null,
+    "medianHouseholdIncome2020": 78000,
+    "privateDwellings": 27216,
+    "landAreaKm2": 111.97
+  },
+  "figureSources": {
+    "population2021": "https://en.wikipedia.org/wiki/Medicine_Hat",
+    "population2016": "https://en.wikipedia.org/wiki/Medicine_Hat",
+    "growthPct": "https://www.medicinehat.ca/government-city-hall/about-medicine-hat/census-information/",
+    "medianHouseholdIncome2020": "https://www.point2homes.com/CA/Demographics/AB/Medicine-Hat-Demographics.html",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00054801006",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00054801006"
+  },
+  "facts": [
+    {
+      "text": "Medicine Hat has 2,245 businesses in 2024, down 0.88% from 2,265 in 2023, while the health care and social assistance segment grows 4.69% to 290.",
+      "url": "https://regionaldashboard.alberta.ca/region/medicine-hat/number-of-businesses/",
+      "publisher": "Alberta Regional Dashboard, Government of Alberta"
+    },
+    {
+      "text": "CF Industries operates the largest plant site in Medicine Hat with more than 200 employees, and Methanex runs Canada's only commercial-scale methanol complex, producing over 600,000 tonnes a year.",
+      "url": "https://www.medicinehat.ca/medicine-hat-economic-development/key-sectors/industry-manufacturing/",
+      "publisher": "City of Medicine Hat"
+    },
+    {
+      "text": "Medicine Hat's working-age population (15 to 64) dropped by about 1,500 between 2016 and 2021, even as overall population rose by 11 people.",
+      "url": "https://www.medicinehat.ca/news/posts/mhed-the-shifting-demographics-of-our-population/",
+      "publisher": "City of Medicine Hat"
+    },
+    {
+      "text": "Aurora Cannabis has sold its Aurora Sun facility in Medicine Hat to Bevo Farms, one of the largest suppliers of propagated vegetables.",
+      "url": "https://chatnewstoday.ca/2023/07/24/aurora-sun-facility-sold-to-bevo-farms/",
+      "publisher": "CHAT News Today"
+    },
+    {
+      "text": "CFB Suffield, about 50 kilometres west of Medicine Hat, hosts the largest military training area in Canada and the country's largest live-fire training exercises.",
+      "url": "https://www.canada.ca/en/army/corporate/3-canadian-division/canadian-forces-base-suffield.html",
+      "publisher": "Government of Canada, Canadian Army"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Medicine Hat's population was flat between 2016 and 2021, moving from 63,260 to 63,271 residents, and the city's working-age group actually shrank by about 1,500 people. Households reported a median total income of $78,000 in 2020 across 27,216 occupied dwellings on 111.97 square kilometres.",
+      "With 2,245 businesses in 2024 and no population growth to share, a local business here grows by winning loyalty and repeat purchases from an older, established customer base. Industrial anchors such as CF Industries and Methanex, plus CFB Suffield, provide the steady payrolls that keep local spending predictable."
+    ],
+    "byService": {
+      "lead-generation": "In a city whose population barely changed between 2016 and 2021, lead generation for Medicine Hat should focus on referrals, repeat customers and the industrial employers that anchor local payrolls.",
+      "seo": "Medicine Hat SEO is a share-of-market game among 2,245 businesses, so ranking for specific services and southeast Alberta regional searches matters more than broad brand terms.",
+      "website-development": "A Medicine Hat website should be simple and trustworthy for an older customer base, with clear phone contact and pricing suited to households earning a median $78,000 in 2020.",
+      "branding": "Branding in Medicine Hat should stress reliability and local heritage, because residents of a stable city of 63,271 tend to stick with names they already recognise."
+    }
+  }
+}
