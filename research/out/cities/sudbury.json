@@ -1,0 +1,57 @@
+{
+  "slug": "sudbury",
+  "geographyNote": "City of Greater Sudbury (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=sudbury&GENDERlist=1&STATISTIClist=1&DGUIDlist=2021A00053553005&HEADERlist=0",
+  "figures": {
+    "population2021": 166004,
+    "population2016": 161531,
+    "growthPct": 2.8,
+    "medianAge": 43.2,
+    "medianHouseholdIncome2020": 84000,
+    "privateDwellings": 71475,
+    "landAreaKm2": 3186.26
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00053553005",
+    "population2016": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00053553005",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00053553005",
+    "medianAge": "https://capopulation.com/area/ontario/greater-sudbury-grand-sudbury/",
+    "medianHouseholdIncome2020": "https://npi.communityaccounts.ca/profiles.asp?_=vb7En4WVgYaSpHVlVWOV",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=3&dguid=2021A00053553005",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00053553005"
+  },
+  "facts": [
+    {
+      "text": "Greater Sudbury is home to the world's largest integrated mining complex, with nine operating mines, two mills, two smelters, a nickel refinery and over 300 mining supply and service companies.",
+      "url": "https://investsudbury.ca/key-sectors/mining-supply-and-services/",
+      "publisher": "Invest Sudbury (Greater Sudbury Development Corporation)"
+    },
+    {
+      "text": "Health Sciences North is one of the largest employers in the region with 4,000 employees.",
+      "url": "https://en.wikipedia.org/wiki/Health_Sciences_North",
+      "publisher": "Wikipedia"
+    },
+    {
+      "text": "Glencore employs more than 1,200 permanent employees and supports another 1,200 contractors at its Sudbury operations.",
+      "url": "https://www.glencore.ca/en/sudburyino",
+      "publisher": "Glencore Canada"
+    },
+    {
+      "text": "Greater Sudbury is the most populous city in Northern Ontario and the largest city in Ontario by area.",
+      "url": "https://en.wikipedia.org/wiki/Greater_Sudbury,_Ontario",
+      "publisher": "Wikipedia"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Greater Sudbury had 166,004 residents in the 2021 Census, up 2.8% from 161,531 in 2016. The median age is 43.2 and the median household income in 2020 was $84,000, higher than in most Northern Ontario communities thanks to well-paid mining and health care jobs.",
+      "Its 71,475 occupied dwellings are scattered across 3,186.26 square kilometres, the largest municipal area in Ontario, so customers are spread among many distinct communities. Nine operating mines and over 300 mining supply companies give local businesses a steady industrial customer base."
+    ],
+    "byService": {
+      "lead-generation": "Greater Sudbury's $84,000 median household income and 300-plus mining supply companies mean lead generation can pursue both consumer and business-to-business prospects with higher order values.",
+      "seo": "Because 166,004 residents live across 3,186.26 square kilometres in separate communities, SEO in Greater Sudbury should include pages for areas like Valley East, New Sudbury and the South End.",
+      "website-development": "A Greater Sudbury website should work in English and French and load quickly on mobile for shift workers at the mines, smelters and Health Sciences North.",
+      "branding": "Branding in Greater Sudbury should reflect a resilient northern city with a median age of 43.2, pairing industrial credibility with a warm, community-minded tone."
+    }
+  }
+}
