@@ -1,0 +1,62 @@
+{
+  "slug": "barrie",
+  "geographyNote": "City of Barrie (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Barrie&DGUIDlist=2021A00053543042&GENDERlist=1%2C2%2C3&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 147829,
+    "population2016": 141434,
+    "growthPct": 4.5,
+    "medianAge": 39.2,
+    "medianHouseholdIncome2020": 93000,
+    "privateDwellings": 55316,
+    "landAreaKm2": 99.01
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053543042",
+    "population2016": "https://en.wikipedia.org/wiki/Barrie",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053543042",
+    "medianAge": "https://www.point2homes.com/CA/Demographics/ON/Barrie-Demographics.html",
+    "medianHouseholdIncome2020": "https://www.point2homes.com/CA/Demographics/ON/Barrie-Demographics.html",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053543042",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053543042"
+  },
+  "facts": [
+    {
+      "text": "The City of Barrie's 2025 Business & Employer Data Survey identifies 4,389 active businesses in the city.",
+      "url": "https://www.barrie.ca/business-economy/business-employer-data-directory",
+      "publisher": "City of Barrie"
+    },
+    {
+      "text": "Barrie has a well-diversified economy in which no single industry accounts for more than 19% of the city's business base or total employment.",
+      "url": "https://www.investbarrie.ca/meet-barrie/key-sectors",
+      "publisher": "Invest Barrie"
+    },
+    {
+      "text": "Royal Victoria Regional Health Centre employs more than 3,000 people, including 400 physicians, and is a University of Toronto teaching hospital.",
+      "url": "https://en.wikipedia.org/wiki/Royal_Victoria_Regional_Health_Centre",
+      "publisher": "Wikipedia"
+    },
+    {
+      "text": "Georgian College employs about 2,000 full- and part-time staff, and its Barrie facilities are the largest of its seven campuses.",
+      "url": "https://en.wikipedia.org/wiki/Georgian_College",
+      "publisher": "Wikipedia"
+    },
+    {
+      "text": "Royal Victoria Regional Health Centre is undertaking a multi-billion-dollar plan to double the size of its Georgian Drive North Campus over the next 10 years.",
+      "url": "https://www.investbarrie.ca/meet-barrie/key-sectors/health-life-sciences",
+      "publisher": "Invest Barrie"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Barrie had 147,829 residents in the 2021 Census, up 4.5% from 141,434 in 2016, living in 55,316 occupied private dwellings on 99.01 square kilometres. The median age is 39.2 and the median household income in 2020 was $93,000, so households here have more to spend than in many Ontario cities of similar size.",
+      "The business base is broad, with 4,389 active businesses and no single industry above 19% of employment. Local firms compete in a crowded field, but they sell to relatively young, well-paid households."
+    ],
+    "byService": {
+      "lead-generation": "In Barrie, lead generation can lean on a $93,000 median household income by qualifying prospects for higher-value offers rather than chasing volume across 4,389 competing businesses.",
+      "seo": "Because no industry dominates Barrie's 4,389 businesses, SEO must win specific service and neighbourhood keywords instead of relying on one sector's search traffic.",
+      "website-development": "A Barrie website serves a market with a median age of 39.2, so it should prioritize fast mobile pages, online booking and clear pricing for busy working families.",
+      "branding": "Branding for Barrie should feel established yet modern, reflecting a city of 147,829 people whose 4.5% growth since 2016 has been steady rather than explosive."
+    }
+  }
+}
