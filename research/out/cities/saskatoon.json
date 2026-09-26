@@ -1,0 +1,60 @@
+{
+  "slug": "saskatoon",
+  "geographyNote": "City of Saskatoon (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&GENDERlist=1&STATISTIClist=1&HEADERlist=0&DGUIDlist=2021A00054711066&SearchText=saskatoon",
+  "figures": {
+    "population2021": 266141,
+    "population2016": 246376,
+    "growthPct": null,
+    "medianAge": 36.8,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": 107052,
+    "landAreaKm2": 226.56
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00054711066",
+    "population2016": "https://www12.statcan.gc.ca/census-recensement/2016/as-sa/fogs-spg/Facts-csd-eng.cfm?LANG=eng&GK=CSD&GC=4711066",
+    "medianAge": "https://www.point2homes.com/CA/Demographics/SK/Saskatoon-Demographics.html",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00054711066",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00054711066"
+  },
+  "facts": [
+    {
+      "text": "SREDA's Q3 2025 Economic Update estimates Saskatoon's GDP growth at 3.1 percent, surpassing the national average, driven by agriculture, mining and housing demand.",
+      "url": "https://sreda.com/resources/2025-fall-economic-update/",
+      "publisher": "Saskatoon Regional Economic Development Authority (SREDA)"
+    },
+    {
+      "text": "The Saskatoon region accounts for 32 percent of Saskatchewan's total GDP in 2025, contributing nearly C$26 billion, according to SREDA's 2025 Impact Report.",
+      "url": "https://siteselection.com/2026-canadas-best-locations/",
+      "publisher": "Site Selection Magazine"
+    },
+    {
+      "text": "Drake Meats Processors has broken ground on a new meat processing facility in the Saskatoon region, with expectations to open in September 2026.",
+      "url": "https://siteselection.com/2026-canadas-best-locations/",
+      "publisher": "Site Selection Magazine"
+    },
+    {
+      "text": "Nutrien, the world's largest potash producer, has its corporate headquarters in Saskatoon.",
+      "url": "https://en.wikipedia.org/wiki/Economy_of_Saskatoon",
+      "publisher": "Wikipedia"
+    },
+    {
+      "text": "Saskatoon's economy is primarily made up of services-producing businesses, and the Trade (wholesale and retail) sector is the most prevalent at 29 percent of all commercial businesses.",
+      "url": "https://www.saskatoon.ca/business-development/economic-profile",
+      "publisher": "City of Saskatoon"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Saskatoon is Saskatchewan's largest city, with 266,141 residents counted in the 2021 Census, up from 246,376 in 2016. Those people live in 107,052 occupied private dwellings spread over 226.56 square kilometres, and the median age of 36.8 means a large share of households are young families and working-age adults.",
+      "For a local business this is a big, spread-out and growing customer base anchored by potash, agriculture and the University of Saskatchewan. Retail and wholesale trade is the largest slice of commercial businesses here, so differentiation matters more than simply being present."
+    ],
+    "byService": {
+      "lead-generation": "Lead generation in Saskatoon should segment by neighbourhood, since 107,052 households across 226.56 square kilometres respond better to offers tied to where they live and shop.",
+      "seo": "With retail and wholesale trade the most common business type in Saskatoon, SEO has to win specific service-plus-suburb searches rather than broad city-wide terms.",
+      "website-development": "Saskatoon's median age of 36.8 points to a mobile-first audience, so a website here must load quickly, show locations clearly and make booking or quoting simple.",
+      "branding": "A brand built for Saskatoon can lean on the city's growth since 2016 and its role as Saskatchewan's economic engine, signalling scale and local roots at once."
+    }
+  }
+}
