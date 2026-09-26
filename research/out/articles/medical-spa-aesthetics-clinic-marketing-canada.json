@@ -1,0 +1,55 @@
+{
+  "slug": "medical-spa-aesthetics-clinic-marketing-canada",
+  "sources": [
+    {
+      "quote": "Under section C.01.044 of the Food and Drug Regulations, a prescription drug may be advertised publicly by name, price and quantity only",
+      "url": "https://laws-lois.justice.gc.ca/eng/regulations/c.r.c.,_c._870/page-51.html",
+      "publisher": "Department of Justice Canada (Justice Laws Website)",
+      "title": "Food and Drug Regulations (C.R.C., c. 870) - Justice Canada",
+      "evidence": "C.01.044 states that if a person advertises a prescription drug to the general public, the person shall not make any representation other than with respect to the brand name, the proper name, the common name and the price and quantity of the drug."
+    },
+    {
+      "quote": "Ontario's CPSO allows delegation of neuromodulator and filler injection to a nurse, documented as a medical directive or patient-specific order with the physician accountable",
+      "url": "https://www.cpso.on.ca/Physicians/Policies-Guidance/Policies/Delegation-of-Controlled-Acts",
+      "publisher": "College of Physicians and Surgeons of Ontario",
+      "title": "CPSO - Professional Obligations: Delegation of Controlled Acts",
+      "evidence": "Physicians must delegate either through the use of a direct order or a medical directive that is clear and includes sufficient detail to facilitate safe and appropriate implementation. Registered Practical Nurses (RPNs) and Registered Nurses (RNs) can perform various controlled acts such as injecting substances below the dermis, and with a medical directive, a physician could authorize such acts. Physicians remain accountable for care provided through delegation."
+    },
+    {
+      "quote": "Ontario's regulation under the Medicine Act also bars comparative and superlative claims",
+      "url": "https://www.cpso.on.ca/Physicians/Policies-Guidance/Policies/Advertising",
+      "publisher": "College of Physicians and Surgeons of Ontario",
+      "title": "CPSO - Advertising",
+      "evidence": "The Regulation prohibits physicians from using testimonials in their advertising. Advertisements must not contain any statement that promises or suggests a better or more effective service than any other physician or health professional. These regulations are part of the General Regulation under the Medicine Act, 1991."
+    },
+    {
+      "quote": "British Columbia bars discounts or time-limited benefits on medical services, so a BC clinic can discount skincare and facials on Black Friday but not filler",
+      "url": "https://www.cpsbc.ca/files/pdf/CPSBC-PS-Advertising-Communication.pdf",
+      "publisher": "College of Physicians and Surgeons of British Columbia",
+      "title": "Advertising and Communication with the Public June 29, 2026 (Version 8.1)",
+      "evidence": "The College prohibits physicians and surgeons from offering prizes, gifts, gift certificates, card points, bonus points, discounts or time-limited benefits for medical services or for attendance at informational sessions promoting medical interventions, cosmetic or otherwise. Discounts may be offered on skin care products and facials, for example, but not on services such as Botox, physician consults or cosmetic surgical procedures."
+    },
+    {
+      "quote": "BCCNM permits licensed practical nurses in British Columbia to inject only under a client-specific order from an authorized prescriber",
+      "url": "https://www.bccnm.ca/RN/learning/aesthetics/Pages/Default.aspx",
+      "publisher": "British Columbia College of Nurses and Midwives",
+      "title": "Medical aesthetics",
+      "evidence": "Administering Botulinum Toxin Type A and Type B (e.g., Botox) and dermal fillers is within the nursing scope of practice. Nurses must obtain a valid client-specific order for any injectable drug, substance, or implantable device. LPNs, RNs, RPNs, or certified nurses cannot give orders for medical aesthetic procedures. The ordering health professional must be present in the facility during the procedure and immediately available for consultation."
+    },
+    {
+      "quote": "Meta age-gates ads for cosmetic products, procedures and surgeries to 18 and over",
+      "url": "https://transparency.meta.com/policies/ad-standards/restricted-goods-services/health-wellness/",
+      "publisher": "Meta (Transparency Center)",
+      "title": "Health and Wellness | Transparency Center - Meta",
+      "evidence": "Ads promoting or marketing cosmetic products, procedures or surgeries must be targeted to people at least 18 years or older. Allowed procedures include dermal fillers, skin rejuvenation treatments, injectable treatments, chemical peels, micro-needling, non-ablative laser treatments, laser or light treatments, or micropigmentation."
+    },
+    {
+      "quote": "the CMQ and the OIIQ issued a joint advisory on non-compliant aesthetic practice in May 2024",
+      "url": "https://www.cmq.org/fr/actualites/protection-public-medecine-esthetique",
+      "publisher": "Collège des médecins du Québec",
+      "title": "Pour une protection du public accrue en matière de médecine esthétique | Collège des médecins du Québec",
+      "evidence": "Le 30 mai 2024, le Collège des médecins du Québec (CMQ) et l'Ordre des infirmières et infirmiers du Québec (OIIQ) ont rappelé à leurs membres leurs responsabilités et obligations déontologiques dans le domaine des soins médico-esthétiques, en réaction à l'accroissement du nombre de professionnels exerçant dans ce secteur et aux signalements reçus. Parmi les dérives portées à leur attention figurent des médecins n'ayant jamais évalué les patients avant de leur émettre une ordonnance d'injections."
+    }
+  ],
+  "flags": []
+}
