@@ -1,0 +1,56 @@
+{
+  "slug": "lethbridge",
+  "geographyNote": "City of Lethbridge (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Lethbridge&GENDERlist=1%2C2%2C3&STATISTIClist=1&DGUIDlist=2021A00054802012&HEADERlist=0",
+  "figures": {
+    "population2021": 98406,
+    "population2016": 92729,
+    "growthPct": 6.1,
+    "medianAge": null,
+    "medianHouseholdIncome2020": 82000,
+    "privateDwellings": 40225,
+    "landAreaKm2": 121.12
+  },
+  "figureSources": {
+    "population2021": "https://lethbridgenewsnow.com/2022/02/09/updated-census-counts-for-southern-alberta-lethbridge-population-reaches-98406/",
+    "population2016": "https://en.wikipedia.org/wiki/Lethbridge",
+    "growthPct": "https://lethbridgenewsnow.com/2022/02/09/updated-census-counts-for-southern-alberta-lethbridge-population-reaches-98406/",
+    "medianHouseholdIncome2020": "https://www.point2homes.com/CA/Demographics/AB/Lethbridge-Demographics.html",
+    "privateDwellings": "https://en.wikipedia.org/wiki/Lethbridge",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00054802012"
+  },
+  "facts": [
+    {
+      "text": "Agriculture and ag-related businesses account for nearly 20% of GDP in the Lethbridge region, home to Cavendish Farms, Maple Leaf Foods, Richardson International, McCain Foods and PepsiCo Foods Canada.",
+      "url": "https://chooselethbridge.ca/agriculture/",
+      "publisher": "Economic Development Lethbridge"
+    },
+    {
+      "text": "Lethbridge's manufacturing sector generates more than $1.2 billion in annual sales and employs about 4,800 people with a payroll exceeding $185 million.",
+      "url": "https://en.wikipedia.org/wiki/Economy_of_Lethbridge",
+      "publisher": "Wikipedia"
+    },
+    {
+      "text": "The Agri-Food Hub and Trade Centre at Exhibition Park creates 50 full-time permanent positions and is expected to contribute more than $90 million every year to the regional economy.",
+      "url": "https://globalnews.ca/news/7127334/lethbridge-exhibition-park-expansion-provincial-funding/",
+      "publisher": "Global News"
+    },
+    {
+      "text": "Alberta Health Services is Lethbridge's largest employer, with the University of Lethbridge, City of Lethbridge, Lethbridge College and Sunrise Poultry, the largest private-sector employer, also among major employers.",
+      "url": "https://en.wikipedia.org/wiki/Economy_of_Lethbridge",
+      "publisher": "Wikipedia"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Lethbridge grew 6.1 per cent between 2016 and 2021 to reach 98,406 residents, faster than the provincial average. Households reported a median total income of $82,000 in 2020, and 40,225 occupied dwellings sit within 121.12 square kilometres, so the customer base is compact and steadily expanding.",
+      "The economy rests on agri-food, which accounts for nearly 20 per cent of regional GDP, together with health care and post-secondary institutions. For a local business, that means a stable base of institutional payrolls, a large farm and food-processing supply chain to sell into, and new residents arriving each year who have not yet picked their providers."
+    ],
+    "byService": {
+      "lead-generation": "Lead generation in Lethbridge can pair consumer campaigns for a population that grew 6.1 per cent from 2016 to 2021 with business-to-business outreach to the agri-food processors that dominate the regional economy.",
+      "seo": "Because Lethbridge is compact at 121.12 square kilometres, SEO should focus on west, south and north side neighbourhood terms and on southern Alberta searches from surrounding farm communities.",
+      "website-development": "A Lethbridge website should speak to households with a median 2020 income of $82,000 while also presenting credentials clearly enough for institutional and agri-food buyers.",
+      "branding": "Lethbridge branding should reflect the city's agricultural roots and university character, since nearly 20 per cent of regional GDP comes from agriculture and residents value practical, local credibility."
+    }
+  }
+}
