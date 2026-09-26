@@ -1,0 +1,56 @@
+{
+  "slug": "london",
+  "geographyNote": "City of London (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=London&DGUIDlist=2021A00053539036&GENDERlist=1%2C2%2C3&STATISTIClist=1%2C4&HEADERlist=0",
+  "figures": {
+    "population2021": 422324,
+    "population2016": 383822,
+    "growthPct": 10.0,
+    "medianAge": null,
+    "medianHouseholdIncome2020": 76500,
+    "privateDwellings": 174657,
+    "landAreaKm2": 420.5
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053539036",
+    "population2016": "https://en.wikipedia.org/wiki/London,_Ontario",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053539036",
+    "medianHouseholdIncome2020": "https://townfolio.co/on/london/demographics",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053539036",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053539036"
+  },
+  "facts": [
+    {
+      "text": "Western University is London's largest employer and supports the local economy with a budget exceeding $1.6 billion.",
+      "url": "https://www.ledc.com/business-directory/largest-employers",
+      "publisher": "London Economic Development Corporation"
+    },
+    {
+      "text": "London's health sector includes over 100 companies and renowned hospitals employing more than 25,000 people, with strengths in biotech, pharmaceuticals and medical devices.",
+      "url": "https://www.ledc.com/health",
+      "publisher": "London Economic Development Corporation"
+    },
+    {
+      "text": "London's manufacturing industry employed 20,003 people in 2023, making up 9.2 percent of the city's total workforce.",
+      "url": "https://london.ca/sites/default/files/2025-03/Sector%20Profile%20Highlights%20-%20Manufacturing%20(2025).pdf",
+      "publisher": "City of London"
+    },
+    {
+      "text": "London has more than 300 technology companies employing over 9,000 people in fields such as game development, automation software, cyber security and healthcare IT.",
+      "url": "https://www.ledc.com/key-sectors",
+      "publisher": "London Economic Development Corporation"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "London grew 10.0 percent between 2016 and 2021 to reach 422,324 residents, one of the faster rates among Ontario's large cities. Its 174,657 occupied private dwellings sit on 420.5 square kilometres, a compact footprint that keeps most customers within a short drive of any business.",
+      "The median household income was $76,500 in 2020, below the Toronto figure, so price sensitivity is real and value messaging matters. Health care, education and manufacturing provide stable employment, and the steady inflow of new residents means a local business can grow by being the first name newcomers find when they search."
+    ],
+    "byService": {
+      "lead-generation": "Ten percent population growth between 2016 and 2021 makes London a good market for lead generation aimed at newcomers who are still building their list of local providers.",
+      "seo": "London's 422,324 residents share one compact city, so SEO here is about owning city-wide service keywords and neighbourhood terms rather than spreading across a wide region.",
+      "website-development": "With household income at a $76,500 median, a London website should show prices, packages and financing plainly so budget-conscious visitors can decide without a sales call.",
+      "branding": "A brand in London can lean on the city's community feel and institutional stability, presenting itself as dependable and local rather than flashy or corporate."
+    }
+  }
+}
