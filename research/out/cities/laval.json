@@ -1,0 +1,56 @@
+{
+  "slug": "laval",
+  "geographyNote": "Ville de Laval (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&GENDERlist=1%2C2%2C3&STATISTIClist=1&HEADERlist=0&DGUIDlist=2021A00052465005",
+  "figures": {
+    "population2021": 438366,
+    "population2016": 422993,
+    "growthPct": 3.6,
+    "medianAge": null,
+    "medianHouseholdIncome2020": 85000,
+    "privateDwellings": 169785,
+    "landAreaKm2": 246.13
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00052465005",
+    "population2016": "https://en.wikipedia.org/wiki/Laval,_Quebec",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00052465005",
+    "medianHouseholdIncome2020": "https://www.quebec.ca/gouvernement/ministeres-organismes/economie/publications/portraits-socioeconomiques/laval",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00052465005",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00052465005"
+  },
+  "facts": [
+    {
+      "text": "The Cité de la Biotech houses more than 5,500 people and 120 life sciences companies within a 3 km radius, including the CQIB incubator and the INRS Armand-Frappier research centre.",
+      "url": "https://www.citebiotech.com/cite-biotech",
+      "publisher": "Cité de la Biotech"
+    },
+    {
+      "text": "Phase II of the Cité de la Biotech is expected to create 7,500 new jobs over the next decade, with over one billion dollars in anticipated investment.",
+      "url": "https://www.laval.ca/organisation-municipale/salle-presse/communiques-presse/cite-biotech-phase-2-lancement/",
+      "publisher": "Ville de Laval"
+    },
+    {
+      "text": "Laval has three times more jobs in life sciences and health technologies than elsewhere in the province.",
+      "url": "https://lavaleconomique.com/portrait-sectoriel/sciences-de-la-vie-et-technologies-de-la-sante-svts/",
+      "publisher": "Laval économique"
+    },
+    {
+      "text": "Laval ranks among the four Quebec regions with the largest industrial diversity indices, with life sciences, agribusiness and metal manufacturing among its main sectors.",
+      "url": "https://www.quebec.ca/emploi/informer-metier-profession/marche-travail/portrait-laval",
+      "publisher": "Gouvernement du Québec"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Laval had 438,366 residents in the 2021 Census, up 3.6% from 422,993 in 2016. Its 169,785 occupied dwellings cover 246.13 square kilometres, and the median household income in 2020 was $85,000, higher than in the wider Montreal region.",
+      "The economy is diverse, anchored by the Cité de la Biotech life sciences park, major retail and manufacturing. A local business serves suburban families with above-average incomes who often compare Laval options with Montreal ones."
+    ],
+    "byService": {
+      "lead-generation": "Laval lead generation should target suburban households earning a median $85,000 with French-first messaging and offers that save families time compared with crossing into Montreal.",
+      "seo": "Because Laval sits beside Montreal, SEO must claim Laval-specific and neighbourhood keywords such as Chomedey and Sainte-Rose so the 438,366 residents find local options first.",
+      "website-development": "A Laval website should be bilingual with French as the default, mobile-fast and clear about service areas across 246.13 square kilometres of suburban neighbourhoods.",
+      "branding": "Laval branding can project a modern, family-oriented and science-forward identity, reflecting a life sciences hub whose population grew 3.6% between 2016 and 2021."
+    }
+  }
+}
