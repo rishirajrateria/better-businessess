@@ -1,0 +1,57 @@
+{
+  "slug": "vaughan",
+  "geographyNote": "City of Vaughan (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&DGUIDlist=2021A00053519028",
+  "figures": {
+    "population2021": 323103,
+    "population2016": 306233,
+    "growthPct": 5.5,
+    "medianAge": 41.6,
+    "medianHouseholdIncome2020": 124000,
+    "privateDwellings": 103914,
+    "landAreaKm2": 272.44
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053519028",
+    "population2016": "https://en.wikipedia.org/wiki/Vaughan",
+    "growthPct": "https://en.wikipedia.org/wiki/Vaughan",
+    "medianAge": "https://en.wikipedia.org/wiki/Vaughan",
+    "medianHouseholdIncome2020": "https://townfolio.co/on/vaughan/demographics",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053519028",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053519028"
+  },
+  "facts": [
+    {
+      "text": "Vaughan's economy includes more than 19,000 businesses employing approximately 227,000 people, and it accounted for more than 35 percent of York Region's employment and economic output in 2023.",
+      "url": "https://www.vaughan.ca/news/vaughans-economy-continues-grow",
+      "publisher": "City of Vaughan"
+    },
+    {
+      "text": "Vaughan's information and communications technology sector employs more than 6,400 workers across more than 1,200 companies.",
+      "url": "https://vaughanbusiness.ca/opportunity-areas/innovation-corridor/",
+      "publisher": "Vaughan Economic Development"
+    },
+    {
+      "text": "More than 1,300 businesses employing more than 17,000 people work in life sciences, health and health-tech across Vaughan.",
+      "url": "https://vaughanbusiness.ca/opportunity-areas/innovation-corridor/",
+      "publisher": "Vaughan Economic Development"
+    },
+    {
+      "text": "Cortellucci Vaughan Hospital opened in 2021 as a full-service community hospital and Canada's first smart hospital.",
+      "url": "https://www.vaughan.ca/news/mayor-bevilacqua-vaughan-advancing-world-class-healthcare-innovation",
+      "publisher": "City of Vaughan"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Vaughan reached 323,103 residents in the 2021 Census, a 5.5 percent rise from 306,233 in 2016, with 103,914 occupied private dwellings across 272.44 square kilometres. The city is still adding new households, particularly in its higher-density growth areas.",
+      "Its median household income of $124,000 in 2020 is the highest among the cities profiled here, and the median age is 41.6. For a local business, that combination points to established families with strong spending power who expect quality and convenience, alongside a large base of business customers in the city's industrial and office parks."
+    ],
+    "byService": {
+      "lead-generation": "Vaughan's 5.5 percent growth between 2016 and 2021 and its $124,000 median household income make higher-value offers viable, so lead generation can favour quality over volume.",
+      "seo": "Because Vaughan is made up of distinct communities such as Woodbridge, Maple, Thornhill and Kleinburg, SEO should build pages and reviews for each rather than relying on one city page.",
+      "website-development": "For households earning a median $124,000, a Vaughan website should feel premium, load quickly on mobile and show detailed service descriptions that justify higher prices.",
+      "branding": "Vaughan brands compete for affluent households and a large business community at once, so visual identity and tone should be refined enough to serve both audiences credibly."
+    }
+  }
+}
