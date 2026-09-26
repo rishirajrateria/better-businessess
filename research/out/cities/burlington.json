@@ -1,0 +1,57 @@
+{
+  "slug": "burlington",
+  "geographyNote": "City of Burlington (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Burlington&DGUIDlist=2021A00053524002&GENDERlist=1%2C2%2C3&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 186948,
+    "population2016": 183314,
+    "growthPct": 2.0,
+    "medianAge": 44.4,
+    "medianHouseholdIncome2020": 110000,
+    "privateDwellings": 73180,
+    "landAreaKm2": 186.12
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00053524002",
+    "population2016": "https://en.wikipedia.org/wiki/Burlington,_Ontario",
+    "growthPct": "https://en.wikipedia.org/wiki/Burlington,_Ontario",
+    "medianAge": "https://investburlington.ca/wp-content/uploads/2023/10/Census-CIP-Memo-2-Age-Gender-Type-of-Dwelling.pdf",
+    "medianHouseholdIncome2020": "https://www.burlington.ca/en/council-and-city-administration/resources/Council/Council-Information-Packages/Council-Information-Package-September-23-2022.pdf",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00053524002",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00053524002"
+  },
+  "facts": [
+    {
+      "text": "Joseph Brant Hospital tops Burlington's public sector employers with 2,038 full-time employees, while Sofina Foods, Evertz Microsystems and Cogeco lead private sector employers.",
+      "url": "https://investburlington.ca/major-employers/",
+      "publisher": "Burlington Economic Development"
+    },
+    {
+      "text": "Burlington's leading industrial sectors by employment are food processing, packaging, electronics, motor vehicle and transportation, business services, chemical and pharmaceutical, and environmental.",
+      "url": "https://investburlington.ca/major-employers/",
+      "publisher": "Burlington Economic Development"
+    },
+    {
+      "text": "Over 2,500 new jobs were created in Burlington in 2024, with the largest job sectors being other services, accommodation and food services, and health care and social assistance.",
+      "url": "https://investburlington.ca/wp-content/uploads/2025/07/2024-Annual-Report.pdf",
+      "publisher": "Burlington Economic Development"
+    },
+    {
+      "text": "Burlington's business growth rate stands at 7.88 percent from 2018 to 2023, and no single sector dominates its diverse economy.",
+      "url": "https://investburlington.ca/data-centre/economic-indicators-dashboard-pilot/",
+      "publisher": "Burlington Economic Development"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Burlington had 186,948 residents in the 2021 Census, a 2.0 percent increase from 183,314 in 2016, with 73,180 occupied private dwellings spread over 186.12 square kilometres that include a large rural north. Growth is slow, so the customer base is stable rather than expanding.",
+      "The median age of 44.4 is the oldest among the cities profiled here and the median household income was $110,000 in 2020. That describes settled, financially comfortable households, many of them empty nesters and retirees. A local business succeeds by earning trust, offering convenience and staying visible to residents who have lived here for years."
+    ],
+    "byService": {
+      "lead-generation": "With only 2.0 percent growth between 2016 and 2021, Burlington lead generation should focus on referrals, community presence and winning share from established competitors rather than on newcomers.",
+      "seo": "Burlington's 186,948 residents include many long-time locals who search for trusted names, so SEO here depends on strong reviews and a complete business profile as much as on keywords.",
+      "website-development": "For an audience with a median age of 44.4 and a $110,000 median household income, a Burlington website should be legible, straightforward and reassuring, with phone contact as easy as online booking.",
+      "branding": "A Burlington brand should feel established, friendly and dependable, matching a community where household income is high but the appetite for flashy marketing is low."
+    }
+  }
+}
