@@ -1,0 +1,62 @@
+{
+  "slug": "real-estate-agent-marketing-canada",
+  "sources": [
+    {
+      "quote": "CREA's July 2026 forecast expects about 463,000 residential sales this year, down about 1.4% from 2025",
+      "url": "https://www.crea.ca/media-hub/news/crea-downgrades-resale-housing-market-forecast-amid-tariff-uncertainty-and-economic-uncertainty-3/",
+      "publisher": "Canadian Real Estate Association (CREA)",
+      "title": "CREA | CREA Revises Resale Housing Market Forecast",
+      "evidence": "Some 463,336 residential properties are forecast to trade hands via Canadian MLS Systems in 2026, representing a small 1.4% decline from 2025. The update was published on July 15, 2026. The national sales forecast for 2026 was revised slightly lower, reflecting the weak first half of the year."
+    },
+    {
+      "quote": "since October 1, 2025 FINTRAC also requires them to verify unrepresented parties",
+      "url": "https://fintrac-canafe.canada.ca/businesses-entreprises/changes-changements-eng",
+      "publisher": "Financial Transactions and Reports Analysis Centre of Canada (FINTRAC)",
+      "title": "Modernization and upcoming changes impacting reporting entities",
+      "evidence": "On October 1, 2025, the remaining Regulations came into force and will create an obligation for real estate sales representatives and brokers to verify the identity of unrepresented parties, keep an information record and make the associated third party determination for these parties in real estate transactions."
+    },
+    {
+      "quote": "which removes age, gender, income and postal-code targeting, blocks lookalike audiences and forces a minimum radius of about 25 kilometres (15 miles)",
+      "url": "https://en-gb.facebook.com/business/help/2220749868045706",
+      "publisher": "Meta (Business Help Centre)",
+      "title": "About audiences for credit, employment or housing campaigns | Meta Business Help Centre",
+      "evidence": "Advertisers targeting their ads to audiences in the US or US territories, Canada and certain European countries and territories can target by country, region, state, county, city, town or ward, but not by postal code. You also can't exclude locations. If you want to reach people who live in the city of Seattle, your audience will also include people within a 15-mile radius of Seattle's city centre. Age, gender, or postal code, exclusion targeting, Lookalike Audiences, saved audiences and some interests are limited or unavailable for the following advertiser locations (including Canada)."
+    },
+    {
+      "quote": "CREA's REALTOR Cooperation Policy, in force since January 3, 2024, requires a residential listing to reach an MLS System within three days of public marketing",
+      "url": "https://www.crea.ca/media-hub/news/realtor-cooperation-policy-does-not-ban-exclusives/",
+      "publisher": "Canadian Real Estate Association (CREA)",
+      "title": "CREA | REALTOR® Cooperation Policy Does Not Ban “Exclusives”",
+      "evidence": "The REALTOR Cooperation Policy came into effect on January 3, 2024. Public marketing is defined as one-to-many, for example, flyers, yard signs, digital marketing, and newsletters. If public marketing occurs, the policy requires REALTORS to place the residential listing on an MLS System within the timeframe adopted by their board or association, unless an exemption applies. The policy provides that this timeframe may be up to a maximum of three days."
+    },
+    {
+      "quote": "since May 7, 2022, GST/HST applies to assignment sales of new housing across Canada",
+      "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/gi-120/assignment-a-purchase-sale-agreement-a-new-house-condominium-unit.html",
+      "publisher": "Canada Revenue Agency",
+      "title": "Assignment of a Purchase and Sale Agreement for a New House or Condominium Unit - Canada.ca",
+      "evidence": "Effective May 7, 2022, all assignment sales in respect of newly constructed or substantially renovated residential housing are taxable for GST/HST purposes. The amendment excludes any amount attributable to a deposit paid by an assignor to a builder from the consideration for a taxable assignment sale, when certain conditions are met."
+    },
+    {
+      "quote": "Bulletin 5.4 restricts sold advertising: no property, party or term of the agreement, including price, may be identified without written consent",
+      "url": "https://www.reco.on.ca/agents-and-brokerages/reco-bulletins/reco-bulletin-5-4-advertising-sold-property",
+      "publisher": "Real Estate Council of Ontario (RECO)",
+      "title": "RECO Bulletin 5.4 Advertising sold property",
+      "evidence": "Brokerages and agents advertising that a property is sold must not include anything that could reasonably be used to: identify any party to the transaction, unless that party has consented in writing; identify a specific property, unless the owner of the property has consented in writing; or determine any of the contents of an agreement of purchase and sale, including the price, unless the parties to the agreement have consented in writing."
+    },
+    {
+      "quote": "the Competition Bureau investigates CREA's commission rules under a Federal Court order obtained in October 2024",
+      "url": "https://www.canada.ca/en/competition-bureau/news/2024/10/competition-bureau-advances-investigation-into-the-canadian-real-estate-associations-policies.html",
+      "publisher": "Competition Bureau Canada",
+      "title": "Competition Bureau advances investigation into the Canadian Real Estate Association's policies - Canada.ca",
+      "evidence": "On October 3, 2024, the Competition Bureau obtained a court order to advance its investigation into potential anti-competitive conduct by the Canadian Real Estate Association (CREA) related to rules about real estate commissions and the REALTOR Cooperation Policy. The order, granted by the Federal Court, requires CREA to produce records and information relevant to the Bureau's investigation."
+    },
+    {
+      "quote": "the last two 2026 dates are October 28 and December 9",
+      "url": "https://www.bankofcanada.ca/2025/08/bank-canada-publishes-2026-schedule-policy-interest-rate-announcements-other-major-publications/",
+      "publisher": "Bank of Canada",
+      "title": "Bank of Canada publishes its 2026 schedule for policy interest rate announcements and other major publications - Bank of Canada",
+      "evidence": "On October 28, 2026 at 09:45 (ET), the Bank of Canada will announce the overnight rate target, and the Monetary Policy Report will be presented. On December 9, 2026 at 09:45 (ET), the Bank of Canada announces the setting for the overnight rate target, one of eight scheduled dates each year. The Monetary Policy Report is published concurrently with the January, April, July and October rate announcements."
+    }
+  ],
+  "flags": []
+}
