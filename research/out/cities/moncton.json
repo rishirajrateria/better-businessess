@@ -1,0 +1,61 @@
+{
+  "slug": "moncton",
+  "geographyNote": "City of Moncton (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=e&SearchText=moncton&DGUIDlist=2021A00051307022&GENDERlist=1&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 79470,
+    "population2016": null,
+    "growthPct": 10.5,
+    "medianAge": 40.8,
+    "medianHouseholdIncome2020": 68000,
+    "privateDwellings": 35118,
+    "landAreaKm2": 140.67
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00051307022",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00051307022",
+    "medianAge": "https://www.point2homes.com/CA/Demographics/NB/Moncton-Demographics.html",
+    "medianHouseholdIncome2020": "https://www.point2homes.com/CA/Demographics/NB/Moncton-Demographics.html",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00051307022",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00051307022"
+  },
+  "facts": [
+    {
+      "text": "As of November 2025, the Moncton area's labour market remains strong, with approximately 136,200 people employed in the region.",
+      "url": "https://monctonimpact.ca/lets-do-business/data-research/",
+      "publisher": "Moncton Impact"
+    },
+    {
+      "text": "The key sectors of Moncton's economy, which account for 37 percent of jobs in the region, are health care and social assistance, retail trade and public administration.",
+      "url": "https://monctonimpact.ca/why-moncton/economy-and-sectors/",
+      "publisher": "Moncton Impact"
+    },
+    {
+      "text": "In 2025, Greater Moncton was ranked number 4 in Canada by MoneySense for best places to live and do business.",
+      "url": "https://monctonimpact.ca/news/more-people-are-choosing-moncton/",
+      "publisher": "Moncton Impact"
+    },
+    {
+      "text": "Moncton's population increased from 98,727 in 2024 to 102,378 in 2025, a 3.7 percent growth rate between July 1, 2024 and July 1, 2025.",
+      "url": "https://monctonimpact.ca/news/more-people-are-choosing-moncton/",
+      "publisher": "Moncton Impact"
+    },
+    {
+      "text": "Greater Moncton employs well over 20,000 people working in tourism related fields.",
+      "url": "https://monctonimpact.ca/files/images/City-of-Moncton_Fact-Sheet_DIGITAL_Dec-2024.pdf",
+      "publisher": "Moncton Impact"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Moncton grew 10.5 percent between 2016 and 2021 to reach 79,470 residents, one of the fastest rates among Canadian cities of its size. Its 35,118 occupied dwellings sit within a compact 140.67 square kilometres, the median age is 40.8, and the median household income was $68,000 in 2020.",
+      "For a local business, that means a steady stream of new residents who have not yet chosen a dentist, contractor or accountant, in a market where health care, retail and public administration provide dependable employment. Moderate incomes reward clear value, while rapid growth rewards being easy to find."
+    ],
+    "byService": {
+      "lead-generation": "Because Moncton's population jumped 10.5 percent from 2016 to 2021, lead generation should focus on new arrivals and new subdivisions where buying relationships are still being formed.",
+      "seo": "Moncton SEO needs bilingual coverage, since the city serves English and French customers across Greater Moncton, and local search terms in both languages bring in different households.",
+      "website-development": "A Moncton website should be built for a median age of 40.8 and household incomes of $68,000, meaning fast pages, plain pricing and mobile forms that convert practical, value-driven buyers.",
+      "branding": "Branding in Moncton can lean on the Hub City's reputation for growth and service, helping a small firm feel established to the thousands of residents who arrived after 2016."
+    }
+  }
+}
