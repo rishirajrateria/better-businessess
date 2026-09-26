@@ -1,0 +1,57 @@
+{
+  "slug": "edmonton",
+  "geographyNote": "City of Edmonton (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Edmonton&GENDERlist=1%2C2%2C3&STATISTIClist=1&DGUIDlist=2021A00054811061&HEADERlist=0",
+  "figures": {
+    "population2021": 1010899,
+    "population2016": 933088,
+    "growthPct": 8.3,
+    "medianAge": 36.8,
+    "medianHouseholdIncome2020": 90000,
+    "privateDwellings": 396404,
+    "landAreaKm2": 765.61
+  },
+  "figureSources": {
+    "population2021": "https://en.wikipedia.org/wiki/Demographics_of_Edmonton",
+    "population2016": "https://en.wikipedia.org/wiki/Demographics_of_Edmonton",
+    "growthPct": "https://canadapopulation.org/edmonton-population/",
+    "medianAge": "https://en.wikipedia.org/wiki/Demographics_of_Edmonton",
+    "medianHouseholdIncome2020": "https://www.point2homes.com/CA/Demographics/AB/Edmonton-Demographics.html",
+    "privateDwellings": "https://www.point2homes.com/CA/Demographics/AB/Edmonton-Demographics.html",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00054811061"
+  },
+  "facts": [
+    {
+      "text": "Edmonton has 40,278 businesses in 2025, up 3.03% from 39,092 in 2024, with the large (200+ employee) segment growing 7.83% to 372.",
+      "url": "https://regionaldashboard.alberta.ca/region/edmonton/number-of-businesses/",
+      "publisher": "Alberta Regional Dashboard, Government of Alberta"
+    },
+    {
+      "text": "Edmonton International Airport serves more than eight million passengers in 2025 and supports $5.4 billion in total economic output and 22,690 jobs.",
+      "url": "https://flyyeg.com/corporate/media/news/edmonton-international-airport-demonstrates-resilience-closing-in-on-pre-pandemic-passenger-levels-in-2025/",
+      "publisher": "Edmonton International Airport"
+    },
+    {
+      "text": "Alberta Health Services is Edmonton's largest employer with over 113,000 employees provincewide and five major hospitals in the city, alongside the Government of Alberta, University of Alberta and City of Edmonton.",
+      "url": "https://www.edmontonhomes.ca/blog/edmonton-economy.html",
+      "publisher": "EdmontonHomes.ca"
+    },
+    {
+      "text": "ICE District is Canada's largest mixed-use sports and entertainment district, in the heart of downtown Edmonton, with dining, the JW Marriott hotel and luxury condominium towers.",
+      "url": "https://industry.travelalberta.com/for-investors/edmonton",
+      "publisher": "Travel Alberta"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Edmonton passed one million residents in the 2021 Census, reaching 1,010,899 people, up 8.3 per cent from 2016. With a median age of 36.8, it is one of the youngest big-city markets in Canada, and households reported a median total income of $90,000 in 2020.",
+      "The city spreads across 765.61 square kilometres with 396,404 occupied dwellings and 40,278 businesses in 2025. For a local business, that means many young households forming new buying habits, but also a crowded field where being found in the right neighbourhood matters more than being known citywide."
+    ],
+    "byService": {
+      "lead-generation": "Edmonton's 8.3 per cent growth between 2016 and 2021 keeps producing new households, so lead generation should prioritise recently moved residents and first-time buyers in the city's newer communities.",
+      "seo": "With 40,278 businesses competing across 765.61 square kilometres, Edmonton SEO must target district and suburb keywords, from Whyte Avenue to Windermere, rather than the city name alone.",
+      "website-development": "A website for Edmonton should be built mobile-first for a median age of 36.8, with quick quotes and online scheduling that suit households earning a median $90,000 in 2020.",
+      "branding": "Because Edmonton is a young city that just passed one million residents, branding should feel modern and energetic while still reflecting the practical, value-conscious character of local buyers."
+    }
+  }
+}
