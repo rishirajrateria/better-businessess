@@ -1,0 +1,61 @@
+{
+  "slug": "red-deer",
+  "geographyNote": "City of Red Deer (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=red+deer&GENDERlist=1&STATISTIClist=1&DGUIDlist=2021A00054808011&HEADERlist=0",
+  "figures": {
+    "population2021": 100844,
+    "population2016": 100418,
+    "growthPct": 0.4,
+    "medianAge": null,
+    "medianHouseholdIncome2020": 85000,
+    "privateDwellings": 40512,
+    "landAreaKm2": 104.34
+  },
+  "figureSources": {
+    "population2021": "https://en.wikipedia.org/wiki/Red_Deer,_Alberta",
+    "population2016": "https://en.wikipedia.org/wiki/Red_Deer,_Alberta",
+    "growthPct": "https://capopulation.com/area/alberta/red-deer/",
+    "medianHouseholdIncome2020": "https://www.point2homes.com/CA/Demographics/AB/Red-Deer-Demographics.html",
+    "privateDwellings": "https://en.wikipedia.org/wiki/Red_Deer,_Alberta",
+    "landAreaKm2": "https://en.wikipedia.org/wiki/Red_Deer,_Alberta"
+  },
+  "facts": [
+    {
+      "text": "Red Deer has 3,637 businesses in 2024, down 0.30% from 3,648 in 2023.",
+      "url": "https://regionaldashboard.alberta.ca/region/red-deer/number-of-businesses/",
+      "publisher": "Alberta Regional Dashboard, Government of Alberta"
+    },
+    {
+      "text": "Red Deer's economy provides 62,224 jobs through over 4,000 businesses, led by health care, retail, construction, oil and gas, accommodation and food, manufacturing and education.",
+      "url": "https://www.reddeer.ca/business/business-environment/statistics-and-economic-profile/",
+      "publisher": "The City of Red Deer"
+    },
+    {
+      "text": "The Red Deer Regional Hospital Centre expansion adds a new patient tower with 200 inpatient beds, raising total capacity to 570 beds, plus six new operating rooms.",
+      "url": "https://www.alberta.ca/red-deer-regional-hospital-centre",
+      "publisher": "Government of Alberta"
+    },
+    {
+      "text": "Alberta commits $810 million over three years to the Red Deer hospital expansion as planning continues.",
+      "url": "https://www.cbc.ca/news/canada/calgary/red-deer-hospital-expansion-planning-1.7133110",
+      "publisher": "CBC News"
+    },
+    {
+      "text": "Red Deer Polytechnic broke ground in May 2025 on expanding its Centre for Innovation in Manufacturing from 15,000 to 25,000 square feet.",
+      "url": "https://reddeeradvocate.com/2026/02/14/expansion-of-red-deer-polytechnics-manufacturing-and-technology-centre-on-schedule/",
+      "publisher": "Red Deer Advocate"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Red Deer's population was essentially flat between 2016 and 2021, rising 0.4 per cent to 100,844. Households reported a median total income of $85,000 in 2020, and the city's 40,512 occupied dwellings fit inside a compact 104.34 square kilometres, so customers are close together but not increasing in number.",
+      "In a market like this, a local business grows by taking share from the 3,637 businesses counted in 2024, not by riding population gains. The $810 million hospital expansion and Red Deer Polytechnic's growth are the main new sources of spending, and a trading area that reaches well beyond city limits adds regional buyers."
+    ],
+    "byService": {
+      "lead-generation": "With population growth of only 0.4 per cent from 2016 to 2021, lead generation in Red Deer must win customers away from competitors and capture regional shoppers who drive in from central Alberta.",
+      "seo": "Red Deer SEO should rank for central Alberta and Gasoline Alley searches as well as city terms, because a compact 104.34 square kilometre city draws much of its demand from outside its borders.",
+      "website-development": "A Red Deer website should make it easy for households earning a median $85,000 in 2020 to compare, book and buy, since standing out among 3,637 businesses depends on convenience.",
+      "branding": "In a city of 100,844 where most residents already have preferred suppliers, branding should signal trust and longevity so switching feels safe."
+    }
+  }
+}
