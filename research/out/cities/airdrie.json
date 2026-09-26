@@ -1,0 +1,60 @@
+{
+  "slug": "airdrie",
+  "geographyNote": "City of Airdrie (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Airdrie&DGUIDlist=2021A00054806021&GENDERlist=1%2C2%2C3&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 74100,
+    "population2016": 61581,
+    "growthPct": 20.3,
+    "medianAge": null,
+    "medianHouseholdIncome2020": 110000,
+    "privateDwellings": 26050,
+    "landAreaKm2": null
+  },
+  "figureSources": {
+    "population2021": "https://www.airdriecityview.com/local-news/airdrie-cracks-canadas-list-of-top-25-fastest-growing-municipalities-5066688",
+    "population2016": "https://en.wikipedia.org/wiki/Airdrie,_Alberta",
+    "growthPct": "https://www.airdriecityview.com/local-news/airdrie-cracks-canadas-list-of-top-25-fastest-growing-municipalities-5066688",
+    "medianHouseholdIncome2020": "https://www.point2homes.com/CA/Demographics/AB/Airdrie-Demographics.html",
+    "privateDwellings": "https://en.wikipedia.org/wiki/Airdrie,_Alberta"
+  },
+  "facts": [
+    {
+      "text": "Airdrie's 2024 municipal census counts 85,805 residents, a 6.39 per cent rise in one year, with 29,851 dwellings averaging 2.87 residents each.",
+      "url": "https://www.airdrie.ca/index.cfm?serviceID=2242&ID=1248",
+      "publisher": "City of Airdrie"
+    },
+    {
+      "text": "In 2022 Airdrie businesses report 3,122 active business licences and 20,514 jobs, with employment up 44 per cent since 2016.",
+      "url": "https://www.airdrie.ca/getDocument.cfm?ID=9826",
+      "publisher": "City of Airdrie, Growth Report 2023"
+    },
+    {
+      "text": "Airdrie has 1,904 businesses in 2024, up 2.31% from 1,861 in 2023.",
+      "url": "https://regionaldashboard.alberta.ca/region/airdrie/number-of-businesses",
+      "publisher": "Alberta Regional Dashboard, Government of Alberta"
+    },
+    {
+      "text": "Costco operates a 260,000 square foot Western Canada distribution depot on 46 acres in Airdrie's northeast business park, alongside Walmart, Shoppers Drug Mart and Canadian Tire distribution centres.",
+      "url": "https://www.airdrie.ca/index.cfm?serviceID=2078",
+      "publisher": "City of Airdrie"
+    },
+    {
+      "text": "Airdrie has about 650 acres of immediately serviceable industrial and commercial land with another 3,000 acres on the way, and expects its population to grow by more than 40 per cent over ten years.",
+      "url": "https://www.airdrie.ca/index.cfm?serviceID=11",
+      "publisher": "City of Airdrie"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Airdrie grew 20.3 per cent between 2016 and 2021 to reach 74,100 residents, placing it among Canada's fastest-growing municipalities, and the 2024 municipal census already counts 85,805 people. Households reported a median total income of $110,000 in 2020 across 26,050 occupied dwellings.",
+      "Most residents are young families who commute to Calgary, so local businesses compete with the larger city for their spending. With only 1,904 businesses counted in 2024, Airdrie is underserved relative to its size, and a firm that establishes itself now can grow alongside a city expecting more than 40 per cent population growth over ten years."
+    ],
+    "byService": {
+      "lead-generation": "Because Airdrie added 20.3 per cent more residents between 2016 and 2021, lead generation should focus on newcomers in new communities who have not yet found local providers.",
+      "seo": "Airdrie SEO must claim local intent before Calgary businesses do, targeting neighbourhood names and Airdrie-specific service terms so residents stop searching in Calgary.",
+      "website-development": "A website for Airdrie should be fast and mobile-first for young families earning a median $110,000 in 2020, with clear service areas that show the business is based in Airdrie rather than Calgary.",
+      "branding": "Branding in Airdrie should emphasise being local and community-rooted, since a city with only 1,904 businesses in 2024 rewards firms that residents see as their own rather than a Calgary import."
+    }
+  }
+}
