@@ -1,0 +1,52 @@
+{
+  "slug": "guelph",
+  "geographyNote": "City of Guelph (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Guelph&DGUIDlist=2021A00053523008&GENDERlist=1&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 143740,
+    "population2016": 131794,
+    "growthPct": 9.1,
+    "medianAge": 38.4,
+    "medianHouseholdIncome2020": 93000,
+    "privateDwellings": 56480,
+    "landAreaKm2": 87.43
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?dguid=2021A00053523008&topic=1&lang=E",
+    "population2016": "https://en.wikipedia.org/wiki/Guelph",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?dguid=2021A00053523008&topic=1&lang=E",
+    "medianAge": "https://capopulation.com/area/ontario/guelph/",
+    "medianHouseholdIncome2020": "https://capopulation.com/area/ontario/guelph/",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?dguid=2021A00053523008&topic=1&lang=E",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?dguid=2021A00053523008&topic=1&lang=E"
+  },
+  "facts": [
+    {
+      "text": "Major private employers in Guelph include auto-parts maker Linamar, The Co-operators insurance group and RWDI, a wind and environmental engineering firm headquartered in the city.",
+      "url": "https://www.theglobeandmail.com/report-on-business/top-business-stories/welcome-to-guelph-ont-pop-121688-and-canadas-jobs-powerhouse/article28100361/",
+      "publisher": "The Globe and Mail"
+    },
+    {
+      "text": "A federal government investment in Linamar is creating 1,500 new jobs and securing more than 8,000 others in Guelph.",
+      "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2018/01/federal_governmentinvestmenttocreate1500newjobsandsecuremorethan.html",
+      "publisher": "Government of Canada (Innovation, Science and Economic Development)"
+    },
+    {
+      "text": "Advanced manufacturing counts 360 businesses in Guelph, in an economy anchored on advanced manufacturing, agri-food, life sciences, environmental innovation and technology.",
+      "url": "https://guelph.ca/wp-content/uploads/Advanced-Manufacturing-SectorProfile.pdf",
+      "publisher": "City of Guelph"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Guelph reached 143,740 residents in the 2021 Census, a 9.1% rise from 131,794 in 2016. The median age is 38.4 and the median household income in 2020 was $93,000, so the city combines a young population with strong spending power.",
+      "Those residents live in 56,480 occupied dwellings on a compact 87.43 square kilometres, and the job base leans on advanced manufacturing, with 360 businesses in that sector alone. For a local firm, Guelph offers a dense, growing and relatively affluent customer pool."
+    ],
+    "byService": {
+      "lead-generation": "Guelph's 9.1% growth since 2016 keeps supplying new households, so lead generation should capture movers early with offers timed to their first months in the city.",
+      "seo": "Because Guelph packs 143,740 people into 87.43 square kilometres, local SEO can target the whole city with a single strong Google Business Profile rather than many neighbourhood pages.",
+      "website-development": "A median age of 38.4 and $93,000 household income mean Guelph visitors expect polished, mobile-first websites with online booking, quotes or checkout built in.",
+      "branding": "With 360 advanced manufacturing businesses and a university presence, Guelph brands do well when they signal quality and expertise instead of competing on the lowest price."
+    }
+  }
+}
