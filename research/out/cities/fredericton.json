@@ -1,0 +1,56 @@
+{
+  "slug": "fredericton",
+  "geographyNote": "City of Fredericton (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&GENDERlist=1&STATISTIClist=1&HEADERlist=0&DGUIDlist=2021A00051310032&SearchText=fredericton",
+  "figures": {
+    "population2021": 63116,
+    "population2016": null,
+    "growthPct": 7.5,
+    "medianAge": 40.1,
+    "medianHouseholdIncome2020": 73000,
+    "privateDwellings": 28478,
+    "landAreaKm2": 133.93
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00051310032",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00051310032",
+    "medianAge": "https://www.point2homes.com/CA/Demographics/NB/Fredericton-Demographics.html",
+    "medianHouseholdIncome2020": "https://www.point2homes.com/CA/Demographics/NB/Fredericton-Demographics.html",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00051310032",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00051310032"
+  },
+  "facts": [
+    {
+      "text": "Knowledge Park in Fredericton is Atlantic Canada's largest research and technology park, with six buildings housing 40 companies and over 800 employees, including the Cyber Centre.",
+      "url": "https://www.fredericton.ca/business-development/economic-development/knowledge-capital",
+      "publisher": "City of Fredericton"
+    },
+    {
+      "text": "The Cyber Centre at Knowledge Park is a 142,000 square foot building housing companies such as Bulletproof Solutions, Canadian Nuclear Laboratories, Siemens and CyberNB.",
+      "url": "https://huddle.today/2021/10/26/knowledge-park-showcasing-continued-leadership-in-atlantic-canadas-tech-ecosystem-with-cyber-centre/",
+      "publisher": "Huddle"
+    },
+    {
+      "text": "The Fredericton Capital Region has an estimated 6,756 businesses with employees, according to an economic analysis by UNB's Ignite student team.",
+      "url": "https://blogs.unb.ca/newsroom/2023/11/ignite-fredericton.php",
+      "publisher": "University of New Brunswick"
+    },
+    {
+      "text": "Fredericton's cybersecurity cluster traces back to 1990, when UNB established Canada's first computer science faculty, leading to IBM's acquisition of Q1 Labs in 2011.",
+      "url": "https://www.innovatingcanada.ca/technology/frederictons-cyber-centre-follows-years-of-strength-in-the-region/",
+      "publisher": "Innovating Canada"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Fredericton's population grew 7.5 percent between 2016 and 2021 to 63,116, with 28,478 occupied private dwellings across 133.93 square kilometres on both sides of the Saint John River. The median age is 40.1 and the median household income was $73,000 in 2020, supported by provincial government, university and technology employment.",
+      "For a local business, that means a stable, well-educated customer base with reliable incomes and a growing technology sector centred on Knowledge Park. Competition comes from thousands of established businesses, so a business needs to be easy to find and clearly credible."
+    ],
+    "byService": {
+      "lead-generation": "With household incomes of $73,000 and many public sector and tech professionals, Fredericton lead generation can focus on informative content and consultations rather than discount-driven offers.",
+      "seo": "Fredericton SEO should separate the Northside from downtown and the university areas, because a city of 133.93 square kilometres searches by neighbourhood as well as by name.",
+      "website-development": "A Fredericton website is judged by a tech-literate audience with a median age of 40.1, so clean design, fast loading and accessible bilingual content build immediate trust.",
+      "branding": "Branding in Fredericton benefits from a professional, understated tone that matches a capital city of government offices and research parks that grew 7.5 percent from 2016 to 2021."
+    }
+  }
+}
