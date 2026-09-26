@@ -1,0 +1,62 @@
+{
+  "slug": "calgary",
+  "geographyNote": "City of Calgary (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=calgary&GENDERlist=1&STATISTIClist=1&DGUIDlist=2021A00054806016&HEADERlist=0",
+  "figures": {
+    "population2021": 1306784,
+    "population2016": 1239220,
+    "growthPct": 5.5,
+    "medianAge": 38.0,
+    "medianHouseholdIncome2020": 98000,
+    "privateDwellings": 502301,
+    "landAreaKm2": 820.62
+  },
+  "figureSources": {
+    "population2021": "https://en.wikipedia.org/wiki/Demographics_of_Calgary",
+    "population2016": "https://www.calgary.ca/research/population-profile.html",
+    "growthPct": "https://www.calgary.ca/research/population-profile.html",
+    "medianAge": "https://www.calgary.ca/research/population-profile.html",
+    "medianHouseholdIncome2020": "https://townfolio.co/ab/calgary/demographics",
+    "privateDwellings": "https://en.wikipedia.org/wiki/Demographics_of_Calgary",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00054806016"
+  },
+  "facts": [
+    {
+      "text": "Calgary registers 221 head offices with 29,824 head office employees in 2024, according to Statistics Canada's Annual Head Office Survey.",
+      "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260202/dq260202b-eng.htm",
+      "publisher": "Statistics Canada, The Daily"
+    },
+    {
+      "text": "The 2025 Calgary Stampede draws total attendance of 1,470,288, about 7,000 fewer than in 2024 and just short of the all-time record.",
+      "url": "https://globalnews.ca/news/11288191/2025-calgary-stampede-attendance/",
+      "publisher": "Global News"
+    },
+    {
+      "text": "Calgary's labour force participation rate is 71.2 per cent, while the unemployment rate stands at 7.2 per cent amid rapid population growth.",
+      "url": "https://www.calgaryeconomicdevelopment.com/insights/economic-snapshot/",
+      "publisher": "Calgary Economic Development"
+    },
+    {
+      "text": "The City of Calgary projects local economic growth of 2.4 per cent in 2026, with population growth and inflation both around two per cent.",
+      "url": "https://www.calgary.ca/research/economic-outlook.html",
+      "publisher": "City of Calgary"
+    },
+    {
+      "text": "In 2021 there were 177,405 Calgarians aged 65 and over, up 28 per cent from 138,405 in 2016, the fastest-growing age group in the city over 20 years.",
+      "url": "https://www.calgary.ca/research/population-profile.html",
+      "publisher": "City of Calgary"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Calgary reached 1.3 million residents in the 2021 Census, up 5.5 per cent from 2016, and remains young for a major Canadian city with a median age of 38.0. Households reported a median total income of $98,000 in 2020, so there is real spending power across 502,301 occupied dwellings.",
+      "The city covers 820.62 square kilometres and hosts 221 head offices, so business customers and consumers are both plentiful but widely dispersed. A local business is rarely the only option, which makes visibility in specific quadrants and communities more valuable than citywide reach."
+    ],
+    "byService": {
+      "lead-generation": "Lead generation in Calgary should segment by quadrant and by buyer type, since 1.3 million residents and 221 head offices create very different sales conversations across 820.62 square kilometres.",
+      "seo": "In a city of 1.3 million with thousands of competing firms, Calgary SEO must win community-level and service-specific searches rather than generic city terms.",
+      "website-development": "A Calgary website should convert a mobile-first audience with a median age of 38.0 and household incomes of $98,000, which means fast pages, online booking and transparent pricing.",
+      "branding": "Because Calgary added 5.5 per cent more residents between 2016 and 2021, branding should welcome newcomers who are still forming loyalties while staying credible with head-office buyers."
+    }
+  }
+}

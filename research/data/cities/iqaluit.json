@@ -1,0 +1,60 @@
+{
+  "slug": "iqaluit",
+  "geographyNote": "City of Iqaluit (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=iqaluit&GENDERlist=1&STATISTIClist=1&DGUIDlist=2021A00056204003&HEADERlist=0",
+  "figures": {
+    "population2021": 7429,
+    "population2016": 7740,
+    "growthPct": -4.0,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": 2708,
+    "landAreaKm2": 51.58
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00056204003",
+    "population2016": "https://en.wikipedia.org/wiki/Iqaluit",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00056204003",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00056204003",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00056204003"
+  },
+  "facts": [
+    {
+      "text": "A federal investment of more than $108 million in Iqaluit water and wastewater infrastructure is expected to enable construction of approximately 2,000 to 2,500 new housing units by 2031.",
+      "url": "https://iqaluit.ca/news/building-canada-strong-investing-water-and-wastewater-infrastructure-support-housing-iqaluit",
+      "publisher": "City of Iqaluit"
+    },
+    {
+      "text": "Nunavut Housing Corporation completed 24 new affordable housing units on the Iqaluit beachfront in April 2025, a $12.8 million investment in four six-plexes.",
+      "url": "https://www.nunavuthousing.ca/news/24-Affordable-Units-Iqaluit",
+      "publisher": "Nunavut Housing Corporation"
+    },
+    {
+      "text": "Nunavut's construction industry grew by 21.8 percent in 2025, largely driven by government housing investment.",
+      "url": "https://nunavutnews.com/2026/05/08/nunavut-had-canadas-second-worst-gdp-growth-in-2025/",
+      "publisher": "Nunavut News"
+    },
+    {
+      "text": "In Iqaluit, 92 percent of people speak English but only 45 percent identify it as their mother tongue, while 46 percent identify Inuktitut as their mother tongue.",
+      "url": "https://iqaluit.ca/visitors/explore-iqaluit/demographics",
+      "publisher": "City of Iqaluit"
+    },
+    {
+      "text": "The major employers in Nunavut are Inuit organizations and the territorial government, with mineral exploration, arts and crafts, tourism and transportation also providing jobs.",
+      "url": "https://www.cannor.gc.ca/eng/1386682445853/1386682479869",
+      "publisher": "Canadian Northern Economic Development Agency"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Iqaluit counted 7,429 residents in the 2021 Census, down 4.0 percent from 7,740 in 2016, living in 2,708 occupied private dwellings across 51.58 square kilometres. As Nunavut's capital, its economy is anchored by the territorial government, Inuit organizations and a construction sector expanding quickly on the back of housing investment.",
+      "For a local business, that means a very small, tightly connected market where word of mouth travels fast and nearly half of residents speak Inuktitut as a first language. Government contracts and the housing build-out create demand, while the high cost of goods and shipping shapes what customers expect from local providers."
+    ],
+    "byService": {
+      "lead-generation": "In a city of 7,429 people, Iqaluit lead generation depends on relationships with government departments, Inuit organizations and contractors driving the housing build-out rather than broad advertising.",
+      "seo": "Iqaluit SEO faces little local competition but must reach residents in both English and Inuktitut, and capture the visitors, contractors and public servants who search before arriving.",
+      "website-development": "A website for Iqaluit should be lightweight for satellite and northern internet connections, bilingual where possible, and clear about shipping, pricing and availability for 2,708 households.",
+      "branding": "Branding in Iqaluit earns trust by reflecting Inuit culture and community ties, since a population that fell 4.0 percent between 2016 and 2021 rewards businesses seen as committed to staying."
+    }
+  }
+}

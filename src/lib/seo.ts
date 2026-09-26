@@ -167,14 +167,14 @@ export function webPageSchema(opts: { path: string; name: string; description: s
   };
 }
 
-export function placeSchema(city: City | undefined, province: Province, data?: { population2021?: number | null; censusProfileUrl?: string } | null) {
+export function placeSchema(city: City | undefined, province: Province, data?: { figures: { population2021: number | null }; censusProfileUrl: string } | null) {
   if (city)
     return {
       "@type": "City",
       name: city.name,
       containedInPlace: { "@type": "State", name: province.name },
       geo: { "@type": "GeoCoordinates", latitude: city.lat, longitude: city.lng },
-      ...(data?.population2021 ? { additionalProperty: [{ "@type": "PropertyValue", name: "Population (2021 Census of Population)", value: data.population2021, ...(data.censusProfileUrl ? { url: data.censusProfileUrl } : {}) }] } : {}),
+      ...(data?.figures.population2021 ? { additionalProperty: [{ "@type": "PropertyValue", name: "Population (2021 Census of Population)", value: data.figures.population2021, ...(data.censusProfileUrl ? { url: data.censusProfileUrl } : {}) }] } : {}),
     };
   return { "@type": "State", name: province.name, containedInPlace: { "@type": "Country", name: "Canada" } };
 }

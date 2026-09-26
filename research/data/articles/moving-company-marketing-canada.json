@@ -1,0 +1,76 @@
+{
+  "slug": "moving-company-marketing-canada",
+  "sources": [
+    {
+      "quote": "a low phone quote without a survey, a large deposit, then a much larger bill demanded before the truck is unloaded",
+      "url": "https://www.canada.ca/en/competition-bureau/news/2017/08/the_next_time_youmovedodgetheroguemoverswhotakeyourbelongingshos.html",
+      "publisher": "Competition Bureau Canada",
+      "title": "The next time you move, dodge the “rogue movers” who take your belongings hostage - Canada.ca",
+      "evidence": "Fraudsters quote low prices, and claim there are no surprise fees, and insist that a verbal contract is sufficient. When fraudsters arrive at your doorstep, they present you with a very different contract containing unexpected clauses and piling on extra charges. In some instances, the fraudsters will hold your possessions hostage until you pay another amount for their delivery. Do not trust companies providing quotes or contracts over the phone; get both in writing before the move."
+    },
+    {
+      "quote": "must also appear in the Commission des transports du Québec register of owners and operators of heavy vehicles",
+      "url": "https://www.ctq.gouv.qc.ca/english/owners-and-operators-of-heavy-vehicles/",
+      "publisher": "Commission des transports du Québec",
+      "title": "Owners and operators of heavy vehicles - Commission des transports du Québec",
+      "evidence": "All vehicles with a gross vehicle weight rating (GVWR) of 4,500 kg and over must be registered. Owners and operators are required to register in the Registre des propriétaires et des exploitants de véhicules lourds (register of owners and operators of heavy vehicles) of the Commission des transports du Québec to be authorized to operate a heavy vehicle."
+    },
+    {
+      "quote": "Alberta has gained interprovincial migrants steadily since 2022 in Statistics Canada's estimates",
+      "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/250319/dq250319a-eng.htm",
+      "publisher": "Statistics Canada",
+      "title": "The Daily — Canada's population estimates, fourth quarter 2024",
+      "evidence": "Alberta continued to have the largest net gain from other provinces and territories in the fourth quarter of 2024. Alberta (+36,082) saw the largest net gain from interprovincial migration in 2024, although this gain was smaller than the one in 2023 (+42,243)."
+    },
+    {
+      "quote": "Quebec is its own market: leases there end June 30",
+      "url": "https://www.tal.gouv.qc.ca/en/news/detail?code=july-1-moving-day",
+      "publisher": "Tribunal administratif du logement (Quebec)",
+      "title": "July 1 - Moving Day - Tribunal administratif du logement",
+      "evidence": "In Québec, most housing leases end on June 30, with the result that many people move then each year. A new lessee's right to occupy the premises begins on the first day of the lease. The former lessee has no grace period to vacate the premises."
+    },
+    {
+      "quote": "Its replacement, the Consumer Protection Act, 2023, still awaits proclamation at the time of writing",
+      "url": "https://www.ontario.ca/page/consumer-protection-laws-ontario",
+      "publisher": "Government of Ontario",
+      "title": "Consumer protection laws in Ontario | ontario.ca",
+      "evidence": "In 2023, the Ontario government introduced a new Consumer Protection Act, which when it comes into effect, will renew and update Ontario's consumer protection laws. Until then, the existing Consumer Protection Act, 2002 (CPA), remains in effect."
+    },
+    {
+      "quote": "A charge cannot exceed a written estimate by more than 10 percent unless the consumer agrees to different or additional services",
+      "url": "https://www.ontario.ca/page/your-rights-when-signing-or-cancelling-contract",
+      "publisher": "Government of Ontario",
+      "title": "Your rights when signing or cancelling a contract | ontario.ca",
+      "evidence": "If a written estimate is included in the contract, the final price cannot be more than 10% above the estimate, unless you agree to a new price and sign a change to the contract. If you are charged more than 10% above a written estimate without agreeing to it, you can demand that the final price be adjusted."
+    },
+    {
+      "quote": "the drip-pricing provisions added in 2022 and tightened in June 2024 mean a headline price must be attainable, with only legislated charges such as sales tax left out",
+      "url": "https://competition-bureau.canada.ca/en/deceptive-marketing-practices/drip-pricing",
+      "publisher": "Competition Bureau Canada",
+      "title": "Drip pricing - Competition Bureau Canada",
+      "evidence": "In 2022, the Government of Canada amended the Competition Act to explicitly recognize drip pricing as a deceptive business practice. It is misleading to omit mandatory fees from advertised prices, unless those fees are imposed by government on purchasers, such as sales tax."
+    },
+    {
+      "quote": "a quote request gives implied consent for six months, a completed move for two years",
+      "url": "https://crtc.gc.ca/eng/com500/faq500.htm",
+      "publisher": "Canadian Radio-television and Telecommunications Commission",
+      "title": "Frequently Asked Questions about Canada's Anti-Spam Legislation | CRTC",
+      "evidence": "You may have an existing business relationship if the recipient has made a purchase or lease of goods, services, land or interest in land within the two-year period immediately before the message was sent, or if the recipient has made an inquiry or application within the six month period immediately before the message was sent."
+    },
+    {
+      "quote": "CAM membership brings its code of ethics and Good Practice Guidelines with it",
+      "url": "https://www.mover.net/for-movers/programs/certified-canadian-mover-program",
+      "publisher": "Canadian Association of Movers",
+      "title": "CAM Certified Canadian Mover Program | Canadian Association of Movers",
+      "evidence": "Certified Canadian Movers are members of CAM who adhere to CAM's Code of Ethics, provide up-to-date essential business-related documentation, comply with Industry Canada's Good Practice Guidelines for Canadian Movers, and resolve customer complaints in a timely manner and, if required, commit to accepting arbitration."
+    },
+    {
+      "quote": "breaches policy and commonly triggers suspension",
+      "url": "https://support.google.com/business/answer/3038177?hl=en",
+      "publisher": "Google (Business Profile Help)",
+      "title": "Guidelines for representing your business on Google - Google Business Profile Help",
+      "evidence": "Your name should reflect your business's real-world name, as used consistently on your storefront, website, stationery, and as known to customers. Including unnecessary information in your business name isn't permitted, and could result in the suspension of your Business Profile."
+    }
+  ],
+  "flags": []
+}

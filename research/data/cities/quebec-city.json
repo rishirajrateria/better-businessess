@@ -1,0 +1,56 @@
+{
+  "slug": "quebec-city",
+  "geographyNote": "Ville de Québec (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=quebec&GENDERlist=1&STATISTIClist=1&DGUIDlist=2021A00052423027&HEADERlist=0",
+  "figures": {
+    "population2021": 549459,
+    "population2016": 531902,
+    "growthPct": 3.3,
+    "medianAge": null,
+    "medianHouseholdIncome2020": 70500,
+    "privateDwellings": 265711,
+    "landAreaKm2": 452.3
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00052423027",
+    "population2016": "https://en.wikipedia.org/wiki/Quebec_City",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00052423027",
+    "medianHouseholdIncome2020": "https://www.ville.quebec.qc.ca/apropos/portrait/quelques_chiffres/ville/index.aspx",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00052423027",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00052423027"
+  },
+  "facts": [
+    {
+      "text": "Québec City ranks second only to Toronto in insurance and financial services; four of Canada's ten largest life and health insurers are based here and the sector is 17.9% of city GDP.",
+      "url": "https://business.quebec-cite.com/en/key-industries-quebec-city/insurance-financial-services-business",
+      "publisher": "Destination Québec cité (Meet Québec City)"
+    },
+    {
+      "text": "The Québec City region has more than 120 life sciences businesses and some 80 research centres, and is home to nearly 64,000 workers with life sciences degrees.",
+      "url": "https://www.quebecinternational.ca/en/choose-quebec/quebec-industries/life-sciences",
+      "publisher": "Québec International"
+    },
+    {
+      "text": "The Québec City CMA's unemployment rate stands at 3% at the start of 2026, a rare milestone in the past decade.",
+      "url": "https://www.quebecinternational.ca/en/news/unemployment-rate-at-3-at-the-start-of-2026-and-a-rare-milestone-in-the-past-decade-in-quebec-city",
+      "publisher": "Québec International"
+    },
+    {
+      "text": "Québec City is home to the National Assembly, and its leading industries include life sciences, food and nutrition, green building, insurance and financial services, ICT and optics-photonics.",
+      "url": "https://meetings.quebec-cite.com/en/key-industries-quebec-city",
+      "publisher": "Destination Québec cité (Meet Québec City)"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Quebec City had 549,459 residents in the 2021 Census, up 3.3% from 531,902 in 2016. Its 265,711 occupied dwellings are spread over 452.3 square kilometres, and the median household income in 2020 was $70,500.",
+      "As the provincial capital, the city relies on government, insurance and financial services, life sciences and tourism, and unemployment is very low. A local business sells to a stable, overwhelmingly French-speaking market with steady public-sector incomes."
+    ],
+    "byService": {
+      "lead-generation": "Quebec City lead generation should run in French and target stable public-sector and insurance households, since low unemployment means customers have steady incomes but little time.",
+      "seo": "In Quebec City, French-language SEO is essential, and content should address government workers, insurance employees and researchers who make up much of the 549,459-person market.",
+      "website-development": "A Quebec City website should default to French, load quickly and present clear service areas across the 452.3 square kilometres from Sainte-Foy to Beauport.",
+      "branding": "Branding in Quebec City should pair heritage and trust with modern professionalism, appealing to households earning a median $70,500 in a capital defined by government and insurance."
+    }
+  }
+}

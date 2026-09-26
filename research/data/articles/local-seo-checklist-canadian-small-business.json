@@ -1,0 +1,69 @@
+{
+  "slug": "local-seo-checklist-canadian-small-business",
+  "sources": [
+    {
+      "quote": "Google has told us the three factors that decide local rankings",
+      "url": "https://support.google.com/business/answer/7091?hl=en",
+      "publisher": "Google (Business Profile Help)",
+      "title": "Tips to improve your local ranking on Google - Google Business Profile Help",
+      "evidence": "Local results are mainly based on relevance, distance, and prominence. Relevance is how well a Business Profile matches what someone is searching for. Distance refers to how far each business is from the customer who's searching. Prominence means how well-known a business is. More reviews and positive ratings can help your business's local ranking."
+    },
+    {
+      "quote": "The name must match your website and signage",
+      "url": "https://support.google.com/business/answer/3038177?hl=en",
+      "publisher": "Google (Business Profile Help)",
+      "title": "Guidelines for representing your business on Google - Google Business Profile Help",
+      "evidence": "Your name should reflect your business's real-world name, as used consistently on your storefront, website, stationery, and as known to customers. Including unnecessary information in your business name isn't permitted, and could result in the suspension of your Business Profile."
+    },
+    {
+      "quote": "Write a 750-character description",
+      "url": "https://support.google.com/business/answer/13682007?hl=en",
+      "publisher": "Google (Business Profile Help)",
+      "title": "Manage your Business Profile description - Google Business Profile Help",
+      "evidence": "Your business description appears in the From the business section of your Business Profile. The description field cannot exceed 750 characters. Focus primarily on details about your business instead of details about promotions, prices, or sales. Do not include URLs or HTML code."
+    },
+    {
+      "quote": "Video verification is now common; have your signage, vehicles or interior ready to show",
+      "url": "https://support.google.com/business/answer/14271705?hl=en",
+      "publisher": "Google (Business Profile Help)",
+      "title": "Verify your business with a video recording - Google Business Profile Help",
+      "evidence": "To verify your Business Profile, upload a video that shows key info about your business. For storefront businesses, your video must include street signs, building numbers, nearby businesses, and your storefront, showroom, or business signage. For service-area businesses, show the professional tools, equipment, or products you use for work, or record yourself accessing business-only assets, such as unlocking a van that has your business branding."
+    },
+    {
+      "quote": "or offer incentives. Both violate Google policy",
+      "url": "https://support.google.com/business/answer/7400114?hl=en&visit_id=639259521011760823-1113044356&rd=1",
+      "publisher": "Google (Business Profile Help)",
+      "title": "Prohibited & restricted content - Google Business Profile Help",
+      "evidence": "Google prohibits offering incentives – such as payment, discounts, free goods and/or services - in exchange for posting any review or revision or removal of a negative review. Businesses are also prohibited from discouraging or prohibiting negative reviews, or selectively soliciting positive reviews from customers."
+    },
+    {
+      "quote": "Canada's Competition Act rules on misleading reviews",
+      "url": "https://competition-bureau.canada.ca/en/deceptive-marketing-practices-digest-volume-1",
+      "publisher": "Competition Bureau Canada",
+      "title": "The Deceptive Marketing Practices Digest — Volume 1",
+      "evidence": "The term astroturfing, when used in an advertising context, refers to the practice of creating commercial representations that masquerade as the authentic experiences and opinions of impartial consumers, such as fake consumer reviews and testimonials. The Competition Act contains provisions addressing false or misleading representations and deceptive marketing practices in promoting the supply or use of a product or any business interest."
+    },
+    {
+      "quote": "Doorway pages that swap the city name and nothing else get filtered",
+      "url": "https://developers.google.com/search/docs/essentials/spam-policies",
+      "publisher": "Google (Search Central)",
+      "title": "Spam Policies for Google Web Search | Google Search Central | Documentation | Google for Developers",
+      "evidence": "Doorway abuse is when sites or pages are created to rank for specific, similar search queries. Examples of doorway abuse include having multiple domain names or pages targeted at specific regions or cities that funnel users to one page, and creating substantially similar pages that are closer to search results than a clearly defined, browseable hierarchy."
+    },
+    {
+      "quote": "Add LocalBusiness and Service schema markup",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/local-business",
+      "publisher": "Google (Search Central)",
+      "title": "Local Business (LocalBusiness) Structured Data | Google Search Central | Documentation | Google for Developers",
+      "evidence": "Each local business location should be defined as a LocalBusiness type. Use the most specific LocalBusiness sub-type possible; for example, Restaurant, DaySpa, HealthClub, and so on. With Local Business structured data, you can tell Google about business hours, different departments within a business, and more. Opening hours can be marked up using the OpeningHoursSpecification type and geo coordinates using the GeoCoordinates type."
+    },
+    {
+      "quote": "Aim for a Largest Contentful Paint under 2.5 seconds",
+      "url": "https://web.dev/articles/lcp",
+      "publisher": "Google (web.dev)",
+      "title": "Largest Contentful Paint (LCP) | Articles | web.dev",
+      "evidence": "To provide a good user experience, sites should strive to have Largest Contentful Paint of 2.5 seconds or less. To ensure you're hitting this target for most of your users, a good threshold to measure is the 75th percentile of page loads, segmented across mobile and desktop devices."
+    }
+  ],
+  "flags": []
+}

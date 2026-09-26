@@ -1,0 +1,60 @@
+{
+  "slug": "charlottetown",
+  "geographyNote": "City of Charlottetown (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&GENDERlist=1&STATISTIClist=1&HEADERlist=0&DGUIDlist=2021A00051102075&SearchText=charlottetown",
+  "figures": {
+    "population2021": 38809,
+    "population2016": 36094,
+    "growthPct": 7.5,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": 17184,
+    "landAreaKm2": 44.27
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00051102075",
+    "population2016": "https://en.wikipedia.org/wiki/Charlottetown",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00051102075",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00051102075",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00051102075"
+  },
+  "facts": [
+    {
+      "text": "PEI's bioscience cluster reported private sector company revenues of more than $612 million, growing 84 percent since 2018, making bioscience the province's second-largest industry by GDP impact.",
+      "url": "https://www.businesswire.com/news/home/20250226108733/en/PEI-Bioscience-Cluster-Accelerates-as-a-Powerhouse-Economic-Engine-With-Impressive-2023-Results",
+      "publisher": "Business Wire (PEI BioAlliance)"
+    },
+    {
+      "text": "The PEI bioscience sector employs 2,200 people with an average annual salary of $79,300, making the cluster the highest-paying private sector employer in the province.",
+      "url": "https://www.businesswire.com/news/home/20250226108733/en/PEI-Bioscience-Cluster-Accelerates-as-a-Powerhouse-Economic-Engine-With-Impressive-2023-Results",
+      "publisher": "Business Wire (PEI BioAlliance)"
+    },
+    {
+      "text": "Sekisui Diagnostics is expanding its P.E.I. facility and hiring 25 new staff with $3.9 million in support from the province.",
+      "url": "https://www.cbc.ca/news/canada/prince-edward-island/pei-sekisui-province-investment-1.7563879",
+      "publisher": "CBC News"
+    },
+    {
+      "text": "Port Charlottetown expects to welcome more than 131,000 cruise passengers and 57,800 crew in 2025, including six inaugural calls and two overnight stays.",
+      "url": "https://portcharlottetown.com/port-charlottetown-welcomes-first-ship-of-2025-cruise-season/",
+      "publisher": "Port Charlottetown"
+    },
+    {
+      "text": "The University of Prince Edward Island boosts the provincial GDP by over $228 million, according to its economic impact report.",
+      "url": "https://educationnewscanada.com/article/education/level/university/1/1171447/university-boosts-provincial-gdp-by-over-228m.html",
+      "publisher": "Education News Canada"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Charlottetown grew 7.5 percent between 2016 and 2021, from 36,094 to 38,809 residents, and its 17,184 occupied dwellings sit within a compact 44.27 square kilometres. As the provincial capital it combines government, health care and university employment with a fast-growing bioscience cluster and a busy summer cruise and tourism season.",
+      "For a local business, that means a small but dense and growing market where most customers live minutes from downtown, plus a seasonal wave of visitors. Being visible to both residents and tourists, and to the well-paid bioscience workforce, shapes how a business should present itself."
+    ],
+    "byService": {
+      "lead-generation": "Lead generation in Charlottetown should run two tracks, one for the 17,184 resident households and one timed to the cruise and tourist season, when demand for services spikes.",
+      "seo": "Charlottetown SEO benefits from a city of only 44.27 square kilometres, since a single strong local profile can cover every neighbourhood, but it must also capture visitor searches for the island.",
+      "website-development": "A Charlottetown website should load fast on mobile for visitors arriving by ship or car, and serve the residents who joined the city during its 7.5 percent growth to 2021.",
+      "branding": "Branding in Charlottetown can pair island charm with the professionalism expected by government, university and bioscience customers, giving a business a distinct place in a small market."
+    }
+  }
+}

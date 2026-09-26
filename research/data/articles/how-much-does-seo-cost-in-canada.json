@@ -1,0 +1,27 @@
+{
+  "slug": "how-much-does-seo-cost-in-canada",
+  "sources": [
+    {
+      "quote": "Spun or AI-generated articles are published on private blog networks that link to you",
+      "url": "https://developers.google.com/search/docs/essentials/spam-policies",
+      "publisher": "Google Search Central",
+      "title": "Spam Policies for Google Web Search | Google Search Central | Documentation | Google for Developers",
+      "evidence": "Scaled content abuse is when many pages are generated for the primary purpose of manipulating Search rankings and not helping users. Examples include using generative AI tools or other similar tools to generate many pages without adding value for users. Using automation—including AI—to generate content with the primary purpose of manipulating ranking in search results is a violation of our spam policies. Sites that violate our policies may rank lower in results or not appear in results at all."
+    },
+    {
+      "quote": "promising first-page rankings",
+      "url": "https://developers.google.com/search/docs/fundamentals/do-i-need-seo",
+      "publisher": "Google Search Central",
+      "title": "Do You Need an SEO? Tips for Hiring an SEO | Google Search Central | Documentation | Google for Developers",
+      "evidence": "No one can guarantee a #1 ranking on Google. Beware of SEOs that claim to guarantee rankings, allege a special relationship with Google, or advertise a priority submit to Google. If they guarantee you that their changes will give you first place in search results, find someone else. An SEO audit should be about giving you realistic estimates of improvement, and an estimate of the work involved."
+    },
+    {
+      "quote": "since Bill 96, legal obligations around French-language websites",
+      "url": "https://www.oqlf.gouv.qc.ca/charte/questions_freq/faq_jur-web-medias-soc.html",
+      "publisher": "Office québécois de la langue française (OQLF)",
+      "title": "Charte de la langue française - Changements législatifs",
+      "evidence": "Commercial advertising found on business websites must have a French version unless it is covered by one of the exceptions provided in the regulation. Websites and social media must be available in French, but they can be in another language in addition to French; if another language than French is used, French must appear in an equivalent manner."
+    }
+  ],
+  "flags": []
+}

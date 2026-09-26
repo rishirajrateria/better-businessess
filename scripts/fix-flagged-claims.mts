@@ -1,6 +1,6 @@
 /**
  * One-off corrections for statements the citation fact-check flagged as wrong or outdated
- * (research/out/articles/*.json → flags). Each edit is a verbatim find → replace inside one article.
+ * (research/data/articles/*.json → flags). Each edit is a verbatim find → replace inside one article.
  * usage: npx tsx scripts/fix-flagged-claims.mts
  */
 import { PARTS, loadPart, writePart } from "./lib/seed-posts-io.mts";

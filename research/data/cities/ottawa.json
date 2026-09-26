@@ -1,0 +1,55 @@
+{
+  "slug": "ottawa",
+  "geographyNote": "City of Ottawa (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&DGUIDlist=2021A00053506008",
+  "figures": {
+    "population2021": 1017449,
+    "population2016": 934243,
+    "growthPct": 8.9,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": 407252,
+    "landAreaKm2": 2788.2
+  },
+  "figureSources": {
+    "population2021": "https://ottawa.ca/en/living-ottawa/statistics-and-demographics/2021-census",
+    "population2016": "https://ottawa.ca/en/living-ottawa/statistics-and-demographics/2021-census",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00033506",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?Lang=e&Dguid=2021A00053506008&topic=1",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?Lang=e&Dguid=2021A00053506008&topic=1"
+  },
+  "facts": [
+    {
+      "text": "Kanata North, Canada's largest technology park, is home to more than 540 companies and over 33,000 employees, contributing about $13 billion a year to Canada's GDP.",
+      "url": "https://www.investottawa.ca/blog/ottawa-tech-job-market-2026/",
+      "publisher": "Invest Ottawa"
+    },
+    {
+      "text": "Between 2018 and 2023 Ottawa recorded 51.7 percent growth in tech employment, one of the highest rates among North American cities in that period.",
+      "url": "https://www.investottawa.ca/blog/ottawas-tech-job-market-in-2025/",
+      "publisher": "Invest Ottawa"
+    },
+    {
+      "text": "The technology and federal government sectors account for 37 percent of Ottawa's total GDP, making them the two main drivers of the city's economy.",
+      "url": "https://ottawa.ca/en/why-bring-your-business-ottawa/economic-overview",
+      "publisher": "City of Ottawa"
+    },
+    {
+      "text": "Ottawa's tourism industry draws nearly 10 million visitors a year, generates $3.1 billion in economic output and supports over 35,000 direct, indirect and induced jobs.",
+      "url": "https://ottawa.ca/en/why-bring-your-business-ottawa/diverse-economy/tourism",
+      "publisher": "City of Ottawa"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Ottawa counted just over one million residents in the 2021 Census, up 8.9 percent from 934,243 in 2016. That is faster growth than Toronto and above the national pace, so a share of the customers a local business serves arrived in the past few years and are still choosing their regular suppliers.",
+      "The city's 407,252 occupied private dwellings are spread across 2,788.2 square kilometres, from a dense core to rural villages. For a business competing here, that means customers think in terms of their own part of the city, and reaching new arrivals in the suburbs often pays better than fighting for attention downtown."
+    ],
+    "byService": {
+      "lead-generation": "Because Ottawa grew 8.9 percent between 2016 and 2021, lead generation should focus on newer suburban households that have not yet settled on providers for everyday services.",
+      "seo": "Across 2,788.2 square kilometres, Ottawa searches carry strong local intent, so SEO here relies on pages for individual communities rather than a single city-wide landing page.",
+      "website-development": "A website serving Ottawa's one million residents needs clear service areas and directions, since a suburban visitor wants to know quickly whether you cover their neighbourhood.",
+      "branding": "Government and technology anchor Ottawa's economy, so branding that speaks to a stable, well-educated audience with credible, understated messaging tends to land better than aggressive promotion."
+    }
+  }
+}

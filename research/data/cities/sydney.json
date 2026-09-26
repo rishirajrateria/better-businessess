@@ -1,0 +1,60 @@
+{
+  "slug": "sydney",
+  "geographyNote": "Cape Breton Regional Municipality (census subdivision); Sydney is a population centre within CBRM, and no separate municipal census figures exist for Sydney",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Cape+Breton&DGUIDlist=2021A00051217030&GENDERlist=1%2C2%2C3&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 93694,
+    "population2016": null,
+    "growthPct": -0.6,
+    "medianAge": null,
+    "medianHouseholdIncome2020": 62400,
+    "privateDwellings": 42316,
+    "landAreaKm2": 2419.7
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00051217030",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00051217030",
+    "medianHouseholdIncome2020": "https://www.point2homes.com/CA/Demographics/NS/Cape-Breton-Island-Demographics.html",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00051217030",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00051217030"
+  },
+  "facts": [
+    {
+      "text": "Cape Breton University in Sydney had 8,517 full-time students enrolled as of last fall, up from 3,616 just five years prior.",
+      "url": "https://www.cbc.ca/news/canada/nova-scotia/cbu-international-commute-1.7219345",
+      "publisher": "CBC News"
+    },
+    {
+      "text": "The Port of Sydney received nearly 200,000 cruise passengers plus crew in the 2025 season, with multiple days when two, three or four ships visited at the same time.",
+      "url": "https://www.porthalifax.ca/nova-scotia-cruise-ports-enjoy-exceptional-2025-season/",
+      "publisher": "Port of Halifax"
+    },
+    {
+      "text": "NSCC's Sydney Waterfront Campus opened in September 2024 as a 305,000 square foot campus spanning downtown Sydney through four buildings connected by pedways.",
+      "url": "https://www.nscc.ca/about/news/stories/2024/nscc-sydney-waterfront-campus-opens.asp",
+      "publisher": "Nova Scotia Community College"
+    },
+    {
+      "text": "The Cape Breton Business Innovation Centre, which provides mentorship and shared workspaces, officially opened in Sydney on January 12, 2026.",
+      "url": "https://www.ctvnews.ca/atlantic/nova-scotia/article/business-innovation-centre-opens-in-cape-breton/",
+      "publisher": "CTV News"
+    },
+    {
+      "text": "Cape Breton Regional Hospital in Sydney is a 280-bed tertiary care institution and the second largest acute care facility in Nova Scotia.",
+      "url": "https://en.wikipedia.org/wiki/Cape_Breton_Regional_Hospital",
+      "publisher": "Wikipedia"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Sydney is the urban core of Cape Breton Regional Municipality, which counted 93,694 residents in the 2021 Census, a 0.6 percent decline from 2016. Households number 42,316 across 2,419.7 square kilometres, and the median household income was $62,400 in 2020, below the national level.",
+      "For a local business, that means a mature, price-aware market where growth comes from specific engines rather than population: a rapidly expanding Cape Breton University, a new downtown NSCC campus, a busy cruise season and the regional hospital. Businesses that connect with students, visitors and health care workers can grow even as the wider population holds steady."
+    ],
+    "byService": {
+      "lead-generation": "Lead generation in Sydney works best when it targets the seasonal cruise traffic and the student population rather than relying on a general market that shrank slightly between 2016 and 2021.",
+      "seo": "SEO for a Sydney business should capture Cape Breton and Sydney searches together, because visitors and newcomers to a municipality of 93,694 people search by region as often as by town.",
+      "website-development": "With household incomes of $62,400 in 2020, a Sydney website needs transparent pricing and simple mobile booking so budget-conscious locals and visiting cruise passengers can act quickly.",
+      "branding": "Branding in Sydney can draw on Cape Breton identity and the waterfront revival, giving a small business a story that resonates across 42,316 households and thousands of seasonal visitors."
+    }
+  }
+}

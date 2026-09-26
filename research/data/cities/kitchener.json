@@ -1,0 +1,56 @@
+{
+  "slug": "kitchener",
+  "geographyNote": "City of Kitchener (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Kitchener&GENDERlist=1%2C2%2C3&STATISTIClist=1%2C4&DGUIDlist=2021A00053530013&HEADERlist=0",
+  "figures": {
+    "population2021": 256885,
+    "population2016": 233222,
+    "growthPct": null,
+    "medianAge": 37.2,
+    "medianHouseholdIncome2020": 87000,
+    "privateDwellings": 99812,
+    "landAreaKm2": 136.81
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053530013",
+    "population2016": "https://en.wikipedia.org/wiki/Kitchener,_Ontario",
+    "medianAge": "https://capopulation.com/area/ontario/kitchener/",
+    "medianHouseholdIncome2020": "https://townfolio.co/on/kitchener/demographics",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053530013",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053530013"
+  },
+  "facts": [
+    {
+      "text": "Waterloo Region has 1,570 information and communication technology companies with over 11,160 employees and about 1,100 start-ups, the second highest start-up density in the world.",
+      "url": "https://www.regionofwaterloo.ca/en/doing-business/diverse-resilient-economy.aspx",
+      "publisher": "Region of Waterloo"
+    },
+    {
+      "text": "Waterloo's tech talent grew 58.2 percent from 2021 to 2024, and CBRE ranks it the number one small tech talent market in North America and seventh overall.",
+      "url": "https://www.waterlooedc.ca/blog/cbre-scoring-tech-talent-canada-2025",
+      "publisher": "Waterloo EDC"
+    },
+    {
+      "text": "Google's Canadian engineering headquarters has been based in the Waterloo Region community for over a decade, with capacity for 3,000 workers and a new facility opening soon.",
+      "url": "https://www.waterlooedc.ca/blog/big-brands-waterloo",
+      "publisher": "Waterloo EDC"
+    },
+    {
+      "text": "D2L, recognized as one of Canada's fastest-growing tech companies, is headquartered in the Catalyst building in Kitchener.",
+      "url": "https://communitech.ca/technews/waterloo-region-tech-companies-shine-in-deloitte-rankings.html",
+      "publisher": "Communitech"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Kitchener had 256,885 residents in the 2021 Census, up from 233,222 in 2016, making it one of the faster-growing cities in Ontario. Its 99,812 occupied private dwellings are packed into 136.81 square kilometres, so the city is compact and most customers live within a short drive of downtown.",
+      "The median age of 37.2 is young for a Canadian city and the median household income was $87,000 in 2020. Kitchener sits at the centre of the Waterloo Region technology cluster, which shapes a customer base that is comfortable researching, comparing and buying online before ever visiting a business in person."
+    ],
+    "byService": {
+      "lead-generation": "Kitchener added tens of thousands of residents between 2016 and 2021, so lead generation should target new arrivals and young households who are choosing local providers for the first time.",
+      "seo": "With a median age of 37.2 in a technology-focused region, Kitchener customers search on mobile and expect accurate local listings, so SEO here starts with a complete, well-reviewed business profile.",
+      "website-development": "For a $87,000 median income audience that works in and around tech, a Kitchener website needs to be fast, modern and functional, with online booking or quoting built in.",
+      "branding": "Kitchener's young, tech-literate population responds to brands that feel contemporary and authentic, so identity work here should avoid dated or overly corporate styling."
+    }
+  }
+}

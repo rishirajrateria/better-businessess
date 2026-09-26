@@ -1,0 +1,61 @@
+{
+  "slug": "halifax",
+  "geographyNote": "Halifax Regional Municipality (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=halifax&DGUIDlist=2021A00051209034&GENDERlist=1&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 439819,
+    "population2016": 403131,
+    "growthPct": 9.1,
+    "medianAge": null,
+    "medianHouseholdIncome2020": 81000,
+    "privateDwellings": 190512,
+    "landAreaKm2": 5475.57
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00051209034",
+    "population2016": "https://www12.statcan.gc.ca/census-recensement/2016/as-sa/fogs-spg/Facts-csd-eng.cfm?LANG=Eng&GK=CSD&GC=1209034",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00051209034",
+    "medianHouseholdIncome2020": "https://www.point2homes.com/CA/Demographics/NS/Halifax-Demographics.html",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00051209034",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00051209034"
+  },
+  "facts": [
+    {
+      "text": "Halifax's real GDP grew by 2.3 percent in 2025, and its 1.2 percent increase in real GDP per capita topped the 10 benchmark cities used in the Halifax Index.",
+      "url": "https://halifaxpartnership.com/research-strategy/halifax-index/economy/",
+      "publisher": "Halifax Partnership"
+    },
+    {
+      "text": "Health care and social assistance is the Halifax industry with the most employees at 41,700, ahead of wholesale and retail trade at 39,200 and professional services at 27,600.",
+      "url": "https://halifaxpartnership.com/research-strategy/halifax-index/labour/",
+      "publisher": "Halifax Partnership"
+    },
+    {
+      "text": "Halifax employment growth reached 5.5 percent with 13,900 new jobs, the strongest growth in a decade.",
+      "url": "https://halifaxpartnership.com/research-strategy/halifax-index/labour/",
+      "publisher": "Halifax Partnership"
+    },
+    {
+      "text": "The Port of Halifax handled 502,000 TEU of containerized cargo and 8.6 million metric tonnes of total cargo in 2025.",
+      "url": "https://www.porttechnology.org/port-of-halifax-hits-502000-teus-in-strong-2025-performance/",
+      "publisher": "Port Technology International"
+    },
+    {
+      "text": "Irving Shipbuilding employs over 2,100 shipbuilders at its Halifax Shipyard as of 2024.",
+      "url": "https://en.wikipedia.org/wiki/Irving_Shipbuilding",
+      "publisher": "Wikipedia"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Halifax Regional Municipality counted 439,819 residents in the 2021 Census, up 9.1 percent from 403,131 in 2016, one of the fastest growth rates among large Canadian cities. Those residents occupy 190,512 private dwellings across 5,475.57 square kilometres, from the dense peninsula to rural communities, and the median household income was $81,000 in 2020.",
+      "For a local business, Halifax is Atlantic Canada's largest and fastest-changing market, led by health care, retail, professional services, the port and the shipyard. Rapid growth brings new customers who have no existing loyalties, so the businesses that show up first online tend to win them."
+    ],
+    "byService": {
+      "lead-generation": "Halifax added tens of thousands of residents between 2016 and 2021, so lead generation should prioritise newcomers in growing suburbs who are still choosing their providers.",
+      "seo": "Because the municipality spans 5,475.57 square kilometres, SEO in Halifax must be built community by community, from Dartmouth to Bedford, rather than as one generic city page.",
+      "website-development": "With 190,512 households and $81,000 median incomes, a Halifax website has to serve both professional buyers and busy families, so speed, clarity and easy contact matter more than decoration.",
+      "branding": "A brand in Halifax competes against national chains drawn by the region's growth, so distinct local positioning tied to the harbour, the neighbourhoods and Maritime character stands out."
+    }
+  }
+}

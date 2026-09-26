@@ -1,0 +1,57 @@
+{
+  "slug": "oakville",
+  "geographyNote": "Town of Oakville (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&DGUIDlist=2021A00053524001&GENDERlist=1%2C2%2C3&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 213759,
+    "population2016": 193832,
+    "growthPct": 10.3,
+    "medianAge": 41.6,
+    "medianHouseholdIncome2020": 128000,
+    "privateDwellings": 73558,
+    "landAreaKm2": 138.94
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053524001",
+    "population2016": "https://en.wikipedia.org/wiki/Oakville,_Ontario",
+    "growthPct": "https://en.wikipedia.org/wiki/Oakville,_Ontario",
+    "medianAge": "https://thedatainsider.com/oakville-ontario-population/",
+    "medianHouseholdIncome2020": "https://www.theocf.org/oakville-is-a-wealthy-community-but-1-in-8-live-in-poverty-in-one-neighborhood/",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053524001",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053524001"
+  },
+  "facts": [
+    {
+      "text": "Oakville hosts the headquarters of Ford Canada, Siemens Canada, Collins Aerospace and Geotab, and new company arrivals add about 1,000 new jobs to the community each year.",
+      "url": "https://invest.oakville.ca/why-oakville/strong-economy/",
+      "publisher": "Invest Oakville"
+    },
+    {
+      "text": "Ford Motor Company of Canada plans to invest US$3 billion to expand production of F-Series Super Duty trucks at the Oakville Assembly Complex, securing about 1,800 jobs.",
+      "url": "https://invest.oakville.ca/getmedia/546238aa-301d-48a9-9e07-426d9d47a084/economic-development-annual-report-2024.pdf",
+      "publisher": "Invest Oakville"
+    },
+    {
+      "text": "Oakville's key sector businesses include 267 in advanced manufacturing, 385 in life sciences, 972 in digital media and ICT, and 2,770 in professional and financial services.",
+      "url": "https://invest.oakville.ca/oakvilleinvest/media/Invest-Oakville/PDF/Oakville-Community-Profile-HA.pdf",
+      "publisher": "Invest Oakville"
+    },
+    {
+      "text": "Site Selection Magazine has named Oakville one of the best locations to invest in Canada for the fifth year in a row.",
+      "url": "https://invest.oakville.ca/getmedia/546238aa-301d-48a9-9e07-426d9d47a084/economic-development-annual-report-2024.pdf",
+      "publisher": "Invest Oakville"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Oakville grew 10.3 percent between 2016 and 2021 to 213,759 residents, one of the fastest rates in the Greater Toronto Area, with 73,558 occupied private dwellings on 138.94 square kilometres. New subdivisions in the north of town account for much of that growth.",
+      "The median household income was $128,000 in 2020, the highest of any city profiled here, and the median age is 41.6. For a local business that means customers who can afford premium services and expect a premium experience, along with a steady supply of new households who have not yet chosen their regular providers."
+    ],
+    "byService": {
+      "lead-generation": "Oakville's 10.3 percent growth since 2016 and its $128,000 median household income make it ideal for lead generation aimed at new homeowners seeking higher-end services.",
+      "seo": "Because Oakville splits into distinct communities north and south of the highway, SEO should target neighbourhood names alongside town-wide keywords to capture searches from both established and new areas.",
+      "website-development": "A website serving households earning a median $128,000 must look refined and load instantly, since Oakville visitors judge quality within seconds and will not tolerate a dated design.",
+      "branding": "Oakville brands compete in a market with a median age of 41.6 and high expectations, so positioning should emphasize craftsmanship, service and discretion rather than discounts."
+    }
+  }
+}

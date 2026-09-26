@@ -1,0 +1,57 @@
+{
+  "slug": "richmond-hill",
+  "geographyNote": "City of Richmond Hill (census subdivision, listed as Richmond Hill, Town in the 2021 Census)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Richmond+Hill&DGUIDlist=2021A00053519038&GENDERlist=1%2C2%2C3&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 202022,
+    "population2016": 195022,
+    "growthPct": 3.6,
+    "medianAge": 43.6,
+    "medianHouseholdIncome2020": 102000,
+    "privateDwellings": 69314,
+    "landAreaKm2": 100.79
+  },
+  "figureSources": {
+    "population2021": "https://www.richmondhill.ca/en/shared-content/resources/documents/2021-Census-Release-1-for-Website---Population-and-Dwellings.pdf",
+    "population2016": "https://www.richmondhill.ca/en/shared-content/resources/documents/2021-Census-Release-1-for-Website---Population-and-Dwellings.pdf",
+    "growthPct": "https://en.wikipedia.org/wiki/Richmond_Hill,_Ontario",
+    "medianAge": "https://en.wikipedia.org/wiki/Richmond_Hill,_Ontario",
+    "medianHouseholdIncome2020": "https://townfolio.co/on/richmond-hill/demographics",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?Lang=E&Dguid=2021A00053519038&topic=1",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?Lang=E&Dguid=2021A00053519038&topic=1"
+  },
+  "facts": [
+    {
+      "text": "Richmond Hill has 5,180 companies that together have created more than 73,000 jobs.",
+      "url": "https://www.richmondhill.ca/en/business/Why-Richmond-Hill.aspx",
+      "publisher": "City of Richmond Hill"
+    },
+    {
+      "text": "The York Region Employment Survey 2024 lists Mackenzie Health Hospital, Amico Corporation, Canada Computers, Compugen, Apotex and Rogers Communications among Richmond Hill's top employers.",
+      "url": "https://www.richmondhill.ca/en/business/resources/misc/EcDev-Fact-Sheet-May-2025-X235-FINAL-s.pdf",
+      "publisher": "City of Richmond Hill"
+    },
+    {
+      "text": "Construction values in Richmond Hill totalled $548.6 million in the fourth quarter of 2024, including $514.2 million in residential construction.",
+      "url": "https://www.richmondhill.ca/en/business/resources/misc/EcDev-Fact-Sheet-May-2025-X235-FINAL-s.pdf",
+      "publisher": "City of Richmond Hill"
+    },
+    {
+      "text": "Richmond Hill's key sectors are professional, scientific and technical services, health, finance and insurance, and information and culture, with focuses such as microelectronics and healthtech.",
+      "url": "https://www.richmondhill.ca/en/business/Key-Sectors.aspx",
+      "publisher": "City of Richmond Hill"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Richmond Hill counted 202,022 residents in the 2021 Census, up 3.6 percent from 195,022 in 2016, with 69,314 occupied private dwellings on just 100.79 square kilometres. It is one of the denser suburban municipalities in the region, so customers are concentrated and close together.",
+      "The median age of 43.6 is the oldest among the cities profiled here, and the median household income was $102,000 in 2020. That points to established, comfortable households with settled routines. A local business wins here through reputation, referrals and a professional presence rather than through volume advertising."
+    ],
+    "byService": {
+      "lead-generation": "Richmond Hill's modest 3.6 percent growth between 2016 and 2021 means lead generation should nurture referrals and repeat customers among its 69,314 households instead of chasing a flood of newcomers.",
+      "seo": "In a dense city of 100.79 square kilometres, Richmond Hill SEO benefits from multilingual content and strong review profiles, because nearby competitors are numerous and customers compare them closely.",
+      "website-development": "For households with a median age of 43.6 and a $102,000 median income, a Richmond Hill website should be clear, accessible and reassuring, with credentials and testimonials easy to find.",
+      "branding": "Richmond Hill's mature, affluent and diverse population rewards brands that look trustworthy and established, so identity work should favour quality cues over novelty."
+    }
+  }
+}

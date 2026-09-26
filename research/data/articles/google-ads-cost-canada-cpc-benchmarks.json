@@ -1,0 +1,55 @@
+{
+  "slug": "google-ads-cost-canada-cpc-benchmarks",
+  "sources": [
+    {
+      "quote": "You bid against other advertisers for each search, and the cost depends on how many businesses want that click and how relevant Google thinks your ad and landing page are",
+      "url": "https://support.google.com/google-ads/answer/1722122?hl=en",
+      "publisher": "Google (Google Ads Help)",
+      "title": "About Ad Rank - Google Ads Help",
+      "evidence": "Ad Rank scores are calculated based on many factors, including your bid amount, the quality of your ads and landing page, the Ad Rank thresholds, the competitiveness of an auction, the context of the person's search, and the expected impact of assets and other ad formats."
+    },
+    {
+      "quote": "Google Ads has no price list",
+      "url": "https://support.google.com/google-ads/answer/6366577?hl=en",
+      "publisher": "Google (Google Ads Help)",
+      "title": "How the Google Ads auction works - Google Ads Help",
+      "evidence": "Google Ads determines which ads should show with a lightning-fast ad auction that takes place every time someone searches on Google or visits a site that shows ads. Higher quality ads can often lead to lower CPCs. That means you pay less per click when your ads are higher quality."
+    },
+    {
+      "quote": "Google's bidding algorithms learn from conversions",
+      "url": "https://support.google.com/google-ads/answer/13020501?hl=en",
+      "publisher": "Google (Google Ads Help)",
+      "title": "Duration of the learning period for campaigns and what affects it - Google Ads Help",
+      "evidence": "The duration of the learning period is primarily affected by three factors: the number of conversions that your campaigns obtain, the duration of your conversion cycles (the amount of time it takes for a click to result in a conversion), and the bid strategy being used."
+    },
+    {
+      "quote": "A campaign that generates fewer than roughly 30 conversions a month never leaves the learning phase",
+      "url": "https://support.google.com/google-ads/answer/6268632?hl=en",
+      "publisher": "Google (Google Ads Help)",
+      "title": "About Target CPA bidding - Google Ads Help",
+      "evidence": "For evaluation, Google recommends you measure performance for the last 30 days, including at least 30 conversions. If you are sensitive to consistently hitting your target over a 30 day period using Google AI, it's recommended to drive at least 30 conversions per month, per ad group."
+    },
+    {
+      "quote": "You pay for people in Manila researching Canada",
+      "url": "https://support.google.com/google-ads/answer/1722038?hl=en",
+      "publisher": "Google (Google Ads Help)",
+      "title": "About advanced location options - Google Ads Help",
+      "evidence": "The default setting for the Location options target is People in, regularly in, or who've shown interest in your included locations (recommended). Broad geo targeting (Presence or Interest) can help you reach people who not only exist in your targeted locations, but have shown interest in your targeted locations. The Presence option lets you show your ads to people who are likely to be located, or regularly located in the locations you've targeted."
+    },
+    {
+      "quote": "A Toronto dentist paying for clicks on",
+      "url": "https://support.google.com/google-ads/answer/7478529?hl=en",
+      "publisher": "Google (Google Ads Help)",
+      "title": "About keyword matching options - Google Ads Help",
+      "evidence": "Broad match is the default match type that all your keywords are assigned because it is the most comprehensive. Ads may show on searches that include the meaning of your keyword; the meaning of the keyword can be implied. You can use negative keywords to exclude your ads from showing on searches with that term."
+    },
+    {
+      "quote": "Quebec's language rules, which apply to advertising as well as websites",
+      "url": "https://www.quebec.ca/culture/langue-francaise/exercer-droits-langue-francaise/obligations",
+      "publisher": "Gouvernement du Québec",
+      "title": "Obligations des commerces, des entreprises, des ordres professionnels et de l'Administration en matière de langue française | Gouvernement du Québec",
+      "evidence": "New obligations stemming from the enactment of Law 14 on June 1, 2022, notably touch public signage and commercial advertising. The regulations include information published on websites and social media as documents that must comply with French language obligations."
+    }
+  ],
+  "flags": []
+}

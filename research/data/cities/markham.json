@@ -1,0 +1,57 @@
+{
+  "slug": "markham",
+  "geographyNote": "City of Markham (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=markham&DGUIDlist=2021A00053519036&GENDERlist=1%2C2%2C3&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 338503,
+    "population2016": 328966,
+    "growthPct": 2.9,
+    "medianAge": 42.4,
+    "medianHouseholdIncome2020": 104000,
+    "privateDwellings": 110867,
+    "landAreaKm2": 210.93
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053519036",
+    "population2016": "https://en.wikipedia.org/wiki/Markham,_Ontario",
+    "growthPct": "https://en.wikipedia.org/wiki/Markham,_Ontario",
+    "medianAge": "https://markhambusiness.ca/helping-businesses/charts",
+    "medianHouseholdIncome2020": "https://townfolio.co/on/markham/demographics",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053519036",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053519036"
+  },
+  "facts": [
+    {
+      "text": "Markham is home to over 650 corporate head offices and more than 1,500 high tech and life science companies.",
+      "url": "https://www.markham.ca/about-city-markham/city-hall/facts-stats",
+      "publisher": "City of Markham"
+    },
+    {
+      "text": "More than 1,000 technology and life sciences companies in Markham employ 37,000 people, over one-fifth of the city's total workforce of 167,500.",
+      "url": "https://www.markham.ca/sites/default/files/about-city-markham/Facts%20&%20Stats/Economic-Profile.pdf",
+      "publisher": "City of Markham"
+    },
+    {
+      "text": "Global companies headquartered in Markham include AMD, IBM, Honda, Aviva, Oracle, Nokia, TD Bank, General Motors, Stantec, GE and AECOM.",
+      "url": "https://www.markham.ca/about-city-markham/city-hall/facts-stats",
+      "publisher": "City of Markham"
+    },
+    {
+      "text": "Markham is a leader in attracting foreign direct investment, with more than 234 foreign companies located in the city.",
+      "url": "https://www.markham.ca/sites/default/files/about-city-markham/Facts%20&%20Stats/Economic-Profile.pdf",
+      "publisher": "City of Markham"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Markham counted 338,503 residents in the 2021 Census, up 2.9 percent from 328,966 in 2016, living in 110,867 occupied private dwellings on 210.93 square kilometres. Growth is slow, so a local business competes mainly for existing households rather than newcomers.",
+      "Those households are affluent and mature, with a median age of 42.4 and a median household income of $104,000 in 2020. Markham's economy is anchored by corporate head offices and technology firms, which means both consumer and business customers expect a polished, professional presence and are willing to pay for quality once they trust a provider."
+    ],
+    "byService": {
+      "lead-generation": "Since Markham grew only 2.9 percent between 2016 and 2021, lead generation should prioritize referrals, repeat business and displacement of incumbent providers over campaigns aimed at new arrivals.",
+      "seo": "Markham's 338,503 residents research carefully before buying, so SEO content that answers detailed questions in several languages and targets Unionville, Thornhill and Milliken by name performs best.",
+      "website-development": "A website for Markham's $104,000 median income households can present premium services confidently, provided it is fast, mobile-first and easy to navigate for a median age of 42.4.",
+      "branding": "With hundreds of corporate head offices nearby, branding in Markham should look established and precise, because customers here compare local businesses against national standards."
+    }
+  }
+}

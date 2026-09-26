@@ -1,0 +1,57 @@
+{
+  "slug": "winnipeg",
+  "geographyNote": "City of Winnipeg (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=winnipeg&GENDERlist=1&STATISTIClist=1&DGUIDlist=2021A00054611040&HEADERlist=0",
+  "figures": {
+    "population2021": 749607,
+    "population2016": 705244,
+    "growthPct": 6.3,
+    "medianAge": 38.8,
+    "medianHouseholdIncome2020": 80000,
+    "privateDwellings": 300431,
+    "landAreaKm2": 461.78
+  },
+  "figureSources": {
+    "population2021": "https://www.winnipeg.ca/people-culture/our-city-our-stories/more-people-call-winnipeg-home-ever",
+    "population2016": "https://www.winnipeg.ca/people-culture/our-city-our-stories/more-people-call-winnipeg-home-ever",
+    "growthPct": "https://www.winnipeg.ca/people-culture/our-city-our-stories/more-people-call-winnipeg-home-ever",
+    "medianAge": "https://capopulation.com/area/manitoba/winnipeg/",
+    "medianHouseholdIncome2020": "https://www.point2homes.com/CA/Demographics/MB/Winnipeg-Demographics.html",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021a00054611040",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021a00054611040"
+  },
+  "facts": [
+    {
+      "text": "Winnipeg is the largest aerospace centre in Western Canada and third largest in the country by aerospace exports, with Manitoba home to 62 aerospace companies and 5,100 employees.",
+      "url": "https://www.liveinwinnipeg.com/main/key-industries/aerospace",
+      "publisher": "Winnipeg Economic Development & Tourism"
+    },
+    {
+      "text": "Boeing Winnipeg, the largest aerospace composite manufacturer in Canada, employs approximately 1,500 people, and StandardAero bases its largest operation in the city.",
+      "url": "https://www.liveinwinnipeg.com/main/key-industries/aerospace",
+      "publisher": "Winnipeg Economic Development & Tourism"
+    },
+    {
+      "text": "The Winnipeg Economic Region grew by an average of 2.3% annually from 2023 to 2025, compared with 1.8% for Manitoba and 1.9% for Canada.",
+      "url": "https://www.winnipeg.ca/news/2026-05-11-new-data-shows-winnipeg-economy-grew-faster-manitoba-and-canadian-averages-last-three-years",
+      "publisher": "City of Winnipeg"
+    },
+    {
+      "text": "CentrePort Canada offers 20,000 acres of industrial land as one of North America's largest trimodal inland ports, with over 60 new companies established since 2009 and 3,000 acres in development.",
+      "url": "https://centreportcanada.ca/",
+      "publisher": "CentrePort Canada"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Winnipeg counted 749,607 residents in the 2021 Census, up 6.3 per cent from 705,244 in 2016, with a median age of 38.8 and a median household income of $80,000 in 2020. The city is large but value-conscious, and its 300,431 occupied dwellings are spread across 461.78 square kilometres of distinct neighbourhoods.",
+      "Aerospace, manufacturing and logistics anchor the economy, from Boeing's 1,500 local employees to the 20,000-acre CentrePort inland port, and the regional economy has outgrown the national average since 2023. For a local business, that means steady industrial payrolls and a customer base that rewards fair prices and dependable service over flash."
+    ],
+    "byService": {
+      "lead-generation": "Lead generation in Winnipeg can pair consumer campaigns for 749,607 residents with business-to-business outreach to the manufacturers, aerospace suppliers and logistics firms clustered around CentrePort.",
+      "seo": "Because Winnipeg's 300,431 households live in strongly identified districts such as St. Boniface, St. Vital and Transcona, SEO should build neighbourhood-level pages rather than rely on one citywide term.",
+      "website-development": "A Winnipeg website should communicate value clearly to households earning a median $80,000 in 2020, with transparent pricing and fast mobile pages that work for a median age of 38.8.",
+      "branding": "Winnipeg branding should be honest and unpretentious, reflecting a city that grew 6.3 per cent between 2016 and 2021 while keeping the practical, community-minded character its customers expect."
+    }
+  }
+}

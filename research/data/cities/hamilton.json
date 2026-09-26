@@ -1,0 +1,56 @@
+{
+  "slug": "hamilton",
+  "geographyNote": "City of Hamilton (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Hamilton&GENDERlist=1%2C2%2C3&STATISTIClist=1%2C4&DGUIDlist=2021A00053525005&HEADERlist=0",
+  "figures": {
+    "population2021": 569353,
+    "population2016": 536917,
+    "growthPct": 6.0,
+    "medianAge": null,
+    "medianHouseholdIncome2020": 86000,
+    "privateDwellings": 222807,
+    "landAreaKm2": 1118.31
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053525005",
+    "population2016": "https://en.wikipedia.org/wiki/Hamilton,_Ontario",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053525005",
+    "medianHouseholdIncome2020": "https://townfolio.co/on/hamilton/demographics",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053525005",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053525005"
+  },
+  "facts": [
+    {
+      "text": "Hamilton's life sciences sector contributes about $5.7 billion a year to the local economy and employs over 36,000 people across more than 200 organizations.",
+      "url": "https://investinhamilton.ca/industries/life-sciences",
+      "publisher": "Invest in Hamilton"
+    },
+    {
+      "text": "Hamilton Health Sciences, the city's largest life sciences employer, is the second largest hospital network in Ontario and the fourth largest in Canada.",
+      "url": "https://investinhamilton.ca/industries/life-sciences",
+      "publisher": "Invest in Hamilton"
+    },
+    {
+      "text": "More than 750 manufacturing companies provide 25,000 jobs in Hamilton, representing 11 percent of employment in the city.",
+      "url": "https://investinhamilton.ca/sectors/manufacturing",
+      "publisher": "Invest in Hamilton"
+    },
+    {
+      "text": "Sixty percent of Canada's steel output comes from Hamilton, which remains the country's steelmaking capital.",
+      "url": "https://investinhamilton.ca/sectors/manufacturing",
+      "publisher": "Invest in Hamilton"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Hamilton reached 569,353 residents in the 2021 Census, up 6.0 percent from 536,917 in 2016, with 222,807 occupied private dwellings. The city covers 1,118.31 square kilometres, so it blends a dense lower city with suburban and rural communities that behave like separate local markets.",
+      "The median household income was $86,000 in 2020, which is a touch above Toronto's and gives most households room for discretionary spending. For a local business, the useful reading is that Hamilton is growing steadily and gaining new residents, many arriving from pricier parts of the region and looking for services close to their new home."
+    ],
+    "byService": {
+      "lead-generation": "Hamilton added residents at a 6.0 percent pace between 2016 and 2021, so lead generation should reach recent movers in the growing suburbs before they settle on providers.",
+      "seo": "Because Hamilton spans 1,118.31 square kilometres of distinct communities, SEO needs separate pages for areas like Stoney Creek, Ancaster and Dundas rather than one generic city page.",
+      "website-development": "With a median household income of $86,000, Hamilton customers weigh value carefully, so a website should present clear pricing and proof of quality on a fast mobile layout.",
+      "branding": "Health care and manufacturing shape Hamilton's identity, and a brand that feels practical, trustworthy and rooted in the city connects better here than polished big-city styling."
+    }
+  }
+}

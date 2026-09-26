@@ -1,0 +1,60 @@
+{
+  "slug": "st-johns",
+  "geographyNote": "City of St. John's, Newfoundland and Labrador (census subdivision); not to be confused with Saint John, New Brunswick",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&GENDERlist=1&STATISTIClist=1&HEADERlist=0&DGUIDlist=2021A00051001519&SearchText=st.+john%27s",
+  "figures": {
+    "population2021": 110525,
+    "population2016": null,
+    "growthPct": 1.5,
+    "medianAge": null,
+    "medianHouseholdIncome2020": 75000,
+    "privateDwellings": 49298,
+    "landAreaKm2": 446.02
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00051001519",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00051001519",
+    "medianHouseholdIncome2020": "https://www.point2homes.com/CA/Demographics/NL/St-John-s-Demographics.html",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00051001519",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00051001519"
+  },
+  "facts": [
+    {
+      "text": "Employment in the St. John's area rose by 3.1 percent in 2025, adding 3,800 jobs, primarily in service industries, according to the City's 2025 Economic Review.",
+      "url": "https://www.stjohns.ca/en/news/city-of-st-john-s-releases-2025-economic-review.aspx",
+      "publisher": "City of St. John's"
+    },
+    {
+      "text": "Retail sales in the St. John's area grew by 4.3 percent in 2025 to more than $6.2 billion, driven by steady incomes, population growth and easing inflation.",
+      "url": "https://www.stjohns.ca/en/news/city-of-st-john-s-releases-2025-economic-review.aspx",
+      "publisher": "City of St. John's"
+    },
+    {
+      "text": "The key sectors of the St. John's economy, which account for 43 percent of jobs in the region, are health care and social assistance, retail trade and public administration.",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/campaigns/immigration-matters/local-economies/st-john-s.html",
+      "publisher": "Immigration, Refugees and Citizenship Canada"
+    },
+    {
+      "text": "Memorial University's total enrolment for fall 2025 is 17,056 students across all campuses, a 4.6 percent decrease compared to fall 2024.",
+      "url": "https://gazette.mun.ca/campus-and-community/student-enrolment-update-2/",
+      "publisher": "Memorial University Gazette"
+    },
+    {
+      "text": "The Port of St. John's offshore energy supply and service facilities support work on the Hibernia, Terra Nova, White Rose and Hebron projects.",
+      "url": "https://sjpa-apsj.com/industries/offshore-energy-supply-service/",
+      "publisher": "St. John's Port Authority"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "St. John's counted 110,525 residents in the 2021 Census, a modest 1.5 percent increase from 2016, living in 49,298 occupied private dwellings across 446.02 square kilometres. The median household income was $75,000 in 2020, supported by health care, retail, public administration, Memorial University and the offshore energy sector.",
+      "For a local business, that means a large, relatively affluent but slow-growing market where customers already have established habits. Winning them requires standing out from existing providers rather than waiting for new arrivals, and speaking to the professionals and families who anchor the city's spending."
+    ],
+    "byService": {
+      "lead-generation": "Because St. John's grew only 1.5 percent between 2016 and 2021, lead generation must win customers away from incumbents with strong offers, reviews and follow-up rather than relying on newcomers.",
+      "seo": "SEO for St. John's has to distinguish the city from Saint John, New Brunswick, and cover the wider capital region across 446.02 square kilometres, including Mount Pearl and Paradise searches.",
+      "website-development": "With 49,298 households and a $75,000 median income, a St. John's website should present pricing and credentials clearly to buyers who compare established providers before deciding.",
+      "branding": "Branding in St. John's can draw on the city's distinctive character and offshore, university and health care economy to give a business a confident, rooted identity that locals recognise."
+    }
+  }
+}

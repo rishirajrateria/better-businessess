@@ -1,0 +1,69 @@
+{
+  "slug": "plumber-marketing-canada",
+  "sources": [
+    {
+      "quote": "Ontario's Homeowner Protection Act, 2024, in force 6 June 2024, banned registering new notices of security interest against title for consumer goods such as water heaters and furnaces",
+      "url": "https://www.ontario.ca/page/notices-security-interest",
+      "publisher": "Government of Ontario",
+      "title": "Notices of Security Interest",
+      "evidence": "On June 6, 2024, the Homeowner Protection Act became law. The Act bans the registration of NOSIs for consumer goods. Consumer goods are goods installed in a residential home that are used primarily for personal, family or household purposes (such as a water heater, air conditioning equipment, or furnace). The Homeowner Protection Act also deems all consumer NOSIs currently registered on land titles to be expired."
+    },
+    {
+      "quote": "Since 20 October 2025 the older badges have merged into a single Google Verified badge and the money-back guarantee ended",
+      "url": "https://support.google.com/localservices/answer/16498018?hl=en",
+      "publisher": "Google (Local Services Help)",
+      "title": "About Google Verified badge - Local Services Help",
+      "evidence": "Effective October 20, 2025, the Google Guarantee green checkmark badge changed to blue and the Local Services Ads references Google Guaranteed, Google Screened, and License Verified by Google changed to Google Verified. As part of this change, Google discontinued the Money Back Guarantee associated with the Google Guarantee badge."
+    },
+    {
+      "quote": "Google requires service-area businesses, including plumbers dispatching from a home garage, to hide the street address and list service areas",
+      "url": "https://support.google.com/business/answer/3038177?hl=en",
+      "publisher": "Google (Business Profile Help)",
+      "title": "Guidelines for representing your business on Google - Google Business Profile Help",
+      "evidence": "If you're a service-area business, you should hide your business address from customers. For example, if you're a plumber and run your business from your residential address, clear the address from your Business Profile. If you don't serve customers at your business address, remove your address and only enter your service area."
+    },
+    {
+      "quote": "Toronto's Basement Flooding Protection Subsidy Program was expanded again in 2026 and covers a share of backwater valve and sump pump work",
+      "url": "https://www.toronto.ca/services-payments/water-environment/managing-rain-melted-snow/basement-flooding/basement-flooding-protection-subsidy-program/",
+      "publisher": "City of Toronto",
+      "title": "Basement Flooding Protection Subsidy Program – City of Toronto",
+      "evidence": "As of May 1, 2026, the City expanded the program and is offering up to $6,650 in subsidies per property, which includes a 28 per cent increase to backwater valve and sump pump subsidy amounts. Work must be completed by City-licensed contractors with original invoices provided. Obtain a building permit to install a backwater valve. Request an inspection once installation is complete."
+    },
+    {
+      "quote": "suppliers may not solicit or sign contracts at a consumer's home for water heaters, furnaces or air conditioners unless the consumer made first contact",
+      "url": "https://www.ontario.ca/page/rules-businesses-entering-contracts-consumers-home",
+      "publisher": "Government of Ontario",
+      "title": "Rules for businesses entering contracts in consumers' homes",
+      "evidence": "The restricted products and services include furnaces, air conditioners, air cleaners, air purifiers, water heaters, water treatment devices. Certain products and services can no longer be offered or sold at a consumer's home unless the consumer initiated the transaction. If the consumer invites you to their home and signs a contract for a restricted product or service, the consumer will have a 10-day cooling-off period during which they can cancel the contract without reason or penalty."
+    },
+    {
+      "quote": "BDC's rule of thumb for consumer businesses is 5 to 10%",
+      "url": "https://www.bdc.ca/en/articles-tools/marketing-sales-export/marketing/what-average-marketing-budget-for-small-business",
+      "publisher": "Business Development Bank of Canada (BDC)",
+      "title": "What is an average marketing budget for a small business?",
+      "evidence": "A common rule of thumb is that B2B companies should spend between 2 and 5% of their revenue on marketing. For B2C companies, the proportion is often higher—between 5 and 10%."
+    },
+    {
+      "quote": "must display the number on advertising including the website, social accounts and lettered vehicles",
+      "url": "https://www.rbq.gouv.qc.ca/en/licence/fulfilling-your-obligations/displaying-your-licence/",
+      "publisher": "Régie du bâtiment du Québec (RBQ)",
+      "title": "Displaying your licence - Régie du bâtiment du Québec - RBQ",
+      "evidence": "Contractors that hold a licence in good standing must display at all times their licence number on all of their identification and promotion supports. This includes the company's vehicle, in the company's advertisements or in its website or page. You must indicate your RBQ licence number on your estimates, bids, contracts, account statements and invoices."
+    },
+    {
+      "quote": "Google prohibits gating and incentives",
+      "url": "https://support.google.com/business/answer/7400114?hl=en&visit_id=639259521011760823-1113044356&rd=1",
+      "publisher": "Google (Business Profile Help)",
+      "title": "Prohibited & restricted content - Google Business Profile Help",
+      "evidence": "Offering incentives – such as payment, discounts, free goods and/or services - in exchange for posting any review or revision or removal of a negative review is prohibited. Discouraging or prohibiting negative reviews, or selectively soliciting positive reviews from customers violates the policies."
+    },
+    {
+      "quote": "Plumber is a compulsory trade: anyone practising must hold a 306A Certificate of Qualification and appear on the Skilled Trades Ontario Public Register",
+      "url": "https://www.skilledtradesontario.ca/trade-information/plumber/",
+      "publisher": "Skilled Trades Ontario",
+      "title": "Plumber - Skilled Trades Ontario",
+      "evidence": "Because this trade is compulsory, to practice this trade legally in Ontario a person must hold a Registered Training Agreement, Provisional Certificate of Qualification or Certificate of Qualification and their information must appear on the Skilled Trades Ontario Public Register."
+    }
+  ],
+  "flags": []
+}

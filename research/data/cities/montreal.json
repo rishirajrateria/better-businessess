@@ -1,0 +1,56 @@
+{
+  "slug": "montreal",
+  "geographyNote": "Ville de Montréal (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&GENDERlist=1%2C2%2C3&STATISTIClist=1&HEADERlist=0&DGUIDlist=2021A00052466023&SearchText=montreal",
+  "figures": {
+    "population2021": 1762949,
+    "population2016": 1704694,
+    "growthPct": 3.4,
+    "medianAge": 39.6,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": 816338,
+    "landAreaKm2": 364.74
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00052466023",
+    "population2016": "https://en.wikipedia.org/wiki/Montreal",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00052466023",
+    "medianAge": "https://donnees.montreal.ca/dataset/commande-personnalisee-recensement-2021",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00052466023",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00052466023"
+  },
+  "facts": [
+    {
+      "text": "Greater Montréal's aerospace sector has more than 43,000 highly skilled jobs, equivalent to one worker in fifty in the region, with five prime contractors and 219 suppliers.",
+      "url": "https://www.montrealinternational.com/en/major-sectors/aerospace/",
+      "publisher": "Montréal International"
+    },
+    {
+      "text": "Montréal accounts for almost 49% of Canada's aerospace workforce, 57% of sales and 70% of R&D, and 80% of Québec aerospace production is exported.",
+      "url": "https://www.montrealinternational.com/en/major-sectors/aerospace/",
+      "publisher": "Montréal International"
+    },
+    {
+      "text": "Approximately 11 million international and domestic tourists visited Montréal in 2024, up 7.8% from the previous year, and spent over $6.01 billion during their trips.",
+      "url": "https://www.newswire.ca/news-releases/annual-2024-report-from-tourisme-montreal-a-welcoming-metropolis-that-attracts-visitors-year-round-806421912.html",
+      "publisher": "Tourisme Montréal (via Cision Newswire)"
+    },
+    {
+      "text": "In 2024, 539 business events were held in Montréal, bringing 960,000 delegates and visitors and $395 million in economic spinoffs.",
+      "url": "https://congresmtl.com/en/business-tourism-2024-international-promotion-and-significant-economic-spinoffs-for-montreal-and-quebec/",
+      "publisher": "Palais des congrès de Montréal"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Montreal is Canada's second-largest city, with about 1.8 million residents in the 2021 Census, up 3.4% from 1.7 million in 2016. Its 816,338 occupied dwellings sit on just 364.74 square kilometres, making it one of the densest markets in the country, and the median age is 39.6.",
+      "Aerospace, tourism and business events drive the economy, and the customer base is largely French-speaking. A local business competes in a crowded, bilingual market where visibility in French matters as much as price."
+    ],
+    "byService": {
+      "lead-generation": "With 1.8 million residents packed into 364.74 square kilometres, Montreal lead generation works best when it targets specific boroughs and runs in French first, English second.",
+      "seo": "Montreal SEO must rank in both French and English, since a single-language site forfeits most of a 1.8 million-person market that searches mostly in French.",
+      "website-development": "A Montreal website needs a fully bilingual build, fast mobile performance and borough-level location pages to serve 816,338 households spread across dense urban neighbourhoods.",
+      "branding": "Montreal branding should feel cosmopolitan and creative to match a city with a median age of 39.6 and a strong aerospace and cultural identity, while respecting French-language expectations."
+    }
+  }
+}

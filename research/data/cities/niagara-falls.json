@@ -1,0 +1,57 @@
+{
+  "slug": "niagara-falls",
+  "geographyNote": "City of Niagara Falls (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=niagara+falls&DGUIDlist=2021A00053526043&GENDERlist=1%2C2%2C3&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 94415,
+    "population2016": 88071,
+    "growthPct": 7.2,
+    "medianAge": 44.8,
+    "medianHouseholdIncome2020": 74500,
+    "privateDwellings": 37793,
+    "landAreaKm2": 210.25
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053526043",
+    "population2016": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053526043",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053526043",
+    "medianAge": "https://capopulation.com/area/ontario/niagara-falls/",
+    "medianHouseholdIncome2020": "https://www.point2homes.com/CA/Demographics/ON/Niagara-Falls-Demographics.html",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053526043",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053526043"
+  },
+  "facts": [
+    {
+      "text": "Niagara's tourist attractions, festivals and special events attract more than 13 million tourists each year, over 3 million of them from the United States and about 1 million from overseas.",
+      "url": "https://niagaracanada.com/key-sectors/tourism/",
+      "publisher": "Niagara Economic Development"
+    },
+    {
+      "text": "Niagara's tourism industry generates about $3.8 billion in annual visitor spending and employs more than 36,000 people.",
+      "url": "https://niagaracanada.com/36000-jobs-3-8b-in-spending-and-soon-a-single-dashboard-to-track-niagara-tourism/",
+      "publisher": "Niagara Economic Development"
+    },
+    {
+      "text": "Ontario's Destination Niagara Strategy aims to strengthen tourism in the area, with the potential to attract nearly 25 million visitors annually and double the economic impact of tourism.",
+      "url": "https://www.ontario.ca/page/destination-niagara-strategy",
+      "publisher": "Government of Ontario"
+    },
+    {
+      "text": "Fallsview Casino Resort, built on a cliff overlooking the Horseshoe Falls, is the largest gaming resort facility in Canada with over 3,200 slot machines and 110 gaming tables.",
+      "url": "https://fallsviewcasinoresort.com/",
+      "publisher": "Fallsview Casino Resort"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Niagara Falls had 94,415 residents in the 2021 Census, up 7.2% from 88,071 in 2016. The median age is 44.8 and the median household income in 2020 was $74,500, so the resident market is older and modest in size, spread across 37,793 dwellings on 210.25 square kilometres.",
+      "The real scale comes from visitors. Millions of tourists arrive in Niagara each year, spending billions and supporting tens of thousands of jobs. A local business serves two very different audiences: neighbours and travellers."
+    ],
+    "byService": {
+      "lead-generation": "Lead generation in Niagara Falls should separate the 94,415 residents from the millions of annual visitors, with local offers for one and travel-timed campaigns for the other.",
+      "seo": "Tourism keywords in Niagara Falls are fiercely contested by hotels and attractions, so a local service business should target resident-focused searches and neighbourhoods such as Chippawa and Stamford.",
+      "website-development": "A Niagara Falls website must handle visitor traffic peaks and mobile bookings, while staying simple enough for a resident base with a median age of 44.8.",
+      "branding": "With a median household income of $74,500 and a 7.2% population rise since 2016, Niagara Falls brands can pair everyday value for locals with the polish visitors expect."
+    }
+  }
+}

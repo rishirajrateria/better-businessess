@@ -1,0 +1,73 @@
+{
+  "slug": "landscaping-snow-removal-marketing-canada",
+  "sources": [
+    {
+      "quote": "Toronto's Municipal Code requires sidewalks cleared within 12 hours after snowfall ends",
+      "url": "https://www.toronto.ca/services-payments/streets-parking-transportation/road-maintenance/winter-maintenance/clearing-snow-and-ice-from-your-property/",
+      "publisher": "City of Toronto",
+      "title": "Sidewalk Clearing – City of Toronto",
+      "evidence": "If snowfall accumulation is 2 cm or less in depth, it is up to residents and businesses to clear their sidewalks of snow and ice within 12 hours of the end of a snowfall. The fine for not clearing snow from public and private property is $500 plus a $115 surcharge, for a total of $615."
+    },
+    {
+      "quote": "Calgary's Street Bylaw gives owners 24 hours",
+      "url": "https://www.calgary.ca/bylaws/snow-shovelling.html",
+      "publisher": "City of Calgary",
+      "title": "Clearing sidewalks and shoveling snow",
+      "evidence": "Section 67 of the Street Bylaw requires Calgary property owners to remove snow and ice – down to the bare surface – from public sidewalks bordering their private property within 24 hours of a snowfall ending."
+    },
+    {
+      "quote": "Ontario's Occupiers' Liability Act has required written notice of a snow or ice injury claim within 60 days of the incident, served on an occupier or on the contractor hired to clear the property",
+      "url": "https://www.ontario.ca/laws/statute/90o02",
+      "publisher": "Government of Ontario (e-Laws)",
+      "title": "Occupiers' Liability Act, R.S.O. 1990, c. O.2 | ontario.ca",
+      "evidence": "The limitation on bringing actions after the 60-day period set out in subsection (1) no longer applies if notice is provided in accordance with the Act's requirements. An independent contractor employed by an occupier to remove snow or ice on the premises that receives a notice under subsection (1) shall personally serve a copy of the notice on, or send the notice by registered mail to, the occupier that employed the independent contractor."
+    },
+    {
+      "quote": "Ontario's O. Reg. 63/09 under the Pesticides Act bans cosmetic use of listed products",
+      "url": "https://www.ontario.ca/page/pesticides-home-lawns-and-gardens",
+      "publisher": "Government of Ontario",
+      "title": "Pesticides for home lawns and gardens | ontario.ca",
+      "evidence": "Ontario's cosmetic pesticides ban took effect April 22, 2009. Ontario's Pesticides Act and Ontario Regulation 63/09 provide the province's framework to regulate pesticides. You are only allowed to use pesticides that solely contain active ingredients found on the List of Active Ingredients Authorized for Cosmetic Uses (Allowable List)."
+    },
+    {
+      "quote": "Quebec's Consumer Protection Act restricts automatic renewal of a fixed term contract longer than 60 days unless the renewal runs for an indeterminate term",
+      "url": "https://www.opc.gouv.qc.ca/en/consumer/good-service/housing-renovation/alarm/contract",
+      "publisher": "Office de la protection du consommateur (Quebec)",
+      "title": "Amending and Renewing the Contract",
+      "evidence": "If you have signed a fixed length contract of more than 60 days, the service provider cannot include a clause in the contract permitting automatic renewal for another fixed period of time. The service provider may include a clause allowing for renewal on an open-ended basis. The service provider must inform you in writing of the end date of the contract at least two months in advance."
+    },
+    {
+      "quote": "Quebec also requires a permit to apply pesticides commercially and a certificate for the operators doing the work",
+      "url": "https://www.quebec.ca/en/agriculture-environnement-et-ressources-naturelles/protection-de-lenvironnement/pesticides/application/commercial",
+      "publisher": "Gouvernement du Québec",
+      "title": "Commercial pesticide application | Gouvernement du Québec",
+      "evidence": "Companies that sell or use commercial pesticides must hold the appropriate permit, and sales staff and pesticide appliers must hold a certificate. These obligations are set forth in the Regulation respecting permits and certificates for the sale and use of pesticides."
+    },
+    {
+      "quote": "a WSIB clearance confirms a business is registered and current on premiums, and while valid, up to 90 days, it relieves the principal who hired you",
+      "url": "https://www.wsib.ca/en/businesses/premiums-and-payment/clearances",
+      "publisher": "Workplace Safety and Insurance Board (Ontario)",
+      "title": "Clearances | WSIB",
+      "evidence": "Contractors must meet WSIB registration, reporting, and payment obligations to have their accounts in good standing, and to be eligible for a clearance. This clearance number is valid for all your contracts and is valid for up to 90 days. Without a clearance, the principal may be liable for the contractor's payment obligations to the WSIB."
+    },
+    {
+      "quote": "Ontario's Consumer Protection Act, 2002 requires written direct agreements over $50 with a 10 day cooling off period and caps the final bill at 10% above a written estimate",
+      "url": "https://www.ontario.ca/page/your-rights-when-signing-or-cancelling-contract",
+      "publisher": "Government of Ontario",
+      "title": "Your rights when signing or cancelling a contract | ontario.ca",
+      "evidence": "Under the Consumer Protection Act (CPA), most agreements for a product or service that costs more than $50 must be in writing. You can cancel the contract for any reason within 10 days of receiving a written copy of the agreement. If a written estimate is included in the contract, the final price cannot be more than 10% above the estimate, unless you agree to a new price and sign a change to the contract."
+    }
+  ],
+  "flags": [
+    {
+      "quote": "Google Local Services Ads run in Canada for lawn care, landscaping and snow removal",
+      "issue": "Google's Getting started with Local Services Ads page for Canada lists lawn care services among the available Canadian categories, but does not list landscaping or snow removal as separate categories for Canada, so the claim that Local Services Ads run in Canada for landscaping and snow removal is not supported by Google's own category list.",
+      "evidenceUrl": "https://support.google.com/localservices/answer/6224841?hl=en&co=GENIE.CountryCode%3DCA"
+    },
+    {
+      "quote": "According to ISED's Canadian Industry Statistics, roughly 40,000 to 45,000 landscaping services locations operate in Canada under NAICS 56173",
+      "issue": "ISED's Canadian Industry Statistics business-counts page for NAICS 56173 states no information is available at that level of data; counts are only published at the parent level 5617 (Services to buildings and dwellings), which shows 48,115 non-employer or indeterminate establishments and 28,724 employer establishments. The 40,000 to 45,000 figure cannot be attributed to ISED at the 56173 level.",
+      "evidenceUrl": "https://ised-isde.canada.ca/app/ixb/cis/businesses-entreprises/56173"
+    }
+  ]
+}

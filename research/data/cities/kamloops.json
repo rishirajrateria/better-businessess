@@ -1,0 +1,57 @@
+{
+  "slug": "kamloops",
+  "geographyNote": "City of Kamloops (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Kamloops&GENDERlist=1&STATISTIClist=1&DGUIDlist=2021A00055933042&HEADERlist=0",
+  "figures": {
+    "population2021": 97902,
+    "population2016": 90280,
+    "growthPct": 8.4,
+    "medianAge": 41.6,
+    "medianHouseholdIncome2020": 88000,
+    "privateDwellings": 39914,
+    "landAreaKm2": 297.93
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Kamloops&GENDERlist=1&STATISTIClist=1&DGUIDlist=2021A00055933042&HEADERlist=0",
+    "population2016": "https://cfjctoday.com/2022/02/09/population-growth-in-kamloops-city-limits-exceeds-kamplan-projection/",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Kamloops&GENDERlist=1&STATISTIClist=1&DGUIDlist=2021A00055933042&HEADERlist=0",
+    "medianAge": "https://townfolio.co/bc/kamloops/demographics",
+    "medianHouseholdIncome2020": "https://www.point2homes.com/CA/Demographics/BC/Kamloops-Demographics.html",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Kamloops&GENDERlist=1&STATISTIClist=1&DGUIDlist=2021A00055933042&HEADERlist=0",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00055933042"
+  },
+  "facts": [
+    {
+      "text": "Nearly 1.87 million travellers visit Kamloops in 2024, generating a record $316 million in direct visitor spending in the city.",
+      "url": "https://www.castanetkamloops.net/news/Kamloops/548593/Kamloops-economy-benefited-from-316M-in-visitor-spending-last-year-report-says",
+      "publisher": "Castanet Kamloops"
+    },
+    {
+      "text": "Tourism supports 2,645 jobs in Kamloops in 2024 and brings in $8.5 million in local government taxes, with visitor volume down only 4.5% from the record year.",
+      "url": "https://cfjctoday.com/2025/05/05/tourism-kamloops-reports-dip-in-overall-visitors-but-record-high-in-direct-spending-in-2024/",
+      "publisher": "CFJC Today Kamloops"
+    },
+    {
+      "text": "Interior Health Authority and Thompson Rivers University are the two largest employers in Kamloops, with School District 73, Highland Valley Copper, New Gold, Domtar and the City also major employers.",
+      "url": "https://venturekamloops.com/why-kamloops/community-profile/",
+      "publisher": "Venture Kamloops"
+    },
+    {
+      "text": "Kamloops-based tourism produces $382 million in total economic impact across the Thompson-Nicola region in 2024 and $528 million for British Columbia.",
+      "url": "https://cfjctoday.com/2025/05/05/tourism-kamloops-reports-dip-in-overall-visitors-but-record-high-in-direct-spending-in-2024/",
+      "publisher": "CFJC Today Kamloops"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Kamloops reached 97,902 residents in the 2021 Census, up 8.4 per cent from 90,280 in 2016, with a median age of 41.6 and a median household income of $88,000 in 2020. Those figures describe a mid-sized, working-age market with steady public-sector paycheques from Interior Health and Thompson Rivers University.",
+      "The city stretches across 297.93 square kilometres, so its 39,914 occupied dwellings are spread among separate neighbourhoods on both sides of the rivers. Nearly 1.87 million visitors in 2024 add a second customer base, which means a local business competes for residents and travellers at the same time."
+    ],
+    "byService": {
+      "lead-generation": "Lead generation in Kamloops should run two tracks, one for the 97,902 residents and one for the nearly 1.87 million annual visitors who spent a record $316 million in 2024.",
+      "seo": "Because Kamloops covers 297.93 square kilometres, SEO must rank for neighbourhood terms such as North Shore, Sahali and Aberdeen as well as the city name itself.",
+      "website-development": "A Kamloops website should load quickly on mobile for travellers and present clear service areas for households earning a median $88,000 in 2020 across a widely spread city.",
+      "branding": "With a median age of 41.6 and large institutional employers, branding in Kamloops works best when it reads as professional and reliable rather than trendy."
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "hvac-contractor-marketing-canada",
+  "sources": [
+    {
+      "quote": "Ontario Regulation 212/01, section 21(7), requires every field vehicle to carry the contractor's name and TSSA registration number",
+      "url": "https://www.tssa.org/sites/default/files/2023-11/Fuels-HeatingContractorAuditProgram-Booklet-2022.pdf",
+      "publisher": "Technical Standards and Safety Authority (TSSA)",
+      "title": "tssa fuels safety program - heating contractor audit program",
+      "evidence": "All service vehicles operated by a registered contractor, whether leased or owned, shall be clearly marked with the registration name and number as recorded on the contractor's registration certificate (refer to section 21 (7) of Ontario Regulation 212/01)."
+    },
+    {
+      "quote": "barred suppliers from soliciting or signing an agreement at a consumer's home for furnaces, air conditioners, water heaters, water treatment devices and duct cleaning",
+      "url": "https://www.ontario.ca/page/rules-businesses-entering-contracts-consumers-home",
+      "publisher": "Government of Ontario",
+      "title": "Rules for businesses entering contracts in consumers' homes",
+      "evidence": "The restricted products and services include furnaces, air conditioners, air cleaners, air purifiers, water heaters, water treatment devices, water purifiers, water filters, water softeners, and duct cleaning services. Certain products and services can no longer be offered or sold at a consumer's home unless the consumer initiated the transaction (for example, the consumer called or emailed the business and asked them to come to their home to enter into a contract)."
+    },
+    {
+      "quote": "The Safety Standards General Regulation requires licensed gas, electrical and refrigeration contractors to show their Technical Safety BC licence number in all digital and print advertising",
+      "url": "https://www.technicalsafetybc.ca/regulatory-resources/codes-standards-regulations/advertising-guidelines",
+      "publisher": "Technical Safety BC",
+      "title": "Advertising Guidelines | Display Your Licence | Technical Safety BC",
+      "evidence": "Licensed contractors in electrical, gas, elevating devices, and boilers, pressure vessels and refrigeration are required by the Safety Standards General Regulation to add their Technical Safety BC licence number to all digital and print advertising. On September 6, 2022, changes to the Safety Standards General Regulation came into effect that require licensed contractors to publish their company name and Technical Safety BC licence number when advertising their services to the public."
+    },
+    {
+      "quote": "The Canada Greener Homes Grant is closed, the Greener Homes Loan stopped taking applications in October 2025, and the Oil to Heat Pump Affordability program closed on July 31, 2026",
+      "url": "https://natural-resources.canada.ca/energy-efficiency/home-energy-efficiency/canada-greener-homes-initiative/canada-greener-homes-initiative",
+      "publisher": "Natural Resources Canada",
+      "title": "Canada Greener Homes Initiative - Natural Resources Canada",
+      "evidence": "The Canada Greener Homes Loan stopped accepting applications on October 1, 2025. Funding for the Canada Greener Homes Loan is now fully committed, and new loan applications cannot be approved. July 31, 2026, was the last day to apply to the Oil to Heat Pump Affordability program. Canada Greener Homes Grant: December 31, 2025, was the final day for applicants to upload their documents. Requests for payments are no longer accepted."
+    },
+    {
+      "quote": "Households in the direct-install Canada Greener Homes Affordability Program, run through provincial agents in Manitoba, British Columbia, Quebec, Nova Scotia and Prince Edward Island",
+      "url": "https://natural-resources.canada.ca/energy-efficiency/home-energy-efficiency/canada-greener-homes-initiative/canada-greener-homes-affordability-program",
+      "publisher": "Natural Resources Canada",
+      "title": "Canada Greener Homes Affordability Program - Natural Resources Canada",
+      "evidence": "The Canada Greener Homes Affordability Program (CGHAP) provides low-to-median-income homeowners and tenants with no-cost home retrofits, such as insulation and heat pumps. CGHAP uses a direct-install approach where selected organizations deliver the program directly to participants. The first CGHAP agreement has been reached with Manitoba, with the federal government providing nearly $30 million to support Efficiency Manitoba. The Program will be delivered in co-ordination with all four provinces (Quebec, British Columbia, Nova Scotia and Prince Edward Island), as well as with Hydro-Québec, BC Hydro, Fortis BC and EfficiencyOne."
+    },
+    {
+      "quote": "Bill C-15, which received royal assent in March 2026, narrowed the business-level rules brought in by Bill C-59",
+      "url": "https://competition-bureau.canada.ca/en/how-we-foster-competition/education-and-outreach/environmental-claims-and-greenwashing",
+      "publisher": "Competition Bureau Canada",
+      "title": "Environmental claims and greenwashing",
+      "evidence": "On March 26, 2026, the Budget 2025 Implementation Act, No. 1 received Royal Assent, introducing changes to the Competition Act related to environmental claims. These changes removed the requirement for environmental claims to be supported by an internationally recognized methodology. Amendments to the Competition Act became law on June 20, 2024, following Royal Assent of Bill C-59, requiring that claims about the environmental benefits of a product be supported by adequate and proper testing."
+    },
+    {
+      "quote": "Under the Charter of the French Language as amended by Bill 96, whose most demanding provisions took effect on June 1, 2025",
+      "url": "https://www.quebec.ca/en/government/policies-orientations/french-language/modernization-charter-french-language",
+      "publisher": "Gouvernement du Québec",
+      "title": "Modernization of the Charter of the French language | Gouvernement du Québec",
+      "evidence": "As of June 1, 2025, French must appear in a markedly predominant manner in all signage visible from outside a location that contains a business name in a language other than French or a trademark in a language other than French that is recognized under trademark law and has no French version."
+    },
+    {
+      "quote": "9% of Canadian households used a heat pump or mini-split as primary heat in 2023",
+      "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/250922/dq250922d-eng.htm",
+      "publisher": "Statistics Canada",
+      "title": "The Daily — Households and the Environment Survey, 2023",
+      "evidence": "Heat pumps (8%) and mini-split heat pumps (1%) were reported by Canadian households as primary heating systems in 2023."
+    },
+    {
+      "quote": "5% to 10% of revenue under $1M",
+      "url": "https://www.bdc.ca/en/articles-tools/marketing-sales-export/marketing/what-average-marketing-budget-for-small-business",
+      "publisher": "Business Development Bank of Canada (BDC)",
+      "title": "What is an average marketing budget for a small business?",
+      "evidence": "A common rule of thumb is that B2B companies should spend between 2 and 5% of their revenue on marketing. For B2C companies, the proportion is often higher—between 5 and 10%."
+    }
+  ],
+  "flags": []
+}

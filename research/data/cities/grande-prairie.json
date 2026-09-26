@@ -1,0 +1,57 @@
+{
+  "slug": "grande-prairie",
+  "geographyNote": "City of Grande Prairie (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Grande+Prairie&DGUIDlist=2021A00054819012&GENDERlist=1%2C2%2C3&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 64141,
+    "population2016": 63166,
+    "growthPct": 1.5,
+    "medianAge": 34.0,
+    "medianHouseholdIncome2020": 102000,
+    "privateDwellings": 24816,
+    "landAreaKm2": 132.71
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00054819012",
+    "population2016": "https://www.mygrandeprairienow.com/94440/news/grande-prairies-population-grew-1-5-per-cent-since-2016-census/",
+    "growthPct": "https://www.mygrandeprairienow.com/94440/news/grande-prairies-population-grew-1-5-per-cent-since-2016-census/",
+    "medianAge": "https://capopulation.com/area/alberta/grande-prairie/",
+    "medianHouseholdIncome2020": "https://www.point2homes.com/CA/Demographics/AB/Grande-Prairie-Demographics.html",
+    "privateDwellings": "https://en.wikipedia.org/wiki/Grande_Prairie",
+    "landAreaKm2": "https://en.wikipedia.org/wiki/Grande_Prairie"
+  },
+  "facts": [
+    {
+      "text": "As the largest city north of Edmonton, Grande Prairie serves a regional trade population of nearly 300,000, and its trade area supports about $4.7 billion in retail spending.",
+      "url": "https://cityofgp.com/economic-development",
+      "publisher": "City of Grande Prairie"
+    },
+    {
+      "text": "The Grande Prairie Regional Hospital hosts 243 beds, a cancer centre and 11 operating rooms, and the region employs 5,674 people in health care and social assistance.",
+      "url": "https://cityofgp.com/economic-development/key-sectors/healthcare-life-science",
+      "publisher": "City of Grande Prairie"
+    },
+    {
+      "text": "Grande Prairie has a labour force of nearly 40,000 and an economy driven by oil and gas, forestry, agriculture, construction and retail.",
+      "url": "https://cityofgp.com/economic-development",
+      "publisher": "City of Grande Prairie"
+    },
+    {
+      "text": "In 2024, 95.7% of businesses in Grande Prairie are small businesses.",
+      "url": "https://regionaldashboard.alberta.ca/region/grande-prairie/percent-small-businesses",
+      "publisher": "Alberta Regional Dashboard, Government of Alberta"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Grande Prairie counted 64,141 residents in the 2021 Census, up 1.5 per cent from 2016, with a median age of just 34.0 and a median household income of $102,000 in 2020. That combination of young households and high incomes is rare, and it reflects the energy, forestry and agriculture wages that flow through the city.",
+      "The city covers 132.71 square kilometres with 24,816 occupied dwellings, but its real market is a regional trade population of nearly 300,000 supporting about $4.7 billion in retail spending. A local business here sells to the whole Peace Region, so reach beyond city limits matters as much as local reputation."
+    ],
+    "byService": {
+      "lead-generation": "Lead generation in Grande Prairie should target the nearly 300,000 people in the regional trade area, not only the 64,141 city residents, with campaigns timed to energy and agriculture cycles.",
+      "seo": "Grande Prairie SEO needs to capture Peace Region searches from surrounding towns, because shoppers drive in for goods and services that support $4.7 billion in trade-area retail spending.",
+      "website-development": "With a median age of 34.0 and household incomes of $102,000 in 2020, a Grande Prairie website should be mobile-first, fast and built for buyers who expect online booking and clear pricing.",
+      "branding": "Branding for Grande Prairie should feel young, practical and regional, matching a workforce of nearly 40,000 and a city that describes itself as the most entrepreneurial community in Canada."
+    }
+  }
+}

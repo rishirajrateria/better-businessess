@@ -1,0 +1,62 @@
+{
+  "slug": "regina",
+  "geographyNote": "City of Regina (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&GENDERlist=1&STATISTIClist=1&HEADERlist=0&DGUIDlist=2021A00054706027&SearchText=regina",
+  "figures": {
+    "population2021": 226404,
+    "population2016": 215106,
+    "growthPct": 5.3,
+    "medianAge": 37.6,
+    "medianHouseholdIncome2020": 88000,
+    "privateDwellings": 92129,
+    "landAreaKm2": 178.81
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00054706027",
+    "population2016": "https://en.wikipedia.org/wiki/Regina,_Saskatchewan",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00054706027",
+    "medianAge": "https://www.point2homes.com/CA/Demographics/SK/Regina-Demographics.html",
+    "medianHouseholdIncome2020": "https://capopulation.com/area/saskatchewan/regina/",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00054706027",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00054706027"
+  },
+  "facts": [
+    {
+      "text": "Federated Co-operatives Limited is investing more than $150 million in its 2026 turnaround at the Regina Co-op Refinery Complex, a facility that employs more than 970 people.",
+      "url": "https://www.cjme.com/2026/04/13/co-op-investing-more-than-150m-in-2026-turnaround-at-regina-refinery-complex/",
+      "publisher": "980 CJME"
+    },
+    {
+      "text": "Cargill's new canola crush facility in Regina supports approximately 100 full-time jobs and contractors and adds to Western Canada's canola processing capacity.",
+      "url": "https://economicdevelopmentregina.com/editorials/major-investment-in-reginas-future-how-cargills-new-facilitu-is-shaping-reginas-economic-future/",
+      "publisher": "Economic Development Regina"
+    },
+    {
+      "text": "Regina's labour market remains among the strongest in Canada, with employment growth forecast at 1.7 percent and unemployment falling to 5.3 percent in 2025.",
+      "url": "https://economicdevelopmentregina.com/corporatepublications/reginas-2025-economic-outlook-stable-growth-with-emerging-challenges/",
+      "publisher": "Economic Development Regina"
+    },
+    {
+      "text": "The largest employers in Regina are the provincial government and its Crown corporations, including SaskTel and Saskatchewan Government Insurance.",
+      "url": "https://en.wikipedia.org/wiki/Economy_of_Regina,_Saskatchewan",
+      "publisher": "Wikipedia"
+    },
+    {
+      "text": "Major private sector employers in Regina include Evraz Inc., western Canada's largest steel manufacturer, along with Brandt Industries, Viterra and Bayer CropScience.",
+      "url": "https://en.wikipedia.org/wiki/Economy_of_Regina,_Saskatchewan",
+      "publisher": "Wikipedia"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Regina's population reached 226,404 in the 2021 Census, a 5.3 percent rise from 215,106 in 2016. The median household income of $88,000 in 2020 sits above the national figure, the median age is 37.6, and 92,129 occupied private dwellings are spread across 178.81 square kilometres.",
+      "For a local business, that combination means a stable, well-paid customer base anchored by the provincial government, Crown corporations and steady industrial employers such as the Co-op refinery and Evraz. Growth is moderate, so winning customers depends on visibility and trust rather than riding a boom."
+    ],
+    "byService": {
+      "lead-generation": "With household incomes of $88,000 and many stable public sector jobs, Regina lead generation can favour higher-value offers and consistent follow-up over discount-led volume campaigns.",
+      "seo": "Regina grew 5.3 percent between 2016 and 2021, so SEO should target established neighbourhood and service terms first, then expand to the newer suburban areas as they fill in.",
+      "website-development": "A Regina website should present credentials and pricing plainly for a median-age-37.6 audience of families and professionals who compare several providers before contacting one.",
+      "branding": "Branding in Regina benefits from a dependable, understated tone that fits a government and Crown corporation town, where 92,129 households value reliability over flash."
+    }
+  }
+}

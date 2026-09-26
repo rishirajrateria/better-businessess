@@ -1,0 +1,69 @@
+{
+  "slug": "physiotherapy-chiropractic-clinic-marketing-canada",
+  "sources": [
+    {
+      "quote": "Physiotherapists and chiropractors are among the four professions that can complete the initial Form 8 report",
+      "url": "https://www.wsib.ca/en/commonly-used-forms-form-8-form-cms8-and-faf",
+      "publisher": "Workplace Safety and Insurance Board (WSIB)",
+      "title": "Commonly used forms - Form 8, Form CMS8 and FAF | WSIB",
+      "evidence": "Only physicians, physiotherapists, chiropractors and nurse practitioners are authorized to complete a Form 8. The Form 8 is used when a patient suffers a work-related physical injury or illness."
+    },
+    {
+      "quote": "Most soft-tissue claims fall under the Minor Injury Guideline, which caps medical and rehabilitation benefits at $3,500",
+      "url": "https://www.fsrao.ca/minor-injury-guideline",
+      "publisher": "Financial Services Regulatory Authority of Ontario (FSRA)",
+      "title": "Minor Injury Guideline | Financial Services Regulatory Authority of Ontario",
+      "evidence": "MIG consumers are entitled to $3,500 in medical and rehabilitation benefits, and all minor injuries are subject to a $3,500 limit regardless of coverage purchased. The Minor Injury Guideline covers injuries including whiplash, sprains, and strains. This Guideline is incorporated by reference in the SABS, and is therefore binding."
+    },
+    {
+      "quote": "are prohibited under FSRA's Unfair or Deceptive Acts or Practices Rule",
+      "url": "https://www.fsrao.ca/industry/health-service-providers/publications/2024-2026-health-service-provider-compliance-report",
+      "publisher": "Financial Services Regulatory Authority of Ontario (FSRA)",
+      "title": "2024-2026 Health Service Provider Compliance Report | Financial Services Regulatory Authority of Ontario",
+      "evidence": "The UDAP Rule prohibits a referral fee from being solicited, demanded, paid, or accepted in connection with goods or services provided to a claimant. FSRA reminds insurers and HSPs that referral fees are prohibited under the UDAP Rule and that all reasonable steps must be taken to ensure business arrangements do not create, or appear to create, referral fee arrangements. The UDAP regulation applies to health service providers, vehicle repair shops, automobile storage facilities, and tow truck operators."
+    },
+    {
+      "quote": "Under ICBC's Enhanced Care, anyone hurt in a crash is pre-approved for physiotherapy and chiropractic care in the first 12 weeks with only a claim number",
+      "url": "https://icbc.com/claims/injury/accessing-treatment-during-your-first-12-weeks-of-recovery",
+      "publisher": "Insurance Corporation of British Columbia (ICBC)",
+      "title": "Accessing treatment during your first 12 weeks of recovery",
+      "evidence": "Anyone injured in a crash is pre-approved for a variety of rehabilitation treatments for the first 12 weeks following their collision, including acupuncture, chiropractic, kinesiology, massage therapy, physiotherapy, counselling and psychology. You don't need a referral from a family physician or nurse practitioner, or approval from ICBC, but you will need your Personal Health Number (PHN) and your ICBC claim number."
+    },
+    {
+      "quote": "the Diagnostic and Treatment Protocols Regulation lets physiotherapists and chiropractors treat sprains, strains and whiplash within set visit limits for 90 days without insurer pre-approval",
+      "url": "https://open.alberta.ca/dataset/26307516-b0b1-40d1-8d0b-2a9526a8209d/resource/679b811c-728e-4e85-bd08-e9603cdfe340/download/dptr-interpretative-guide.pdf",
+      "publisher": "Government of Alberta (Superintendent of Insurance)",
+      "title": "Diagnostic Treatment Protocols Regulation Interpretative Guide",
+      "evidence": "The DTPR applies specifically to sprains, strains, whiplash-associated disorders (WAD), some TMJ injuries, and related symptoms. Primary health care practitioners (chiropractor, medical doctor, or physical therapist) do not have to seek approval of the insurer for payment for treatment of these injuries if you provide notice of your claim and choose to follow the protocols. An authorization under these protocols expires 90 days after the date of the accident in which the patient was injured, unless the authorization is approved by an insurer for use after the 90 days. After 10 or 21 treatment visits (based on injury type) are exhausted or 90 days has lapsed, insurer authorization is required."
+    },
+    {
+      "quote": "the College of Physiotherapists of Ontario's Advertising and Marketing Standard (effective May 1, 2025)",
+      "url": "https://collegept.org/2025/04/30/new-advertising-and-marketing-standard-effective-may-1-2025/",
+      "publisher": "College of Physiotherapists of Ontario",
+      "title": "Highlights from the New Advertising and Marketing Standard - College of Physiotherapists of Ontario",
+      "evidence": "The new Advertising and Marketing Standard came into effect on May 1, 2025 and must be followed by all physiotherapists and physiotherapist residents. The physiotherapist engages in advertising, marketing and promotional activities, including through social media, in a manner that is truthful, accurate, and verifiable."
+    },
+    {
+      "quote": "and any guarantee of results",
+      "url": "https://cco.on.ca/resources/standards-of-practice/",
+      "publisher": "College of Chiropractors of Ontario (CCO)",
+      "title": "Standards of Practice – CCO",
+      "evidence": "S-016: Advertising requires advertisements to be accurate, factual and verifiable, and not contain anything false or misleading or a guarantee of success of care."
+    },
+    {
+      "quote": "Fake or incentivized reviews fall under the Competition Act, with penalties up to the greater of $10 million or three times the benefit gained",
+      "url": "https://competition-bureau.canada.ca/en/deceptive-marketing-practices/types-deceptive-marketing-practices/penalties-and-remedies-non-compliance",
+      "publisher": "Competition Bureau Canada",
+      "title": "Penalties and remedies for non-compliance",
+      "evidence": "For corporations, the penalty for a first-time violation is up to the greater of: $10 million ($15 million for each subsequent violation); and three times the value of the benefit derived from the deceptive conduct, or, if that amount cannot be reasonably determined, 3% of the corporation's annual worldwide gross revenue."
+    },
+    {
+      "quote": "The Charter of the French Language as amended by Bill 96 (provisions in force June 1, 2025)",
+      "url": "https://www.quebec.ca/en/government/policies-orientations/french-language/modernization-charter-french-language",
+      "publisher": "Gouvernement du Québec",
+      "title": "Modernization of the Charter of the French language | Gouvernement du Québec",
+      "evidence": "As of June 1, 2025, French must appear in a markedly predominant manner in all signage visible from outside a location that contains a business name in a language other than French or a trademark in a language other than French. Since June 1, 2025, enterprises with 5 to 24 employees must declare the proportion of their employees who are not able to communicate in French at work."
+    }
+  ],
+  "flags": []
+}

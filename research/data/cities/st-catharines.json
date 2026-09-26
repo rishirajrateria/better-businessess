@@ -1,0 +1,57 @@
+{
+  "slug": "st-catharines",
+  "geographyNote": "City of St. Catharines (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=St.+Catharines&DGUIDlist=2021A00053526053&GENDERlist=1%2C2%2C3&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 136803,
+    "population2016": 133113,
+    "growthPct": 2.8,
+    "medianAge": 44.8,
+    "medianHouseholdIncome2020": 72500,
+    "privateDwellings": 58903,
+    "landAreaKm2": 96.2
+  },
+  "figureSources": {
+    "population2021": "https://en.wikipedia.org/wiki/St._Catharines",
+    "population2016": "https://en.wikipedia.org/wiki/St._Catharines",
+    "growthPct": "https://en.wikipedia.org/wiki/St._Catharines",
+    "medianAge": "https://capopulation.com/area/ontario/st-catharines/",
+    "medianHouseholdIncome2020": "https://capopulation.com/area/ontario/st-catharines/",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00053526053",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00053526053"
+  },
+  "facts": [
+    {
+      "text": "Brock University is the city's largest employer with 5,965 employees, followed by the Niagara Health System and the District School Board of Niagara.",
+      "url": "https://nwpb.ca/wp-content/uploads/2020/07/StCSnapshot2019.pdf",
+      "publisher": "Niagara Workforce Planning Board"
+    },
+    {
+      "text": "Niagara Health provides acute care hospital services to the 450,000 residents of the Niagara region with more than 7,300 employees, physicians, volunteers and patient partners.",
+      "url": "https://www.niagarahealth.on.ca/site/about-us",
+      "publisher": "Niagara Health"
+    },
+    {
+      "text": "General Motors Canada has completed a $28-million cogeneration investment at its St. Catharines Propulsion plant, lowering emissions and future energy costs.",
+      "url": "https://www.investinstc.ca/site/manufacturing-sector-st-catharines-business",
+      "publisher": "InvestInSTC (City of St. Catharines Economic Development)"
+    },
+    {
+      "text": "Health care assets are coming together in St. Catharines through Niagara Health, Brock's Cairns Family Health and Biosciences Research Complex and McMaster's satellite medical campus.",
+      "url": "https://www.stcatharines.ca/business-and-economic-development/community-profile/industries/",
+      "publisher": "City of St. Catharines"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "St. Catharines counted 136,803 residents in the 2021 Census, up 2.8% from 133,113 in 2016. The median age is 44.8, several years older than most Ontario cities, and the median household income in 2020 was $72,500, so this is a mature market where value and trust matter more than novelty.",
+      "The city's 58,903 occupied dwellings sit on 96.2 square kilometres, and the biggest employers are Brock University, Niagara Health and the school board. Local businesses compete for a stable, slow-growing customer base."
+    ],
+    "byService": {
+      "lead-generation": "Slow 2.8% growth means St. Catharines has few new arrivals, so lead generation should focus on winning customers away from competitors and re-engaging past buyers.",
+      "seo": "With a median age of 44.8, St. Catharines searchers tend to research thoroughly before buying, so SEO content should answer detailed questions and build trust through reviews.",
+      "website-development": "A website for St. Catharines should be easy to read and navigate for an older audience, with clear phone numbers, accessible type and straightforward service pages.",
+      "branding": "Because household income sits at $72,500, branding in St. Catharines works best when it signals dependable value and local roots rather than premium pricing."
+    }
+  }
+}

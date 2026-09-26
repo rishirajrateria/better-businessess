@@ -1,0 +1,59 @@
+{
+  "slug": "brandon",
+  "geographyNote": "City of Brandon (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Brandon&DGUIDlist=2021A00054607062",
+  "figures": {
+    "population2021": 51313,
+    "population2016": null,
+    "growthPct": 5.0,
+    "medianAge": 36.8,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": null,
+    "landAreaKm2": 79.04
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00054607062",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00054607062",
+    "medianAge": "https://www.point2homes.com/CA/Demographics/MB/Brandon-Demographics.html",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00054607062"
+  },
+  "facts": [
+    {
+      "text": "Maple Leaf Foods' Brandon pork processing plant employs more than 2,000 hourly and salaried employees and is one of the city's largest employers.",
+      "url": "https://www.economicdevelopmentbrandon.com/maple-leaf-foods",
+      "publisher": "Economic Development Brandon"
+    },
+    {
+      "text": "Over 2,000 businesses operate in Brandon, and agri-food products and related services represent the area's largest industrial cluster.",
+      "url": "https://www.economicdevelopmentbrandon.com/economic-base",
+      "publisher": "Economic Development Brandon"
+    },
+    {
+      "text": "Brandon University has an average enrolment of 3,500 students in the faculties of Arts, Education, Health Studies and Science, and the School of Music.",
+      "url": "http://economicdevelopmentbrandon.com/bu",
+      "publisher": "Economic Development Brandon"
+    },
+    {
+      "text": "The Government of Canada is investing $2,250,000 in Assiniboine College to renovate a facility for a new Mechatronics Engineering Technology program.",
+      "url": "https://www.canada.ca/en/prairies-economic-development/news/2026/04/government-of-canada-announces-funding-to-help-build-brandon-economy.html",
+      "publisher": "Prairies Economic Development Canada"
+    },
+    {
+      "text": "Brandon is Manitoba's second largest city, with an urban population of over 51,000 and a diversified economy with low unemployment rates.",
+      "url": "http://economicdevelopmentbrandon.com/overview",
+      "publisher": "Economic Development Brandon"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Brandon counted 51,313 residents in the 2021 Census, up 5.0 percent from 2016, making it Manitoba's second largest city. The median age of 36.8 is on the younger side, helped by Brandon University and Assiniboine College, and the city fits inside 79.04 square kilometres, so most customers live a short drive from any storefront.",
+      "For a local business, that means a compact, growing market where agri-food, health care and education employers anchor steady demand. With over 2,000 businesses already competing here, a clear online presence is what separates a company from the rest."
+    ],
+    "byService": {
+      "lead-generation": "Because Brandon is compact and growing, lead generation should target the whole city plus the farm trade that drives in, with offers timed to the agricultural calendar.",
+      "seo": "Local search competition among Brandon's 2,000-plus businesses is real, so SEO here means owning Brandon-specific keywords and Google Business Profile categories before regional chains do.",
+      "website-development": "A Brandon website needs to load fast on mobile for a median-age-36.8 audience and speak to students, plant workers and farm families in equally plain language.",
+      "branding": "Branding in Brandon works best when it feels rooted in the Wheat City rather than imported from Winnipeg, since residents of a growing mid-sized city reward familiar, trusted names."
+    }
+  }
+}

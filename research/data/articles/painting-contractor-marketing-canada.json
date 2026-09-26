@@ -1,0 +1,55 @@
+{
+  "slug": "painting-contractor-marketing-canada",
+  "sources": [
+    {
+      "quote": "ISED counts roughly 19,000 painting and wall covering establishments in Canada, close to 69% with no employees",
+      "url": "https://ised-isde.canada.ca/app/ixb/cis/businesses-entreprises/23832",
+      "publisher": "Innovation, Science and Economic Development Canada",
+      "title": "Painting and wall covering contractors - 23832 - Businesses - Canadian Industry Statistics",
+      "evidence": "For this industry, 13,109 of establishments are non-employers or indeterminate and 5,849 have one or more employees."
+    },
+    {
+      "quote": "Health Canada advises that homes built before 1960 very likely contain lead paint, that homes from 1960 to 1990 may have lead in exterior paint, and against dry sanding, heat guns and blowtorches",
+      "url": "https://www.canada.ca/en/health-canada/services/home-safety/lead-based-paint.html",
+      "publisher": "Health Canada",
+      "title": "Lead-based paint - Canada.ca",
+      "evidence": "Your home probably contains lead-based paint if it was built before 1960. If built between 1960 and 1990, the exterior may contain lead-based paint. Do not use sanders, heat guns or blowlamps to remove lead-based paint--this creates toxic dust and fumes with lead."
+    },
+    {
+      "quote": "Bill C-59 amended the Competition Act in June 2024 to require environmental claims to rest on adequate and proper testing, with the burden on the advertiser",
+      "url": "https://competition-bureau.canada.ca/en/how-we-foster-competition/education-and-outreach/guide-june-2024-amendments-competition-act",
+      "publisher": "Competition Bureau Canada",
+      "title": "Guide to the June 2024 amendments to the Competition Act",
+      "evidence": "Important amendments to the Competition Act became law on June 20, 2024, following Royal Assent of Bill C-59. Bill C-59 introduced new paragraphs 74.01(1)(b.1) and 74.01(1)(b.2), which require an adequate and proper test to support each environmental representation promoting a product."
+    },
+    {
+      "quote": "In Ontario, a party hiring a contractor for construction work, painting included, must obtain a WSIB clearance certificate first",
+      "url": "https://www.wsib.ca/en/operational-policy-manual/clearance-certificate-construction",
+      "publisher": "Workplace Safety and Insurance Board (Ontario)",
+      "title": "Clearance Certificate in Construction | WSIB",
+      "evidence": "A principal who directly retains a contractor to perform construction work must obtain a clearance certificate that confirms the contractor is in good standing with the WSIB. The principal and contractor must ensure that a clearance is obtained before the construction work begins. Starting the construction work without a clearance is an offence for both the principal and contractor."
+    },
+    {
+      "quote": "implied consent from an enquiry expires after six months",
+      "url": "https://crtc.gc.ca/eng/com500/faq500.htm",
+      "publisher": "Canadian Radio-television and Telecommunications Commission",
+      "title": "Frequently Asked Questions about Canada's Anti-Spam Legislation | CRTC",
+      "evidence": "You may have an existing business relationship if the recipient has made a purchase or lease of goods, services, land or interest in land within the two-year period immediately before the message was sent, or if the recipient has made an inquiry or application within the six month period immediately before the message was sent."
+    },
+    {
+      "quote": "Agreements over $50 signed in the consumer's home must be in writing, buyers get a 10 day cooling off period, and you cannot bill more than 10% above a written estimate",
+      "url": "https://www.ontario.ca/page/your-rights-when-signing-or-cancelling-contract",
+      "publisher": "Government of Ontario",
+      "title": "Your rights when signing or cancelling a contract | ontario.ca",
+      "evidence": "Under the Consumer Protection Act (CPA), most agreements for a product or service that costs more than $50 must be in writing. You can cancel the contract for any reason within 10 days of receiving a written copy of the agreement. If a written estimate is included in the contract, the final price cannot be more than 10% above the estimate, unless you agree to a new price and sign a change to the contract."
+    },
+    {
+      "quote": "Painting for others for profit requires an RBQ licence, generally the finishing work subclass",
+      "url": "https://www.rbq.gouv.qc.ca/en/online-services/licence/determining-the-required-licence/keyword-index/?tx_gdlr_pi1%5Bkeywords%5D=Painting&tx_gdlr_pi1%5Bselected%5D=975&tx_gdlr_pi1%5Bsubcat%5D=117",
+      "publisher": "Régie du bâtiment du Québec",
+      "title": "Keyword Index - Régie du bâtiment du Québec",
+      "evidence": "The painting subclass authorizes construction work relating to interior and exterior painting, interior surfaces such as floor, wall and ceiling coverings and their finishes, as well as similar or related construction work. The Building Act requires that any building contractor offering his/her services for carrying out or having a third party carry out construction work in the province of Quebec holds a licence in good standing."
+    }
+  ],
+  "flags": []
+}

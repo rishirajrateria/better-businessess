@@ -1,0 +1,57 @@
+{
+  "slug": "mississauga",
+  "geographyNote": "City of Mississauga (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&DGUIDlist=2021A00053521005",
+  "figures": {
+    "population2021": 717961,
+    "population2016": 721599,
+    "growthPct": -0.5,
+    "medianAge": 40.8,
+    "medianHouseholdIncome2020": 102000,
+    "privateDwellings": 244575,
+    "landAreaKm2": 292.74
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053521005",
+    "population2016": "https://en.wikipedia.org/wiki/Mississauga",
+    "growthPct": "https://en.wikipedia.org/wiki/Mississauga",
+    "medianAge": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&DGUIDlist=2021A00053521005",
+    "medianHouseholdIncome2020": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&GENDERlist=1%2C2%2C3&STATISTIClist=1%2C4&HEADERlist=0&DGUIDlist=2021A00053521005&SearchText=mississauga",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053521005",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053521005"
+  },
+  "facts": [
+    {
+      "text": "Mississauga is home to more than 100,000 companies, including over 775 multinational companies and more than 75 Fortune 500 firms.",
+      "url": "https://www.mississauga.ca/city-of-mississauga-news/news/mississauga-maintains-its-winning-streak-ranking-as-one-of-canadas-best-locations-for-business-and-investment-for-ninth-year-in-a-row/",
+      "publisher": "City of Mississauga"
+    },
+    {
+      "text": "Over the past five years Mississauga's software sector has recorded 138 percent employment growth, outpacing every other city in the Greater Toronto Area.",
+      "url": "https://www.investmississauga.ca/industries/technology/",
+      "publisher": "Invest Mississauga"
+    },
+    {
+      "text": "Toronto Pearson International Airport, located mainly in Mississauga, handled 46.8 million passengers in 2024 and expects 65 million by the early 2030s.",
+      "url": "https://www.torontopearson.com/en/corporate/media/fast-facts",
+      "publisher": "Toronto Pearson"
+    },
+    {
+      "text": "Toronto Pearson sits at the heart of Canada's second-largest employment zone, where 400 companies and agencies employ more than 52,000 people.",
+      "url": "https://www.torontopearson.com/en/corporate/media/fast-facts",
+      "publisher": "Toronto Pearson"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Mississauga had 717,961 residents in the 2021 Census, a 0.5 percent decline from 721,599 in 2016, with 244,575 occupied private dwellings on 292.74 square kilometres. The population is not growing, so a local business here wins customers by taking them from competitors rather than by catching new arrivals.",
+      "The median age is 40.8 and the median household income was $102,000 in 2020, above the Toronto figure. That describes an established, relatively well-off customer base with settled buying habits. Businesses that show clear value and earn trust through reviews and referrals have the best chance of shifting those habits."
+    ],
+    "byService": {
+      "lead-generation": "With a flat population of about 718,000 since 2016, lead generation in Mississauga should target households already buying a service from someone else and give them a reason to switch.",
+      "seo": "Mississauga searchers with a $102,000 median household income compare options carefully, so SEO content that answers detailed questions and ranks for specific neighbourhoods wins more clicks than generic city pages.",
+      "website-development": "A website for Mississauga customers, whose median age is 40.8, should load fast on mobile, present pricing plainly and make booking or quoting possible without a phone call.",
+      "branding": "Because Mississauga hosts many large corporate head offices and a stable population, a local brand that looks professional and consistent earns credibility with both business and household buyers."
+    }
+  }
+}

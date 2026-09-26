@@ -1,0 +1,73 @@
+{
+  "slug": "restaurant-marketing-canada",
+  "sources": [
+    {
+      "quote": "Statistics Canada put sales at food services and drinking places at $101.4 billion in 2025, up about 5.6 percent from 2024",
+      "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260225/dq260225d-eng.htm",
+      "publisher": "Statistics Canada",
+      "title": "The Daily — Food services and drinking places, December 2025",
+      "evidence": "Annual sales of food services and drinking places totalled $101.4 billion in 2025, up 5.6% from 2024."
+    },
+    {
+      "quote": "British Columbia's Food Delivery Service Fee Act, in force since January 2023, is the first permanent cap in Canada",
+      "url": "https://news.gov.bc.ca/releases/2022JEDI0080-001945",
+      "publisher": "Government of British Columbia",
+      "title": "First permanent delivery-fee cap in Canada will help B.C. ring in new year",
+      "evidence": "Canada's first permanent cap on fees charged to restaurants by food-delivery companies went into effect in British Columbia on January 1, 2023. B.C. became the first province in Canada, and one of a handful of jurisdictions in North America, to implement a permanent cap on fees charged by food-delivery companies."
+    },
+    {
+      "quote": "In Ontario, qualifying prepared food and beverages sold for $4.00 or less before tax have the 8 percent provincial portion of HST rebated at the till",
+      "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/gi-064/harmonized-sales-tax-ontario-point-sale-rebate-on-prepared-food-beverages.html",
+      "publisher": "Canada Revenue Agency",
+      "title": "Harmonized Sales Tax for Ontario - Point-of-Sale Rebate on Prepared Food and Beverages - Canada.ca",
+      "evidence": "When qualifying prepared food sold for $4.00 or less is purchased, the vendor collects only the 5% federal part of the HST and pays or credits the rebate of the 8% provincial part of the HST to the consumer at the point of sale."
+    },
+    {
+      "quote": "Ontario's Healthy Menu Choices Act, 2015 requires chains with 20 or more Ontario locations to post calories for every standard item",
+      "url": "https://www.ontario.ca/page/calories-menus-information-businesses",
+      "publisher": "Government of Ontario",
+      "title": "Calories on menus: information for businesses | ontario.ca",
+      "evidence": "Beginning January 1st, 2017, the Healthy Menu Choices Act, 2015 and regulation (O. Reg. 50/16) require food service premises with 20 or more locations in Ontario to display calories on menus for standard food items."
+    },
+    {
+      "quote": "The Competition Tribunal ordered Cineplex to pay $38.9 million in 2024 over an online booking fee, upheld on appeal in January 2026",
+      "url": "https://www.canada.ca/en/competition-bureau/news/2026/01/statement-from-the-acting-commissioner-of-competition-on-appeal-courts-ruling-in-cineplex-deceptive-marketing-case.html",
+      "publisher": "Competition Bureau Canada",
+      "title": "Statement from the Acting Commissioner of Competition on appeal court's ruling in Cineplex deceptive marketing case - Canada.ca",
+      "evidence": "On January 21, 2026, the Federal Court of Appeal dismissed Cineplex's appeal, with costs. The Competition Tribunal found that Cineplex engaged in drip pricing by adding a mandatory $1.50 online booking fee and ordered Cineplex to pay a financial penalty of over $38.9 million dollars and legal costs."
+    },
+    {
+      "quote": "The Competition Act has expressly prohibited drip pricing since June 2022",
+      "url": "https://www.canada.ca/en/competition-bureau/news/2024/09/competition-bureau-wins-deceptive-marketing-case-against-cineplex.html",
+      "publisher": "Competition Bureau Canada",
+      "title": "Competition Bureau wins deceptive marketing case against Cineplex - Canada.ca",
+      "evidence": "Amendments to the Competition Act came into force on June 24, 2022, which explicitly recognize drip pricing as a harmful business practice. Drip pricing involves offering low prices to attract consumers but then adding mandatory fees so that the prices are unattainable."
+    },
+    {
+      "quote": "Ontario's AGCO allows happy hour and price advertising but sets minimum prices, about $2.00 per standard drink",
+      "url": "https://www.agco.ca/en/alcohol/appendix-2-registrars-guidelines-advertising-and-promotion/pricing-and-promotion-liquor",
+      "publisher": "Alcohol and Gaming Commission of Ontario",
+      "title": "Pricing and Promotion of Liquor | Alcohol and Gaming Commission of Ontario",
+      "evidence": "A 12 oz beer or a 5 oz glass of wine may not be sold for less than $2, including taxes. A 1 oz drink containing spirits may not be sold for less than $1.34, including taxes. A licensee may vary the purchase price of liquor as long as it remains above the minimum price, whether offered in combination with food or other goods or services, or for a specified time."
+    },
+    {
+      "quote": "Under the CRA's digital economy rules in force since July 1, 2021, platform operators are generally expected to register for GST/HST",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/digital-economy.html",
+      "publisher": "Canada Revenue Agency",
+      "title": "GST/HST for digital-economy businesses: Overview - Canada.ca",
+      "evidence": "The ETA has been amended, effective July 1, 2021, to include GST/HST provisions that generally apply to non-resident suppliers, distribution platform operators and accommodation platform operators participating in the digital economy. Measures for digital-economy businesses are in effect as of July 1, 2021."
+    }
+  ],
+  "flags": [
+    {
+      "quote": "15 percent for core delivery service plus a maximum of 5 percent in other fees",
+      "issue": "The permanent BC cap under the Food Delivery Service Fee Regulation (B.C. Reg. 249/2022) is 20 percent of the order value for core delivery services, with an additional 5 percent cap on other related fees. The 15 percent figure was the temporary pandemic-era cap, not the permanent one in force since January 1, 2023.",
+      "evidenceUrl": "https://news.gov.bc.ca/releases/2022JERI0064-001506"
+    },
+    {
+      "quote": "about $2.00 per standard drink before HST, and bans all-you-can-drink offers",
+      "issue": "AGCO's Registrar's guidelines state the $2.00 minimum for a 12 oz beer or 5 oz glass of wine (and $1.34 for a 1 oz spirit serving) is a price including all applicable taxes, not a before-HST price.",
+      "evidenceUrl": "https://www.agco.ca/en/alcohol/appendix-2-registrars-guidelines-advertising-and-promotion/pricing-and-promotion-liquor"
+    }
+  ]
+}

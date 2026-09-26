@@ -1,0 +1,50 @@
+{
+  "slug": "oshawa",
+  "geographyNote": "City of Oshawa (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Oshawa&DGUIDlist=2021A00053518013&GENDERlist=1%2C2%2C3&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 175383,
+    "population2016": 159458,
+    "growthPct": 10.0,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": 66634,
+    "landAreaKm2": 145.72
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053518013",
+    "population2016": "https://en.wikipedia.org/wiki/Oshawa",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053518013",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053518013",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053518013"
+  },
+  "facts": [
+    {
+      "text": "The healthcare sector accounts for over 12,000 jobs in Oshawa and represents 17% of the City's employment base.",
+      "url": "https://www.oshawaeconomicdevelopment.ca/key-sectors/health-and-biosciences/",
+      "publisher": "Oshawa Economic Development"
+    },
+    {
+      "text": "Oshawa's five key sectors are advanced manufacturing, health and biosciences, energy generation, multimodal transportation and logistics, and information technology.",
+      "url": "https://www.oshawaeconomicdevelopment.ca/key-sectors/",
+      "publisher": "Oshawa Economic Development"
+    },
+    {
+      "text": "GM's Oshawa car assembly plant is back in production, having reopened on 10 November 2021 when the first Canadian-made Chevy Silverado was completed.",
+      "url": "https://en.wikipedia.org/wiki/Oshawa",
+      "publisher": "Wikipedia"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Oshawa counted 175,383 residents in the 2021 Census, up 10.0% from 159,458 in 2016. That growth was well ahead of the provincial pace, and it came with 66,634 occupied private dwellings packed into 145.72 square kilometres, so most customers live within a short drive of any local storefront.",
+      "The economy has moved beyond the auto plant. Health care is now a major employer, the GM assembly line is running again, and the city's key sectors include energy and logistics. For a local business, that means a growing, steady-income customer base worth competing for."
+    ],
+    "byService": {
+      "lead-generation": "With 175,383 residents and 10.0% growth since 2016, lead generation in Oshawa should target newcomers in new subdivisions who have not yet chosen their local suppliers.",
+      "seo": "Search demand in Oshawa is expanding alongside the population, so SEO here focuses on ranking for neighbourhood and service terms before fast-growing competitors lock them in.",
+      "website-development": "Because health care is now one of Oshawa's biggest employers, a website should load quickly on mobile for shift workers browsing between commutes and appointments.",
+      "branding": "A brand in Oshawa should speak to a city of 66,634 households that is diversifying past automotive, balancing working-class roots with a newer health and education identity."
+    }
+  }
+}
