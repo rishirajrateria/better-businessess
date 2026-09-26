@@ -1,20 +1,23 @@
 /**
  * Applies verified citations to the starter articles.
- * usage: npx tsx scripts/apply-citations.mts <checkedOn YYYY-MM-DD> <task-output.json> [more ...]
+ * usage: npx tsx scripts/apply-citations.mts <checkedOn YYYY-MM-DD> <dir-with-<slug>.json files>
  * For each article: links the cited sentence inline (once) and appends a "## Sources" list.
  * Rewrites src/lib/seed-posts/part*.ts in place (same field order, JSON-escaped strings).
  */
-import { readFileSync, writeFileSync } from "node:fs";
+import { readFileSync, writeFileSync, readdirSync } from "node:fs";
+import { join } from "node:path";
 import type { SeedPost } from "../src/lib/seed-posts/types";
 
-const [checkedOn, ...files] = process.argv.slice(2);
+const [checkedOn, dir] = process.argv.slice(2);
 type Article = { slug: string; sources: { quote: string; url: string; publisher: string; title: string }[]; flags: { quote: string; issue: string; evidenceUrl: string }[] };
 const articles: Article[] = [];
-for (const src of files) {
-  const raw = JSON.parse(readFileSync(src, "utf8"));
-  const list: Article[] = raw.result?.articles ?? raw.articles ?? [];
-  console.log(src.split("/").pop(), "->", list.length, "articles");
-  articles.push(...list);
+for (const file of readdirSync(dir).filter((f) => f.endsWith(".json")).sort()) {
+  try {
+    const a = JSON.parse(readFileSync(join(dir, file), "utf8")) as Article;
+    if (a?.slug) articles.push({ slug: a.slug, sources: a.sources ?? [], flags: a.flags ?? [] });
+  } catch {
+    console.log("bad json:", file);
+  }
 }
 if (!articles.length) throw new Error("no articles in output");
 

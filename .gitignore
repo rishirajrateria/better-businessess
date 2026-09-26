@@ -14,3 +14,6 @@ prisma/dev.db*
 tsconfig.tsbuildinfo
 next-env.d.ts
 .vercel
+
+# research pipeline inputs (generated)
+.research/
