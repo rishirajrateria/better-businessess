@@ -1,0 +1,83 @@
+{
+  "slug": "accounting-firm-marketing-canada",
+  "sources": [
+    {
+      "quote": "CRA guidance is that a pending authorization must be confirmed within a set window, currently ten business days, or it lapses",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/representative-authorization/confirm-representative.html",
+      "publisher": "Canada Revenue Agency",
+      "title": "Confirm my representative's authorization request - Canada.ca",
+      "evidence": "If a representative submits an authorization request, you must confirm or deny it within 10 business days in My Business Account or the request will be cancelled. If you still want to authorize a representative after this time period, you must ask your representative to submit a new request."
+    },
+    {
+      "quote": "Under federal rules in force since January 1, 2024, a preparer paid to prepare more than five returns of a type in a year generally must file them electronically",
+      "url": "https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-tax-preparers/mandatory-electronic-filing-tax-preparers.html",
+      "publisher": "Canada Revenue Agency",
+      "title": "Mandatory electronic filing for tax preparers - Canada.ca",
+      "evidence": "As of January 1, 2024, tax preparers who accept payment to prepare more than 5 tax returns in a calendar year are required to electronically file those tax returns. Mandatory electronic filing (MEF) applies to the filing of T1 income tax and benefit returns, T2 Corporation income tax returns and T3 trust returns. If you do not comply, you may be charged a penalty of $25 for each T1 or T3 return that is paper-filed and $100 for each T2 Corporation return that is paper-filed."
+    },
+    {
+      "quote": "only a Public Accounting Licence holder may hold out as able to perform audits and review engagements",
+      "url": "https://www.cpaontario.ca/members/regulations-guidance/public-accounting-licence",
+      "publisher": "CPA Ontario",
+      "title": "CPA Ontario | Members | Public Accounting Licence",
+      "evidence": "A PAL is required if you are the lead engagement person responsible for signing reports or statements regarding any assurance engagement (including an audit or review engagement) relating to a financial statement. Engaging in the practice of public accounting without holding a valid Ontario PAL is prohibited under the Public Accounting Act, 2004. In Ontario, firms are not licensed but are required to register with CPA Ontario if they wish to engage in or provide public accounting services."
+    },
+    {
+      "quote": "bars advertising that is false, misleading or unsubstantiated",
+      "url": "https://assets.cpaontario.ca/members/regulations-guidance/pdfs/CPA-Ontario-Code-of-professional-conduct.pdf",
+      "publisher": "CPA Ontario",
+      "title": "CHARTERED PROFESSIONAL ACCOUNTANTS OF ONTARIO CPA CODE OF PROFESSIONAL CONDUCT",
+      "evidence": "Rule 217.1 Advertising and promotion: registrants must not advertise in any manner which they know, or should know, is false or misleading or which includes a statement the contents of which the registrant cannot substantiate. Related rules 217.2 Solicitation and 217.3 Endorsements address solicitation and endorsement activities."
+    },
+    {
+      "quote": "hold that price for a minimum period, currently 90 days. Every ad must be kept on file for 36 months",
+      "url": "https://cpaquebec.ca/fr/membres-cpa/deontologie/devoirs-envers-la-profession/publicite/ce-que-je-dois-savoir-avant-de-faire-de-la-publicite/",
+      "publisher": "Ordre des CPA du Québec",
+      "title": "Ce que je dois savoir avant de faire de la publicité | Ordre des CPA du Québec | Comptables professionnels agréés",
+      "evidence": "The chartered professional accountant must respect the announced costs during the period provided in the advertisement or for a minimum period of 90 days after its last broadcast. When advertising the cost of services, the CPA must ensure the advertisement indicates the nature and scope of services offered in exchange for each announced fee and additional services that may be required but are not included in that cost. The CPA must keep, for a period of 36 months, a complete copy of all advertising in its original form."
+    },
+    {
+      "quote": "a T2 is due six months after year end",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/important-dates-businesses/important-dates-corporations.html",
+      "publisher": "Canada Revenue Agency",
+      "title": "Important dates for corporations - Canada.ca",
+      "evidence": "Corporations must file their T2 return within six months of the end of each tax year. When the corporation's tax year ends on the last day of a month, file the return by the last day of the sixth month after the end of the tax year."
+    },
+    {
+      "quote": "peaks through the April 30 filing and payment deadline, then runs a smaller wave to the June 15 self employed deadline",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/important-dates-individuals.html",
+      "publisher": "Canada Revenue Agency",
+      "title": "Due dates and payment dates - Personal income tax - Canada.ca",
+      "evidence": "The filing due date is April 30 for most taxpayers, June 15 for self-employed, and may vary for a deceased person's return. If you have a balance owing for 2025, you must pay it on or before April 30, 2026, regardless of whether you're self-employed."
+    },
+    {
+      "quote": "Google prohibits keyword stuffed names",
+      "url": "https://support.google.com/business/answer/3038177?hl=en",
+      "publisher": "Google (Business Profile Help)",
+      "title": "Guidelines for representing your business on Google - Google Business Profile Help",
+      "evidence": "Your business name should reflect your business's real-world name, as used consistently on your storefront, website, stationery, and as known to customers. Including unnecessary information in your business name isn't permitted, and could result in the suspension of your Business Profile. Marketing taglines, location keywords, and other marketing-related information should not be included in the business name."
+    },
+    {
+      "quote": "Home based practitioners should hide the street address and set a service area",
+      "url": "https://support.google.com/business/answer/3038177?hl=en",
+      "publisher": "Google (Business Profile Help)",
+      "title": "Guidelines for representing your business on Google - Google Business Profile Help",
+      "evidence": "If you're a service-area business, you should hide your business address from customers. For example, if you run your business from your residential address, clear the address from your Business Profile. If you don't serve customers at your business address, remove your address and only enter your service area."
+    },
+    {
+      "quote": "requires commercial websites and advertising directed at Quebec to be available in French with content at least equivalent to the other language",
+      "url": "https://www.oqlf.gouv.qc.ca/charte/questions_freq/faq_jur-web-medias-soc.html",
+      "publisher": "Office québécois de la langue française (OQLF)",
+      "title": "Charte de la langue française - Changements législatifs",
+      "evidence": "Commercial advertising found on business websites must have a French version unless it is covered by one of the exceptions provided in the regulation. Websites and social media must be available in French, but they can be in another language in addition to French; if another language than French is used, French must appear in an equivalent manner."
+    },
+    {
+      "quote": "strengthened by Bill 96 with its final provisions in force June 1, 2025",
+      "url": "https://www.quebec.ca/en/government/policies-orientations/french-language/modernization-charter-french-language",
+      "publisher": "Gouvernement du Québec",
+      "title": "Modernization of the Charter of the French language | Gouvernement du Québec",
+      "evidence": "As of June 1, 2025, French must appear in a markedly predominant manner in all signage visible from outside a location that contains a business name in a language other than French or a trademark in a language other than French. Since June 1, 2025, enterprises with 5 to 24 employees must declare the proportion of their employees who are not able to communicate in French at work."
+    }
+  ],
+  "flags": []
+}
