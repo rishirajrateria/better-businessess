@@ -4,9 +4,10 @@
  * For each article: links the cited sentence inline (once) and appends a "## Sources" list.
  * Rewrites src/lib/seed-posts/part*.ts in place (same field order, JSON-escaped strings).
  */
-import { readFileSync, writeFileSync, readdirSync } from "node:fs";
+import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import type { SeedPost } from "../src/lib/seed-posts/types";
+import { PARTS, loadPart, writePart } from "./lib/seed-posts-io.mts";
 
 const [checkedOn, dir] = process.argv.slice(2);
 type Article = { slug: string; sources: { quote: string; url: string; publisher: string; title: string }[]; flags: { quote: string; issue: string; evidenceUrl: string }[] };
@@ -21,8 +22,6 @@ for (const file of readdirSync(dir).filter((f) => f.endsWith(".json")).sort()) {
 }
 if (!articles.length) throw new Error("no articles in output");
 
-const parts = ["part1", "part2", "part3", "part4", "part5", "part6"];
-const esc = (s: string) => JSON.stringify(s);
 const isUrl = (u: string) => /^https?:\/\/[^\s"'<>()]+$/.test(u);
 const cleanTitle = (s: string) => s.replace(/\s+/g, " ").replace(/[\[\]]/g, "").replace(/\s*[|–—-]\s*(Statistics Canada|Canada\.ca|Government of Canada)\s*$/i, "").trim().slice(0, 110);
 const MONTH = new Date(checkedOn).toLocaleDateString("en-CA", { month: "long", year: "numeric" });
@@ -61,25 +60,10 @@ function applyTo(post: SeedPost, a: (typeof articles)[number]) {
   return { content, inline, listed: kept.length };
 }
 
-function serialize(name: string, posts: SeedPost[]) {
-  const lines = posts.map((p) => {
-    const f: string[] = [];
-    f.push(`    slug: ${esc(p.slug)},`, `    title: ${esc(p.title)},`, `    excerpt: ${esc(p.excerpt)},`, `    category: ${esc(p.category)},`, `    tags: ${esc(p.tags)},`, `    readingMinutes: ${p.readingMinutes},`, `    publishedAt: ${esc(p.publishedAt)},`);
-    if (p.featured !== undefined) f.push(`    featured: ${p.featured},`);
-    if (p.seoTitle !== undefined) f.push(`    seoTitle: ${esc(p.seoTitle)},`);
-    f.push(`    seoDescription: ${esc(p.seoDescription)},`);
-    if (p.faqs) f.push(`    faqs: [\n${p.faqs.map((q) => `      { question: ${esc(q.question)}, answer: ${esc(q.answer)} },`).join("\n")}\n    ],`);
-    f.push(`    content: ${esc(p.content)},`);
-    return `  {\n${f.join("\n")}\n  },`;
-  });
-  return `import type { SeedPost } from "./types";\n\nexport const ${name}: SeedPost[] = [\n${lines.join("\n")}\n];\n`;
-}
-
 let totalInline = 0, totalListed = 0, touched = 0;
 const flags: string[] = [];
-for (const name of parts) {
-  const mod = await import(`../src/lib/seed-posts/${name}.ts`);
-  const posts: SeedPost[] = mod[name];
+for (const name of PARTS) {
+  const posts = await loadPart(name);
   let changed = false;
   for (const p of posts) {
     const a = articles.find((x) => x.slug === p.slug);
@@ -88,7 +72,7 @@ for (const name of parts) {
     const r = applyTo(p, a);
     if (r.content !== p.content) { p.content = r.content; changed = true; touched++; totalInline += r.inline; totalListed += r.listed; }
   }
-  if (changed) writeFileSync(`src/lib/seed-posts/${name}.ts`, serialize(name, posts));
+  if (changed) writePart(name, posts);
 }
 console.log(`articles updated: ${touched}, inline citations: ${totalInline}, listed sources: ${totalListed}`);
 if (flags.length) { console.log(`\nACCURACY FLAGS (${flags.length}) — review manually:`); for (const f of flags) console.log(" -", f); }
