@@ -1,0 +1,59 @@
+{
+  "slug": "prince-george",
+  "geographyNote": "City of Prince George (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Prince+George&GENDERlist=1%2C2%2C3&STATISTIClist=1&DGUIDlist=2021A00055953023&HEADERlist=0",
+  "figures": {
+    "population2021": 76708,
+    "population2016": 74003,
+    "growthPct": 3.7,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": 31793,
+    "landAreaKm2": null
+  },
+  "figureSources": {
+    "population2021": "https://www.princegeorgecitizen.com/local-news/census-data-shows-citys-population-grew-nearly-4-5044842",
+    "population2016": "https://www.princegeorgecitizen.com/local-news/census-data-shows-citys-population-grew-nearly-4-5044842",
+    "growthPct": "https://en.wikipedia.org/wiki/Prince_George,_British_Columbia",
+    "privateDwellings": "https://en.wikipedia.org/wiki/Prince_George,_British_Columbia"
+  },
+  "facts": [
+    {
+      "text": "Prince George has over 8,200 local businesses employing a workforce of 55,000.",
+      "url": "https://www.princegeorge.ca/business-development/economic-development/workforce",
+      "publisher": "City of Prince George"
+    },
+    {
+      "text": "Prince George set a development record in 2024 with 417 building permits issued, totalling $267 million in value.",
+      "url": "https://bcbusiness.ca/industries/invest-in-bc/prince-george-is-the-economic-engine-of-the-north/",
+      "publisher": "BCBusiness"
+    },
+    {
+      "text": "Northern Health employs over 3,200 people in Prince George and is adding a new $1.6 billion Acute Care Tower to the University Hospital of Northern British Columbia.",
+      "url": "https://www.westerninvestor.com/british-columbia/prince-george-benefits-from-major-infrastructure-energy-projects-11817120",
+      "publisher": "Western Investor"
+    },
+    {
+      "text": "The University of Northern British Columbia and College of New Caledonia main campuses have a combined student population of around 12,300 for the 2020-21 academic year.",
+      "url": "https://www.princegeorge.ca/business-development/economic-development/workforce",
+      "publisher": "City of Prince George"
+    },
+    {
+      "text": "As CN Rail's northern B.C. divisional headquarters, Prince George is home to more than 600 railway workers, and CN recently expanded its Prince George distribution centre.",
+      "url": "https://bcbusiness.ca/industries/invest-in-bc/prince-george-is-the-economic-engine-of-the-north/",
+      "publisher": "BCBusiness"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Prince George counted 76,708 residents in the 2021 Census, a modest 3.7 per cent increase from 74,003 in 2016. Growth is slower than in southern British Columbia, so a local business is mostly competing for existing customers rather than newcomers.",
+      "The city's 31,793 occupied dwellings are served by over 8,200 local businesses, while large institutions such as Northern Health, the University of Northern British Columbia and CN Rail anchor payrolls. Record building permits in 2024 and a $1.6 billion hospital expansion give service and trade businesses a rare wave of new demand."
+    ],
+    "byService": {
+      "lead-generation": "Lead generation in Prince George should target the contractors, institutions and households connected to the 2024 building permit record and the hospital expansion rather than wait for population growth.",
+      "seo": "Because Prince George serves a wide northern region, SEO pages should capture regional searches from surrounding communities as well as the city's own 76,708 residents.",
+      "website-development": "A Prince George website needs to explain services clearly to both local households and institutional buyers such as Northern Health, which employs over 3,200 people in the city.",
+      "branding": "With only 3.7 per cent growth between 2016 and 2021, a brand in Prince George wins by looking established and local, since most customers already know the alternatives among 8,200 businesses."
+    }
+  }
+}
