@@ -1,0 +1,52 @@
+{
+  "slug": "kingston",
+  "geographyNote": "City of Kingston (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Kingston&DGUIDlist=2021A00053510010&GENDERlist=1%2C2%2C3&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 132485,
+    "population2016": 123798,
+    "growthPct": 7.0,
+    "medianAge": 41.2,
+    "medianHouseholdIncome2020": 79000,
+    "privateDwellings": 57836,
+    "landAreaKm2": 451.58
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053510010",
+    "population2016": "https://en.wikipedia.org/wiki/Kingston,_Ontario",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053510010",
+    "medianAge": "https://capopulation.com/area/ontario/kingston/",
+    "medianHouseholdIncome2020": "https://capopulation.com/area/ontario/kingston/",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053510010",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053510010"
+  },
+  "facts": [
+    {
+      "text": "Queen's University is Kingston's largest employer with 9,352 employees, followed by Kingston Health Sciences Centre with 5,953 and Canadian Forces Base Kingston with 5,800.",
+      "url": "https://www.investkingston.ca/majoremployers/",
+      "publisher": "Kingston Economic Development Corporation"
+    },
+    {
+      "text": "Queen's University contributes $1.67 billion in GDP and 14,946 jobs to Kingston, and 1 in 10 jobs in the city are found at Queen's.",
+      "url": "https://www.queensu.ca/community/areas-of-impact/partnering-prosperous-economy",
+      "publisher": "Queen's University"
+    },
+    {
+      "text": "In 2024 Kingston welcomed 2.6 million visitors who spent $512 million, and tourism generated $775 million of economic activity in the city.",
+      "url": "https://www.visitkingston.ca/about-tourism-kingston/the-impact-of-tourism-in-kingston/",
+      "publisher": "Visit Kingston (Tourism Kingston)"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Kingston had 132,485 residents in the 2021 Census, up 7.0% from 123,798 in 2016. The median age is 41.2 and the median household income in 2020 was $79,000. Its 57,836 occupied dwellings are spread across 451.58 square kilometres, so the customer base is wide as well as growing.",
+      "Queen's University, Kingston Health Sciences Centre and CFB Kingston anchor employment, and 2.6 million visitors arrive each year. A local business serves steady institutional households plus a large seasonal tourist market."
+    ],
+    "byService": {
+      "lead-generation": "In Kingston, lead generation should run two tracks, one for 132,485 year-round residents and one for the 2.6 million visitors who spend $512 million annually.",
+      "seo": "Because Kingston spans 451.58 square kilometres from downtown to rural areas, SEO here needs distinct location pages so the business ranks in each part of the city.",
+      "website-development": "A Kingston website should serve a student, military and hospital workforce that moves often, so clear directions, hours and mobile speed matter more than elaborate design.",
+      "branding": "Kingston branding can borrow the credibility of a university and health sciences city, presenting a professional, knowledgeable identity to households earning a median $79,000."
+    }
+  }
+}
