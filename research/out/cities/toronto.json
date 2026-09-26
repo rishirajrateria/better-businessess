@@ -1,0 +1,56 @@
+{
+  "slug": "toronto",
+  "geographyNote": "City of Toronto (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=toronto&GENDERlist=1&STATISTIClist=1&DGUIDlist=2021A00053520005&HEADERlist=0",
+  "figures": {
+    "population2021": 2794356,
+    "population2016": 2731571,
+    "growthPct": 2.3,
+    "medianAge": null,
+    "medianHouseholdIncome2020": 84000,
+    "privateDwellings": 1160892,
+    "landAreaKm2": 631.1
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053520005",
+    "population2016": "https://www12.statcan.gc.ca/census-recensement/2016/as-sa/fogs-spg/Facts-csd-eng.cfm?LANG=eng&GK=CSD&GC=3520005&TOPIC=1",
+    "growthPct": "https://www.toronto.ca/wp-content/uploads/2022/02/92e3-City-Planning-2021-Census-Backgrounder-Population-Dwellings-Backgrounder.pdf",
+    "medianHouseholdIncome2020": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=5&dguid=2021A00053520005",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053520005",
+    "landAreaKm2": "https://en.wikipedia.org/wiki/Toronto"
+  },
+  "facts": [
+    {
+      "text": "The Toronto Employment Survey counts 1,623,720 jobs and 74,560 establishments in the city in 2025, a record high for jobs.",
+      "url": "https://www.toronto.ca/city-government/data-research-maps/research-reports/planning-development/toronto-employment-survey/",
+      "publisher": "City of Toronto"
+    },
+    {
+      "text": "Toronto is Canada's largest financial centre, with nearly 210,000 financial services workers, about three-quarters of the region's financial services workforce.",
+      "url": "https://www.toronto.ca/business-economy/industry-sector-support/financial-services/",
+      "publisher": "City of Toronto"
+    },
+    {
+      "text": "Toronto welcomed nine million overnight visitors in 2024 who spent a record $8.8 billion, including 2.7 million international visitors.",
+      "url": "https://www.destinationtoronto.com/media/media-blog/post/9-million-visitors-spent-a-record-88-billion-in-toronto-in-2024/",
+      "publisher": "Destination Toronto"
+    },
+    {
+      "text": "In 2025 visitors spent $9.1 billion in Toronto, producing $13.5 billion in total economic impact for the city.",
+      "url": "https://www.toronto.ca/business-economy/industry-sector-support/tourism/",
+      "publisher": "City of Toronto"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Toronto counted 2.8 million residents in the 2021 Census, up 2.3 percent from 2016, spread across 631.1 square kilometres and more than 1.16 million occupied private dwellings. Growth was slower than the provincial average, so most customers a local business can win are already here and already buying from someone else.",
+      "The median household income was $84,000 in 2020, which sits close to the national middle despite the city's high living costs. For a business competing here, the opportunity is scale and density rather than a rush of new arrivals, and winning attention in a crowded market matters more than waiting for the market to grow."
+    ],
+    "byService": {
+      "lead-generation": "With 2.8 million residents and modest growth since 2016, lead generation in Toronto depends on targeting specific neighbourhoods and segments rather than broadcasting to the whole city.",
+      "seo": "Toronto's dense market of 1.16 million households means search results are fiercely contested, so ranking requires district-level pages and reviews that prove you serve their part of the city.",
+      "website-development": "Because household income sits at a middle $84,000 median, a Toronto website has to make value and price clear quickly to visitors comparing many nearby options on their phones.",
+      "branding": "A brand in Toronto competes against thousands of established businesses, so distinct positioning matters more here than in fast-growing suburbs where being new is enough."
+    }
+  }
+}
