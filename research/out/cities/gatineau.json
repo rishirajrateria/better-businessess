@@ -1,0 +1,50 @@
+{
+  "slug": "gatineau",
+  "geographyNote": "Ville de Gatineau (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Gatineau&DGUIDlist=2021A00052481017&GENDERlist=1%2C2%2C3&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 291041,
+    "population2016": 276245,
+    "growthPct": 5.4,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": 126476,
+    "landAreaKm2": 341.84
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00052481017",
+    "population2016": "https://en.wikipedia.org/wiki/Gatineau",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00052481017",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00052481017",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00052481017"
+  },
+  "facts": [
+    {
+      "text": "Public administration is the main employment sector for Gatineau residents, with nearly one person in four (24.1% of the active population) working in that field.",
+      "url": "https://odooutaouais.ca/wp-content/uploads/2020/12/Ville-Gatineau_version-finale.pdf",
+      "publisher": "Observatoire du développement de l'Outaouais"
+    },
+    {
+      "text": "The Gatineau sector groups 1,468 businesses, the largest number in the city, representing 42% of all commercial establishments on the territory.",
+      "url": "https://www.gatineau.ca/docs/guichet_municipal/affaires_developpement_economique/portrait_sociodemographique_offre_commercial.fr-CA.pdf",
+      "publisher": "Ville de Gatineau"
+    },
+    {
+      "text": "Federal government policy provides for a split of federal jobs of 25% in Gatineau versus 75% in Ottawa, following the transfer of part of the public service to Hull in the early 1970s.",
+      "url": "https://odooutaouais.ca/wp-content/uploads/2020/12/Administration-publique_version-finale.pdf",
+      "publisher": "Observatoire du développement de l'Outaouais"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Gatineau had 291,041 residents in the 2021 Census, up 5.4% from 276,245 in 2016, with 126,476 occupied dwellings spread over 341.84 square kilometres. Growth outpaced most Quebec cities, driven by its place in the National Capital Region.",
+      "Public administration is the dominant employer, and a large share of federal jobs in the capital region sit on the Gatineau side. A local business serves bilingual, public-sector households who also shop and compare prices across the river in Ottawa."
+    ],
+    "byService": {
+      "lead-generation": "Gatineau lead generation should reach bilingual public servants with French-first campaigns timed around stable pay cycles, competing against Ottawa businesses for the same 291,041 residents.",
+      "seo": "SEO in Gatineau must rank in French and English and target sector names like Hull, Aylmer and Buckingham, because Ottawa results otherwise dominate regional searches.",
+      "website-development": "A Gatineau website should launch fully bilingual, load fast on mobile and make service areas clear across the 341.84 square kilometres of merged former municipalities.",
+      "branding": "Gatineau branding should signal reliability and bilingual professionalism to a public-sector market whose population rose 5.4% between 2016 and 2021."
+    }
+  }
+}
