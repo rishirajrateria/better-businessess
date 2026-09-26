@@ -1,0 +1,54 @@
+{
+  "slug": "st-albert",
+  "geographyNote": "City of St. Albert (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=St.+Albert&DGUIDlist=2021A00054811062&GENDERlist=1%2C2%2C3&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 68232,
+    "population2016": 65589,
+    "growthPct": null,
+    "medianAge": null,
+    "medianHouseholdIncome2020": 117000,
+    "privateDwellings": 25938,
+    "landAreaKm2": null
+  },
+  "figureSources": {
+    "population2021": "https://www.careerbeacon.com/en/canada/alberta/st.-albert",
+    "population2016": "https://www.citypopulation.de/en/canada/alberta/admin/_/4811062__st_albert/",
+    "medianHouseholdIncome2020": "https://www.point2homes.com/CA/Demographics/AB/St-Albert-Demographics.html",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00054811062"
+  },
+  "facts": [
+    {
+      "text": "St. Albert has 2,350 businesses in 2025, up 2.49% from 2,293 in 2024.",
+      "url": "https://regionaldashboard.alberta.ca/region/st-albert/number-of-businesses/",
+      "publisher": "Alberta Regional Dashboard, Government of Alberta"
+    },
+    {
+      "text": "An Edmonton Chamber of Commerce report finds St. Albert created more jobs than Edmonton over five years, with around 500 net new businesses, and its industrial mill rate of 17.2115 is nearly half Edmonton's 28.3425.",
+      "url": "https://www.stalbertgazette.com/local-news/report-finds-st-albert-created-more-jobs-than-edmonton-over-five-years-11424132",
+      "publisher": "St. Albert Gazette"
+    },
+    {
+      "text": "St. Albert has over 1,000 acres zoned for industrial and commercial use, including 3.6 million square feet of leasable industrial space, with over 1.5 million square feet of new warehousing built and absorbed since 2021.",
+      "url": "https://stalbert.ca/dev/business/invest/business-parks",
+      "publisher": "City of St. Albert"
+    },
+    {
+      "text": "The Lakeview Business District spans more than 600 acres and is anticipated to bring an estimated 5,000 jobs as a key industrial hub in the metro Edmonton region.",
+      "url": "https://stalbert.ca/dev/business/invest/business-parks",
+      "publisher": "City of St. Albert"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "St. Albert counted 68,232 residents in the 2021 Census, up from 65,589 in 2016, and its households reported a median total income of $117,000 in 2020, among the highest of any Alberta city. Those 25,938 occupied dwellings hold affluent families who expect quality and are willing to pay for it.",
+      "The city sits beside Edmonton, so residents can easily shop across the border. With 2,350 businesses in 2025 and more than 500 net new businesses over five years, a local firm competes on service and reputation, while new industrial parks such as Lakeview add business-to-business demand."
+    ],
+    "byService": {
+      "lead-generation": "Because St. Albert households earn a median $117,000 in 2020, lead generation should qualify for higher-value projects and premium services rather than chase volume with discounts.",
+      "seo": "St. Albert SEO must keep customers from defaulting to Edmonton results, so pages should target St. Albert neighbourhood names and the phrase 'near me' searches inside the city's 25,938 households.",
+      "website-development": "A website for St. Albert should look polished and premium, since 2,350 local businesses court the same affluent families and a dated site reads as a lower-tier option.",
+      "branding": "Branding in St. Albert works when it conveys quality and community involvement, matching a city whose residents choose local providers to avoid driving into Edmonton."
+    }
+  }
+}
