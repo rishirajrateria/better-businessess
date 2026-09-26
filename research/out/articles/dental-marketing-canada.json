@@ -1,0 +1,62 @@
+{
+  "slug": "dental-marketing-canada",
+  "sources": [
+    {
+      "quote": "Statistics Canada reports that one in four Canadians aged 12 and older has avoided oral health care because of cost",
+      "url": "https://www.statcan.gc.ca/o1/en/plus/7613-one-four-canadians-aged-12-and-older-avoided-oral-health-care-services-because-cost",
+      "publisher": "Statistics Canada",
+      "title": "One in four Canadians aged 12 and older avoided oral health care services because of cost - Statistics Canada",
+      "evidence": "Overall, 24% of Canadians aged 12 and older had avoided going to an oral health professional at least once because of the cost in the previous 12 months. This is similar to the proportions reported in 2018 (22%) and 2022 (24%)."
+    },
+    {
+      "quote": "Statistics Canada's 2023 survey of oral health care providers put the dental-office job vacancy rate at 9%",
+      "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/250326/dq250326b-eng.htm",
+      "publisher": "Statistics Canada",
+      "title": "The Daily — Survey of Oral Health Care Providers",
+      "evidence": "Among dental offices in 2023, the nationwide job vacancy rate was 9%, with Manitoba and British Columbia each having a vacancy rate of 11%. New Brunswick, Quebec and Ontario each had a vacancy rate of 9%."
+    },
+    {
+      "quote": "Health Canada announced in April 2026 that more than 6.5 million people had been approved for the Canadian Dental Care Plan for the 2025-2026 benefit year",
+      "url": "https://www.canada.ca/en/health-canada/news/2026/04/more-than-65-million-canadians-can-now-receive-services-under-the-canadian-dental-care-plan.html",
+      "publisher": "Health Canada (Canada.ca)",
+      "title": "More than 6.5 million Canadians can now receive services under the Canadian Dental Care Plan - Canada.ca",
+      "evidence": "More than 6.5 million Canadians are now covered under the Canadian Dental Care Plan, with more than 4 million already receiving the care they need. This announcement was made on April 17, 2026, during National Oral Health Month in Canada."
+    },
+    {
+      "quote": "Remaining adults aged 18 to 64 became eligible in May 2025",
+      "url": "https://www.canada.ca/en/health-canada/news/2025/03/canadian-dental-care-plan-expands-to-include-millions-of-new-eligible-canadians.html",
+      "publisher": "Health Canada (Canada.ca)",
+      "title": "Canadian Dental Care Plan expands to include millions of new eligible Canadians - Canada.ca",
+      "evidence": "All remaining eligible Canadians aged 18 to 64 years-old were able to apply for the Canadian Dental Care Plan (CDCP) in May 2025, with coverage starting as early as June 1, 2025."
+    },
+    {
+      "quote": "The renewal deadline for continuous coverage fell on June 1 in 2026",
+      "url": "https://www.canada.ca/en/services/benefits/dental/dental-care-plan/renew.html",
+      "publisher": "Government of Canada (Canada.ca)",
+      "title": "Closed: Renew your Canadian Dental Care Plan coverage - Canada.ca",
+      "evidence": "The renewal period for the Canadian Dental Care Plan (CDCP) closed on June 1, 2026. Renewals were open from April 15 to June 1, 2026. To renew CDCP coverage for the 2026-27 benefit year, members need to re-attest that they have an adjusted family net income lower than $90,000. If you did not renew by June 1, 2026, you can submit a new application for the 2026-2027 benefit period. However, there will be a gap in coverage."
+    },
+    {
+      "quote": "The Regie de l'assurance maladie du Quebec covers a defined set of services for children under 10 with a valid health card",
+      "url": "https://www.ramq.gouv.qc.ca/en/citizens/health-insurance/dental-services",
+      "publisher": "Régie de l'assurance maladie du Québec (RAMQ)",
+      "title": "Dental services | Régie de l'assurance maladie du Québec (RAMQ)",
+      "evidence": "Very few dental services are covered by the public plan. To be eligible for these services, the person must be under 10 years of age or be a recipient of last-resort financial assistance. Tooth and root extraction is covered only for children under 10 years of age. Orthodontic services are not covered, regardless of the reason for which the treatment is required."
+    },
+    {
+      "quote": "An advertised fee must be the maximum, inclusive of all services and laboratory costs, and apply to every patient whether insured or not; giveaways, contests, draws and free products or services are prohibited incentives",
+      "url": "https://www.rcdso.org/en-ca/standards-guidelines-resources/standards-guidelines-advisories/advertising-guidelines",
+      "publisher": "Royal College of Dental Surgeons of Ontario (RCDSO)",
+      "title": "Advertising Guidelines",
+      "evidence": "Unless otherwise specified, the advertised fee would be the maximum fee inclusive of all services, including laboratory costs. The advertised fee would be applicable to all patients, whether or not they were aware of the advertisement and whether or not they had dental insurance coverage. Dentists are prohibited from using testimonials or any statement that can only be verified by a person's personal feelings or views, as well as incentive programs, including giveaways, contests, draws or free products or services."
+    },
+    {
+      "quote": "implied consent from a treatment relationship lapses two years after the last visit",
+      "url": "https://crtc.gc.ca/eng/com500/guide.htm",
+      "publisher": "Canadian Radio-television and Telecommunications Commission (CRTC)",
+      "title": "From Canada's Anti-Spam Legislation (CASL) Guidance on Implied Consent | CRTC",
+      "evidence": "If a recipient has made a purchase or lease of goods, services, land or interest in land within the two-year period immediately before the day on which the message was sent, you may have an existing business relationship and will be able to send CEMs for the period specified (2 years following the last transaction date)."
+    }
+  ],
+  "flags": []
+}
