@@ -1,0 +1,52 @@
+{
+  "slug": "waterloo",
+  "geographyNote": "City of Waterloo (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Waterloo&DGUIDlist=2021A00053530016&GENDERlist=1%2C2%2C3&STATISTIClist=1%2C4&HEADERlist=0",
+  "figures": {
+    "population2021": 121436,
+    "population2016": 104986,
+    "growthPct": 15.7,
+    "medianAge": 36.0,
+    "medianHouseholdIncome2020": 94000,
+    "privateDwellings": 47040,
+    "landAreaKm2": 64.06
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053530016",
+    "population2016": "https://en.wikipedia.org/wiki/Waterloo,_Ontario",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053530016",
+    "medianAge": "https://townfolio.co/on/waterloo/demographics",
+    "medianHouseholdIncome2020": "https://www.point2homes.com/CA/Demographics/ON/Waterloo-Demographics.html",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053530016",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053530016"
+  },
+  "facts": [
+    {
+      "text": "Waterloo hosts the head offices of Economical Insurance, Equitable Life of Canada, Manulife Financial, Sun Life Financial and OTIP RAEO, and insurance companies employ about 8,500 people in the community.",
+      "url": "https://www.waterloo.ca/why-waterloo/key-sectors-and-employers/",
+      "publisher": "City of Waterloo"
+    },
+    {
+      "text": "Google headlines the region's 10 biggest tech firms, with its Waterloo office one of the company's biggest engineering hubs, and homegrown OpenText and BlackBerry rank second and third.",
+      "url": "https://globalnews.ca/news/9855145/10-biggest-tech-firms-waterloo-region-list-wedc/",
+      "publisher": "Global News"
+    },
+    {
+      "text": "The University of Waterloo is home to the world's largest research-intensive university co-op program, with a network of more than 8,000 employers.",
+      "url": "https://uwaterloo.ca/news/university-waterloo-catalyst-growth",
+      "publisher": "University of Waterloo"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Waterloo grew 15.7% between 2016 and 2021, from 104,986 to 121,436 residents, one of the fastest rates among Ontario cities. The median age is just 36.0 and the median household income in 2020 was $94,000, so the market is young, educated and well paid.",
+      "Its 47,040 occupied dwellings fit into 64.06 square kilometres, and insurance head offices alone employ about 8,500 people alongside Google, OpenText and BlackBerry. A local business here competes for tech-savvy customers who expect a strong digital presence."
+    ],
+    "byService": {
+      "lead-generation": "With 15.7% growth and a median age of 36.0, Waterloo lead generation should meet newcomers and students online first, through search, social and referral programs rather than print.",
+      "seo": "Waterloo's population of 121,436 sits beside Kitchener, so SEO must claim Waterloo-specific keywords and neighbourhoods like Uptown to avoid being lost in region-wide results.",
+      "website-development": "Because insurance and tech employers like Google and OpenText set the standard, a Waterloo website needs fast load times, accessibility and clean design to earn trust.",
+      "branding": "Branding in Waterloo should feel modern and confident, speaking to households earning a median $94,000 in a city built around a university and its 8,000-employer co-op network."
+    }
+  }
+}
