@@ -1,0 +1,61 @@
+{
+  "slug": "whitehorse",
+  "geographyNote": "City of Whitehorse (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&GENDERlist=1&STATISTIClist=1&HEADERlist=0&DGUIDlist=2021A00056001009&SearchText=whitehorse",
+  "figures": {
+    "population2021": 28201,
+    "population2016": 25085,
+    "growthPct": 12.4,
+    "medianAge": null,
+    "medianHouseholdIncome2020": 112000,
+    "privateDwellings": 11436,
+    "landAreaKm2": 413.94
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00056001009",
+    "population2016": "https://yukon.ca/sites/yukon.ca/files/ybs/fin-population-and-dwellings-census-2021.pdf",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00056001009",
+    "medianHouseholdIncome2020": "https://www.point2homes.com/CA/Demographics/YT/Whitehorse-Demographics.html",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00056001009",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00056001009"
+  },
+  "facts": [
+    {
+      "text": "Yukon counted 3,033 businesses in 2025, and businesses located in Whitehorse accounted for 79.5 percent of all firms, up from 73.1 percent in 2019.",
+      "url": "https://yukon-news.com/2026/08/13/yukon-sees-fewer-businesses-overall-as-construction-and-professional-services-grow/",
+      "publisher": "Yukon News"
+    },
+    {
+      "text": "Retail trade employed 3,089 workers and accommodation and food services employed 1,831 in Yukon in 2025, remaining the territory's largest private-sector employers.",
+      "url": "https://yukon-news.com/2026/08/13/yukon-sees-fewer-businesses-overall-as-construction-and-professional-services-grow/",
+      "publisher": "Yukon News"
+    },
+    {
+      "text": "Public administration, health care and retail trade are Whitehorse's leading employment sectors, accounting for 49 percent of the jobs in the region.",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/campaigns/immigration-matters/local-economies/whitehorse.html",
+      "publisher": "Immigration, Refugees and Citizenship Canada"
+    },
+    {
+      "text": "Cruise traffic into the Yukon was up 10.7 percent in 2025 compared to 2024, with about 309,000 cruise passengers crossing into the territory.",
+      "url": "https://www.cbc.ca/news/canada/north/yukon-tourism-sees-record-cruise-traffic-9.7187625",
+      "publisher": "CBC News"
+    },
+    {
+      "text": "In August 2024, a record 26,982 passengers arrived at Erik Nielsen Whitehorse International Airport, and 2024 set an all-time high of more than 225,000 arrivals.",
+      "url": "https://open-data-static-files.service.yukon.ca/tourism-indicators/air-arrivals.html",
+      "publisher": "Government of Yukon"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Whitehorse grew 12.4 percent between 2016 and 2021, from 25,085 to 28,201 residents, one of the fastest rates of any Canadian city. Its 11,436 occupied dwellings are spread over 413.94 square kilometres, and the median household income was $112,000 in 2020, well above the national level.",
+      "For a local business, that means a small, affluent and growing market that holds most of Yukon's businesses and jobs, with government, health care and retail as the anchors and a strong summer tourism season. Newcomers arrive every year, and they are actively looking for local providers."
+    ],
+    "byService": {
+      "lead-generation": "Because Whitehorse grew 12.4 percent between 2016 and 2021 and incomes average $112,000 per household, lead generation can target newcomers and premium services rather than discounting.",
+      "seo": "Most Yukon businesses are in Whitehorse, so SEO here must win a concentrated set of local rivals while also capturing visitor searches from the summer cruise and driving season.",
+      "website-development": "A Whitehorse website needs to work well on slower northern connections and mobile devices, serving 11,436 households that shop locally and tourists planning trips from far away.",
+      "branding": "Branding in Whitehorse can combine northern authenticity with professionalism, since customers include government and health care staff as well as visitors looking for a trusted local name."
+    }
+  }
+}
