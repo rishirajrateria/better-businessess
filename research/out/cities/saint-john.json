@@ -1,0 +1,62 @@
+{
+  "slug": "saint-john",
+  "geographyNote": "City of Saint John, New Brunswick (census subdivision); not to be confused with St. John's, Newfoundland and Labrador",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&GENDERlist=1&STATISTIClist=1&HEADERlist=0&DGUIDlist=2021A00051301006&SearchText=saint+john",
+  "figures": {
+    "population2021": 69895,
+    "population2016": 67575,
+    "growthPct": 3.4,
+    "medianAge": 44.0,
+    "medianHouseholdIncome2020": 62800,
+    "privateDwellings": 31825,
+    "landAreaKm2": 315.59
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00051301006",
+    "population2016": "https://en.wikipedia.org/wiki/Saint_John,_New_Brunswick",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00051301006",
+    "medianAge": "https://capopulation.com/area/new-brunswick/saint-john/",
+    "medianHouseholdIncome2020": "https://capopulation.com/area/new-brunswick/saint-john/",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00051301006",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00051301006"
+  },
+  "facts": [
+    {
+      "text": "Irving Oil's Saint John refinery, Canada's largest, is investing $100 million to modernize a legacy processing unit, bringing in approximately 675 skilled workers.",
+      "url": "https://www.irvingoil.com/en-CA/press-room/canadas-largest-refinery-invests-100-million-its-future-modernizing-legacy-processing",
+      "publisher": "Irving Oil"
+    },
+    {
+      "text": "The Irving Oil refinery in Saint John directly employs more than 1,500 people and contributes more than $500 million to New Brunswick's GDP annually.",
+      "url": "https://www.irvingoil.com/en-US/discover-irving/sj-refinery-60th-anniversary",
+      "publisher": "Irving Oil"
+    },
+    {
+      "text": "DP World's Port Saint John Container Terminal handled 239,364 TEUs in 2025, a record 29.4 percent increase from 184,879 TEUs in 2024.",
+      "url": "https://www.sjport.com/news/psj-2025-container-traffic",
+      "publisher": "Port Saint John"
+    },
+    {
+      "text": "Since 2021, container throughput at Port Saint John has grown by 175.2 percent, rising from 86,949 TEUs to 239,364 TEUs in 2025.",
+      "url": "https://www.dpworld.com/en/news/canada/port-saint-john-volume-growth-2025",
+      "publisher": "DP World"
+    },
+    {
+      "text": "The Saint John region is experiencing a resurgence with record levels of population growth and investment, according to Envision Saint John's 2025 year in review.",
+      "url": "https://www.envisionsaintjohn.com/2025-year-review-state-economy",
+      "publisher": "Envision Saint John"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Saint John counted 69,895 residents in the 2021 Census, up 3.4 percent from 67,575 in 2016, spread across a large 315.59 square kilometres and 31,825 occupied dwellings. The median age of 44.0 is older than most Canadian cities, and the median household income was $62,800 in 2020.",
+      "For a local business, that describes a settled, loyal customer base that values reliability, alongside a fast-growing port and refinery economy that brings contractors and skilled workers into the city. Growth is steady rather than rapid, so reputation and repeat business matter more here than chasing newcomers."
+    ],
+    "byService": {
+      "lead-generation": "Lead generation in Saint John should combine referral-driven campaigns for an established population with a median age of 44.0 and targeted outreach to industrial and port-related buyers.",
+      "seo": "Because the city covers 315.59 square kilometres from the West Side to the East Side, SEO for Saint John needs neighbourhood pages and careful spelling to avoid mixing with St. John's, Newfoundland.",
+      "website-development": "A Saint John website should keep things simple and readable for an older audience with household incomes of $62,800, with clear phone numbers, hours and directions above the fold.",
+      "branding": "Branding here can draw on Saint John's working harbour heritage and its recent resurgence, giving a business the sense of permanence that 31,825 households in a slower-growth city expect."
+    }
+  }
+}
