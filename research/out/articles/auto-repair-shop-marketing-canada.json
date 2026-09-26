@@ -1,0 +1,76 @@
+{
+  "slug": "auto-repair-shop-marketing-canada",
+  "sources": [
+    {
+      "quote": "Ontario ended the Drive Clean emissions test for light vehicles on 1 April 2019",
+      "url": "https://news.ontario.ca/en/release/50115/ontario-cancelling-outdated-ineffective-drive-clean-program",
+      "publisher": "Government of Ontario",
+      "title": "Ontario Cancelling Outdated, Ineffective Drive Clean Program | Ontario Newsroom",
+      "evidence": "The requirement for light passenger vehicle owners to obtain an emissions test was removed on April 1, 2019. While Drive Clean was efficient at reducing emissions, industry standards have significantly improved since the program was created in 1999, resulting in a steady decrease of passenger cars that fail the emissions test."
+    },
+    {
+      "quote": "require a written estimate on request, cap the final charge at 10% above it, bar charging for unauthorised work, and set a minimum warranty of 90 days or 5,000 km",
+      "url": "https://www.ontario.ca/page/car-repair-shops-your-rights",
+      "publisher": "Government of Ontario",
+      "title": "Car repair shops: your rights | ontario.ca",
+      "evidence": "Before a repair shop can charge you, they must have given you a written estimate, unless you declined it and instead agreed on a maximum amount you are willing to pay for the repair. The final cost charged cannot be more than 10% above the estimate. Under the Consumer Protection Act, parts and labour generally have a warranty for a minimum of 90 days or 5,000 km (whichever comes first)."
+    },
+    {
+      "quote": "must give a written estimate before starting work expected to cost more than $100",
+      "url": "https://www.opc.gouv.qc.ca/en/consumer/good-service/vehicle/repairing/advice",
+      "publisher": "Office de la protection du consommateur (Quebec)",
+      "title": "Vehicle Repair - Office de la protection du consommateur",
+      "evidence": "Before making repairs that will cost more than $100, garages must provide you with a written evaluation, free of charge unless they indicate the exact fee prior to preparing the evaluation. The garage cannot charge you more than the total price stated in the evaluation, and only fees for additional repairs authorized by you can be added. An automobile repair is guaranteed for 3 months or 5,000 kilometres according to the first term reached."
+    },
+    {
+      "quote": "forced in Quebec by the Highway Safety Code rule that registered vehicles carry winter tires from 1 December to 15 March",
+      "url": "https://www.quebec.ca/en/transports/traffic-road-safety/winter-road-safety/requirements-for-winter-tires",
+      "publisher": "Gouvernement du Québec",
+      "title": "Requirements for winter tires | Gouvernement du Québec",
+      "evidence": "From December 1 to March 15 inclusive, all motorized road vehicles registered in Québec (other than heavy vehicles, tool vehicles and farm machinery) must be equipped with winter tires. Drivers who do not comply are liable to a fine of $200 to $300."
+    },
+    {
+      "quote": "started earlier in British Columbia by its 1 October requirement on designated highways",
+      "url": "https://www2.gov.bc.ca/gov/content/transportation/driving-and-cycling/traveller-information/seasonal/winter-driving/winter-tire-and-chain-up-routes",
+      "publisher": "Government of British Columbia",
+      "title": "Designated Winter Tire & Chain Routes - Province of British Columbia",
+      "evidence": "Winter tires or chains are required on most routes in British Columbia from October 1 to April 30. For select highways not located through mountain passes and/or high snowfall areas, tire and chain requirements end March 31. These routes are marked with regulatory signs posted on highways throughout the province."
+    },
+    {
+      "quote": "Alberta shops need an AMVIC automotive business licence",
+      "url": "https://www.amvic.org/business/business-licence/automotiverepairactivities/",
+      "publisher": "Alberta Motor Vehicle Industry Council",
+      "title": "Automotive repair activities - Alberta Motor Vehicle Industry Council",
+      "evidence": "Automotive businesses in Alberta, including sales, service and repair, consignment, lease, wholesale and agent or broker businesses must hold a valid AMVIC licence. Automotive repair businesses must be licensed by AMVIC. If your business operations include any of these activities you must have a valid AMVIC business licence."
+    },
+    {
+      "quote": "it covers more than 2,000 Canadian facilities and backs member repairs with a one year, 20,000 km warranty",
+      "url": "https://www.caasco.com/auto/caa-approved-auto-repair-services",
+      "publisher": "CAA South Central Ontario",
+      "title": "CAA-Approved Auto Repair Services - CAA South Central Ontario",
+      "evidence": "Every CAA Approved Auto Repair facility delivers no-nonsense repairs backed by a 12-month/20,000-km parts and labour warranty. This special CAA member warranty is honoured at all 2,000+ Approved Auto Repair facilities across Canada. Every shop has been appraised, approved and is reviewed annually by CAA."
+    },
+    {
+      "quote": "since Automotive Service Technician is a compulsory trade",
+      "url": "https://www.skilledtradesontario.ca/trade-information/automotive-service-technician/",
+      "publisher": "Skilled Trades Ontario",
+      "title": "Automotive Service Technician - Skilled Trades Ontario",
+      "evidence": "Automotive Service Technician is a compulsory trade, and to practice this trade legally in Ontario a person must hold a Registered Training Agreement, Provisional Certificate of Qualification or Certificate of Qualification and their information must appear on the Skilled Trades Ontario Public Register."
+    },
+    {
+      "quote": "A successor Act passed in 2023 carries the rules forward but had not been proclaimed in force as this was written",
+      "url": "https://www.ontario.ca/page/consumer-protection-laws-ontario",
+      "publisher": "Government of Ontario",
+      "title": "Consumer protection laws in Ontario | ontario.ca",
+      "evidence": "In 2023, the Ontario government introduced a new Consumer Protection Act, which when it comes into effect, will renew and update Ontario's consumer protection laws. Until then, the existing Consumer Protection Act, 2002 (CPA), remains in effect."
+    },
+    {
+      "quote": "drip pricing (shop supplies and environmental levies belong in the advertised price)",
+      "url": "https://competition-bureau.canada.ca/en/deceptive-marketing-practices/drip-pricing",
+      "publisher": "Competition Bureau Canada",
+      "title": "Drip pricing - Competition Bureau Canada",
+      "evidence": "In 2022, the Government of Canada amended the Competition Act to explicitly recognize drip pricing as a deceptive business practice. It is misleading to omit mandatory fees from advertised prices, unless those fees are imposed by government on purchasers, such as sales tax."
+    }
+  ],
+  "flags": []
+}
