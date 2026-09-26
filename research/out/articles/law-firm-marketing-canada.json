@@ -1,0 +1,41 @@
+{
+  "slug": "law-firm-marketing-canada",
+  "sources": [
+    {
+      "quote": "British Columbia's Law Society Rule 8-2 caps contingency fees in personal injury and wrongful death matters at one third of the recovery for motor vehicle claims and 40% otherwise unless a court approves more",
+      "url": "https://www.lawsociety.bc.ca/for-lawyers/act-rules-and-code/law-society-rules/part-8-%E2%80%93-lawyers%E2%80%99-fees/",
+      "publisher": "Law Society of British Columbia",
+      "title": "Part 8 – Lawyers' Fees",
+      "evidence": "Rule 8-2: under a contingent fee agreement, the maximum remuneration a lawyer may receive for representing a plaintiff up to and including all matters pertaining to the trial of an action is: (a) in a claim for personal injury or wrongful death arising out of the use or operation of a motor vehicle, 33 1/3% of the amount recovered; (b) in any other claim for personal injury or wrongful death, 40% of the amount recovered. Without court approval, a lawyer may charge a maximum of 33 1/3% of the total amount recovered in a claim for personal injury or wrongful death arising out of the use of a motor vehicle."
+    },
+    {
+      "quote": "since July 2021 must use the standard form contingency fee agreement",
+      "url": "https://lso.ca/lawyers/practice-supports-and-resources/topics/managing-money/fees-and-disbursements/contingency-fees/frequently-asked-questions-about-contingency-fees",
+      "publisher": "Law Society of Ontario",
+      "title": "Frequently Asked Questions about Contingency Fees - Lawyer | Law Society of Ontario",
+      "evidence": "New requirements regarding contingency fees came into effect on July 1, 2021, to enhance consumer protection by improving transparency and fairness for clients. The resources include Ontario Regulation 563/20 on Contingency Fee Agreements, a Standard Form Contingency Fee Agreement, and a Consumer Guide about contingency fees."
+    },
+    {
+      "quote": "Article 145 of the Code de déontologie des avocats prohibits any testimonial of support or recognition in a lawyer's advertising",
+      "url": "https://www.legisquebec.gouv.qc.ca/fr/version/rc/b-1,%20r.%203.1?code=se:145&historique=20251124",
+      "publisher": "Légis Québec (Gouvernement du Québec)",
+      "title": "Article 145 Versions de la disposition - Légis Québec",
+      "evidence": "L'avocat ne peut, dans sa publicité, utiliser ou permettre que soit utilisé un témoignage d'appui ou de reconnaissance qui le concerne. (Article 145, Code de déontologie des avocats, chapitre B-1, r. 3.1)"
+    },
+    {
+      "quote": "Alberta's Code of Conduct bars leading, top, best and most experienced",
+      "url": "https://learningcentre.lawsociety.ab.ca/mod/page/view.php?id=327",
+      "publisher": "Law Society of Alberta",
+      "title": "Law Practice Essentials: 2.3 Marketing and Advertising",
+      "evidence": "Statements that a lawyer or firm is the leading, top, best or most experienced lawyer or firm, or using like wording, is prohibited under the Code of Conduct (Chapter 4) as it suggests qualitative superiority to other lawyers. Any marketing activity undertaken or authorized by you must be demonstrably true, accurate and verifiable (Rule 4.2-1 of the Code)."
+    },
+    {
+      "quote": "Legal Aid Ontario's roster takes LSO members in good standing who meet its minimum experience requirements by area of law",
+      "url": "https://www.legalaid.on.ca/lawyers-legal-professionals/roster-resources/minimum-experience-requirements/",
+      "publisher": "Legal Aid Ontario",
+      "title": "Minimum experience requirements – Legal Aid Ontario",
+      "evidence": "Legal Aid Ontario (LAO) implements minimum experience requirements that roster members must meet in order to provide legal aid certificate services and duty counsel services in specific areas of law. The specific requirements that a roster member must meet depend on the area of law in which they provide legal aid services. LAO only considers experience gained as a lawyer practicing in Ontario and licensed by the Law Society of Ontario."
+    }
+  ],
+  "flags": []
+}
