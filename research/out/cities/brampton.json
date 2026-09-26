@@ -1,0 +1,57 @@
+{
+  "slug": "brampton",
+  "geographyNote": "City of Brampton (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=brampton&GENDERlist=1&STATISTIClist=1&DGUIDlist=2021A00053521010&HEADERlist=0",
+  "figures": {
+    "population2021": 656480,
+    "population2016": 593638,
+    "growthPct": 10.6,
+    "medianAge": 36.0,
+    "medianHouseholdIncome2020": 111000,
+    "privateDwellings": 182472,
+    "landAreaKm2": 265.89
+  },
+  "figureSources": {
+    "population2021": "https://geohub.brampton.ca/pages/profile-pop-dwelling",
+    "population2016": "https://www12.statcan.gc.ca/census-recensement/2016/as-sa/fogs-spg/Facts-csd-eng.cfm?LANG=Eng&GK=CSD&GC=3521010",
+    "growthPct": "https://en.wikipedia.org/wiki/Brampton",
+    "medianAge": "https://thedatainsider.com/brampton-ontario-population/",
+    "medianHouseholdIncome2020": "https://geohub.brampton.ca/pages/profile-income",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053521010",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053521010"
+  },
+  "facts": [
+    {
+      "text": "Brampton recorded $1.58 billion in industrial, commercial and institutional construction value in 2025, including $997 million in industrial development.",
+      "url": "https://investbrampton.ca/economic-development-office-annual-report-2025-brampton-accelerates-investment-innovation-and-global-competitiveness/",
+      "publisher": "Invest Brampton"
+    },
+    {
+      "text": "Advanced manufacturing is Brampton's largest employment sector and accounts for almost a quarter of the city's workforce.",
+      "url": "https://investbrampton.ca/key-sectors/advanced-manufacturing/",
+      "publisher": "Invest Brampton"
+    },
+    {
+      "text": "Magna International employs more than 2,000 people across eight facilities in Brampton.",
+      "url": "https://investbrampton.ca/key-sectors/advanced-manufacturing/",
+      "publisher": "Invest Brampton"
+    },
+    {
+      "text": "Brampton is home to CN's intermodal terminal, the largest intermodal railway terminal in Canada, and to Canada's largest inland port.",
+      "url": "https://investbrampton.ca/key-sectors/logistics/",
+      "publisher": "Invest Brampton"
+    }
+  ],
+  "copy": {
+    "overview": [
+      "Brampton grew 10.6 percent between 2016 and 2021 to reach 656,480 residents, the fastest growth among Canada's largest municipalities. With a median age of 36.0 and a median household income of $111,000 in 2020, the city combines a young population with above-average earning power.",
+      "Its 182,472 occupied private dwellings sit on 265.89 square kilometres, so density is high and neighbourhoods are compact. For a local business, that means a steady stream of new households forming and moving in, many of them young families who have not yet chosen their regular providers and who search online first."
+    ],
+    "byService": {
+      "lead-generation": "Brampton's 10.6 percent growth between 2016 and 2021 keeps producing new households, so lead generation here should reach movers and young families before competitors do.",
+      "seo": "With a median age of 36.0, Brampton customers search mostly on mobile, and SEO should target the newer subdivisions and plain-language queries these younger households use.",
+      "website-development": "Because household income sits at a $111,000 median, a Brampton website can present premium options confidently, but it still needs fast mobile pages and simple booking for busy families.",
+      "branding": "A brand serving Brampton speaks to a young, diverse and growing community, so imagery and tone should feel current and inclusive rather than traditional or formal."
+    }
+  }
+}
