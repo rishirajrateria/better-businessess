@@ -16,7 +16,8 @@ export function LeadForm({ lead }: { lead: Lead }) {
         <SubmitButton className="w-full">Save</SubmitButton>
         <div className="flex justify-end"><DeleteButton action={deleteLeadAction} id={lead.id} label="Delete lead" confirmText="Delete this lead permanently?" /></div>
       </form>
-      <a href={`mailto:${lead.email}?subject=${encodeURIComponent(`Re: your enquiry to Better Businesses`)}`} className="block rounded-full bg-gold-gradient px-4 py-2.5 text-center text-[14px] font-semibold text-ink">Reply by email</a>
+      {lead.phone && <a href={`tel:${lead.phone.replace(/[^\d+]/g, "")}`} className="block rounded-full bg-gold-gradient px-4 py-2.5 text-center text-[14px] font-semibold text-ink">Call {lead.phone}</a>}
+      {lead.email && <a href={`mailto:${lead.email}?subject=${encodeURIComponent(`Re: your enquiry to Better Businesses`)}`} className="block rounded-full border border-ink/10 px-4 py-2.5 text-center text-[14px] font-semibold text-ink">Reply by email</a>}
     </div>
   );
 }

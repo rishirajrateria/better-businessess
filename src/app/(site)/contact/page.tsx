@@ -11,7 +11,7 @@ import { Section, SectionHeader } from "@/components/ui/Section";
 import { Button, ArrowIcon } from "@/components/ui/Button";
 import { getTestimonials } from "@/lib/queries";
 import { buildMetadata, breadcrumbSchema, faqSchema, graph, webPageSchema } from "@/lib/seo";
-import { site } from "@/lib/site";
+import { site, fullAddress, mapsUrl } from "@/lib/site";
 import { coreServices } from "@/lib/services";
 import { majorCities } from "@/lib/locations";
 
@@ -21,10 +21,10 @@ const description = `Contact ${site.name} for a free digital growth audit. Lead 
 export const metadata: Metadata = buildMetadata({ title, description, path: "/contact" });
 
 const faqs = [
-  { question: "What happens after I submit the form?", answer: "A senior strategist reviews your website, search visibility, advertising and brand, then replies within one business day to schedule a 30-minute call. You receive a written summary of opportunities whether or not you hire us." },
+  { question: "What happens after I submit the form?", answer: "A senior strategist calls you within one business day to learn about your business and goals, then reviews your website, search visibility, advertising and brand. You receive a written summary of opportunities whether or not you hire us." },
   { question: "Is the audit really free?", answer: "Yes. No credit card, no obligation. We invest the time because most businesses who see the audit choose to work with us." },
   { question: "Do you work with small businesses?", answer: "Yes. Our clients range from solo professionals and local trades to national brands. Programs are sized to your budget and growth stage." },
-  { question: "Which areas do you serve?", answer: "All of Canada, remotely. Our headquarters is in Toronto, Ontario, and we work with clients in every province and territory in English and French." },
+  { question: "Which areas do you serve?", answer: `All of Canada. Our office is at ${fullAddress} in Toronto, and we work with clients in every province and territory in English and French.` },
 ];
 
 export default async function ContactPage() {
@@ -48,7 +48,7 @@ export default async function ContactPage() {
                   <li className="flex items-start gap-3"><Phone size={18} className="mt-0.5 text-gold" /><span><a href={site.phoneHref} className="font-semibold hover:text-gold-light" data-track="phone_click">{site.phone}</a><br /><span className="text-paper/60">{site.hours}</span></span></li>
                 )}
                 <li className="flex items-start gap-3"><Mail size={18} className="mt-0.5 text-gold" /><span><a href={`mailto:${site.email}`} className="font-semibold hover:text-gold-light" data-track="email_click">{site.email}</a><br /><span className="text-paper/60">Reply within one business day</span></span></li>
-                <li className="flex items-start gap-3"><MapPin size={18} className="mt-0.5 text-gold" /><span>{site.hq.city}, {site.hq.province}, Canada<br /><span className="text-paper/60">Serving all provinces and territories</span></span></li>
+                <li className="flex items-start gap-3"><MapPin size={18} className="mt-0.5 text-gold" /><span><a href={mapsUrl} target="_blank" rel="noopener" className="font-semibold hover:text-gold-light" data-track="map_click">{fullAddress}</a><br /><span className="text-paper/60">Serving all provinces and territories</span></span></li>
                 <li className="flex items-start gap-3"><Clock size={18} className="mt-0.5 text-gold" /><span>{site.hours}</span></li>
               </ul>
               <div className="mt-6 grid gap-2">

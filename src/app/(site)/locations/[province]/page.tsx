@@ -78,7 +78,7 @@ export default async function ProvincePage({ params }: Props) {
         <div className="grid gap-12 lg:grid-cols-12">
           <div className="lg:col-span-5" data-reveal>
             <h2 className="font-display text-3xl font-semibold tracking-tight md:text-5xl">Start growing in {p.name}.</h2>
-            <p className="mt-5 text-lg leading-8 text-paper/70">Free audit, fixed pricing, senior team. Reply within one business day.</p>
+            <p className="mt-5 text-lg leading-8 text-paper/70">Free audit, fixed pricing, senior team. We call back within one business day.</p>
             {site.phone && <p className="mt-6 text-paper/60">Or call <a href={site.phoneHref} className="font-semibold text-gold-light" data-track="phone_click">{site.phone}</a></p>}
           </div>
           <div className="lg:col-span-7" data-reveal data-reveal-delay={100}><ContactForm dark defaultCity={`${p.largestCity}, ${p.code}`} /></div>

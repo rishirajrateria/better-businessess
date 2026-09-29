@@ -231,7 +231,7 @@ export function ServicePageTemplate(p: ServicePageProps) {
           <div className="lg:col-span-5" data-reveal>
             <Eyebrow dark className="mb-5">Start today</Eyebrow>
             <h2 className="font-display text-balance text-3xl font-semibold leading-[1.1] tracking-tight md:text-5xl">Get a free {s.noun} proposal{loc}.</h2>
-            <p className="mt-5 text-lg leading-8 text-paper/70">Tell us about your goals. A senior strategist will review your current presence and reply within one business day with a clear, fixed-price plan.</p>
+            <p className="mt-5 text-lg leading-8 text-paper/70">Leave your name and number. A senior strategist will call you within one business day to understand your goals and outline a clear, fixed-price plan.</p>
             <ul className="mt-8 space-y-3 text-[15px] text-paper/80">
               {["Free audit of your current digital presence", "Fixed pricing, no lock-in contracts", "Senior specialists on every account", "Transparent reporting on leads and revenue"].map((x) => (
                 <li key={x} className="flex items-center gap-3"><Check size={16} className="text-gold" /> {x}</li>

@@ -4,7 +4,7 @@ import { LinkedinIcon, InstagramIcon, FacebookIcon, YoutubeIcon } from "./Social
 import { Logo } from "./Logo";
 import { coreServices, subServices } from "@/lib/services";
 import { provinces, majorCities } from "@/lib/locations";
-import { site } from "@/lib/site";
+import { site, fullAddress, mapsUrl } from "@/lib/site";
 
 const col = "text-[11px] font-semibold uppercase tracking-[0.18em] text-paper/40";
 const link = "block py-1.5 text-[14px] text-paper/70 transition-colors hover:text-gold-light sm:py-0.5";
@@ -16,7 +16,7 @@ export function Footer() {
         <div className="absolute -left-40 top-0 h-[30rem] w-[30rem] rounded-full bg-gold/15 blur-3xl" />
         <div className="absolute -right-32 bottom-0 h-[26rem] w-[26rem] rounded-full bg-gold-light/10 blur-3xl" />
       </div>
-      <div className="relative mx-auto max-w-7xl px-5 pb-10 pt-20 sm:px-8">
+      <div className="relative mx-auto max-w-7xl px-5 pb-24 pt-20 sm:px-8 sm:pb-10">
         <div className="grid gap-12 lg:grid-cols-12">
           <div className="lg:col-span-4">
             <Logo dark size="md" />
@@ -24,7 +24,7 @@ export function Footer() {
             <ul className="mt-6 space-y-3 text-[14px] text-paper/75">
               <li className="flex items-center gap-3"><Mail size={16} className="text-gold" /> <a href={`mailto:${site.email}`} className="inline-block py-1 hover:text-gold-light">{site.email}</a></li>
               {site.phone && <li className="flex items-center gap-3"><Phone size={16} className="text-gold" /> <a href={site.phoneHref} className="inline-block py-1 hover:text-gold-light" data-track="phone_click">{site.phone}</a></li>}
-              <li className="flex items-center gap-3"><MapPin size={16} className="text-gold" /> {site.hq.city}, {site.hq.province}, Canada · Serving all provinces</li>
+              <li className="flex items-start gap-3"><MapPin size={16} className="mt-1 shrink-0 text-gold" /> <a href={mapsUrl} target="_blank" rel="noopener" className="inline-block py-1 hover:text-gold-light">{fullAddress}<br /><span className="opacity-70">Serving all provinces and territories</span></a></li>
             </ul>
             <div className="mt-6 flex gap-2">
               {[

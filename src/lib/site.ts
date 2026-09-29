@@ -16,19 +16,20 @@ export const site = {
   // Set your real business phone here (E.164 in phoneHref). Leaving both empty hides every
   // phone CTA and omits `telephone` from the LocalBusiness schema — never ship a placeholder,
   // a wrong number in structured data damages local rankings and AI answers.
-  phone: "",
-  phoneHref: "",
-  // TODO: replace with your headquarters. Shown in the footer, contact page & schema.
+  phone: "+1 (647) 472-5989",
+  phoneHref: "tel:+16474725989",
+  // Headquarters. Shown in the footer, contact page & LocalBusiness schema. Keep identical to Google Business Profile.
   hq: {
-    street: "",
-    city: "Toronto",
+    street: "3391 Bloor Street West",
+    city: "Etobicoke",
     province: "Ontario",
     provinceCode: "ON",
-    postalCode: "",
+    postalCode: "M8X 1G3",
     country: "Canada",
     countryCode: "CA",
-    lat: 43.6532,
-    lng: -79.3832,
+    // Bloor St W & Islington Ave, Etobicoke (approximate building location)
+    lat: 43.6452,
+    lng: -79.526,
   },
   hours: "Monday to Friday, 9:00 AM to 6:00 PM (Eastern Time)",
   foundedYear: 2019,
@@ -64,3 +65,7 @@ export const site = {
 export type Site = typeof site;
 
 export const absoluteUrl = (path = "/") => `${site.url}${path.startsWith("/") ? path : `/${path}`}`;
+
+/** One-line postal address, e.g. "3391 Bloor Street West, Etobicoke, ON M8X 1G3". */
+export const fullAddress = [site.hq.street, `${site.hq.city}, ${site.hq.provinceCode} ${site.hq.postalCode}`.trim()].filter(Boolean).join(", ");
+export const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${site.name}, ${fullAddress}, Canada`)}`;

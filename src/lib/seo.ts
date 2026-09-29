@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { site, absoluteUrl } from "./site";
+import { site, absoluteUrl, mapsUrl } from "./site";
 import type { Faq, Service } from "./services";
 import { coreServices } from "./services";
 import type { City, Province } from "./locations";
@@ -79,6 +79,7 @@ export function organizationSchema() {
       addressCountry: "CA",
     },
     geo: { "@type": "GeoCoordinates", latitude: site.hq.lat, longitude: site.hq.lng },
+    hasMap: mapsUrl,
     areaServed: { "@type": "Country", name: "Canada" },
     priceRange: "$$",
     openingHours: "Mo-Fr 09:00-18:00",

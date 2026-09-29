@@ -4,9 +4,13 @@ import { prisma } from "@/lib/db";
 import { site } from "@/lib/site";
 
 const schema = z.object({
-  name: z.string().trim().min(2, "Please enter your name").max(120),
-  email: z.string().trim().email("Please enter a valid email").max(200),
-  phone: z.string().trim().max(40).optional().or(z.literal("")),
+  name: z.string("Please enter your name").trim().min(2, "Please enter your name").max(120),
+  phone: z
+    .string("Please enter your phone number")
+    .trim()
+    .max(40)
+    .refine((v) => /^[+()\-.\s\d]*$/.test(v) && v.replace(/\D/g, "").length >= 10 && v.replace(/\D/g, "").length <= 15, "Please enter a valid phone number"),
+  email: z.string().trim().email("Please enter a valid email").max(200).optional().or(z.literal("")),
   company: z.string().trim().max(160).optional().or(z.literal("")),
   website: z.string().trim().max(300).optional().or(z.literal("")),
   service: z.string().trim().max(80).optional().or(z.literal("")),
@@ -34,7 +38,7 @@ function limited(ip: string) {
   return h.n > 8;
 }
 
-async function notify(lead: { name: string; email: string; phone?: string | null; company?: string | null; service?: string | null; budget?: string | null; city?: string | null; message?: string | null; source?: string | null; id: string }) {
+async function notify(lead: { name: string; email?: string | null; phone?: string | null; company?: string | null; service?: string | null; budget?: string | null; city?: string | null; message?: string | null; source?: string | null; id: string }) {
   const key = process.env.RESEND_API_KEY;
   const to = process.env.LEAD_NOTIFY_EMAIL || site.email;
   if (!key) return;
@@ -49,8 +53,8 @@ async function notify(lead: { name: string; email: string; phone?: string | null
       body: JSON.stringify({
         from: process.env.LEAD_FROM_EMAIL || `${site.name} <leads@${site.domain}>`,
         to: [to],
-        reply_to: lead.email,
-        subject: `New lead: ${lead.name}${lead.service ? ` · ${lead.service}` : ""}`,
+        ...(lead.email ? { reply_to: lead.email } : {}),
+        subject: `New call-back request: ${lead.name}${lead.company ? ` (${lead.company})` : ""}${lead.phone ? ` · ${lead.phone}` : ""}`,
         html: `<div style="font-family:sans-serif"><h2 style="color:#0a0a0a">New lead from ${site.domain}</h2><table>${rows}</table><p><a href="${site.url}/admin/leads/${lead.id}">Open in admin →</a></p></div>`,
       }),
     });
@@ -77,7 +81,7 @@ export async function POST(req: Request) {
   const lead = await prisma.lead.create({
     data: {
       name: d.name,
-      email: d.email.toLowerCase(),
+      email: d.email ? d.email.toLowerCase() : null,
       phone: d.phone || null,
       company: d.company || null,
       website: d.website || null,

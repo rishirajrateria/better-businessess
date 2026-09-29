@@ -12,7 +12,7 @@ export default async function LeadsPage({ searchParams }: { searchParams: Promis
   const status = sp.status && statuses.includes(sp.status) ? sp.status : "ALL";
   const q = sp.q?.trim();
   const leads = await prisma.lead.findMany({
-    where: { ...(status !== "ALL" ? { status } : {}), ...(q ? { OR: [{ name: { contains: q } }, { email: { contains: q } }, { company: { contains: q } }, { message: { contains: q } }] } : {}) },
+    where: { ...(status !== "ALL" ? { status } : {}), ...(q ? { OR: [{ name: { contains: q } }, { email: { contains: q } }, { phone: { contains: q } }, { company: { contains: q } }, { message: { contains: q } }] } : {}) },
     orderBy: { createdAt: "desc" },
     take: 200,
   });
@@ -39,7 +39,7 @@ export default async function LeadsPage({ searchParams }: { searchParams: Promis
               <tbody>
                 {leads.map((l) => (
                   <tr key={l.id} className="border-t border-line align-top hover:bg-cream/50">
-                    <td className="py-3 pr-4"><Link href={`/admin/leads/${l.id}`} className="font-semibold text-ink hover:text-gold-deep">{l.name}</Link><br /><span className="text-slate">{l.email}{l.phone ? ` · ${l.phone}` : ""}</span></td>
+                    <td className="py-3 pr-4"><Link href={`/admin/leads/${l.id}`} className="font-semibold text-ink hover:text-gold-deep">{l.name}</Link><br /><span className="text-slate">{[l.phone, l.email].filter(Boolean).join(" · ")}</span></td>
                     <td className="py-3 pr-4">{l.company ?? "—"}<br /><span className="text-slate">{l.city ?? ""}</span></td>
                     <td className="py-3 pr-4">{getService(l.service ?? "")?.name ?? l.service ?? "—"}</td>
                     <td className="py-3 pr-4">{l.budget ?? "—"}</td>

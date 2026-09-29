@@ -68,7 +68,7 @@ export default async function Dashboard({ searchParams }: { searchParams: Promis
               <tbody>
                 {s.recentLeads.map((l) => (
                   <tr key={l.id} className="border-t border-line">
-                    <td className="py-2.5 pr-4"><Link href={`/admin/leads/${l.id}`} className="font-semibold text-ink hover:text-gold-deep">{l.name}</Link><br /><span className="text-slate">{l.email}</span></td>
+                    <td className="py-2.5 pr-4"><Link href={`/admin/leads/${l.id}`} className="font-semibold text-ink hover:text-gold-deep">{l.name}</Link><br /><span className="text-slate">{[l.phone, l.company].filter(Boolean).join(" · ") || l.email}</span></td>
                     <td className="py-2.5 pr-4">{getService(l.service ?? "")?.name ?? l.service ?? "—"}</td>
                     <td className="py-2.5 pr-4 text-slate">{l.source ?? "—"}</td>
                     <td className="py-2.5 pr-4"><StatusBadge status={l.status} /></td>

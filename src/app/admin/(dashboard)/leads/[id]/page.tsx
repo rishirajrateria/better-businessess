@@ -12,8 +12,8 @@ export default async function LeadDetail({ params }: { params: Promise<{ id: str
   const lead = await prisma.lead.findUnique({ where: { id: (await params).id } });
   if (!lead) notFound();
   const rows: [string, React.ReactNode][] = [
-    ["Email", <a key="e" href={`mailto:${lead.email}`} className="text-gold-deep hover:underline">{lead.email}</a>],
-    ["Phone", lead.phone ? <a key="p" href={`tel:${lead.phone}`} className="text-gold-deep hover:underline">{lead.phone}</a> : "—"],
+    ["Phone", lead.phone ? <a key="p" href={`tel:${lead.phone.replace(/[^\d+]/g, "")}`} className="text-gold-deep hover:underline">{lead.phone}</a> : "—"],
+    ["Email", lead.email ? <a key="e" href={`mailto:${lead.email}`} className="text-gold-deep hover:underline">{lead.email}</a> : "—"],
     ["Company", lead.company ?? "—"],
     ["Website", lead.website ? <a key="w" href={lead.website} target="_blank" rel="noreferrer" className="text-gold-deep hover:underline">{lead.website}</a> : "—"],
     ["Service", getService(lead.service ?? "")?.name ?? lead.service ?? "—"],
