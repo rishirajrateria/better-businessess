@@ -1,11 +1,17 @@
 import type { PrismaClient } from "@prisma/client";
 import bcrypt from "bcryptjs";
-import { ADMIN_EMAIL, ADMIN_PASSWORD } from "./admin-credentials";
+import { ADMIN_EMAIL, ADMIN_PASSWORD, LEGACY_ADMIN_EMAILS } from "./admin-credentials";
 import { seedPosts } from "./seed-posts";
 
 export async function ensureAdmin(prisma: PrismaClient, email?: string, password?: string) {
   const e = (email || ADMIN_EMAIL).toLowerCase();
   const p = password || ADMIN_PASSWORD;
+  // Move an account created under an earlier default login to the current one, so the old
+  // email stops working and the admin keeps the same account.
+  if (!(await prisma.user.findUnique({ where: { email: e } }))) {
+    const legacy = await prisma.user.findFirst({ where: { email: { in: LEGACY_ADMIN_EMAILS.filter((x) => x !== e) } } });
+    if (legacy) return prisma.user.update({ where: { id: legacy.id }, data: { email: e, passwordHash: await bcrypt.hash(p, 12) } });
+  }
   return prisma.user.upsert({ where: { email: e }, update: {}, create: { email: e, name: "Admin", passwordHash: await bcrypt.hash(p, 12) } });
 }
 

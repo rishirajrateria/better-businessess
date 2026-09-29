@@ -12,7 +12,7 @@ export const site = {
     "Better Businesses is a Canadian digital growth agency offering lead generation, SEO, website development and branding for businesses across Canada.",
   url: (process.env.NEXT_PUBLIC_SITE_URL || "https://betterbusinesses.ca").replace(/\/$/, ""),
   domain: "betterbusinesses.ca",
-  email: "hello@betterbusinesses.ca",
+  email: "connect@betterbusinesses.ca",
   // Set your real business phone here (E.164 in phoneHref). Leaving both empty hides every
   // phone CTA and omits `telephone` from the LocalBusiness schema — never ship a placeholder,
   // a wrong number in structured data damages local rankings and AI answers.

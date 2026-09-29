@@ -5,11 +5,14 @@
  */
 import { PrismaClient } from "@prisma/client";
 import { resolveDatabaseUrl } from "../src/lib/db-url";
-import { seedStarterContent, refreshStarterPosts } from "../src/lib/seed-content";
+import { seedStarterContent, refreshStarterPosts, ensureAdmin } from "../src/lib/seed-content";
 
 const prisma = new PrismaClient({ datasourceUrl: resolveDatabaseUrl() });
 
 async function main() {
+  // Make sure the configured admin login exists (and migrate an older default login to it).
+  const admin = await ensureAdmin(prisma);
+  console.log(`[seed-if-empty] admin login: ${admin.email}`);
   const posts = await prisma.post.count();
   if (posts > 0) {
     // Existing site: only refresh starter articles the owner has never edited (new citations,
