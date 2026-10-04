@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { LayoutDashboard, Inbox, FileText, FolderKanban, MessageSquareQuote, Building2, HelpCircle, UserCircle2, ExternalLink, LogOut } from "lucide-react";
+import { LayoutDashboard, Inbox, PhoneCall, FileText, FolderKanban, MessageSquareQuote, Building2, HelpCircle, UserCircle2, ExternalLink, LogOut } from "lucide-react";
 import { LogoMark } from "@/components/site/Logo";
 import { logoutAction } from "@/lib/admin-actions";
 import { cn } from "@/lib/utils";
@@ -9,6 +9,7 @@ import { cn } from "@/lib/utils";
 const items = [
   { href: "/admin", label: "Dashboard", Icon: LayoutDashboard, exact: true },
   { href: "/admin/leads", label: "Leads", Icon: Inbox },
+  { href: "/admin/calls", label: "Calls", Icon: PhoneCall },
   { href: "/admin/posts", label: "Blog posts", Icon: FileText },
   { href: "/admin/projects", label: "Projects", Icon: FolderKanban },
   { href: "/admin/testimonials", label: "Testimonials", Icon: MessageSquareQuote },

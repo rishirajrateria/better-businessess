@@ -28,7 +28,7 @@ export default async function Dashboard({ searchParams }: { searchParams: Promis
         <StatCard label="Page views" value={s.totals.views} change={s.totals.viewsChange} hint="vs previous period" />
         <StatCard label="Sessions / visitors" value={`${s.totals.sessions.toLocaleString()} / ${s.totals.visitors.toLocaleString()}`} hint="unique sessions and returning devices" />
         <StatCard label="Leads" value={s.totals.leads} change={s.totals.leadsChange} hint={`${s.totals.allTimeLeads} all time`} />
-        <StatCard label="Conversion rate" value={`${s.totals.conversion}%`} hint={`${s.totals.formStarts} form starts · ${s.totals.ctaClicks} CTA clicks · ${s.totals.phoneClicks} calls`} />
+        <StatCard label="Conversion rate" value={`${s.totals.conversion}%`} hint={`${s.totals.formStarts} form starts · ${s.totals.ctaClicks} CTA clicks · ${s.totals.phoneClicks} call clicks · ${s.totals.phoneCopies} number copies`} />
       </div>
 
       <Card title={`Traffic & leads — last ${days} days`}>

@@ -2,6 +2,7 @@
 import { useEffect, useRef } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
 import Script from "next/script";
+import { site } from "@/lib/site";
 
 function uid() {
   return Math.random().toString(36).slice(2) + Date.now().toString(36);
@@ -59,12 +60,55 @@ export function Analytics() {
   }, [pathname, search]);
 
   useEffect(() => {
+    const onAdmin = () => window.location.pathname.startsWith("/admin");
+    /** Where on the page an element sits, for the admin "Calls" report. */
+    const where = (node: Element | null): string => {
+      if (!node) return "Page content";
+      if (node.closest('[data-track="phone_click_floating"]')) return "Floating call button";
+      if (node.closest("header")) return "Header";
+      if (node.closest("footer")) return "Footer";
+      if (window.location.pathname === "/contact") return "Contact page";
+      if (node.closest("form, [data-contact-form]")) return "Contact form";
+      return "Page content";
+    };
+    const phoneDigits = site.phone.replace(/\D/g, "").slice(-10);
+
     const onClick = (e: MouseEvent) => {
-      const el = (e.target as HTMLElement | null)?.closest<HTMLElement>("[data-track]");
+      if (onAdmin()) return;
+      const target = e.target as HTMLElement | null;
+      // Every click on a tel: link (the number or any Call button) is a call click, whether or not it carries a data-track.
+      const tel = target?.closest<HTMLAnchorElement>('a[href^="tel:"]');
+      if (tel) {
+        track("phone_click", { location: where(tel), text: tel.textContent?.trim().slice(0, 60) });
+        return;
+      }
+      const el = target?.closest<HTMLElement>("[data-track]");
       if (el?.dataset.track) track(el.dataset.track, { href: (el as HTMLAnchorElement).href ?? undefined, text: el.textContent?.trim().slice(0, 60) });
     };
+    // Copying the number: select + copy (Ctrl/Cmd+C or the mobile "Copy" bubble).
+    const onCopy = () => {
+      if (onAdmin() || !phoneDigits) return;
+      const sel = window.getSelection();
+      const text = sel?.toString() ?? "";
+      if (!text || text.length > 80) return; // ignore select-all copies of whole pages
+      if (!text.replace(/\D/g, "").includes(phoneDigits)) return;
+      const anchor = sel?.anchorNode;
+      track("phone_copy", { method: "copy", location: where(anchor instanceof Element ? anchor : (anchor?.parentElement ?? null)) });
+    };
+    // Right-click / long-press on the number opens the browser menu (Copy, Save contact...). Counted as copy intent.
+    const onMenu = (e: MouseEvent) => {
+      if (onAdmin()) return;
+      const tel = (e.target as HTMLElement | null)?.closest<HTMLAnchorElement>('a[href^="tel:"]');
+      if (tel) track("phone_copy", { method: "menu", location: where(tel) });
+    };
     document.addEventListener("click", onClick, { capture: true });
-    return () => document.removeEventListener("click", onClick, { capture: true });
+    document.addEventListener("copy", onCopy);
+    document.addEventListener("contextmenu", onMenu, { capture: true });
+    return () => {
+      document.removeEventListener("click", onClick, { capture: true });
+      document.removeEventListener("copy", onCopy);
+      document.removeEventListener("contextmenu", onMenu, { capture: true });
+    };
   }, []);
 
   if (!gaId) return null;

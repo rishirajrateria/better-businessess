@@ -72,7 +72,8 @@ export async function getDashboardStats(days: Range = 30) {
       leadsChange: pct(leads.length, prevLeads),
       conversion: sessions.size ? +((leads.length / sessions.size) * 100).toFixed(2) : 0,
       ctaClicks: (eventCounts.cta_click ?? 0) + Object.entries(eventCounts).filter(([k]) => k.startsWith("cta_")).reduce((a, [, v]) => a + v, 0),
-      phoneClicks: eventCounts.phone_click ?? 0,
+      phoneClicks: (eventCounts.phone_click ?? 0) + (eventCounts.phone_click_floating ?? 0),
+      phoneCopies: eventCounts.phone_copy ?? 0,
       formStarts: eventCounts.form_start ?? 0,
       allTimeLeads,
     },
@@ -88,5 +89,74 @@ export async function getDashboardStats(days: Range = 30) {
     leadsByService: top(leadsByService, 6),
     leadsByStatus,
     recentLeads,
+  };
+}
+
+/* ---------------- Call tracking ---------------- */
+/** Events that mean "someone tried to call": every click on the number or a Call button, including the floating button. */
+export const CALL_EVENTS = ["phone_click", "phone_click_floating"];
+export const COPY_EVENTS = ["phone_copy"];
+
+type Meta = { location?: string; device?: string; method?: string; text?: string };
+const parseMeta = (m: string | null): Meta => {
+  try {
+    return m ? (JSON.parse(m) as Meta) : {};
+  } catch {
+    return {};
+  }
+};
+
+export async function getCallStats(days: Range = 30) {
+  const from = since(days);
+  const [events, views] = await Promise.all([
+    prisma.event.findMany({ where: { name: { in: [...CALL_EVENTS, ...COPY_EVENTS] }, createdAt: { gte: from } }, select: { id: true, name: true, path: true, sessionId: true, meta: true, createdAt: true }, orderBy: { createdAt: "desc" }, take: 20000 }),
+    prisma.pageView.findMany({ where: { createdAt: { gte: from }, isBot: false }, select: { sessionId: true }, distinct: ["sessionId"], take: 100000 }),
+  ]);
+  const rows = events.map((e) => {
+    const m = parseMeta(e.meta);
+    const isCall = CALL_EVENTS.includes(e.name);
+    return {
+      id: e.id,
+      kind: isCall ? ("call" as const) : ("copy" as const),
+      at: e.createdAt,
+      path: e.path,
+      sessionId: e.sessionId,
+      location: m.location || (e.name === "phone_click_floating" ? "Floating call button" : "Unknown"),
+      device: m.device === "mobile" ? "Mobile" : m.device === "tablet" ? "Tablet" : m.device === "desktop" ? "Desktop" : "Unknown",
+      method: m.method,
+    };
+  });
+  const calls = rows.filter((r) => r.kind === "call");
+  const copies = rows.filter((r) => r.kind === "copy");
+  const tally = (list: typeof rows, key: (r: (typeof rows)[number]) => string) => {
+    const o: Record<string, number> = {};
+    for (const r of list) o[key(r)] = (o[key(r)] ?? 0) + 1;
+    return Object.entries(o).sort((a, b) => b[1] - a[1]);
+  };
+  const daily: Record<string, { calls: number; copies: number }> = {};
+  for (let i = days - 1; i >= 0; i--) daily[dayKey(since(i))] = { calls: 0, copies: 0 };
+  for (const r of rows) {
+    const d = daily[dayKey(r.at)];
+    if (d) r.kind === "call" ? d.calls++ : d.copies++;
+  }
+  const sessions = views.length;
+  const actors = new Set(rows.map((r) => r.sessionId)).size;
+  return {
+    days,
+    totals: {
+      calls: calls.length,
+      copies: copies.filter((c) => c.method !== "menu").length,
+      menu: copies.filter((c) => c.method === "menu").length,
+      floating: calls.filter((c) => c.location === "Floating call button").length,
+      people: actors,
+      rate: sessions ? +((actors / sessions) * 100).toFixed(1) : 0,
+      sessions,
+    },
+    series: Object.entries(daily).map(([date, d]) => ({ date, ...d })),
+    byLocation: tally(calls, (r) => r.location).slice(0, 8),
+    copyByLocation: tally(copies, (r) => r.location).slice(0, 8),
+    byDevice: tally(rows, (r) => r.device),
+    byPage: tally(rows, (r) => r.path).slice(0, 10),
+    recent: rows.slice(0, 40),
   };
 }
