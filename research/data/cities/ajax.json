@@ -1,0 +1,66 @@
+{
+  "slug": "ajax",
+  "geographyNote": "Town of Ajax (census subdivision), Durham Region",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Ajax&DGUIDlist=2021A00053518005&GENDERlist=1&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 126666,
+    "population2016": 119677,
+    "growthPct": 5.8,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": 39488,
+    "landAreaKm2": 66.64
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00053518005",
+    "population2016": "https://en.wikipedia.org/wiki/Ajax,_Ontario",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00053518005",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00053518005",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00053518005"
+  },
+  "facts": [
+    {
+      "text": "With 28% of the jobs in the community, manufacturing is the largest employment sector in Ajax.",
+      "url": "https://www.tradeandindustrydev.com/region/ontario/advanced-manufacturing-town-ajax-11453",
+      "publisher": "Trade and Industry Development",
+      "evidence": "With 28% of the jobs in the community, manufacturing is the largest employment sector in Ajax."
+    },
+    {
+      "text": "Major employers in Ajax include the Amazon Fulfillment Centre, Casino Ajax, Elexicon Energy, Intact Insurance, Lakeridge Health Ajax Pickering Hospital and Volkswagen Canada.",
+      "url": "https://www.durham.ca/en/economic-development/invest-and-grow/town-of-ajax.aspx",
+      "publisher": "Durham Region Economic Development",
+      "evidence": "Ajax's major employers include Amazon Fulfillment Centre, Casino Ajax, Elexicon Energy, Gordon Food Service, H&M, Intact Insurance, Lakeridge Health Ajax Pickering Hospital, Lifetime Athletic, Loblaw Companies Limited, Safran Landing Systems Canada Inc., and Volkswagen Canada Inc."
+    },
+    {
+      "text": "H&M operates a 715,000 sq. foot warehouse facility in the GTA East Industrial Park in Ajax.",
+      "url": "https://www.durham.ca/en/economic-development/invest-and-grow/town-of-ajax.aspx",
+      "publisher": "Durham Region Economic Development",
+      "evidence": "Notable investments include an H&M state-of-the-art 715,000 sq. foot warehouse facility in GTA East Industrial Park"
+    },
+    {
+      "text": "The Lakeridge Logistics Centre in Ajax is a 1.2 million sq. foot zero carbon warehouse and distribution centre on a 70-acre site close to Highway 401.",
+      "url": "https://www.durham.ca/en/economic-development/invest-and-grow/town-of-ajax.aspx",
+      "publisher": "Durham Region Economic Development",
+      "evidence": "the Lakeridge Logistics Centre – a 1.2 million sq. foot zero carbon warehouse/distribution centre on a 70-acres site close to Highway 401."
+    }
+  ],
+  "meta": {
+    "populationApprox": 126666,
+    "descriptor": "a lakeshore town in Durham Region east of Toronto",
+    "fact": "a town where manufacturing is the largest employment sector, with 28% of local jobs",
+    "industries": ["Manufacturing", "Logistics", "Healthcare", "Insurance", "Energy", "Tourism"],
+    "areas": ["Pickering Village", "Downtown Ajax", "Southwood", "Applecroft", "Discovery Bay", "Westney Heights"]
+  },
+  "copy": {
+    "overview": [
+      "Ajax had 126,666 residents in 2021, up 5.8% from 119,677 in 2016, living in 39,488 occupied homes on just 66.64 square kilometres. That makes it one of the denser suburban markets east of Toronto, with most customers a short drive from any storefront.",
+      "Because the town is compact and well served by highways and transit, residents can easily shop in Pickering, Whitby or Toronto instead. Local businesses need to give people a clear reason to stay close to home."
+    ],
+    "byService": {
+      "lead-generation": "Ajax packs 39,488 households into a small area, so lead generation can target tight service radii and still reach a large pool of nearby customers.",
+      "seo": "Since Ajax shoppers can just as easily choose Pickering or Whitby, SEO should target town and neighbourhood terms such as Pickering Village to keep searches local.",
+      "website-development": "For a dense commuter town of 126,666 people, a website that loads quickly on phones and shows hours, location and booking up front will convert more visits.",
+      "branding": "Ajax grew 5.8% between 2016 and 2021, and a brand that feels rooted in the community helps a business stand out from the chains along the highway corridor."
+    }
+  }
+}
