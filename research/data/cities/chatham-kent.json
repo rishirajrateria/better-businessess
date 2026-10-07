@@ -1,0 +1,65 @@
+{
+  "slug": "chatham-kent",
+  "geographyNote": "Municipality of Chatham-Kent (census subdivision), a single-tier municipality",
+  "censusProfileUrl": "",
+  "figures": {
+    "population2021": 103988,
+    "population2016": 101647,
+    "growthPct": 2.3,
+    "medianAge": null,
+    "medianHouseholdIncome2020": 72000,
+    "privateDwellings": null,
+    "landAreaKm2": null
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00053536020",
+    "population2016": "https://en.wikipedia.org/wiki/Chatham-Kent",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00053536020",
+    "medianHouseholdIncome2020": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=5&dguid=2021A00053536020"
+  },
+  "facts": [
+    {
+      "text": "Chatham-Kent's agri-food sector employed 7,935 people through 2,806 local agri-food business establishments in 2021.",
+      "url": "https://ofa.on.ca/local-snapshots/local-snapshot-chatham-kent/",
+      "publisher": "Ontario Federation of Agriculture",
+      "evidence": "The local agri-food sector employed 7,935 people through 2,806 local agri-food business establishments in 2021."
+    },
+    {
+      "text": "Chatham-Kent has more than 630,000 acres of farmland, more than 2,400 farms and over 20 million square feet of greenhouse space.",
+      "url": "https://www.chatham-kent.ca/livingck/workinginck/careersinck/Pages/Agriculture.aspx",
+      "publisher": "Municipality of Chatham-Kent",
+      "evidence": "Chatham-Kent is a leader in agricultural production, with more than 630,000 acres of farmland, more than 2,400 farms, and over 20-million square-feet of greenhouse space."
+    },
+    {
+      "text": "Chatham-Kent ranks first in Canada for tomato, seed corn and pumpkin production.",
+      "url": "https://www.chatham-kent.ca/EconomicDevelopment/invest/invest/Pages/Food-Processing.aspx",
+      "publisher": "Chatham-Kent Economic Development",
+      "evidence": "Chatham-Kent is #1 in tomato production, seed corn production, pumpkin production, and a top producer of carrots, cucumbers, and black tobacco in all of Canada."
+    },
+    {
+      "text": "Chatham-Kent was created in 1998 by amalgamating 23 former municipalities, including Chatham, Wallaceburg, Tilbury, Blenheim, Ridgetown and Dresden.",
+      "url": "https://en.wikipedia.org/wiki/Chatham-Kent",
+      "publisher": "Wikipedia",
+      "evidence": "The City of Chatham (incorporated 1895) and Kent County (created 1792) are just two of the 23 former municipalities that comprise Chatham-Kent. The current Municipality of Chatham-Kent was created in 1998 by the amalgamation of Blenheim, Bothwell, Camden, the City of Chatham, ... Dresden ... Ridgetown ... Tilbury ... Wallaceburg ..."
+    }
+  ],
+  "meta": {
+    "populationApprox": 103988,
+    "descriptor": "a large rural municipality in southwestern Ontario on the Thames River",
+    "fact": "Canada's top producer of tomatoes, seed corn and pumpkins",
+    "industries": ["Agriculture", "Agri-food", "Food processing", "Manufacturing", "Healthcare"],
+    "areas": ["Chatham", "Wallaceburg", "Tilbury", "Blenheim", "Ridgetown", "Dresden"]
+  },
+  "copy": {
+    "overview": [
+      "Chatham-Kent counted 103,988 residents in 2021, up 2.3% from 101,647 in 2016. The median household income was $72,000 in 2020, and spending is shaped by a large farm and food-processing economy.",
+      "Customers are spread across Chatham, Wallaceburg, Tilbury and many smaller towns, so most people search before they drive. A local business here competes less on novelty and more on being known, trusted and easy to reach across a wide rural area."
+    ],
+    "byService": {
+      "lead-generation": "With growth of 2.3% between 2016 and 2021, Chatham-Kent lead generation is about winning existing households, often through referrals and farm and food-business networks.",
+      "seo": "Because customers live in many separate towns, SEO in Chatham-Kent should include pages for Chatham, Wallaceburg, Tilbury and Blenheim so local searches find the right business.",
+      "website-development": "A Chatham-Kent website should state its service area and travel range clearly, load well on rural connections and make calling or booking a single tap.",
+      "branding": "In a farm-rooted community where households earned a median of $72,000 in 2020, a brand that feels honest, practical and local earns more trust than slick advertising."
+    }
+  }
+}
