@@ -1,0 +1,66 @@
+{
+  "slug": "centre-wellington",
+  "geographyNote": "Township of Centre Wellington (census subdivision), Wellington County, including Fergus and Elora",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Centre+Wellington&GENDERlist=1%2C2%2C3&STATISTIClist=1&DGUIDlist=2021A00053523025&HEADERlist=0",
+  "figures": {
+    "population2021": 31093,
+    "population2016": 28191,
+    "growthPct": 10.3,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": 11972,
+    "landAreaKm2": 409.41
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053523025",
+    "population2016": "https://www.guelphtoday.com/local-news/centre-wellingtons-population-grew-108-per-cent-from-2016-21-the-most-of-any-in-the-county-5050241",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053523025",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053523025",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053523025"
+  },
+  "facts": [
+    {
+      "text": "Major employers in Centre Wellington include Jefferson Elora Corp., Nexans Canada, Polycorp Ltd., Groves Memorial Hospital, Wellington Terrace and PR Donnelly.",
+      "url": "https://en.wikipedia.org/wiki/Centre_Wellington",
+      "publisher": "Wikipedia",
+      "evidence": "The major employers in the township include Jefferson Elora Corp., Nexans Canada, Polycorp Ltd., Groves Memorial Hospital, Wellington Terrace and PR Donnelly."
+    },
+    {
+      "text": "Centre Wellington's population grows the most of any Wellington County municipality between the 2016 and 2021 censuses.",
+      "url": "https://www.guelphtoday.com/local-news/centre-wellingtons-population-grew-108-per-cent-from-2016-21-the-most-of-any-in-the-county-5050241",
+      "publisher": "GuelphToday",
+      "evidence": "Centre Wellington's population grew ... from 2016-21, the most of any in the county"
+    },
+    {
+      "text": "Manufacturing, agri-business, automotive and equipment production anchor Centre Wellington's economy, alongside tourism drawing hundreds of thousands of visitors annually, particularly to Elora.",
+      "url": "https://businessviewmagazine.com/?p=79091",
+      "publisher": "Business View Magazine",
+      "evidence": "Manufacturing, agri-business, automotive, and equipment production have long been economic anchors, complemented by a rapidly expanding tourism sector that sees hundreds of thousands of visitors annually—particularly in Elora."
+    },
+    {
+      "text": "The Fergus Scottish Festival and Highland Games brings in around 22,000 visitors.",
+      "url": "https://www.guelphtoday.com/wellington-county/cancelled-festivals-in-centre-wellington-a-big-loss-to-local-economy-2287206",
+      "publisher": "GuelphToday",
+      "evidence": "The Fergus Scottish Festival and Highland Games bring in around 22,000 visitors."
+    }
+  ],
+  "meta": {
+    "populationApprox": 31093,
+    "descriptor": "a Wellington County township made up of Fergus, Elora and rural hamlets",
+    "fact": "home to Elora, which draws hundreds of thousands of visitors a year, and Fergus manufacturers",
+    "industries": ["Manufacturing", "Tourism", "Agriculture", "Automotive", "Healthcare"],
+    "areas": ["Fergus", "Elora", "Salem", "Belwood", "Ennotville"]
+  },
+  "copy": {
+    "overview": [
+      "Centre Wellington grew 10.3 per cent between 2016 and 2021 to 31,093 residents, the fastest growth in Wellington County. Its 11,972 occupied homes are split between Fergus, Elora and rural hamlets across 409 square kilometres.",
+      "Fergus carries most of the township's manufacturing and everyday shopping, while Elora draws large numbers of day-trippers to the gorge, quarry and downtown. A local business here serves a growing resident base and a seasonal visitor market, often from separate downtowns with their own identities."
+    ],
+    "byService": {
+      "lead-generation": "Centre Wellington's 10.3 per cent growth from 2016 to 2021 means a steady flow of new households, so lead generation should target new subdivisions in Fergus and Elora first.",
+      "seo": "Few people search for Centre Wellington by name, so SEO should target Fergus and Elora directly, along with visitor searches about the gorge, quarry and downtown shops.",
+      "website-development": "Websites here should load quickly for day-trippers on mobile data in Elora, while giving 31,093 residents clear details on hours, locations and service areas.",
+      "branding": "Fergus and Elora each have a distinct character, so branding should signal which community a business belongs to rather than relying on the township name."
+    }
+  }
+}
