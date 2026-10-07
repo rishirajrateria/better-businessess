@@ -48,13 +48,25 @@
     "populationApprox": 104688,
     "descriptor": "a Grand River city in southwestern Ontario",
     "fact": "home to about 20 food and beverage manufacturers employing approximately 2,300 people",
-    "industries": ["Manufacturing", "Food processing", "Logistics", "Retail", "Healthcare"],
-    "areas": ["Eagle Place", "Holmedale", "West Brant", "Echo Place", "Terrace Hill"]
+    "industries": [
+      "Manufacturing",
+      "Food processing",
+      "Logistics",
+      "Retail",
+      "Healthcare"
+    ],
+    "areas": [
+      "Eagle Place",
+      "Holmedale",
+      "West Brant",
+      "Echo Place",
+      "Terrace Hill"
+    ]
   },
   "copy": {
     "overview": [
       "Brantford had 104,688 residents in 2021, up 6.2% from 98,563 in 2016, living in 41,673 occupied homes across 98.65 square kilometres. It is a mid-sized city with a steady base of working households.",
-      "Food processing, advanced manufacturing and warehousing anchor local jobs, and new residents keep arriving from pricier parts of the GTA. Local businesses compete with Hamilton and Cambridge for those customers, so clear local presence and fair pricing count."
+      "Food processing, advanced manufacturing and warehousing anchor local jobs, and the population is still growing. For a local business, that means new households to win over while established competitors defend their customers, so a clear local presence and fair pricing count."
     ],
     "byService": {
       "lead-generation": "Brantford grew 6.2% from 2016 to 2021, so lead generation should reach new arrivals in West Brant and other growing areas before they settle on providers.",
