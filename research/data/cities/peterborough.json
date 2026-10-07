@@ -1,0 +1,67 @@
+{
+  "slug": "peterborough",
+  "geographyNote": "City of Peterborough (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&amp=&SearchText=Peterborough&amp=&DGUIDlist=2021A00053515014&amp=&GENDERlist=1%2C2%2C3&amp=&STATISTIClist=1&amp=&HEADERlist=0",
+  "figures": {
+    "population2021": 83651,
+    "population2016": 81032,
+    "growthPct": 3.2,
+    "medianAge": null,
+    "medianHouseholdIncome2020": 71500,
+    "privateDwellings": 35977,
+    "landAreaKm2": 64.76
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053515014",
+    "population2016": "https://www.careerbeacon.com/en/canada/ontario/peterborough",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053515014",
+    "medianHouseholdIncome2020": "https://www.point2homes.com/CA/Demographics/ON/Peterborough-Demographics.html",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053515014",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053515014"
+  },
+  "facts": [
+    {
+      "text": "Peterborough Regional Health Centre is the region's largest employer, with more than 3,100 staff and 450 physicians with privileges.",
+      "url": "https://www.prhc.on.ca/?p=6495",
+      "publisher": "Peterborough Regional Health Centre",
+      "evidence": "PRHC is the region's largest employer, with more than 3,100 staff, 450 physicians with privileges and a core group of 250 volunteers delivering acute healthcare to a rapidly growing population of more than 300,000"
+    },
+    {
+      "text": "Global companies with operations in Peterborough include PepsiCo/Quaker, Westinghouse Civil Nuclear, Rolls-Royce Naval Marine, BWXT and Shimano's Canadian headquarters.",
+      "url": "https://investptbo.ca/data-tools/major-employers/",
+      "publisher": "Peterborough & the Kawarthas Economic Development",
+      "evidence": "Global companies with operations in Peterborough include PepsiCo/Quaker, Minute Maid/Coca-Cola/Fairlife, Westinghouse Civil Nuclear, Rolls-Royce Naval Marine, Shimano (Canadian HQ), ... BWXT, and Savage Arms."
+    },
+    {
+      "text": "Public service employers in Peterborough include the regional health centre, school boards and the Ministry of Natural Resources and Forestry.",
+      "url": "https://investptbo.ca/data-tools/major-employers/",
+      "publisher": "Peterborough & the Kawarthas Economic Development",
+      "evidence": "the region has public service employers including the Peterborough Regional Health Centre, school boards, and the Ministry of Natural Resources & Forestry."
+    },
+    {
+      "text": "Peterborough Regional Health Centre was named one of Canada's best employers by Forbes.",
+      "url": "https://www.prhc.on.ca/2025/01/22/peterborough-regional-health-centre-named-one-of-canadas-best-employers/",
+      "publisher": "Peterborough Regional Health Centre",
+      "evidence": "Peterborough Regional Health Centre named one of Canada's best employers"
+    }
+  ],
+  "meta": {
+    "populationApprox": 83651,
+    "descriptor": "a university and hospital city on the Otonabee River in central Ontario",
+    "fact": "home to Peterborough Regional Health Centre, the region's largest employer with more than 3,100 staff",
+    "industries": ["Healthcare", "Education", "Manufacturing", "Food processing", "Energy", "Government"],
+    "areas": ["Downtown", "East City", "Ashburnham", "Kawartha Heights", "Northcrest", "Jackson Park"]
+  },
+  "copy": {
+    "overview": [
+      "Peterborough had 83,651 residents in 2021, up 3.2% from 81,032 in 2016, in 35,977 occupied homes on just 64.76 square kilometres. The median household income in 2020 was $71,500, below many Ontario cities, so value and price matter to many shoppers.",
+      "The city is compact and anchored by a large hospital, a university, a college and global manufacturers. Businesses can reach most residents in a short drive, but they compete for attention in a tight, word-of-mouth market."
+    ],
+    "byService": {
+      "lead-generation": "With a $71,500 median household income, Peterborough lead generation should stress clear value and financing options while also targeting staff at large employers such as the regional health centre.",
+      "seo": "Because the city covers only 64.76 square kilometres, local SEO should compete hard for map-pack rankings city-wide, since most residents are a short drive from any business.",
+      "website-development": "Websites aimed at Peterborough's mix of students, hospital workers and manufacturing staff should load quickly on phones and show prices, hours and contact options up front.",
+      "branding": "In a slow-growing city where population rose 3.2% after 2016, branding should build a familiar, trusted local name that earns referrals in a community of about 84,000 people."
+    }
+  }
+}
