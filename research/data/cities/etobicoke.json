@@ -42,13 +42,26 @@
     "populationApprox": 376237,
     "descriptor": "the western district of the City of Toronto and a former city",
     "fact": "home to Woodbine Racetrack, the Great Canadian Casino Resort and two Humber Polytechnic campuses",
-    "industries": ["Hospitality", "Tourism", "Education", "Transportation", "Real estate"],
-    "areas": ["Mimico", "New Toronto", "Long Branch", "The Kingsway", "Islington", "Rexdale"]
+    "industries": [
+      "Hospitality",
+      "Tourism",
+      "Education",
+      "Transportation",
+      "Real estate"
+    ],
+    "areas": [
+      "Mimico",
+      "New Toronto",
+      "Long Branch",
+      "The Kingsway",
+      "Islington",
+      "Rexdale"
+    ]
   },
   "copy": {
     "overview": [
       "Etobicoke runs from the Lake Ontario waterfront in Mimico and Long Branch to Rexdale north of the highway, so its customers range from downtown commuters in new condos to long-settled families in The Kingsway.",
-      "Large draws such as Woodbine and two Humber Polytechnic campuses bring visitors, students and workers into the district. For a local business, the challenge is standing out to nearby residents while competing with Mississauga and downtown Toronto for the same spending."
+      "Large draws such as Woodbine and two Humber Polytechnic campuses bring visitors, students and workers into the district. For a local business, the challenge is standing out to nearby residents who have plenty of other options across the city."
     ],
     "byService": {
       "lead-generation": "Etobicoke lead generation should be split by area, since waterfront condo buyers in Mimico and homeowners in The Kingsway respond to very different offers and timing.",
