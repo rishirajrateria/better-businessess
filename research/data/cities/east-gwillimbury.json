@@ -1,0 +1,66 @@
+{
+  "slug": "east-gwillimbury",
+  "geographyNote": "Town of East Gwillimbury (census subdivision), York Region",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=East+Gwillimbury&GENDERlist=1&STATISTIClist=1&DGUIDlist=2021A00053519054",
+  "figures": {
+    "population2021": 34637,
+    "population2016": 23991,
+    "growthPct": 44.4,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": 11449,
+    "landAreaKm2": 244.91
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053519054",
+    "population2016": "https://www.Wikipedia.com/wiki/East_Gwillimbury",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053519054",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053519054",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053519054"
+  },
+  "facts": [
+    {
+      "text": "As of the 2021 census, East Gwillimbury is Canada's fastest growing municipality of over 5,000 people.",
+      "url": "https://c3.vaughan.ca/news/2022/02-February/clip02-15-1.html",
+      "publisher": "City of Vaughan news clipping",
+      "evidence": "East Gwillimbury is the fastest growing municipality in Canada ... as of 2021, the town was Canada's fastest growing municipality of over 5,000 people."
+    },
+    {
+      "text": "Loblaw is building a 1.2-million-square-foot logistics and distribution centre at Highway 404 and Green Lane East, expected to bring more than 1,000 jobs.",
+      "url": "https://eastgwillimbury.ic12.esolg.ca/en/news/loblaw-and-choice-properties-break-ground-in-east-gwillimbury.aspx",
+      "publisher": "Town of East Gwillimbury",
+      "evidence": "Loblaw is building a massive 1.2-million-square-foot logistics and distribution centre in East Gwillimbury, located at Highway 404 and Green Lane East. The municipality expects the facility to bring more than 1,000 jobs to the community."
+    },
+    {
+      "text": "Kelson, one of East Gwillimbury's largest employers, is adding a 75,000 square foot expansion to its facility.",
+      "url": "https://invest.advantageeg.ca/data-centre/key-development-areas",
+      "publisher": "Advantage EG, Town of East Gwillimbury Economic Development",
+      "evidence": "A multi-phase commercial and industrial development includes a 75,000 square foot expansion of Kelson's facility (one of EG's largest employers)"
+    },
+    {
+      "text": "East Gwillimbury's Health and Active Living Plaza offers over 80,000 sq. ft. including the town's first aquatics centre and a new library branch.",
+      "url": "https://invest.advantageeg.ca/data-centre/key-development-areas",
+      "publisher": "Advantage EG, Town of East Gwillimbury Economic Development",
+      "evidence": "The Health and Active Living Plaza features over 80,000 sq. ft. of space including EG's first-ever aquatics centre, a new library branch ... officially opened in October 2025."
+    }
+  ],
+  "meta": {
+    "populationApprox": 34637,
+    "descriptor": "a fast-growing town in northern York Region",
+    "fact": "home to a new 1.2-million-square-foot Loblaw distribution centre expected to bring over 1,000 jobs",
+    "industries": ["Logistics", "Construction", "Retail", "Manufacturing", "Agriculture"],
+    "areas": ["Holland Landing", "Sharon", "Queensville", "Mount Albert", "River Drive Park"]
+  },
+  "copy": {
+    "overview": [
+      "East Gwillimbury grew 44.4 per cent between 2016 and 2021 to reach 34,637 residents, making it Canada's fastest-growing municipality of its size. Its 11,449 occupied homes are spread across 245 square kilometres, in separate communities such as Holland Landing, Sharon, Queensville and Mount Albert.",
+      "Many households are new to the area and still choosing their providers. Local firms compete with Newmarket and Aurora next door, and new employment such as the Loblaw distribution centre will keep bringing in workers."
+    ],
+    "byService": {
+      "lead-generation": "With 44.4 per cent population growth from 2016 to 2021, lead generation in East Gwillimbury should target households in new subdivisions before they settle on Newmarket providers.",
+      "seo": "Residents often search by community rather than town, so East Gwillimbury SEO needs pages for Holland Landing, Sharon, Queensville and Mount Albert alongside the town name.",
+      "website-development": "A website serving East Gwillimbury should make service boundaries obvious, since 11,449 households are scattered over a large rural and suburban area with several distinct centres.",
+      "branding": "In a town where most residents arrived recently, branding should help newcomers see a business as part of their new community rather than another York Region chain."
+    }
+  }
+}
