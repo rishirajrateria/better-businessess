@@ -12,7 +12,7 @@ import { KeyFacts } from "@/components/site/KeyFacts";
 import { ContactForm } from "@/components/site/ContactForm";
 import { TestimonialsSection } from "@/components/site/Testimonials";
 import { Section, SectionHeader } from "@/components/ui/Section";
-import { cities, getCity, getProvince, isCityIndexable } from "@/lib/locations";
+import { cities, getCity, getProvince, getDistricts, isCityIndexable } from "@/lib/locations";
 import { coreServices, subServices } from "@/lib/services";
 import { cityHubContent } from "@/lib/content";
 import { getTestimonials } from "@/lib/queries";
@@ -46,7 +46,9 @@ export default async function CityPage({ params }: Props) {
   const cd = getCityData(c.slug);
   const market = hasCityData(cd) ? cd : null;
   const path = `/locations/${p.slug}/${c.slug}`;
-  const crumbs = [{ name: "Home", path: "/" }, { name: "Locations", path: "/locations" }, { name: p.name, path: `/locations/${p.slug}` }, { name: c.name, path }];
+  const parent = c.parent ? getCity(c.parent) : undefined;
+  const districts = getDistricts(c.slug);
+  const crumbs = [{ name: "Home", path: "/" }, { name: "Locations", path: "/locations" }, { name: p.name, path: `/locations/${p.slug}` }, ...(parent ? [{ name: parent.name, path: `/locations/${parent.province}/${parent.slug}` }] : []), { name: c.name, path }];
   const [testimonials, guides] = await Promise.all([getTestimonials({ limit: 3 }), getRelatedGuides({ city: c })]);
   return (
     <>
@@ -59,6 +61,7 @@ export default async function CityPage({ params }: Props) {
             <div className="glass rounded-glass p-6">
               <p className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-gold-deep"><MapPin size={14} /> Areas we serve in {c.name}</p>
               <p className="mt-2 text-[15px] text-graphite">{c.areas.join(" · ")}</p>
+              {parent && <p className="mt-3 text-[14px] text-slate">{c.name} is a district of the City of {parent.name}. See our <Link href={`/locations/${parent.province}/${parent.slug}`} className="font-semibold text-gold-deep hover:underline">{parent.name} page</Link> for city-wide services.</p>}
             </div>
           </div>
           <div className="lg:col-span-5" data-reveal data-reveal-delay={100}><KeyFacts facts={content.keyFacts} /></div>
@@ -77,6 +80,7 @@ export default async function CityPage({ params }: Props) {
         </div>
         <InlineCta text={`Ready to grow in ${c.name}?`} cta="Get a free audit" />
       </Section>
+      {districts.length > 0 && <CityLinks cities={districts} hrefFor={(ci) => `/locations/${ci.province}/${ci.slug}`} title={<>{c.name} <span className="text-gold-gradient">districts.</span></>} eyebrow="Districts" subtitle={`Local pages for the parts of ${c.name} where we work most.`} columns={3} />}
       <CityLinks cities={content.nearby} hrefFor={(ci) => `/locations/${ci.province}/${ci.slug}`} title={<>Also serving communities <span className="text-gold-gradient">near {c.name}.</span></>} eyebrow="Nearby" columns={3} />
       <RelatedGuides guides={guides} title={<>Marketing guides for <span className="text-gold-gradient">{c.name} businesses.</span></>} subtitle={`Playbooks chosen for ${c.name}'s leading sectors: ${c.industries.slice(0, 3).join(", ").toLowerCase()}.`} />
       <TestimonialsSection items={testimonials} />

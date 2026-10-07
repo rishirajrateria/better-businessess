@@ -20,6 +20,7 @@ export function GET() {
     ...subServices.map((s) => `- [${s.name}](${site.url}/services/${s.slug}): ${s.tagline}`),
     ``,
     `## Service areas`,
+    `- [Marketing agency in Canada](${site.url}/marketing-agency-canada): Overview of services, starting prices, provinces and every city served.`,
     `- [All locations](${site.url}/locations): Serving all of Canada.`,
     ...provinces.map((p) => `- [${p.name}](${site.url}/locations/${p.slug}): ${[...new Set([p.largestCity, p.capital])].join(", ")} and more.`),
     ``,

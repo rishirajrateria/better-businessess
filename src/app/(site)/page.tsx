@@ -144,6 +144,7 @@ export default async function HomePage() {
 
       <Section id="locations" size="sm">
         <SectionHeader eyebrow="Coast to coast" title={<>Serving businesses in <span className="text-gold-gradient">every province and territory.</span></>} subtitle="Local strategy for local markets, from Vancouver to St. John's." />
+        <p className="-mt-6 mb-8 text-center text-[15px] text-slate" data-reveal>Looking for a <Link href="/marketing-agency-canada" className="font-semibold text-gold-deep hover:underline">marketing agency in Canada</Link>? See services, pricing and every city we serve.</p>
         <div className="flex flex-wrap justify-center gap-2" data-reveal>
           {provinces.map((p) => (
             <Link key={p.slug} href={`/locations/${p.slug}`} prefetch={false} className="glass-pill rounded-full px-4 py-2 text-[13.5px] font-medium text-graphite transition-all hover:-translate-y-0.5 hover:text-ink">

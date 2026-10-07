@@ -1,3 +1,4 @@
+import { extraCities } from "./locations-extra";
 /**
  * Canadian provinces, territories and cities used for programmatic SEO pages.
  * Population figures: Statistics Canada, 2021 Census of Population, census subdivision (municipality), rounded to the nearest thousand.
@@ -30,6 +31,8 @@ export type City = {
   lat: number;
   lng: number;
   major?: boolean;
+  /** Set for districts of a larger city (e.g. Etobicoke → toronto). */
+  parent?: string;
 };
 
 export const provinces: Province[] = [
@@ -48,7 +51,7 @@ export const provinces: Province[] = [
   { slug: "nunavut", name: "Nunavut", code: "NU", type: "territory", capital: "Iqaluit", largestCity: "Iqaluit", population: "37,000", region: "Northern Canada", economy: "Canada's youngest territory, with an economy centred on government, mining, fisheries and Inuit-owned enterprise.", industries: ["Government", "Mining", "Fisheries", "Arts and culture", "Transportation"], lat: 70.2998, lng: -83.1076 },
 ];
 
-export const cities: City[] = [
+const baseCities: City[] = [
   // Ontario
   { slug: "toronto", name: "Toronto", province: "ontario", population: "2.8 million", descriptor: "Canada's largest city and financial capital", industries: ["Finance", "Technology", "Real estate", "Healthcare", "Media", "Professional services"], areas: ["Downtown", "North York", "Scarborough", "Etobicoke", "Liberty Village", "Yorkville", "The Junction", "Leslieville"], fact: "home to the Toronto Stock Exchange and one of North America's largest tech talent pools", lat: 43.6532, lng: -79.3832, major: true },
   { slug: "ottawa", name: "Ottawa", province: "ontario", population: "1 million", descriptor: "Canada's capital and a major technology hub", industries: ["Government", "Technology", "Defence", "Healthcare", "Education", "Tourism"], areas: ["Kanata", "Orleans", "Barrhaven", "The Glebe", "ByWard Market", "Nepean", "Westboro"], fact: "home to Kanata North, Canada's largest technology park", lat: 45.4215, lng: -75.6972, major: true },
@@ -137,10 +140,14 @@ export const cities: City[] = [
   { slug: "iqaluit", name: "Iqaluit", province: "nunavut", population: "7,000", descriptor: "Canada's northernmost capital on Baffin Island", industries: ["Government", "Construction", "Arts and culture", "Transportation", "Retail"], areas: ["Downtown Iqaluit", "Happy Valley", "Tundra Valley", "Apex"], fact: "the fastest-growing capital city in Canada by percentage", lat: 63.7467, lng: -68.517, major: true },
 ];
 
+/** The 65 original markets plus the researched extra cities and Toronto districts (locations-extra.ts, generated). */
+export const cities: City[] = [...baseCities, ...extraCities];
+
 export const getProvince = (slug: string) => provinces.find((p) => p.slug === slug);
 export const getCity = (slug: string) => cities.find((c) => c.slug === slug);
 export const getCitiesInProvince = (provinceSlug: string) => cities.filter((c) => c.province === provinceSlug);
 export const majorCities = cities.filter((c) => c.major);
+export const getDistricts = (citySlug: string) => cities.filter((c) => c.parent === citySlug);
 
 export const getNearbyCities = (city: City, limit = 6) =>
   cities

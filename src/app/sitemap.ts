@@ -18,7 +18,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     latestPost = (await prisma.post.findFirst({ where: { published: true }, orderBy: { updatedAt: "desc" }, select: { updatedAt: true } }))?.updatedAt;
   } catch {}
   const listingDate = latestPost && latestPost > staticDate ? latestPost : staticDate;
-  const staticPages = [u("/", 1, "weekly", listingDate), u("/services", 0.9, "weekly"), u("/about", 0.7), u("/contact", 0.9), u("/faq", 0.7), u("/locations", 0.8), u("/industries", 0.8, "weekly", listingDate), u("/blog", 0.8, "daily", listingDate), u("/projects", 0.8, "weekly"), u("/privacy", 0.2, "yearly"), u("/terms", 0.2, "yearly")];
+  const staticPages = [u("/", 1, "weekly", listingDate), u("/services", 0.9, "weekly"), u("/about", 0.7), u("/contact", 0.9), u("/faq", 0.7), u("/locations", 0.8), u("/marketing-agency-canada", 0.9), u("/industries", 0.8, "weekly", listingDate), u("/blog", 0.8, "daily", listingDate), u("/projects", 0.8, "weekly"), u("/privacy", 0.2, "yearly"), u("/terms", 0.2, "yearly")];
   const servicePages = services.map((s) => u(`/services/${s.slug}`, 0.9, "weekly"));
   const countryPages = coreServices.map((s) => u(`/services/${s.slug}/canada`, 0.8));
   const provincePages = provinces.map((p) => u(`/locations/${p.slug}`, 0.7));

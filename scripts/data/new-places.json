@@ -1,0 +1,670 @@
+[
+ {
+  "slug": "etobicoke",
+  "name": "Etobicoke",
+  "province": "ontario",
+  "lat": 43.6205,
+  "lng": -79.5132,
+  "parent": "toronto"
+ },
+ {
+  "slug": "north-york",
+  "name": "North York",
+  "province": "ontario",
+  "lat": 43.7615,
+  "lng": -79.4111,
+  "parent": "toronto"
+ },
+ {
+  "slug": "scarborough",
+  "name": "Scarborough",
+  "province": "ontario",
+  "lat": 43.7731,
+  "lng": -79.2578,
+  "parent": "toronto"
+ },
+ {
+  "slug": "cambridge",
+  "name": "Cambridge",
+  "province": "ontario",
+  "lat": 43.3616,
+  "lng": -80.3144
+ },
+ {
+  "slug": "whitby",
+  "name": "Whitby",
+  "province": "ontario",
+  "lat": 43.8975,
+  "lng": -78.9429
+ },
+ {
+  "slug": "milton",
+  "name": "Milton",
+  "province": "ontario",
+  "lat": 43.5183,
+  "lng": -79.8774
+ },
+ {
+  "slug": "ajax",
+  "name": "Ajax",
+  "province": "ontario",
+  "lat": 43.8509,
+  "lng": -79.0204
+ },
+ {
+  "slug": "chatham-kent",
+  "name": "Chatham-Kent",
+  "province": "ontario",
+  "lat": 42.4048,
+  "lng": -82.191
+ },
+ {
+  "slug": "clarington",
+  "name": "Clarington",
+  "province": "ontario",
+  "lat": 43.9126,
+  "lng": -78.6876
+ },
+ {
+  "slug": "pickering",
+  "name": "Pickering",
+  "province": "ontario",
+  "lat": 43.8384,
+  "lng": -79.0868
+ },
+ {
+  "slug": "newmarket",
+  "name": "Newmarket",
+  "province": "ontario",
+  "lat": 44.0592,
+  "lng": -79.4613
+ },
+ {
+  "slug": "brantford",
+  "name": "Brantford",
+  "province": "ontario",
+  "lat": 43.1394,
+  "lng": -80.2644
+ },
+ {
+  "slug": "kawartha-lakes",
+  "name": "Kawartha Lakes",
+  "province": "ontario",
+  "lat": 44.3501,
+  "lng": -78.74
+ },
+ {
+  "slug": "sault-ste-marie",
+  "name": "Sault Ste. Marie",
+  "province": "ontario",
+  "lat": 46.5219,
+  "lng": -84.3461
+ },
+ {
+  "slug": "halton-hills",
+  "name": "Halton Hills",
+  "province": "ontario",
+  "lat": 43.63,
+  "lng": -79.95
+ },
+ {
+  "slug": "peterborough",
+  "name": "Peterborough",
+  "province": "ontario",
+  "lat": 44.3091,
+  "lng": -78.3197
+ },
+ {
+  "slug": "aurora",
+  "name": "Aurora",
+  "province": "ontario",
+  "lat": 44.0065,
+  "lng": -79.4504
+ },
+ {
+  "slug": "welland",
+  "name": "Welland",
+  "province": "ontario",
+  "lat": 42.9922,
+  "lng": -79.2483
+ },
+ {
+  "slug": "belleville",
+  "name": "Belleville",
+  "province": "ontario",
+  "lat": 44.1628,
+  "lng": -77.3832
+ },
+ {
+  "slug": "north-bay",
+  "name": "North Bay",
+  "province": "ontario",
+  "lat": 46.3091,
+  "lng": -79.4608
+ },
+ {
+  "slug": "caledon",
+  "name": "Caledon",
+  "province": "ontario",
+  "lat": 43.8668,
+  "lng": -79.858
+ },
+ {
+  "slug": "cornwall",
+  "name": "Cornwall",
+  "province": "ontario",
+  "lat": 45.0213,
+  "lng": -74.7303
+ },
+ {
+  "slug": "georgina",
+  "name": "Georgina",
+  "province": "ontario",
+  "lat": 44.2965,
+  "lng": -79.4366
+ },
+ {
+  "slug": "whitchurch-stouffville",
+  "name": "Whitchurch-Stouffville",
+  "province": "ontario",
+  "lat": 43.9703,
+  "lng": -79.2445
+ },
+ {
+  "slug": "woodstock",
+  "name": "Woodstock",
+  "province": "ontario",
+  "lat": 43.1315,
+  "lng": -80.7472
+ },
+ {
+  "slug": "quinte-west",
+  "name": "Quinte West",
+  "province": "ontario",
+  "lat": 44.1834,
+  "lng": -77.5667
+ },
+ {
+  "slug": "st-thomas",
+  "name": "St. Thomas",
+  "province": "ontario",
+  "lat": 42.7787,
+  "lng": -81.1758
+ },
+ {
+  "slug": "innisfil",
+  "name": "Innisfil",
+  "province": "ontario",
+  "lat": 44.3001,
+  "lng": -79.6114
+ },
+ {
+  "slug": "timmins",
+  "name": "Timmins",
+  "province": "ontario",
+  "lat": 48.4758,
+  "lng": -81.3305
+ },
+ {
+  "slug": "lakeshore",
+  "name": "Lakeshore",
+  "province": "ontario",
+  "lat": 42.2399,
+  "lng": -82.6511
+ },
+ {
+  "slug": "brant",
+  "name": "Brant",
+  "province": "ontario",
+  "lat": 43.1937,
+  "lng": -80.3842
+ },
+ {
+  "slug": "bradford-west-gwillimbury",
+  "name": "Bradford West Gwillimbury",
+  "province": "ontario",
+  "lat": 44.1146,
+  "lng": -79.563
+ },
+ {
+  "slug": "new-tecumseth",
+  "name": "New Tecumseth",
+  "province": "ontario",
+  "lat": 44.153,
+  "lng": -79.8686
+ },
+ {
+  "slug": "norfolk-county",
+  "name": "Norfolk County",
+  "province": "ontario",
+  "lat": 42.8371,
+  "lng": -80.304
+ },
+ {
+  "slug": "haldimand-county",
+  "name": "Haldimand County",
+  "province": "ontario",
+  "lat": 43.0731,
+  "lng": -79.9534
+ },
+ {
+  "slug": "orillia",
+  "name": "Orillia",
+  "province": "ontario",
+  "lat": 44.6082,
+  "lng": -79.4196
+ },
+ {
+  "slug": "fort-erie",
+  "name": "Fort Erie",
+  "province": "ontario",
+  "lat": 42.9018,
+  "lng": -78.9722
+ },
+ {
+  "slug": "stratford",
+  "name": "Stratford",
+  "province": "ontario",
+  "lat": 43.37,
+  "lng": -80.9822
+ },
+ {
+  "slug": "orangeville",
+  "name": "Orangeville",
+  "province": "ontario",
+  "lat": 43.92,
+  "lng": -80.0943
+ },
+ {
+  "slug": "east-gwillimbury",
+  "name": "East Gwillimbury",
+  "province": "ontario",
+  "lat": 44.1,
+  "lng": -79.44
+ },
+ {
+  "slug": "sarnia",
+  "name": "Sarnia",
+  "province": "ontario",
+  "lat": 42.9745,
+  "lng": -82.4066
+ },
+ {
+  "slug": "lasalle",
+  "name": "LaSalle",
+  "province": "ontario",
+  "lat": 42.2167,
+  "lng": -83.05
+ },
+ {
+  "slug": "centre-wellington",
+  "name": "Centre Wellington",
+  "province": "ontario",
+  "lat": 43.7067,
+  "lng": -80.377
+ },
+ {
+  "slug": "sherwood-park",
+  "name": "Sherwood Park",
+  "province": "alberta",
+  "lat": 53.5413,
+  "lng": -113.2958
+ },
+ {
+  "slug": "fort-mcmurray",
+  "name": "Fort McMurray",
+  "province": "alberta",
+  "lat": 56.7268,
+  "lng": -111.379
+ },
+ {
+  "slug": "spruce-grove",
+  "name": "Spruce Grove",
+  "province": "alberta",
+  "lat": 53.545,
+  "lng": -113.9008
+ },
+ {
+  "slug": "leduc",
+  "name": "Leduc",
+  "province": "alberta",
+  "lat": 53.2594,
+  "lng": -113.5492
+ },
+ {
+  "slug": "okotoks",
+  "name": "Okotoks",
+  "province": "alberta",
+  "lat": 50.7254,
+  "lng": -113.9749
+ },
+ {
+  "slug": "cochrane",
+  "name": "Cochrane",
+  "province": "alberta",
+  "lat": 51.189,
+  "lng": -114.467
+ },
+ {
+  "slug": "terrebonne",
+  "name": "Terrebonne",
+  "province": "quebec",
+  "lat": 45.7,
+  "lng": -73.647
+ },
+ {
+  "slug": "saint-jean-sur-richelieu",
+  "name": "Saint-Jean-sur-Richelieu",
+  "province": "quebec",
+  "lat": 45.3071,
+  "lng": -73.2627
+ },
+ {
+  "slug": "repentigny",
+  "name": "Repentigny",
+  "province": "quebec",
+  "lat": 45.7422,
+  "lng": -73.45
+ },
+ {
+  "slug": "brossard",
+  "name": "Brossard",
+  "province": "quebec",
+  "lat": 45.45,
+  "lng": -73.45
+ },
+ {
+  "slug": "drummondville",
+  "name": "Drummondville",
+  "province": "quebec",
+  "lat": 45.8833,
+  "lng": -72.4833
+ },
+ {
+  "slug": "saint-jerome",
+  "name": "Saint-Jérôme",
+  "province": "quebec",
+  "lat": 45.78,
+  "lng": -74.0036
+ },
+ {
+  "slug": "granby",
+  "name": "Granby",
+  "province": "quebec",
+  "lat": 45.4,
+  "lng": -72.7333
+ },
+ {
+  "slug": "blainville",
+  "name": "Blainville",
+  "province": "quebec",
+  "lat": 45.67,
+  "lng": -73.88
+ },
+ {
+  "slug": "saint-hyacinthe",
+  "name": "Saint-Hyacinthe",
+  "province": "quebec",
+  "lat": 45.63,
+  "lng": -72.957
+ },
+ {
+  "slug": "mirabel",
+  "name": "Mirabel",
+  "province": "quebec",
+  "lat": 45.65,
+  "lng": -74.0833
+ },
+ {
+  "slug": "shawinigan",
+  "name": "Shawinigan",
+  "province": "quebec",
+  "lat": 46.5667,
+  "lng": -72.75
+ },
+ {
+  "slug": "dollard-des-ormeaux",
+  "name": "Dollard-des-Ormeaux",
+  "province": "quebec",
+  "lat": 45.4833,
+  "lng": -73.8167
+ },
+ {
+  "slug": "rimouski",
+  "name": "Rimouski",
+  "province": "quebec",
+  "lat": 48.4489,
+  "lng": -68.5236
+ },
+ {
+  "slug": "chateauguay",
+  "name": "Châteauguay",
+  "province": "quebec",
+  "lat": 45.38,
+  "lng": -73.75
+ },
+ {
+  "slug": "mascouche",
+  "name": "Mascouche",
+  "province": "quebec",
+  "lat": 45.75,
+  "lng": -73.6
+ },
+ {
+  "slug": "victoriaville",
+  "name": "Victoriaville",
+  "province": "quebec",
+  "lat": 46.05,
+  "lng": -71.9667
+ },
+ {
+  "slug": "rouyn-noranda",
+  "name": "Rouyn-Noranda",
+  "province": "quebec",
+  "lat": 48.2366,
+  "lng": -79.023
+ },
+ {
+  "slug": "saint-eustache",
+  "name": "Saint-Eustache",
+  "province": "quebec",
+  "lat": 45.565,
+  "lng": -73.905
+ },
+ {
+  "slug": "salaberry-de-valleyfield",
+  "name": "Salaberry-de-Valleyfield",
+  "province": "quebec",
+  "lat": 45.25,
+  "lng": -74.13
+ },
+ {
+  "slug": "boucherville",
+  "name": "Boucherville",
+  "province": "quebec",
+  "lat": 45.6,
+  "lng": -73.45
+ },
+ {
+  "slug": "vaudreuil-dorion",
+  "name": "Vaudreuil-Dorion",
+  "province": "quebec",
+  "lat": 45.4,
+  "lng": -74.0333
+ },
+ {
+  "slug": "sorel-tracy",
+  "name": "Sorel-Tracy",
+  "province": "quebec",
+  "lat": 46.0333,
+  "lng": -73.1167
+ },
+ {
+  "slug": "cote-saint-luc",
+  "name": "Côte-Saint-Luc",
+  "province": "quebec",
+  "lat": 45.465,
+  "lng": -73.665
+ },
+ {
+  "slug": "pointe-claire",
+  "name": "Pointe-Claire",
+  "province": "quebec",
+  "lat": 45.45,
+  "lng": -73.8167
+ },
+ {
+  "slug": "val-dor",
+  "name": "Val-d'Or",
+  "province": "quebec",
+  "lat": 48.1,
+  "lng": -77.7833
+ },
+ {
+  "slug": "alma",
+  "name": "Alma",
+  "province": "quebec",
+  "lat": 48.55,
+  "lng": -71.65
+ },
+ {
+  "slug": "chambly",
+  "name": "Chambly",
+  "province": "quebec",
+  "lat": 45.45,
+  "lng": -73.2833
+ },
+ {
+  "slug": "sainte-julie",
+  "name": "Sainte-Julie",
+  "province": "quebec",
+  "lat": 45.5833,
+  "lng": -73.3333
+ },
+ {
+  "slug": "saint-georges",
+  "name": "Saint-Georges",
+  "province": "quebec",
+  "lat": 46.1167,
+  "lng": -70.6667
+ },
+ {
+  "slug": "prince-albert",
+  "name": "Prince Albert",
+  "province": "saskatchewan",
+  "lat": 53.2033,
+  "lng": -105.7531
+ },
+ {
+  "slug": "moose-jaw",
+  "name": "Moose Jaw",
+  "province": "saskatchewan",
+  "lat": 50.3934,
+  "lng": -105.5519
+ },
+ {
+  "slug": "saanich",
+  "name": "Saanich",
+  "province": "british-columbia",
+  "lat": 48.484,
+  "lng": -123.381
+ },
+ {
+  "slug": "delta",
+  "name": "Delta",
+  "province": "british-columbia",
+  "lat": 49.0847,
+  "lng": -123.0586
+ },
+ {
+  "slug": "chilliwack",
+  "name": "Chilliwack",
+  "province": "british-columbia",
+  "lat": 49.1579,
+  "lng": -121.9515
+ },
+ {
+  "slug": "maple-ridge",
+  "name": "Maple Ridge",
+  "province": "british-columbia",
+  "lat": 49.2194,
+  "lng": -122.5984
+ },
+ {
+  "slug": "new-westminster",
+  "name": "New Westminster",
+  "province": "british-columbia",
+  "lat": 49.2057,
+  "lng": -122.911
+ },
+ {
+  "slug": "north-vancouver",
+  "name": "North Vancouver",
+  "province": "british-columbia",
+  "lat": 49.32,
+  "lng": -123.0724
+ },
+ {
+  "slug": "vernon",
+  "name": "Vernon",
+  "province": "british-columbia",
+  "lat": 50.2671,
+  "lng": -119.272
+ },
+ {
+  "slug": "port-coquitlam",
+  "name": "Port Coquitlam",
+  "province": "british-columbia",
+  "lat": 49.2625,
+  "lng": -122.7811
+ },
+ {
+  "slug": "west-vancouver",
+  "name": "West Vancouver",
+  "province": "british-columbia",
+  "lat": 49.328,
+  "lng": -123.16
+ },
+ {
+  "slug": "mission",
+  "name": "Mission",
+  "province": "british-columbia",
+  "lat": 49.1337,
+  "lng": -122.3112
+ },
+ {
+  "slug": "penticton",
+  "name": "Penticton",
+  "province": "british-columbia",
+  "lat": 49.4991,
+  "lng": -119.5937
+ },
+ {
+  "slug": "campbell-river",
+  "name": "Campbell River",
+  "province": "british-columbia",
+  "lat": 50.0244,
+  "lng": -125.2475
+ },
+ {
+  "slug": "langford",
+  "name": "Langford",
+  "province": "british-columbia",
+  "lat": 48.4475,
+  "lng": -123.4956
+ },
+ {
+  "slug": "port-moody",
+  "name": "Port Moody",
+  "province": "british-columbia",
+  "lat": 49.283,
+  "lng": -122.8317
+ },
+ {
+  "slug": "west-kelowna",
+  "name": "West Kelowna",
+  "province": "british-columbia",
+  "lat": 49.8625,
+  "lng": -119.5833
+ }
+]

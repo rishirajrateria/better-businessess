@@ -34,6 +34,9 @@ const nextConfig: NextConfig = {
       { source: "/portfolio", destination: "/projects", permanent: true },
       { source: "/work", destination: "/projects", permanent: true },
       { source: "/news", destination: "/blog", permanent: true },
+      { source: "/marketing-agency", destination: "/marketing-agency-canada", permanent: true },
+      { source: "/digital-marketing-agency-canada", destination: "/marketing-agency-canada", permanent: true },
+      { source: "/canada", destination: "/marketing-agency-canada", permanent: true },
     ];
   },
 };

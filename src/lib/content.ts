@@ -3,7 +3,7 @@
  * Produces rich, deterministic and varied copy for every
  * service × location combination so no two pages read the same.
  */
-import { site } from "./site";
+import { site, fullAddress } from "./site";
 import type { Service } from "./services";
 import { getService, getSubServices, coreServices } from "./services";
 import type { City, Province } from "./locations";
@@ -26,6 +26,13 @@ const list = (items: string[], max = 3, conj = "and") => {
   return `${a.slice(0, -1).join(", ")} ${conj} ${a[a.length - 1]}`;
 };
 const lower = (s: string) => s.toLowerCase();
+
+/** "Do you meet / have an office in X?" — truthful for the HQ district, the rest of Toronto and everywhere else. */
+const officeAnswer = (c: City, p: Province) => {
+  if (c.name.toLowerCase() === site.hq.city.toLowerCase()) return `Yes. Our office is at ${fullAddress}, so we meet ${c.name} clients in person as well as by video call.`;
+  if (c.slug === "toronto" || c.parent === "toronto") return `Our office is in ${site.hq.city} at ${fullAddress}, so in-person meetings with ${c.name} clients can be arranged alongside video calls and a shared project portal.`;
+  return `We serve ${c.name} clients from our office in ${site.hq.city}, ${site.hq.provinceCode} through video calls and a shared project portal, and can arrange in-person meetings for larger ${p.name} engagements.`;
+};
 
 /**
  * SERP length budgets. The root layout appends " | Better Businesses" (19 chars) to every
@@ -88,7 +95,7 @@ const cityFaqPool: Record<string, (c: City, p: Province, s: Service) => Faq[]> =
     { question: `Will my ${c.name} website rank on Google?`, answer: `Every site we build includes technical SEO, structured data, fast load times and content architecture designed for ${c.name} search terms. We also handle redirects during redesigns so existing rankings are protected.` },
     { question: `Can I update the website myself?`, answer: `Yes. You receive a modern CMS and training so your ${c.name} team can edit pages, publish blog posts and add projects without code.` },
     { question: `Do you offer hosting and maintenance for ${c.name} clients?`, answer: `Yes. Managed hosting on fast edge infrastructure, security updates, backups and uptime monitoring are available on monthly plans.` },
-    { question: `Do you meet with clients in ${c.name}?`, answer: `We work with ${c.name} clients remotely through video calls and a shared project portal, with in-person meetings available for larger ${p.name} engagements.` },
+    { question: `Do you meet with clients in ${c.name}?`, answer: officeAnswer(c, p) },
   ],
   branding: (c, p) => [
     { question: `How much does logo design cost in ${c.name}?`, answer: `Professional logo design for ${c.name} businesses typically ranges from CAD $1,500 to $5,000. A complete brand identity with strategy, guidelines and collateral generally ranges from CAD $5,000 to $20,000.` },
@@ -291,7 +298,7 @@ export function cityHubContent(city: City) {
     nearby,
     faqs: [
       { question: `What services does ${site.name} offer in ${city.name}?`, answer: `We offer lead generation (Google Ads, social advertising, landing pages), SEO and local SEO, website design and development, and branding including logo design and graphic design for ${city.name} businesses.` },
-      { question: `Do you have an office in ${city.name}?`, answer: `We serve ${city.name} clients remotely from ${site.hq.city} with video meetings and a shared project portal, and can arrange in-person meetings for larger engagements in ${province.name}.` },
+      { question: `Do you have an office in ${city.name}?`, answer: officeAnswer(city, province) },
       { question: `Which industries do you serve in ${city.name}?`, answer: `We work with ${city.name} businesses in ${list(city.industries.map(lower), city.industries.length)} and many more, from solo practices to multi-location companies.` },
       { question: `How do I get started?`, answer: `Request a free consultation. We will review your current digital presence in ${city.name} and recommend the highest-impact next steps within two business days.` },
     ],

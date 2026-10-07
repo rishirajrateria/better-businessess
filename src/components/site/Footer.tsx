@@ -63,6 +63,7 @@ export function Footer() {
                 ["/faq", "FAQ"],
                 ["/contact", "Contact"],
                 ["/locations", "Locations"],
+                ["/marketing-agency-canada", "Marketing agency in Canada"],
                 ["/llms.txt", "For AI assistants"],
                 ["/privacy", "Privacy policy"],
                 ["/terms", "Terms of service"],
