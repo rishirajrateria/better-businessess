@@ -43,7 +43,7 @@
     "populationApprox": 62951,
     "descriptor": "a town of rural hamlets and two urban centres in Halton Region",
     "fact": "home to the Premier Gateway employment area where Highways 401 and 407 meet",
-    "industries": ["Logistics", "Manufacturing", "Retail", "Agriculture", "Construction"],
+    "industries": ["Logistics", "Manufacturing", "Retail", "Agriculture"],
     "areas": ["Georgetown", "Acton", "Glen Williams", "Limehouse", "Terra Cotta", "Norval"]
   },
   "copy": {
