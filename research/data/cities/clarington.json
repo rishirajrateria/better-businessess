@@ -48,13 +48,24 @@
     "populationApprox": 101427,
     "descriptor": "a growing lakeshore municipality at the eastern edge of the GTA",
     "fact": "home to the Darlington Nuclear site, where up to four small modular reactors are planned",
-    "industries": ["Energy", "Construction", "Manufacturing", "Agriculture", "Retail"],
-    "areas": ["Bowmanville", "Courtice", "Newcastle", "Orono"]
+    "industries": [
+      "Energy",
+      "Construction",
+      "Manufacturing",
+      "Agriculture",
+      "Retail"
+    ],
+    "areas": [
+      "Bowmanville",
+      "Courtice",
+      "Newcastle",
+      "Orono"
+    ]
   },
   "copy": {
     "overview": [
       "Clarington had 101,427 residents in 2021, up 10.2% from 92,013 in 2016, in 35,953 occupied homes. Those households are spread across 610.84 square kilometres, from built-up Courtice and Bowmanville to farmland and small hamlets.",
-      "That mix shapes how people shop. Many residents drive between communities or into Oshawa for errands, and nuclear construction at Darlington is bringing steady work to the area. Local businesses need to be easy to find from wherever customers start."
+      "That mix shapes how people shop. Customers in one community may never pass a storefront in another, and the planned reactors at Darlington add to an economy already anchored by Ontario Power Generation. Local businesses need to be easy to find from wherever customers start."
     ],
     "byService": {
       "lead-generation": "With 10.2% growth from 2016 to 2021, Clarington lead generation should focus on new subdivisions in Courtice and Bowmanville, where families are still picking providers.",
