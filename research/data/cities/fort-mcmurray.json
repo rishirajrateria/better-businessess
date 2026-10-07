@@ -1,0 +1,63 @@
+{
+  "slug": "fort-mcmurray",
+  "geographyNote": "Regional Municipality of Wood Buffalo (specialized municipality, census subdivision), Alberta. Fort McMurray is the urban service area within Wood Buffalo, so figures are for the whole regional municipality.",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Wood+Buffalo&DGUIDlist=2021A00054816037&GENDERlist=1,2,3&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": null,
+    "population2016": 71589,
+    "growthPct": null,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": null,
+    "landAreaKm2": 60843.88
+  },
+  "figureSources": {
+    "population2016": "https://en.wikipedia.org/wiki/Regional_Municipality_of_Wood_Buffalo",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00054816037"
+  },
+  "facts": [
+    {
+      "text": "Wood Buffalo's 2021 municipal census counts 75,555 people, with 72,917 in the Fort McMurray urban service area and 2,638 in the rural service area.",
+      "url": "https://www.rmwb.ca/media/eyjjqm0m/census-report-2021-executive-summary.pdf",
+      "publisher": "Regional Municipality of Wood Buffalo",
+      "evidence": "the total population of the Regional Municipality of Wood Buffalo was 75,555. The Fort McMurray urban service area had 72,917 people, while the rural service area had 2,638 people."
+    },
+    {
+      "text": "About one-third of Fort McMurray's residents are directly employed in the oil and gas sector, and a shadow population of about 40,000 lives and works in nearby camps.",
+      "url": "https://www.bnnbloomberg.ca/federal-election-2025/2025/04/22/people-in-oil-rich-fort-mcmurray-hope-the-next-government-diversifies-energy-exports/",
+      "publisher": "BNN Bloomberg",
+      "evidence": "Fort McMurray has a population of about 70,000, and about one-third of its residents are directly employed in the oil and gas sector. ... a so-called shadow population of about 40,000 who live and work in nearby camps"
+    },
+    {
+      "text": "Fort McMurray Wood Buffalo is home to the Athabasca Oil Sands, Canada's largest oil sands deposits.",
+      "url": "https://investalberta.ca/wp-content/uploads/2023/09/FMWB-Information-2023-v2.pdf",
+      "publisher": "Invest Alberta",
+      "evidence": "Fort McMurray Wood Buffalo is home to the Athabasca Oil Sands, Canada's largest oil sands deposits, with approximately 96% of Canada's oil coming from oil sands"
+    },
+    {
+      "text": "Of the almost 7,000 Suncor employees who work in the Fort McMurray region, about 5,000 live locally.",
+      "url": "https://amp.cbc.ca/news/canada/edmonton/oilsands-heavy-hitters-warn-work-camps-1.4991282",
+      "publisher": "CBC News",
+      "evidence": "Of the almost 7,000 Suncor employees who work in the Fort McMurray region, about 5,000 live locally."
+    }
+  ],
+  "meta": {
+    "populationApprox": 72326,
+    "descriptor": "the urban centre of Alberta's Regional Municipality of Wood Buffalo",
+    "fact": "home to the Athabasca Oil Sands, Canada's largest oil sands deposits",
+    "industries": ["Energy", "Mining", "Construction", "Transportation", "Retail"],
+    "areas": ["Timberlea", "Thickwood", "Abasand", "Downtown Fort McMurray", "Anzac", "Fort Chipewyan"]
+  },
+  "copy": {
+    "overview": [
+      "Fort McMurray is the urban centre of the Regional Municipality of Wood Buffalo, a vast municipality covering more than 60,000 square kilometres, with most residents concentrated in the city itself. About one-third of residents work directly in oil and gas, and tens of thousands more workers live in nearby camps.",
+      "That gives local businesses two markets: resident families, and rotational workers who spend in town between shifts. Spending tracks the oil sands closely, so firms that serve both markets and build steady local loyalty are better placed when activity slows."
+    ],
+    "byService": {
+      "lead-generation": "Lead generation in Fort McMurray should run separate campaigns for resident families and rotational camp workers, timing offers around shift schedules when workers are in town.",
+      "seo": "Fort McMurray SEO should target neighbourhoods such as Timberlea, Thickwood and downtown, since residents search locally and Edmonton competitors are hours away.",
+      "website-development": "With much of the workforce on rotation, a Fort McMurray website should support online booking, quotes and payment so customers can arrange services from camp or before flying home.",
+      "branding": "In a city shaped by oil sands booms, wildfire recovery and a large commuting workforce, branding should signal reliability and long-term commitment to the community."
+    }
+  }
+}
