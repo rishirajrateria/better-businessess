@@ -1,0 +1,74 @@
+{
+  "slug": "kawartha-lakes",
+  "geographyNote": "City of Kawartha Lakes (census subdivision; its census agglomeration covers the same single municipality)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&DGUIDlist=2021A00053516010&GENDERlist=1&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 79247,
+    "population2016": 75423,
+    "growthPct": 5.1,
+    "medianAge": 51.6,
+    "medianHouseholdIncome2020": 82000,
+    "privateDwellings": 32708,
+    "landAreaKm2": 3033.66
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021S0504530",
+    "population2016": "https://en.wikipedia.org/wiki/Kawartha_Lakes",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021S0504530",
+    "medianAge": "https://www.careerbeacon.com/en/canada/ontario/kawartha-lakes",
+    "medianHouseholdIncome2020": "https://www.careerbeacon.com/en/canada/ontario/kawartha-lakes",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021S0504530",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021S0504530"
+  },
+  "facts": [
+    {
+      "text": "Ross Memorial Hospital in Lindsay is a 198-bed community hospital with more than 950 staff and 140 credentialed physicians.",
+      "url": "https://rmh.org/about-ross-memorial",
+      "publisher": "Ross Memorial Hospital",
+      "evidence": "Ross Memorial Hospital is one of the largest employers in the region, with more than 950 staff members, 140 credentialed physicians... Ross Memorial Hospital is a 198-bed community hospital"
+    },
+    {
+      "text": "Ross Memorial Hospital serves more than 80,000 local residents and 35,000 seasonal visitors.",
+      "url": "https://rmh.org/about-ross-memorial",
+      "publisher": "Ross Memorial Hospital",
+      "evidence": "The hospital serves more than 80,000 local residents and 35,000 seasonal visitors."
+    },
+    {
+      "text": "The largest sectors by GDP are finance, insurance and real estate, public administration, manufacturing, retail trade, and agriculture and utilities.",
+      "url": "https://www.kawarthalakes.ca/media/bhnjyih5/kawartha-lakes-situational-analysis_final.pdf",
+      "publisher": "City of Kawartha Lakes",
+      "evidence": "The largest industry sectors based on GDP are Finance, Insurance & Real Estate; Public Administration; Manufacturing; Retail Trade; and Agriculture, Utilities and Related."
+    },
+    {
+      "text": "The city's 2025-2029 Economic Development Strategy targets agriculture and food, tourism, creative and cultural industries, innovation, and manufacturing.",
+      "url": "https://www.kawarthalakes.ca/news-and-notices/posts/kawartha-lakes-unveils-strategic-economic-development-plan-for-2025-2029/",
+      "publisher": "City of Kawartha Lakes",
+      "evidence": "The strategy focuses on supporting business growth across sectors such as agriculture and food, tourism, creative and cultural industries, innovation, and manufacturing."
+    },
+    {
+      "text": "Dairy, cattle and mixed farms are common in Kawartha Lakes, especially in the southern portion of the city.",
+      "url": "https://lindsayadvocate.ca/good-things-grow/",
+      "publisher": "Lindsay Advocate",
+      "evidence": "Dairy, cattle and mixed farms are common in Kawartha Lakes, especially in the southern portion of the city."
+    }
+  ],
+  "meta": {
+    "populationApprox": 79247,
+    "descriptor": "a large rural city of lakes and small towns in central Ontario",
+    "fact": "home to Ross Memorial Hospital, a 198-bed hospital in Lindsay with more than 950 staff",
+    "industries": ["Tourism", "Agriculture", "Manufacturing", "Retail", "Healthcare", "Government"],
+    "areas": ["Lindsay", "Bobcaygeon", "Fenelon Falls", "Omemee", "Woodville", "Coboconk"]
+  },
+  "copy": {
+    "overview": [
+      "Kawartha Lakes had 79,247 residents in 2021, up 5.1% from 75,423 in 2016, spread across 3,033.66 square kilometres in 32,708 occupied homes. The median age is 51.6, among the oldest in Ontario, and the median household income in 2020 was $82,000.",
+      "Customers are scattered across many small towns, and seasonal visitors swell demand in summer. A local business has to reach an older, spread-out audience and still catch cottage traffic when the lakes fill up."
+    ],
+    "byService": {
+      "lead-generation": "With 79,247 residents spread over a large rural area, lead generation in Kawartha Lakes should target each town separately and add seasonal campaigns aimed at summer visitors.",
+      "seo": "SEO here works best when pages name Lindsay, Bobcaygeon, Fenelon Falls and other communities, since people search by town rather than by a city covering 3,033.66 square kilometres.",
+      "website-development": "For an audience with a median age of 51.6, a Kawartha Lakes website needs large readable text, a visible phone number and simple contact forms that work on any device.",
+      "branding": "Branding in Kawartha Lakes should feel local and trustworthy, speaking to long-time residents in farming and small-town communities while staying welcoming to the visitors who arrive each summer."
+    }
+  }
+}
