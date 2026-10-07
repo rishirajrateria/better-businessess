@@ -1,0 +1,68 @@
+{
+  "slug": "welland",
+  "geographyNote": "City of Welland (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&amp=&SearchText=Welland&amp=&DGUIDlist=2021A00053526032&amp=&GENDERlist=1%2C2%2C3&amp=&STATISTIClist=1&amp=&HEADERlist=0",
+  "figures": {
+    "population2021": 55750,
+    "population2016": 52293,
+    "growthPct": 6.6,
+    "medianAge": 45.6,
+    "medianHouseholdIncome2020": 71500,
+    "privateDwellings": 23656,
+    "landAreaKm2": 81.16
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00053526032",
+    "population2016": "https://en.wikipedia.org/wiki/Welland",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00053526032",
+    "medianAge": "https://en.wikipedia.org/wiki/Welland",
+    "medianHouseholdIncome2020": "https://www.point2homes.com/CA/Demographics/ON/Welland-Demographics.html",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00053526032",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00053526032"
+  },
+  "facts": [
+    {
+      "text": "Ontario invested $4.2 million in the Walker Advanced Manufacturing Innovation Centre at Niagara College's Welland Campus.",
+      "url": "https://www.niagaracollege.ca/insidenc/?p=53770",
+      "publisher": "Niagara College",
+      "evidence": "Ontario invested $4.2 million for Niagara College's new Walker Advanced Manufacturing Innovation Centre."
+    },
+    {
+      "text": "The opening of the GE (now INNIO) plant, Northern Gold Foods, Welded Tube, Intravision Greens and Tamarack Lumber shows manufacturing's growing role in Welland's economy.",
+      "url": "https://businessviewmagazine.com/?p=39659",
+      "publisher": "Business View Magazine",
+      "evidence": "The opening of the GE (now INNIO) plant, Northern Gold Foods, Welded Tube, Intravision Greens and Tamarack Lumber all highlight how manufacturing is becoming an increasingly important part of the Welland economy."
+    },
+    {
+      "text": "Welland's Land Needs Assessment forecasts that the city will add 10,750 jobs between 2021 and 2051.",
+      "url": "https://www.welland.ca/media/ogipflsy/economy-background-review.pdf",
+      "publisher": "City of Welland",
+      "evidence": "The Land Needs Assessment forecasts that Welland will add 10,750 jobs between 2021 and 2051, which represents 13% of Region-wide employment growth."
+    },
+    {
+      "text": "The Welland International Flatwater Centre makes Welland Niagara's sport-tourism destination and hosted sprint canoe and kayak at the 2015 Pan Am Games.",
+      "url": "https://www.welland.ca/community-and-recreation/tourism/",
+      "publisher": "City of Welland",
+      "evidence": "Welland is known for scenic cycling paths and the Welland International Flatwater Centre (WIFC), making it Niagara's sport-tourism destination."
+    }
+  ],
+  "meta": {
+    "populationApprox": 55750,
+    "descriptor": "a canal city in the Niagara Region of southern Ontario",
+    "fact": "home to Niagara College's Welland Campus and its Walker Advanced Manufacturing Innovation Centre",
+    "industries": ["Manufacturing", "Education", "Tourism", "Retail", "Logistics"],
+    "areas": ["Downtown Welland", "Dain City", "Cooks Mills", "Crowland", "Hunters Pointe"]
+  },
+  "copy": {
+    "overview": [
+      "Welland had 55,750 residents in 2021, up 6.6% from 52,293 in 2016, living in 23,656 occupied homes on 81.16 square kilometres. The median age is 45.6 and the median household income in 2020 was $71,500, so many households watch prices closely.",
+      "Growth is bringing new homes and new manufacturing employers, and the college draws students into the city. Local businesses can win newcomers and students if they are easy to find and clear about value."
+    ],
+    "byService": {
+      "lead-generation": "Welland grew 6.6% after 2016, so lead generation should reach new homeowners early while keeping offers sensible for households earning a median of $71,500.",
+      "seo": "Local SEO in Welland should cover city-wide service terms and Niagara-region searches, since shoppers move easily between Welland and neighbouring towns.",
+      "website-development": "With a median age of 45.6 and many college students in town, a Welland website must work for both groups, using plain language, fast mobile pages and clear prices.",
+      "branding": "Branding that ties a business to Welland's canal, sport tourism and growing manufacturing base can make it feel rooted locally rather than one more Niagara option."
+    }
+  }
+}
