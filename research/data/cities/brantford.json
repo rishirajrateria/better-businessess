@@ -1,0 +1,66 @@
+{
+  "slug": "brantford",
+  "geographyNote": "City of Brantford (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Brantford&GENDERlist=1%2C2%2C3&STATISTIClist=1&DGUIDlist=2021A00053529006&HEADERlist=0",
+  "figures": {
+    "population2021": 104688,
+    "population2016": 98563,
+    "growthPct": 6.2,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": 41673,
+    "landAreaKm2": 98.65
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053529006",
+    "population2016": "https://brantford-ca.govstack.com/advantage-brantford/data-centre/demographic-and-census-information/",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053529006",
+    "privateDwellings": "https://brantford-ca.govstack.com/media/nednkcyk/2021_census_brantford_01_general_privatedwelling.pdf",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053529006"
+  },
+  "facts": [
+    {
+      "text": "Brantford's food and beverage manufacturing sector has about 20 companies employing approximately 2,300 people.",
+      "url": "https://brantford-ca.govstack.com/advantage-brantford/key-sectors/food-and-beverage-manufacturing/",
+      "publisher": "Advantage Brantford (City of Brantford)",
+      "evidence": "Brantford is a leader in food and beverage manufacturing with a growing list of 20 companies in the sector employing approximately 2,300 people."
+    },
+    {
+      "text": "Brantford's advanced manufacturing sector includes approximately 22 companies with 2,100 employees.",
+      "url": "https://brantford-ca.govstack.com/advantage-brantford/key-sectors/advanced-manufacturing/",
+      "publisher": "Advantage Brantford (City of Brantford)",
+      "evidence": "The Advanced Manufacturing sector includes approximately 22 companies with 2,100 employees."
+    },
+    {
+      "text": "Site Selection Magazine has named Brantford one of Canada's best locations to invest for business four years in a row.",
+      "url": "https://brantford-ca.govstack.com/advantage-brantford/news/posts/brantford-is-one-of-canada-s-best-locations-to-invest-for-business-4-years-running/",
+      "publisher": "Advantage Brantford (City of Brantford)",
+      "evidence": "For the fourth year in a row, Site Selection Magazine has named Brantford as one of the top places in the country for business investment."
+    },
+    {
+      "text": "Brantford's key sectors include advanced manufacturing, film, television and digital media, food and beverage manufacturing, plastic and rubber products, and warehousing and distribution.",
+      "url": "https://brantford-ca.govstack.com/advantage-brantford/key-sectors/",
+      "publisher": "Advantage Brantford (City of Brantford)",
+      "evidence": "Central industries in Brantford include: advanced manufacturing, film, television, and digital media, food and beverage manufacturing, plastic and rubber products, and warehousing and distribution."
+    }
+  ],
+  "meta": {
+    "populationApprox": 104688,
+    "descriptor": "a Grand River city in southwestern Ontario",
+    "fact": "home to about 20 food and beverage manufacturers employing approximately 2,300 people",
+    "industries": ["Manufacturing", "Food processing", "Logistics", "Retail", "Healthcare"],
+    "areas": ["Eagle Place", "Holmedale", "West Brant", "Echo Place", "Terrace Hill"]
+  },
+  "copy": {
+    "overview": [
+      "Brantford had 104,688 residents in 2021, up 6.2% from 98,563 in 2016, living in 41,673 occupied homes across 98.65 square kilometres. It is a mid-sized city with a steady base of working households.",
+      "Food processing, advanced manufacturing and warehousing anchor local jobs, and new residents keep arriving from pricier parts of the GTA. Local businesses compete with Hamilton and Cambridge for those customers, so clear local presence and fair pricing count."
+    ],
+    "byService": {
+      "lead-generation": "Brantford grew 6.2% from 2016 to 2021, so lead generation should reach new arrivals in West Brant and other growing areas before they settle on providers.",
+      "seo": "SEO in Brantford works best with pages that name neighbourhoods such as Eagle Place, Holmedale and West Brant, since residents search for help close to home.",
+      "website-development": "With many residents working plant and warehouse shifts, a Brantford website should be simple, quick on mobile and clear about hours, prices and service area.",
+      "branding": "In a practical, manufacturing-rooted city of 104,688 people, a brand that stresses reliability and local ownership will resonate more than glossy big-city messaging."
+    }
+  }
+}
