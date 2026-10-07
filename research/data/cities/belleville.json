@@ -1,0 +1,62 @@
+{
+  "slug": "belleville",
+  "geographyNote": "City of Belleville (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Belleville&GENDERlist=1%2C2%2C3&STATISTIClist=1&DGUIDlist=2021A00053512005&HEADERlist=0",
+  "figures": {
+    "population2021": 55071,
+    "population2016": 50716,
+    "growthPct": 8.6,
+    "medianAge": 47.5,
+    "medianHouseholdIncome2020": 73000,
+    "privateDwellings": 23536,
+    "landAreaKm2": 247.15
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053512005",
+    "population2016": "https://en.wikipedia.org/wiki/Belleville,_Ontario",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053512005",
+    "medianAge": "https://www.careerbeacon.com/en/canada/ontario/belleville",
+    "medianHouseholdIncome2020": "https://www.point2homes.com/CA/Demographics/ON/Belleville-Demographics.html",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053512005",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053512005"
+  },
+  "facts": [
+    {
+      "text": "The Bay of Quinte Region is home to more than 35 food-processing companies that employ more than 2,500 people.",
+      "url": "https://quintedevelopment.com/key-sectors/food/",
+      "publisher": "Quinte Economic Development Commission",
+      "evidence": "The Bay of Quinte Region is one of Ontario's largest food-processing centres and is home to more than 35 food-processing companies that employ more than 2,500 people."
+    },
+    {
+      "text": "WK Kellogg Co makes Mini Wheats, Corn Pops and All Bran Buds at its Belleville facility.",
+      "url": "https://quintedevelopment.com/wp-content/uploads/2026/08/Bay-of-Quinte-Region-Top-Employers-Aug-11-2026.pdf",
+      "publisher": "Quinte Economic Development Commission",
+      "evidence": "WK Kellogg Co makes Mini Wheats, Corn Pops and All Bran Buds in their Belleville facility."
+    },
+    {
+      "text": "Kellogg spent $43 million on a new cereal production line at its Belleville plant, including $4.5 million from the province.",
+      "url": "https://www.areadevelopment.com/newsItems/4-11-2011/kellogg-canada-belleville-ontario04111.shtml",
+      "publisher": "Area Development",
+      "evidence": "Kellogg spent $43 million on a new cereal production line, which includes $4.5 million from the province."
+    }
+  ],
+  "meta": {
+    "populationApprox": 55071,
+    "descriptor": "a city on the Bay of Quinte in eastern Ontario",
+    "fact": "home to a WK Kellogg Co plant that makes Mini Wheats, Corn Pops and All Bran Buds",
+    "industries": ["Food processing", "Manufacturing", "Healthcare", "Education", "Retail", "Logistics"],
+    "areas": ["Downtown Belleville", "Thurlow", "Cannifton", "Foxboro", "Point Anne", "Corbyville"]
+  },
+  "copy": {
+    "overview": [
+      "Belleville had 55,071 residents in 2021, up 8.6% from 50,716 in 2016, living in 23,536 occupied homes on 247.15 square kilometres. The median age is 47.5 and the median household income in 2020 was $73,000.",
+      "The city is growing faster than many older Ontario centres, while its population skews older. Local businesses serve both long-time residents and new arrivals, plus workers at food plants and other employers across the Bay of Quinte."
+    ],
+    "byService": {
+      "lead-generation": "Belleville grew 8.6% after 2016, so lead generation should capture new arrivals while staying affordable for households near the $73,000 median income.",
+      "seo": "SEO in Belleville should target city-wide searches plus communities such as Cannifton and Foxboro, where residents look for services close to home.",
+      "website-development": "With a median age of 47.5, a Belleville website should favour readable type, plain navigation and a phone number visible on every page.",
+      "branding": "Branding here works best when it feels practical and local, matching a working city known for food processing and manufacturing rather than big-city polish."
+    }
+  }
+}
