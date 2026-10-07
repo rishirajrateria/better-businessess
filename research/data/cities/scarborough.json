@@ -1,0 +1,62 @@
+{
+  "slug": "scarborough",
+  "geographyNote": "Scarborough district of the City of Toronto (former City of Scarborough), as the City of Toronto's Scarborough Community Council Area (wards 20 to 25), 2021 Census profile",
+  "censusProfileUrl": "",
+  "figures": {
+    "population2021": 623605,
+    "population2016": null,
+    "growthPct": null,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": null,
+    "landAreaKm2": null
+  },
+  "figureSources": {
+    "population2021": "https://www.toronto.ca/wp-content/uploads/2024/01/8cdd-CityPlanning-2021-Census-Profile-Scarborough-CCA.pdf"
+  },
+  "facts": [
+    {
+      "text": "The Scarborough Subway Extension adds 7.8 kilometres to Line 2 from Kennedy Station to a new terminus at Sheppard Avenue East and McCowan Road.",
+      "url": "https://www.metrolinx.com/ScarboroughSubway",
+      "publisher": "Metrolinx",
+      "evidence": "The Scarborough Subway Extension (SSE) extends Line 2 (Bloor-Danforth) by 7.8 kilometres from Kennedy Station to a new terminus at Sheppard Avenue East and McCowan Road."
+    },
+    {
+      "text": "The subway extension includes three new stations at Lawrence Avenue and McCowan Road, Scarborough Centre, and Sheppard Avenue and McCowan Road.",
+      "url": "https://www.metrolinx.com/en/news/breaking-ground-on-the-first-new-subway-station-in-scarborough",
+      "publisher": "Metrolinx",
+      "evidence": "The SSE will run below grade and consists of three stations at Lawrence Avenue and McCowan Road, Scarborough Centre, and Sheppard Avenue and McCowan Road."
+    },
+    {
+      "text": "Progress Campus in Scarborough is Centennial College's largest campus and is home to approximately half of its full-time students.",
+      "url": "https://en.wikipedia.org/wiki/Centennial_College_(Canada)",
+      "publisher": "Wikipedia",
+      "evidence": "Progress Campus in Scarborough is Centennial's largest campus. The Progress Campus is home to approximately half of Centennial's full-time student population."
+    },
+    {
+      "text": "The University of Toronto Scarborough is the largest of the university's three campuses by land area.",
+      "url": "https://en.wikipedia.org/wiki/University_of_Toronto_Scarborough",
+      "publisher": "Wikipedia",
+      "evidence": "Scarborough is the smallest of the university's three campuses in terms of enrolment but the largest in terms of land area."
+    }
+  ],
+  "meta": {
+    "populationApprox": 623605,
+    "descriptor": "the eastern district of the City of Toronto and a former city",
+    "fact": "home to Centennial College's largest campus and the University of Toronto Scarborough",
+    "industries": ["Education", "Construction", "Transportation", "Retail"],
+    "areas": ["Agincourt", "Malvern", "Guildwood", "Birch Cliff", "Wexford"]
+  },
+  "copy": {
+    "overview": [
+      "Scarborough had about 623,605 residents in 2021, which on its own would make it one of the largest cities in Canada. It is a district of distinct neighbourhoods, from Agincourt in the north to Birch Cliff along the Bluffs, each with its own shopping streets and customer base.",
+      "For a local business, that scale cuts both ways. There is huge demand, but customers have many choices nearby and across the rest of Toronto. New subway stations and two major post-secondary campuses will keep shifting where people live, study and shop."
+    ],
+    "byService": {
+      "lead-generation": "With roughly 623,605 residents, Scarborough lead generation works best when campaigns target specific neighbourhoods such as Agincourt or Malvern rather than the whole district.",
+      "seo": "SEO in Scarborough should combine district-wide terms with neighbourhood pages, because searchers often type Agincourt, Guildwood or Birch Cliff instead of Toronto.",
+      "website-development": "Scarborough serves students at Centennial and U of T Scarborough alongside long-time families, so a website must be fast on mobile and clear to many kinds of visitors.",
+      "branding": "In a diverse district of more than 600,000 people, a brand that reflects the local neighbourhood and its communities earns more loyalty than a generic Toronto identity."
+    }
+  }
+}
