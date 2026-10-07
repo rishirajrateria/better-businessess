@@ -29,10 +29,12 @@ export function LogoCloud({ logos, title = "Trusted by growing Canadian business
     <section className="relative py-8 md:py-10" aria-label="Client logos">
       <div className="hairline mx-auto max-w-5xl opacity-70" />
       <p className="mt-7 text-center text-[11px] font-semibold uppercase tracking-[0.2em] text-slate">{title}</p>
-      <div className="relative mt-5 overflow-hidden [mask-image:linear-gradient(90deg,transparent,#000_10%,#000_90%,transparent)]">
-        <ul className="flex w-max animate-marquee items-center gap-16 px-8 md:gap-20 hover:[animation-play-state:paused]">
+      {/* Contained to the page width with wide, soft edge fades so logos dissolve in and out instead of being sliced by the screen edge. */}
+      <div className="relative mx-auto mt-5 max-w-6xl overflow-hidden [mask-image:linear-gradient(90deg,transparent,#000_22%,#000_78%,transparent)] md:[mask-image:linear-gradient(90deg,transparent,#000_16%,#000_84%,transparent)]">
+        {/* Spacing lives on each item (not gap/padding) so the doubled row is exactly 2× one set and the -50% loop is seamless. */}
+        <ul className="flex w-max animate-marquee items-center hover:[animation-play-state:paused]">
           {row.map((node, i) => (
-            <li key={i} aria-hidden={i >= items.length || undefined} className="flex h-12 shrink-0 items-center text-graphite/55 opacity-60 transition-[color,opacity] duration-500 hover:text-ink hover:opacity-100">
+            <li key={i} aria-hidden={i >= items.length || undefined} className="flex h-12 shrink-0 items-center pr-14 md:pr-20 text-graphite/55 opacity-60 transition-[color,opacity] duration-500 hover:text-ink hover:opacity-100">
               {node}
             </li>
           ))}

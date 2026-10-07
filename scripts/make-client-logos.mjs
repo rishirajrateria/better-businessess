@@ -44,7 +44,8 @@ for (const l of logos) {
   const w = x1 - x0 + 1, h = y1 - y0 + 1;
   await sharp(out, { raw: { width: info.width, height: info.height, channels: 4 } })
     .extract({ left: x0, top: y0, width: w, height: h })
-    .resize({ height: H, kernel: "lanczos3" })
+    .resize({ height: H - 8, kernel: "lanczos3" })
+    .extend({ top: 4, bottom: 4, left: 4, right: 4, background: { r: 0, g: 0, b: 0, alpha: 0 } }) // breathing room so no edge is ever clipped
     .png({ compressionLevel: 9, palette: true, quality: 95 })
     .toFile(`${OUT}/${l.slug}.png`);
   const m = await sharp(`${OUT}/${l.slug}.png`).metadata();
