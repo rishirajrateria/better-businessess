@@ -32,7 +32,7 @@
       "evidence": "Top employers include Husky Injection Molding (head office and manufacturing facility), Mars Canada (head office and manufacturing facility), Canadian Tire Distribution Centre, Amazon Distribution Centre"
     },
     {
-      "text": "UPS Canada's $200-million, 850,000-square-foot sortation facility in Caledon is the company's largest Canadian facility.",
+      "text": "Caledon is home to UPS Canada's $200-million, 850,000-square-foot advanced scanning and sortation facility.",
       "url": "https://caledon.ca/en/news/caledon-welcomes-ups-canada.aspx",
       "publisher": "Town of Caledon",
       "evidence": "the Town of Caledon is home for UPS Canada's new $200 million, 850,000 sq. ft. advanced scanning and sortation facility."
@@ -48,13 +48,27 @@
     "populationApprox": 76581,
     "descriptor": "a fast-growing town of villages and farmland in Peel Region",
     "fact": "home to UPS Canada's $200-million, 850,000-square-foot sortation facility",
-    "industries": ["Logistics", "Construction", "Manufacturing", "Agriculture", "Food processing", "Tourism"],
-    "areas": ["Bolton", "Caledon East", "Caledon Village", "Inglewood", "Palgrave", "Alton"]
+    "industries": [
+      "Logistics",
+      "Construction",
+      "Manufacturing",
+      "Agriculture",
+      "Food processing",
+      "Tourism"
+    ],
+    "areas": [
+      "Bolton",
+      "Caledon East",
+      "Caledon Village",
+      "Inglewood",
+      "Palgrave",
+      "Alton"
+    ]
   },
   "copy": {
     "overview": [
       "Caledon had 76,581 residents in 2021, up 15.2% from 66,502 in 2016, living in 23,699 occupied homes across 688.82 square kilometres. That pace of growth is well above the Ontario average, and new subdivisions keep adding households.",
-      "The town is large and spread out, with Bolton as its biggest community and many smaller villages. Logistics, manufacturing and construction firms bring jobs, while new residents are still choosing local providers for everything from childcare to home services."
+      "The town is large and spread out, with Bolton and many smaller villages. Logistics, manufacturing and construction firms bring jobs, while new residents are still choosing local providers for everything from childcare to home services."
     ],
     "byService": {
       "lead-generation": "Because Caledon grew 15.2% after 2016, lead generation should catch new homeowners early, especially in Bolton, before they settle on a regular provider.",
