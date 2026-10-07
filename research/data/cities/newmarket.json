@@ -42,13 +42,25 @@
     "populationApprox": 87942,
     "descriptor": "a compact town in York Region north of Toronto",
     "fact": "home to Southlake Regional Health Centre, its largest employer with over 3,000 staff",
-    "industries": ["Healthcare", "Retail", "Professional services", "Technology", "Manufacturing"],
-    "areas": ["Central Newmarket", "Stonehaven", "Summerhill Estates", "Woodland Hill", "Glenway"]
+    "industries": [
+      "Healthcare",
+      "Retail",
+      "Professional services",
+      "Technology",
+      "Manufacturing"
+    ],
+    "areas": [
+      "Central Newmarket",
+      "Stonehaven",
+      "Summerhill Estates",
+      "Woodland Hill",
+      "Glenway"
+    ]
   },
   "copy": {
     "overview": [
       "Newmarket had 87,942 residents in 2021, up 4.4% from 84,224 in 2016, in 30,301 occupied homes on only 38.5 square kilometres. It is a dense, settled town where most customers already have favourite businesses.",
-      "With Southlake Regional Health Centre as the largest employer and Upper Canada Mall drawing shoppers from across northern York Region, competition for attention is real. Local businesses win by being visible, trusted and easy to reach."
+      "With Southlake Regional Health Centre as the largest employer and established shopping areas along Yonge Street and Main Street, competition for attention is real. Local businesses win by being visible, trusted and easy to reach."
     ],
     "byService": {
       "lead-generation": "Newmarket's growth of 4.4% between 2016 and 2021 was modest, so lead generation should focus on winning customers from competitors rather than waiting for newcomers.",
