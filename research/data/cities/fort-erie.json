@@ -1,0 +1,66 @@
+{
+  "slug": "fort-erie",
+  "geographyNote": "Town of Fort Erie (census subdivision), Niagara Region",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Fort+Erie&DGUIDlist=2021A00053526003&GENDERlist=1%2C2%2C3&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 32901,
+    "population2016": 30710,
+    "growthPct": 7.1,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": 14081,
+    "landAreaKm2": 166.24
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00053526003",
+    "population2016": "https://en.wikipedia.org/wiki/Fort_Erie,_Ontario",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00053526003",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00053526003",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00053526003"
+  },
+  "facts": [
+    {
+      "text": "Siltech Corporation is investing $100 million in a new 210,000 square-foot specialty silicone manufacturing facility in Fort Erie that is expected to create 51 jobs.",
+      "url": "https://www.forterie.ca/news/posts/fort-erie-welcomes-100-million-manufacturing-investment/",
+      "publisher": "Town of Fort Erie",
+      "evidence": "Siltech Corporation ... is making a $100 million investment to build a new manufacturing facility in Fort Erie that will create 51 good-paying jobs. The new 210,000 square-foot state-of-the-art manufacturing facility in Fort Erie is the company's third facility in the province."
+    },
+    {
+      "text": "Fort Erie has welcomed more than 156 new businesses since the start of 2020.",
+      "url": "https://www.forterie.ca/en/micro-sites/edts/documents/Community-Profile-2025.pdf",
+      "publisher": "Town of Fort Erie Economic Development & Tourism Services, Community Profile 2025",
+      "evidence": "Fort Erie welcomed over 156 new businesses since the start of 2020"
+    },
+    {
+      "text": "Fort Erie is a gateway to Buffalo via the Peace Bridge, with industries spanning manufacturing, technology, commercial trade and knowledge-based sectors.",
+      "url": "https://www.forterie.ca/en/micro-sites/edts/documents/Community-Profile-2025.pdf",
+      "publisher": "Town of Fort Erie Economic Development & Tourism Services, Community Profile 2025",
+      "evidence": "Fort Erie serves as a gateway to Buffalo via the Peace Bridge ... industries spanning from manufacturing and technology to commercial trade and knowledge-based sectors"
+    },
+    {
+      "text": "A five-year provincial funding agreement secures the future of Fort Erie Race Track and the hundreds of local jobs connected to it.",
+      "url": "https://forterieobserver.ca/funding-agreement-secures-future-for-fort-erie-race-track/",
+      "publisher": "Fort Erie Observer",
+      "evidence": "A five-year funding agreement provides $35 million annually to Ontario's horse racing industry. The announcement ends months of uncertainty surrounding the agreement, which had raised concerns about the future of Fort Erie Race Track and the hundreds of local jobs connected to it."
+    }
+  ],
+  "meta": {
+    "populationApprox": 32901,
+    "descriptor": "a border town in Niagara Region across the Peace Bridge from Buffalo",
+    "fact": "home to the historic Fort Erie Race Track and a new $100 million Siltech manufacturing plant",
+    "industries": ["Manufacturing", "Tourism", "Retail", "Logistics", "Technology"],
+    "areas": ["Crystal Beach", "Ridgeway", "Stevensville", "Bridgeburg", "Crescent Park", "Black Creek"]
+  },
+  "copy": {
+    "overview": [
+      "Fort Erie had 32,901 residents in 2021, up 7.1 per cent from 2016, living in 14,081 occupied homes spread across 166 square kilometres. That population is split among several distinct communities, so a business in Ridgeway and one in Crystal Beach often serve different customers.",
+      "The town sits at the Peace Bridge, draws visitors to its race track and beaches, and is adding manufacturing jobs. Local firms compete for residents, cross-border traffic and seasonal visitors at once, which rewards clear local positioning."
+    ],
+    "byService": {
+      "lead-generation": "With 14,081 households spread across several separate communities, lead generation in Fort Erie works best when campaigns target Ridgeway, Stevensville or Crystal Beach individually rather than the whole town.",
+      "seo": "Fort Erie searches mix residents, cross-border visitors and seasonal cottagers, so SEO should cover community names alongside the town name and capture visitor queries tied to the Peace Bridge and beaches.",
+      "website-development": "A Fort Erie website should load quickly on phones for visitors arriving over the Peace Bridge, while giving the town's 32,901 residents clear hours, service areas and directions.",
+      "branding": "Branding in Fort Erie should feel rooted in a specific community, because residents identify strongly with Crystal Beach, Ridgeway or Bridgeburg and reward businesses that clearly belong there."
+    }
+  }
+}
