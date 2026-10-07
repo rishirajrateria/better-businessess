@@ -1,0 +1,68 @@
+{
+  "slug": "north-bay",
+  "geographyNote": "City of North Bay (census subdivision)",
+  "censusProfileUrl": "",
+  "figures": {
+    "population2021": 52662,
+    "population2016": 51553,
+    "growthPct": 2.2,
+    "medianAge": 44,
+    "medianHouseholdIncome2020": 72000,
+    "privateDwellings": 23467,
+    "landAreaKm2": 315.53
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053548044",
+    "population2016": "https://www.careerbeacon.com/en/canada/ontario/north-bay",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053548044",
+    "medianAge": "https://northbay.ca/our-community/about-north-bay/demographics-and-population/",
+    "medianHouseholdIncome2020": "https://www.point2homes.com/CA/Demographics/ON/North-Bay.html",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053548044",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053548044"
+  },
+  "facts": [
+    {
+      "text": "Over 60 mining supply and services businesses are based in North Bay, employing approximately 2,500 people locally, although there are no mines in the city.",
+      "url": "https://www.investinnorthbay.ca/industry/mining-supply-services/",
+      "publisher": "North Bay Economic Development",
+      "evidence": "While there are no mines in North Bay, over 60 mining supply and services businesses call North Bay home, with a growing list of multinational headquarters. Approximately 2,500 people work in the mining supply and services sector locally."
+    },
+    {
+      "text": "Nipissing University and Canadore College share a 700-acre site and have an estimated economic impact of nearly $300 million a year on the community.",
+      "url": "https://northbay.ca/business/local-economy/",
+      "publisher": "City of North Bay",
+      "evidence": "Nipissing University and Canadore College, co-located on a pristine 700 acres site, are leading economic engines for North Bay and region, with an estimated economic impact on the community of nearly $300 million annually."
+    },
+    {
+      "text": "A cluster of aerospace firms at North Bay's airport, covering aircraft assembly, maintenance and flight training, employs more than 500 people.",
+      "url": "https://northbay.ca/business/local-economy/",
+      "publisher": "City of North Bay",
+      "evidence": "A significant cluster of aerospace firms established at the airport include aircraft manufacturing/assembly, maintenance, repair and overhaul activities, and flight training, employing in excess of 500 employees."
+    },
+    {
+      "text": "North Bay has a regional trading area of 112,000 people across the surrounding districts of northeastern Ontario.",
+      "url": "https://northbay.ca/our-community/about-north-bay/demographics-and-population/",
+      "publisher": "City of North Bay",
+      "evidence": "The city has a regional trading area of 112,000, representing people within the districts of Nipissing, Parry Sound, Timmins, Temiskaming Shores, and Cobalt."
+    }
+  ],
+  "meta": {
+    "populationApprox": 52662,
+    "descriptor": "a regional service city on Lake Nipissing in northeastern Ontario",
+    "fact": "home to more than 60 mining supply and services businesses, though there are no mines in the city",
+    "industries": ["Mining", "Education", "Healthcare", "Aerospace", "Government", "Retail"],
+    "areas": ["Downtown North Bay", "West Ferris", "Widdifield", "Thibeault Terrace"]
+  },
+  "copy": {
+    "overview": [
+      "North Bay had 52,662 residents in 2021, up 2.2% from 51,553 in 2016, living in 23,467 occupied homes on 315.53 square kilometres. The median age is 44 and the median household income in 2020 was $72,000.",
+      "Growth is slow, but the city serves a much wider trading area, and its college, university, airport aerospace firms and mining suppliers bring steady jobs. Local businesses can reach beyond city limits to shoppers and companies across the region."
+    ],
+    "byService": {
+      "lead-generation": "Lead generation in North Bay should look past the 52,662 city residents to the wider northeastern trading area and to mining suppliers buying business services.",
+      "seo": "Because shoppers drive in from surrounding districts, North Bay SEO should target regional searches as well as city terms, with location pages that explain travel and delivery.",
+      "website-development": "With a median age of 44 and many students on the college and university campus, a North Bay website needs fast mobile pages and clear contact details.",
+      "branding": "Population grew only 2.2% after 2016, so branding should build loyalty and word of mouth in a close-knit city where reputation travels fast."
+    }
+  }
+}
