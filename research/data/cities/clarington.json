@@ -1,0 +1,66 @@
+{
+  "slug": "clarington",
+  "geographyNote": "Municipality of Clarington (census subdivision), Durham Region",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Clarington&DGUIDlist=2021A00053518017&GENDERlist=1,2,3&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 101427,
+    "population2016": 92013,
+    "growthPct": 10.2,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": 35953,
+    "landAreaKm2": 610.84
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053518017",
+    "population2016": "https://en.wikipedia.org/wiki/Clarington",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053518017",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053518017",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053518017"
+  },
+  "facts": [
+    {
+      "text": "Clarington is made up of four urban centres, Courtice, Bowmanville, Newcastle and Orono, plus rural hamlets, with Bowmanville the largest community.",
+      "url": "https://www.clarington.net/invest-clarington/community-profile/",
+      "publisher": "Municipality of Clarington",
+      "evidence": "Today, Clarington is comprised of four urban centers: Courtice, Bowmanville, Village of Newcastle, and Orono, and 14 rural hamlets. Bowmanville is the largest community in Clarington."
+    },
+    {
+      "text": "Major employers in Clarington include Ontario Power Generation, St Mary's Cement, Ell-Rod Holdings and Algoma Orchards.",
+      "url": "https://www.durham.ca/en/economic-development/invest-and-grow/municipality-of-clarington.aspx",
+      "publisher": "Durham Region Economic Development",
+      "evidence": "The major employers in Clarington include Ontario Power Generation, St Mary's Cement, Ell-Rod Holdings, and Algoma Orchards."
+    },
+    {
+      "text": "The Darlington New Nuclear Project covers up to four new small modular reactors at the existing Darlington Nuclear site in Clarington.",
+      "url": "https://www.cnsc-ccsn.gc.ca/eng/get-involved/webinar-dnnp-oct/",
+      "publisher": "Canadian Nuclear Safety Commission",
+      "evidence": "The Darlington New Nuclear Project (DNNP) represents the site preparation, construction, operation, decommissioning and abandonment of up to 4 new small modular reactors (SMR) at the existing Darlington Nuclear site."
+    },
+    {
+      "text": "Metrolinx's GO East rail expansion includes new station stops in Courtice and Bowmanville on the Lakeshore East line.",
+      "url": "https://www.clarington.net/media/qmifege2/clarington-community-profile-2025-aoda.pdf",
+      "publisher": "Municipality of Clarington",
+      "evidence": "The Metrolinx GO East Rail Expansion includes new station stops in Courtice and Bowmanville as part of the Lakeshore East Line extension."
+    }
+  ],
+  "meta": {
+    "populationApprox": 101427,
+    "descriptor": "a growing lakeshore municipality at the eastern edge of the GTA",
+    "fact": "home to the Darlington Nuclear site, where up to four small modular reactors are planned",
+    "industries": ["Energy", "Construction", "Manufacturing", "Agriculture", "Retail"],
+    "areas": ["Bowmanville", "Courtice", "Newcastle", "Orono"]
+  },
+  "copy": {
+    "overview": [
+      "Clarington had 101,427 residents in 2021, up 10.2% from 92,013 in 2016, in 35,953 occupied homes. Those households are spread across 610.84 square kilometres, from built-up Courtice and Bowmanville to farmland and small hamlets.",
+      "That mix shapes how people shop. Many residents drive between communities or into Oshawa for errands, and nuclear construction at Darlington is bringing steady work to the area. Local businesses need to be easy to find from wherever customers start."
+    ],
+    "byService": {
+      "lead-generation": "With 10.2% growth from 2016 to 2021, Clarington lead generation should focus on new subdivisions in Courtice and Bowmanville, where families are still picking providers.",
+      "seo": "Because Clarington spans 610.84 square kilometres and several distinct towns, SEO needs separate pages for Bowmanville, Courtice, Newcastle and Orono rather than one generic page.",
+      "website-development": "A Clarington website should state its service area clearly and load well on mobile, since customers in rural hamlets often search from the road.",
+      "branding": "Clarington residents identify with their own town first, so a brand that feels local to Bowmanville or Newcastle builds trust faster than a broad regional message."
+    }
+  }
+}
