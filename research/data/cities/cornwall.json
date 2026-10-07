@@ -42,8 +42,19 @@
     "populationApprox": 47845,
     "descriptor": "a St. Lawrence River city in eastern Ontario near the Quebec border",
     "fact": "home to over five million square feet of distribution centres in Cornwall Business Park",
-    "industries": ["Logistics", "Retail", "Healthcare", "Manufacturing", "Transportation"],
-    "areas": ["Downtown Cornwall", "Le Village", "Riverdale", "Eamer's Corners"]
+    "industries": [
+      "Logistics",
+      "Retail",
+      "Healthcare",
+      "Manufacturing",
+      "Transportation"
+    ],
+    "areas": [
+      "Downtown Cornwall",
+      "Le Village",
+      "Riverdale",
+      "Eamer's Corners"
+    ]
   },
   "copy": {
     "overview": [
@@ -53,7 +64,7 @@
     "byService": {
       "lead-generation": "In Cornwall, lead generation can target distribution-centre employers and the shift workers they hire, while local consumer offers focus on a stable base of about 48,000 residents.",
       "seo": "Cornwall covers just 61.5 square kilometres, so a business can realistically rank city-wide in local map results with strong reviews and consistent listings.",
-      "website-development": "Many Cornwall residents speak French as well as English, so a website with bilingual pages and quick mobile contact options can reach more of the market.",
+      "website-development": "Shift workers at Cornwall's distribution centres often search outside regular hours, so a website should offer online booking, clear hours and quick mobile contact options.",
       "branding": "With population up only 2.7% after 2016, Cornwall branding should earn trust and repeat business in a tight community where neighbours share recommendations."
     }
   }
