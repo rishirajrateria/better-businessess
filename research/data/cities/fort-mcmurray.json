@@ -45,12 +45,25 @@
     "populationApprox": 72326,
     "descriptor": "the urban centre of Alberta's Regional Municipality of Wood Buffalo",
     "fact": "home to the Athabasca Oil Sands, Canada's largest oil sands deposits",
-    "industries": ["Energy", "Mining", "Construction", "Transportation", "Retail"],
-    "areas": ["Timberlea", "Thickwood", "Abasand", "Downtown Fort McMurray", "Anzac", "Fort Chipewyan"]
+    "industries": [
+      "Energy",
+      "Mining",
+      "Construction",
+      "Transportation",
+      "Retail"
+    ],
+    "areas": [
+      "Timberlea",
+      "Thickwood",
+      "Abasand",
+      "Downtown Fort McMurray",
+      "Anzac",
+      "Fort Chipewyan"
+    ]
   },
   "copy": {
     "overview": [
-      "Fort McMurray is the urban centre of the Regional Municipality of Wood Buffalo, a vast municipality covering more than 60,000 square kilometres, with most residents concentrated in the city itself. About one-third of residents work directly in oil and gas, and tens of thousands more workers live in nearby camps.",
+      "Fort McMurray is the urban centre of the Regional Municipality of Wood Buffalo, a vast municipality covering more than 60,000 square kilometres, with most residents concentrated in the city itself. A large share of residents work directly in oil and gas, and tens of thousands more workers live in nearby camps.",
       "That gives local businesses two markets: resident families, and rotational workers who spend in town between shifts. Spending tracks the oil sands closely, so firms that serve both markets and build steady local loyalty are better placed when activity slows."
     ],
     "byService": {
