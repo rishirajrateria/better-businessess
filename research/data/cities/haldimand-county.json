@@ -1,0 +1,79 @@
+{
+  "slug": "haldimand-county",
+  "geographyNote": "Haldimand County, Ontario (single-tier municipality; census subdivision)",
+  "censusProfileUrl": "",
+  "figures": {
+    "population2021": 49216,
+    "population2016": 45608,
+    "growthPct": 7.9,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": 18719,
+    "landAreaKm2": 1250.45
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053528018",
+    "population2016": "https://en.wikipedia.org/wiki/Haldimand_County",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053528018",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053528018",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053528018"
+  },
+  "facts": [
+    {
+      "text": "Stelco's Lake Erie Works steel mill at Nanticoke, in operation since 1980, employs 1,400 people.",
+      "url": "https://en.wikipedia.org/wiki/Nanticoke,_Ontario",
+      "publisher": "Wikipedia",
+      "evidence": "Stelco Lake Erie Works is the largest employer in the park. The Nanticoke green field steel mill, in operation since 1980, employs 1,400 and generates an estimated 25 per cent of the community's economic activities."
+    },
+    {
+      "text": "Imperial's Nanticoke refinery employs over 500 employees and contractors and produces about 20% of Ontario's transportation fuel.",
+      "url": "https://haldimandpress.com/imperial-oil-ready-to-work-on-empires-nanticoke-development-plans/",
+      "publisher": "The Haldimand Press",
+      "evidence": "Imperial's Nanticoke refinery has been operating in the community for over 44 years, providing direct employment for over 500 employees and contractors while producing approximately 20% of Ontario's transportation fuel."
+    },
+    {
+      "text": "The Lake Erie Industrial Park, on an approximately 4,500-acre site in southwestern Haldimand County, is one of the largest industrial parks in Ontario.",
+      "url": "https://dev.haldimandcounty.ca/main_website/?p=41593",
+      "publisher": "Haldimand County",
+      "evidence": "The Lake Erie Industrial Park is one of the largest industrial parks in Ontario. Built on a master-planned, approximately 4,500-acre site located along the north shore of Lake Erie (in the south-western corner of Haldimand County)"
+    },
+    {
+      "text": "Manufacturing is the largest industry in Haldimand County by employment, making up approximately 16% of the labour force.",
+      "url": "https://dev.haldimandcounty.ca/main_website/?p=16609",
+      "publisher": "Haldimand County",
+      "evidence": "Manufacturing is the largest industry in Haldimand County's economy by employment and makes up approximately 16% of the labour force."
+    }
+  ],
+  "meta": {
+    "populationApprox": 49216,
+    "descriptor": "a rural county on the north shore of Lake Erie, south of Hamilton",
+    "fact": "home to Stelco's Lake Erie Works and Imperial's Nanticoke refinery",
+    "industries": [
+      "Manufacturing",
+      "Energy",
+      "Agriculture",
+      "Construction",
+      "Logistics"
+    ],
+    "areas": [
+      "Caledonia",
+      "Dunnville",
+      "Hagersville",
+      "Cayuga",
+      "Jarvis",
+      "Nanticoke"
+    ]
+  },
+  "copy": {
+    "overview": [
+      "Haldimand County had 49,216 residents in 2021, up 7.9% from 45,608 in 2016, in 18,719 occupied private dwellings across 1,250.45 square kilometres. The population is split among several small towns, led by Caledonia and Dunnville, with farmland in between.",
+      "Heavy industry at Nanticoke, including steelmaking and refining, anchors local employment, and manufacturing is the largest sector by jobs. Because customers are spread between towns, local businesses must be easy to find wherever residents happen to be searching from."
+    ],
+    "byService": {
+      "lead-generation": "Lead generation in Haldimand County should target each town separately, since a Caledonia homeowner and a Dunnville farm family respond to different offers and travel distances.",
+      "seo": "Haldimand residents search by town, so SEO should build pages for Caledonia, Dunnville, Hagersville and Cayuga instead of relying on the county name alone.",
+      "website-development": "Across 1,250.45 square kilometres, a Haldimand website should spell out service areas, travel times and contact options so rural customers know at a glance whether you cover them.",
+      "branding": "Branding that reflects Haldimand's mix of industrial work and farm life, and feels local rather than borrowed from Hamilton, will resonate with residents of all its towns."
+    }
+  }
+}
