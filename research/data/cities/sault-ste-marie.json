@@ -1,0 +1,64 @@
+{
+  "slug": "sault-ste-marie",
+  "geographyNote": "City of Sault Ste. Marie (census subdivision)",
+  "censusProfileUrl": "",
+  "figures": {
+    "population2021": 72051,
+    "population2016": null,
+    "growthPct": -1.8,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": null,
+    "landAreaKm2": 221.99
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053557061",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053557061",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053557061"
+  },
+  "facts": [
+    {
+      "text": "Algoma Steel is building two electric arc furnaces to replace its blast furnace and basic oxygen steelmaking, expected to cut its carbon emissions by about 70 per cent.",
+      "url": "https://sootoday.com/local-business/algoma-steel-board-greenlights-electric-arc-furnace-construction-4747715",
+      "publisher": "SooToday",
+      "evidence": "Algoma is constructing two new state-of-the-art electric-arc-furnaces to replace its existing blast furnace and basic oxygen steelmaking operations, expected to reduce Algoma's carbon emissions by approximately 70 per cent."
+    },
+    {
+      "text": "The federal government committed up to $420 million to help Algoma Steel transition to electric arc furnace production in Sault Ste. Marie.",
+      "url": "https://pm.gc.ca/en/node/14596",
+      "publisher": "Prime Minister of Canada",
+      "evidence": "The federal government announced up to $420 million to help Algoma Steel retrofit their operations and purchase state-of-the-art equipment to support its transition to Electric-Arc Furnace production at their Sault Ste. Marie facility."
+    },
+    {
+      "text": "Sault Ste. Marie is home to both the Great Lakes Forestry Centre and the Ontario Forest Research Institute, which employ forest scientists.",
+      "url": "https://www.hubtrail.com/about/economy/research/",
+      "publisher": "Sault Ste. Marie Economic Development (Hub Trail)",
+      "evidence": "Sault Ste. Marie is home to both the Great Lakes Forestry Centre and the Ontario Forest Research Institutes. Together they employ scientists studying invasive species; insect production; human impact on forests; climate change; and forest fires."
+    },
+    {
+      "text": "Algoma University reported a record overall enrolment of 3,180 full-time equivalent students in March 2022.",
+      "url": "https://algomau.ca/news/algoma-university-experiences-record-breaking-enrolment",
+      "publisher": "Algoma University",
+      "evidence": "Algoma achieved a record overall enrolment of 3,180 Full-Time Equivalent (FTE) students, with a 71.8% increase from the previous academic year"
+    }
+  ],
+  "meta": {
+    "populationApprox": 72051,
+    "descriptor": "a steel-making city on the St. Marys River in Northern Ontario",
+    "fact": "home to Algoma Steel, which is building two electric arc furnaces to replace its blast furnace",
+    "industries": ["Manufacturing", "Healthcare", "Education", "Forestry", "Government", "Retail"],
+    "areas": ["Downtown", "Steelton", "Korah", "Tarentorus", "Pointe des Chênes"]
+  },
+  "copy": {
+    "overview": [
+      "Sault Ste. Marie had 72,051 residents in 2021, down 1.8% from 2016, on 221.99 square kilometres of land. A shrinking or flat population means a local business grows mainly by winning customers from competitors rather than waiting for new households to arrive.",
+      "The economy leans on steel, forestry research, healthcare and post-secondary education, and Algoma Steel's furnace conversion is bringing major investment. Businesses that serve workers, students and contractors tied to those institutions have a steady base to sell to."
+    ],
+    "byService": {
+      "lead-generation": "Because the population fell 1.8% after 2016, lead generation in Sault Ste. Marie should focus on converting competitors' customers and on employers, contractors and students linked to steel and education.",
+      "seo": "In a city of about 72,000 people, local SEO is less crowded than in large markets, so ranking for service terms plus neighbourhood names like Steelton or Korah is realistic.",
+      "website-development": "A Sault Ste. Marie website should make it easy for steelworkers, hospital staff and Algoma University students to check hours, prices and booking on a phone between shifts or classes.",
+      "branding": "Branding that reflects the city's industrial roots and its shift to cleaner steelmaking can help a local business feel rooted in Sault Ste. Marie rather than borrowed from a big-city template."
+    }
+  }
+}
