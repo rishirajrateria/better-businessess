@@ -59,7 +59,7 @@ export const site = {
    * ~420 non-CMS pages in the sitemap. Bump it when you edit content — never on every deploy,
    * or search engines learn to ignore the sitemap's dates.
    */
-  staticContentUpdated: "2026-09-25",
+  staticContentUpdated: "2026-10-07",
 } as const;
 
 export type Site = typeof site;

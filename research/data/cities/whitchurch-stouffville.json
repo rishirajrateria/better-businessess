@@ -1,0 +1,59 @@
+{
+  "slug": "whitchurch-stouffville",
+  "geographyNote": "Town of Whitchurch-Stouffville (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Whitchurch-Stouffville&DGUIDlist=2021A00053519044&GENDERlist=1%2C2%2C3&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 49864,
+    "population2016": 45837,
+    "growthPct": 8.8,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": null,
+    "landAreaKm2": 206.42
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Whitchurch-Stouffville&DGUIDlist=2021A00053519044&GENDERlist=1%2C2%2C3&STATISTIClist=1&HEADERlist=0",
+    "population2016": "https://en.wikipedia.org/wiki/Whitchurch-Stouffville",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Whitchurch-Stouffville&DGUIDlist=2021A00053519044&GENDERlist=1%2C2%2C3&STATISTIClist=1&HEADERlist=0",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Whitchurch-Stouffville&DGUIDlist=2021A00053519044&GENDERlist=1%2C2%2C3&STATISTIClist=1&HEADERlist=0"
+  },
+  "facts": [
+    {
+      "text": "Roughly 75 percent of Whitchurch-Stouffville's population lives in the community of Stouffville in the southeast of the largely rural town.",
+      "url": "https://businessviewmagazine.com/?p=26127",
+      "publisher": "Business View Magazine",
+      "evidence": "Whitchurch-Stouffville is predominantly rural with roughly 75 percent of the population living in Stouffville in the southeast"
+    },
+    {
+      "text": "Businesses prefer to locate in Gormley, right on Highway 404, where the town expects millions of square feet of commercial and industrial development.",
+      "url": "https://businessviewmagazine.com/?p=26127",
+      "publisher": "Business View Magazine",
+      "evidence": "businesses prefer to locate in Gormley, right on the 404 highway. When the Gormley lands open up, the town expects to see millions of square feet of commercial and industrial development in that area."
+    },
+    {
+      "text": "GO Transit's Stouffville line stops at Stouffville GO Station in the downtown core on Main Street.",
+      "url": "https://en.wikipedia.org/wiki/Stouffville_GO_Station",
+      "publisher": "Wikipedia",
+      "evidence": "GO Transit's Stouffville line passes through the community with commuter trains stopping at the Stouffville GO Station in the downtown core and terminating at Old Elm GO Station."
+    }
+  ],
+  "meta": {
+    "populationApprox": 49864,
+    "descriptor": "a growing commuter town on the Oak Ridges Moraine in York Region",
+    "fact": "home to the Gormley employment lands on Highway 404 and a GO train station on Main Street",
+    "industries": ["Manufacturing", "Transportation", "Agriculture", "Construction", "Retail"],
+    "areas": ["Stouffville", "Gormley", "Ballantrae", "Musselman Lake", "Vandorf", "Bloomington"]
+  },
+  "copy": {
+    "overview": [
+      "Whitchurch-Stouffville had 49,864 residents in 2021, up 8.8% from 45,837 in 2016, on 206.42 square kilometres. Growth outpaced the Ontario average, with new subdivisions adding households who are still choosing local providers.",
+      "Most residents live in Stouffville itself, while the rest of the town is rural hamlets and farmland. Many people commute out for work, so local businesses compete for evening and weekend attention close to home."
+    ],
+    "byService": {
+      "lead-generation": "With population up 8.8% after 2016, Whitchurch-Stouffville lead generation should reach new homeowners quickly and time offers around commuters' evenings and weekends.",
+      "seo": "Most searches will come from Stouffville itself, so SEO should centre on Stouffville terms while adding pages for Ballantrae, Musselman Lake and Gormley customers.",
+      "website-development": "Commuters research services after hours on their phones, so a Stouffville website should offer online booking, instant quotes and clear service areas.",
+      "branding": "Branding can draw on the town's historic Main Street and rural character, helping a local business feel more personal than the big-box options in neighbouring Markham."
+    }
+  }
+}

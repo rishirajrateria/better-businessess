@@ -1,0 +1,70 @@
+{
+  "slug": "sherwood-park",
+  "geographyNote": "Strathcona County (specialized municipality, census subdivision), Alberta. Sherwood Park is an unincorporated urban service area (hamlet) within the county, so all figures are for the whole of Strathcona County.",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Strathcona+County&DGUIDlist=2021A00054811052&GENDERlist=1,2,3&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 99225,
+    "population2016": 98024,
+    "growthPct": 1.2,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": null,
+    "landAreaKm2": null
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Strathcona+County&DGUIDlist=2021A00054811052&GENDERlist=1,2,3&STATISTIClist=1&HEADERlist=0",
+    "population2016": "https://en.wikipedia.org/wiki/Strathcona_County",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Strathcona+County&DGUIDlist=2021A00054811052&GENDERlist=1,2,3&STATISTIClist=1&HEADERlist=0"
+  },
+  "facts": [
+    {
+      "text": "Strathcona County is Canada's largest hydrocarbon refining cluster.",
+      "url": "https://strathcona.ca/business-and-development/business/business-development",
+      "publisher": "Strathcona County",
+      "evidence": "Strathcona County is a leader in industrial development and Canada's largest hydrocarbon refining cluster."
+    },
+    {
+      "text": "Alberta's Industrial Heartland, which Strathcona County helped found, is home to 40-plus companies with a combined investment of over $30 billion.",
+      "url": "https://strathcona.ca/business-and-development/development/albertas-industrial-heartland",
+      "publisher": "Strathcona County",
+      "evidence": "Strathcona County is a founding member of Alberta's Industrial Heartland Association (AIHA), which is Canada's largest hydrocarbon processing region home to 40+ world class companies with a combined total investment of over $30 billion."
+    },
+    {
+      "text": "Of nearly 12,000 industrial jobs in Alberta's Industrial Heartland, chemical manufacturing makes up 48.7 per cent and rail transportation 20.7 per cent.",
+      "url": "https://www.chemicalprocessing.com/industrynews/news/11305614/chemical-manufacturing-drives-albertas-industrial-heartland-chemical-processing",
+      "publisher": "Chemical Processing",
+      "evidence": "Of nearly 12,000 jobs in the industrial sector, chemical manufacturing makes up 48.7%, followed by rail transportation (20.7%), petroleum and coal product manufacturing (12.2%), pipeline transportation (9.3%)"
+    },
+    {
+      "text": "About 73 per cent of Strathcona County's population lives in Sherwood Park, an urban service area east of Edmonton.",
+      "url": "https://en.wikipedia.org/wiki/Strathcona_County",
+      "publisher": "Wikipedia",
+      "evidence": "Strathcona County is both urban and rural in nature, with approximately 73% of its population living in Sherwood Park, which is an urban service area east of Edmonton"
+    },
+    {
+      "text": "Strathcona County's 2022 municipal census counts 100,362 residents, passing the 100,000 mark.",
+      "url": "https://www.strathcona.ca/council-county/news/news/2022/9/13/county-joins-the-100k-club",
+      "publisher": "Strathcona County",
+      "evidence": "County joins the 100K club ... Strathcona County's 2022 municipal census showed a total population of 100,362"
+    }
+  ],
+  "meta": {
+    "populationApprox": 99225,
+    "descriptor": "the urban centre of Strathcona County, just east of Edmonton",
+    "fact": "the urban heart of Strathcona County, Canada's largest hydrocarbon refining cluster",
+    "industries": ["Energy", "Manufacturing", "Transportation", "Construction", "Retail"],
+    "areas": ["Sherwood Park", "Ardrossan", "Josephburg", "South Cooking Lake", "Antler Lake"]
+  },
+  "copy": {
+    "overview": [
+      "Strathcona County, which includes Sherwood Park, had 99,225 residents in 2021, up 1.2 per cent from 2016. About three quarters of them live in Sherwood Park itself, with the rest on acreages, farms and in rural hamlets.",
+      "The county hosts Canada's largest hydrocarbon refining cluster, so many households are tied to well-paid plant and trades work. Sherwood Park businesses compete directly with east Edmonton, and slow population growth means winning share from established rivals matters more than waiting for newcomers."
+    ],
+    "byService": {
+      "lead-generation": "With growth of only 1.2 per cent between 2016 and 2021, lead generation in Sherwood Park should focus on switching existing households and serving contractors linked to the refining cluster.",
+      "seo": "Sherwood Park SEO should target the community name rather than Strathcona County, since residents search for Sherwood Park and businesses compete with east Edmonton results for the same terms.",
+      "website-development": "For trades and industrial suppliers near the Industrial Heartland, a website should feature safety records, certifications and project examples that plant buyers check before making contact.",
+      "branding": "Branding here should feel local to Sherwood Park, as residents of a county of nearly 100,000 people often prefer businesses they see as part of their community over Edmonton chains."
+    }
+  }
+}

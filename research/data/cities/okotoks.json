@@ -1,0 +1,78 @@
+{
+  "slug": "okotoks",
+  "geographyNote": "Town of Okotoks (census subdivision), Alberta; not the Okotoks census agglomeration",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=e&SearchText=calgary&GENDERlist=1%2C2%2C3&STATISTIClist=1&DGUIDlist=2021A00054806012&HEADERlist=0",
+  "figures": {
+    "population2021": 30405,
+    "population2016": 29016,
+    "growthPct": 4.8,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": 10476,
+    "landAreaKm2": 38.55
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00054806012",
+    "population2016": "https://okotoksonline.com/articles/local-communities-growing-according-to-federal-census",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00054806012",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00054806012",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00054806012"
+  },
+  "facts": [
+    {
+      "text": "Okotoks has 1,227 businesses in 2022, an 11.2 per cent increase from 1,103 in 2021.",
+      "url": "https://regionaldashboard.alberta.ca/region/okotoks/number-of-businesses/",
+      "publisher": "Alberta Regional Dashboard, Government of Alberta",
+      "evidence": "Okotoks had 1,227 businesses in 2022, with an 11.2% increase from 1,103 in 2021."
+    },
+    {
+      "text": "Ninety-six per cent of Okotoks businesses have fewer than 50 employees, many of them in retail and construction.",
+      "url": "https://www.westernwheel.ca/local-news/okotoks-business-community-continues-to-grow-1529735",
+      "publisher": "Western Wheel",
+      "evidence": "96 per cent of the town's businesses have less than 50 employees, many of which are in retail and construction."
+    },
+    {
+      "text": "Industrial employers in Okotoks include Rolco Rollshutters, Burnco Rock Products, McLean Contracting, Taylor Toolworks, Western Tank and Lining and McAsphalt Industries.",
+      "url": "https://www.westernwheel.ca/local-news/industrial-businesses-growing-in-okotoks-1532395",
+      "publisher": "Western Wheel",
+      "evidence": "Some of the main industrial employers in Okotoks include Rolco Rollshutters, Burnco Rock Products, McLean Contracting, Taylor Toolworks, Western Tank and Lining, McAsphalt Industries"
+    },
+    {
+      "text": "A regional water pipeline for Okotoks and Foothills County, drawing from where the Highwood meets the Bow River, receives a $15.9 million provincial grant.",
+      "url": "https://westernwheel.ca/local-news/foothills-politicians-share-thoughts-on-whats-in-store-for-2025-9996795",
+      "publisher": "Western Wheel",
+      "evidence": "A project to help the Town of Okotoks and Foothills County secure a long-term water supply received a provincial grant of $15.9 million. The water pipeline will feed from where the Highwood River meets the Bow River"
+    }
+  ],
+  "meta": {
+    "populationApprox": 30405,
+    "descriptor": "a town about 15 kilometres south of Calgary in the Foothills region",
+    "fact": "a small-business town where 96 per cent of firms have fewer than 50 employees",
+    "industries": [
+      "Retail",
+      "Construction",
+      "Manufacturing",
+      "Professional services"
+    ],
+    "areas": [
+      "Downtown Okotoks",
+      "Westmount",
+      "Cimarron",
+      "Crystal Shores",
+      "Drake Landing",
+      "D'Arcy"
+    ]
+  },
+  "copy": {
+    "overview": [
+      "Okotoks had 30,405 residents in 2021, up 4.8 per cent from 2016, in 10,476 occupied homes. Water supply limits have constrained the town's growth for more than a decade, which kept its population gains modest.",
+      "Almost all local businesses are small, and many work in retail and construction. With a regional water pipeline now funded, growth is set to resume, and businesses that build a strong reputation now will be well placed as new residents arrive."
+    ],
+    "byService": {
+      "lead-generation": "Okotoks grew a modest 4.8 per cent from 2016 to 2021, so lead generation should focus on winning existing households and referrals rather than relying on newcomers alone.",
+      "seo": "Okotoks businesses compete with south Calgary for many of the same searches, so local SEO should target the town name and neighbourhoods like Westmount and Cimarron to capture nearby customers.",
+      "website-development": "In a town dominated by small firms, an Okotoks website that clearly shows reviews, local projects and easy booking can set a business apart from competitors with dated sites.",
+      "branding": "Branding in Okotoks should emphasise small-town ownership and community ties, since residents of its 10,476 households often choose local businesses over Calgary chains."
+    }
+  }
+}

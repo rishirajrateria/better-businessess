@@ -1,0 +1,71 @@
+{
+  "slug": "cornwall",
+  "geographyNote": "City of Cornwall (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Cornwall&GENDERlist=1&STATISTIClist=1&DGUIDlist=2021A00053501012&HEADERlist=0",
+  "figures": {
+    "population2021": 47845,
+    "population2016": 46589,
+    "growthPct": 2.7,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": 21386,
+    "landAreaKm2": 61.5
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00053501012",
+    "population2016": "https://cornwallseawaynews.com/local/cornwall-population-up-by-2-7-from-2016",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00053501012",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00053501012",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00053501012"
+  },
+  "facts": [
+    {
+      "text": "Cornwall Business Park holds over five million square feet of distribution centres for companies including Walmart, Loblaws, Shoppers Drug Mart and Michelin.",
+      "url": "https://ctvnews.ca/ottawa/article/city-of-cornwall-ont-emerging-as-a-key-supply-chain-hub-in-canada",
+      "publisher": "CTV News",
+      "evidence": "In Cornwall Business Park, there's over five million square feet of distribution centres from some of the biggest companies across the world, including Walmart, Loblaws and Shoppers Drug Mart and, most recently, Michelin."
+    },
+    {
+      "text": "Walmart Logistics operates two 1.5-million-square-foot distribution centres in Cornwall, a regional centre and the Harmony centre.",
+      "url": "https://www.mwpvl.com/html/cornwall_ontario_distribution_epicenter.html",
+      "publisher": "MWPVL International",
+      "evidence": "Walmart Logistics regional distribution centre: 1.5 million square feet and Walmart Logistics Harmony distribution centre: 1.5 million square feet."
+    },
+    {
+      "text": "Cornwall's distribution centres service all of eastern Canada, which city officials say is fuelling major growth in the municipality.",
+      "url": "https://ctvnews.ca/ottawa/article/city-of-cornwall-ont-emerging-as-a-key-supply-chain-hub-in-canada",
+      "publisher": "CTV News",
+      "evidence": "The city of Cornwall is home to several major distribution centres, servicing all of eastern Canada, which city officials say is fuelling major growth in the municipality."
+    }
+  ],
+  "meta": {
+    "populationApprox": 47845,
+    "descriptor": "a St. Lawrence River city in eastern Ontario near the Quebec border",
+    "fact": "home to over five million square feet of distribution centres in Cornwall Business Park",
+    "industries": [
+      "Logistics",
+      "Retail",
+      "Healthcare",
+      "Manufacturing",
+      "Transportation"
+    ],
+    "areas": [
+      "Downtown Cornwall",
+      "Le Village",
+      "Riverdale",
+      "Eamer's Corners"
+    ]
+  },
+  "copy": {
+    "overview": [
+      "Cornwall had 47,845 residents in 2021, up 2.7% from 46,589 in 2016, living in 21,386 occupied homes on 61.5 square kilometres. The city is compact, so most customers live within a short drive of any local business.",
+      "Large distribution centres in Cornwall Business Park bring steady warehouse and trucking jobs. Local firms can serve these employers and their workers, but with modest population growth they must win customers from competitors rather than wait for new arrivals."
+    ],
+    "byService": {
+      "lead-generation": "In Cornwall, lead generation can target distribution-centre employers and the shift workers they hire, while local consumer offers focus on a stable base of about 48,000 residents.",
+      "seo": "Cornwall covers just 61.5 square kilometres, so a business can realistically rank city-wide in local map results with strong reviews and consistent listings.",
+      "website-development": "Shift workers at Cornwall's distribution centres often search outside regular hours, so a website should offer online booking, clear hours and quick mobile contact options.",
+      "branding": "With population up only 2.7% after 2016, Cornwall branding should earn trust and repeat business in a tight community where neighbours share recommendations."
+    }
+  }
+}

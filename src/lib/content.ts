@@ -175,7 +175,7 @@ export function serviceCityContent(service: Service, city: City): LocationPageCo
 
   return {
     h1,
-    title: fit([`${service.name} Agency in ${city.name}, ${province.code}`, `${service.shortName} Agency in ${city.name}, ${province.code}`, `${service.shortName} in ${city.name}, ${province.code}`], TITLE_MAX),
+    title: fit([`${service.name} Agency in ${city.name}, ${province.code}`, `${service.shortName} Agency in ${city.name}, ${province.code}`, `${service.shortName} in ${city.name}, ${province.code}`, `${service.shortName} in ${city.name}`], TITLE_MAX),
     description: fit(
       [
         `${service.name} for ${city.name}, ${province.name} businesses. ${site.name} delivers ${service.noun} measured on leads and revenue, not vanity metrics. Free consultation.`,
@@ -282,7 +282,8 @@ export function cityHubContent(city: City) {
   const nearby = getNearbyCities(city, 6);
   return {
     h1: `Digital Marketing Agency in ${city.name}, ${province.code}`,
-    title: fit([`Digital Marketing Agency in ${city.name}, ${province.code}`, `Marketing Agency in ${city.name}, ${province.code}`], TITLE_MAX),
+    // Long place names may run a few characters past the budget rather than lose the "agency" keyword (65-char hard cap incl. brand).
+    title: fit([`Digital Marketing Agency in ${city.name}, ${province.code}`, `Marketing Agency in ${city.name}, ${province.code}`, `Marketing Agency in ${city.name}`], TITLE_MAX + 5),
     description: fit(
       [
         `${site.name} is a digital growth agency serving ${city.name}, ${province.name}: lead generation, SEO, website development and branding for local businesses.`,

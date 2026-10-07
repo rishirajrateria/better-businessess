@@ -1,0 +1,79 @@
+{
+  "slug": "spruce-grove",
+  "geographyNote": "City of Spruce Grove (census subdivision), Alberta, within the Edmonton CMA",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Spruce+Grove&GENDERlist=1%2C2%2C3&STATISTIClist=1%2C4&DGUIDlist=2021A00054811049&HEADERlist=0",
+  "figures": {
+    "population2021": 37645,
+    "population2016": 34108,
+    "growthPct": 10.4,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": 14273,
+    "landAreaKm2": 37.52
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00054811049",
+    "population2016": "https://en.wikipedia.org/wiki/Spruce_Grove",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00054811049",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00054811049",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00054811049"
+  },
+  "facts": [
+    {
+      "text": "Spruce Grove's primary trading area is pegged at 70,000 people, with a secondary trading area population of 245,000.",
+      "url": "https://www.westerninvestor.com/alberta/retail-rush-3828369",
+      "publisher": "Western Investor",
+      "evidence": "Spruce Grove's primary trading area is pegged at 70,000, with a secondary trading area population of 245,000."
+    },
+    {
+      "text": "Spruce Grove has 1,204 businesses in 2025, up 1.95 per cent from 1,181 in 2024.",
+      "url": "https://regionaldashboard.alberta.ca/region/spruce-grove/number-of-businesses/",
+      "publisher": "Alberta Regional Dashboard, Government of Alberta",
+      "evidence": "Spruce Grove had 1,204 businesses in 2025, increasing 1.95% from 1,181 in 2024."
+    },
+    {
+      "text": "The value of major projects in Spruce Grove in 2025 is $623.5 million, up 36.3 per cent year over year.",
+      "url": "https://regionaldashboard.alberta.ca/region/spruce-grove/major-projects/",
+      "publisher": "Alberta Regional Dashboard, Government of Alberta",
+      "evidence": "The value of major projects in Spruce Grove in 2025 was $623.5 million, which greatly increased 36.3% year-over-year."
+    },
+    {
+      "text": "Westwind is a planned commercial, hospitality and entertainment project on 50 hectares at Yellowhead Highway and Century Road in Spruce Grove.",
+      "url": "https://www.westerninvestor.com/alberta/retail-rush-3828369",
+      "publisher": "Western Investor",
+      "evidence": "Westwind is a planned commercial, hospitality and entertainment project on 50 hectares of land at Yellowhead Highway and Century Road."
+    }
+  ],
+  "meta": {
+    "populationApprox": 37645,
+    "descriptor": "a fast-growing city just west of Edmonton on the Yellowhead Highway",
+    "fact": "a retail hub serving a primary trading area of about 70,000 people west of Edmonton",
+    "industries": [
+      "Retail",
+      "Construction",
+      "Real estate",
+      "Logistics",
+      "Hospitality"
+    ],
+    "areas": [
+      "Greenbury",
+      "Harvest Ridge",
+      "Hilldowns",
+      "Jesperdale",
+      "Tonewood",
+      "Stoneshire"
+    ]
+  },
+  "copy": {
+    "overview": [
+      "Spruce Grove grew 10.4 per cent between 2016 and 2021 to 37,645 residents in 14,273 occupied homes, well ahead of the Alberta rate. Its retailers also serve a primary trading area much larger than the city itself, reaching into the surrounding rural region west of Edmonton.",
+      "Competition is real but not crowded, and major projects such as the Westwind development are adding commercial space. Businesses that become known across the wider trading area, not only inside city limits, have the most room to grow."
+    ],
+    "byService": {
+      "lead-generation": "Because the city's trading area extends well beyond its 14,273 households, lead generation in Spruce Grove should also reach acreage owners and smaller communities nearby.",
+      "seo": "Spruce Grove SEO should capture searches from nearby acreages and towns as well as city residents, while holding ground against Edmonton's west-end retailers on the same terms.",
+      "website-development": "A Spruce Grove website should be built for young, growing households, with mobile booking, clear pricing and directions that work for customers driving in from rural areas.",
+      "branding": "With 10.4 per cent growth between 2016 and 2021 bringing many newcomers, branding should make a business feel established and local to people still learning the city."
+    }
+  }
+}

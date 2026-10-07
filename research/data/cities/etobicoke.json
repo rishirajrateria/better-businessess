@@ -1,0 +1,73 @@
+{
+  "slug": "etobicoke",
+  "geographyNote": "Etobicoke district of the City of Toronto (former City of Etobicoke). No figure was confirmed by two sources for this whole district: Wikipedia gives 376,237 residents in 2021 for the former city, while the City of Toronto's Etobicoke York Community Council Area profile also includes York and reports 599,055. populationApprox uses the Wikipedia figure for the former city.",
+  "censusProfileUrl": "",
+  "figures": {
+    "population2021": null,
+    "population2016": null,
+    "growthPct": null,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": null,
+    "landAreaKm2": null
+  },
+  "figureSources": {},
+  "facts": [
+    {
+      "text": "The Great Canadian Casino Resort sits in north Etobicoke beside Woodbine Racetrack and features 145 table games and 4,800 slot machines.",
+      "url": "https://globalnews.ca/news/9781901/toronto-great-canadian-casino-resort-opens",
+      "publisher": "Global News",
+      "evidence": "The Great Canadian Casino Resort is situated in north Etobicoke, right beside the Woodbine Racetrack, and features 145 table games and 4,800 slot machines."
+    },
+    {
+      "text": "Great Canadian Entertainment spent about $1 billion on its Woodbine casino resort project, which it says creates 2,000 jobs.",
+      "url": "https://globalnews.ca/news/9781901/toronto-great-canadian-casino-resort-opens",
+      "publisher": "Global News",
+      "evidence": "The new casino development will create 2,000 jobs, according to Great Canadian Entertainment. ... Great Canadian Entertainment spent about $1 billion on the project over the past five years."
+    },
+    {
+      "text": "Humber Polytechnic's North Campus and Lakeshore Campus are both located in Etobicoke.",
+      "url": "https://en.wikipedia.org/wiki/Humber_Polytechnic",
+      "publisher": "Wikipedia",
+      "evidence": "Humber has three main campuses and locations – the Humber North campus, the Lakeshore campus, and the International Graduate School. Both the Lakeshore Campus and the North Campus are located in Etobicoke."
+    },
+    {
+      "text": "Line 6 Finch West, opened in December 2025, ends at Humber College station at Humber Polytechnic's North Campus in Etobicoke.",
+      "url": "https://en.wikipedia.org/wiki/Line_6_Finch_West",
+      "publisher": "Wikipedia",
+      "evidence": "Line 6 Finch West opened on December 7, 2025. ... The line extends from Finch West station on Line 1 Yonge–University at Keele Street to Humber College station at the North Campus of Humber Polytechnic in Etobicoke."
+    }
+  ],
+  "meta": {
+    "populationApprox": 376237,
+    "descriptor": "the western district of the City of Toronto and a former city",
+    "fact": "home to Woodbine Racetrack, the Great Canadian Casino Resort and two Humber Polytechnic campuses",
+    "industries": [
+      "Hospitality",
+      "Tourism",
+      "Education",
+      "Transportation",
+      "Real estate"
+    ],
+    "areas": [
+      "Mimico",
+      "New Toronto",
+      "Long Branch",
+      "The Kingsway",
+      "Islington",
+      "Rexdale"
+    ]
+  },
+  "copy": {
+    "overview": [
+      "Etobicoke runs from the Lake Ontario waterfront in Mimico and Long Branch to Rexdale north of the highway, so its customers range from downtown commuters in new condos to long-settled families in The Kingsway.",
+      "Large draws such as Woodbine and two Humber Polytechnic campuses bring visitors, students and workers into the district. For a local business, the challenge is standing out to nearby residents who have plenty of other options across the city."
+    ],
+    "byService": {
+      "lead-generation": "Etobicoke lead generation should be split by area, since waterfront condo buyers in Mimico and homeowners in The Kingsway respond to very different offers and timing.",
+      "seo": "People search by neighbourhood here, so Etobicoke SEO should target Mimico, Long Branch, Islington and Rexdale alongside the district name rather than generic Toronto terms.",
+      "website-development": "With Humber students, casino workers and commuters all searching on phones, an Etobicoke website needs fast mobile pages, clear location details and easy booking.",
+      "branding": "Etobicoke's neighbourhoods have strong identities, and a brand that speaks to the lakeshore or The Kingsway feels more local than one built for all of Toronto."
+    }
+  }
+}

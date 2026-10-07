@@ -1,0 +1,71 @@
+{
+ "slug": "cote-saint-luc",
+ "geographyNote": "Ville de Côte-Saint-Luc (census subdivision)",
+ "censusProfileUrl": "",
+ "figures": {
+  "population2021": 34504,
+  "population2016": 32448,
+  "growthPct": 6.3,
+  "medianAge": null,
+  "medianHouseholdIncome2020": null,
+  "privateDwellings": null,
+  "landAreaKm2": 7.04
+ },
+ "figureSources": {
+  "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00052466058",
+  "population2016": "https://en.wikipedia.org/wiki/C%C3%B4te_Saint-Luc",
+  "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00052466058",
+  "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00052466058"
+ },
+ "facts": [
+  {
+   "text": "Côte Saint-Luc's master plan process covers the potential redevelopment of Quartier Cavendish, the CSL Shopping Centre and Décarie Square.",
+   "url": "https://www.thesuburban.com/news/city_news/finalization-of-csl-master-plan-includes-redevelopment-of-shopping-centres/article_1e282c1d-ace3-5262-9156-8770cb8241a0.html",
+   "publisher": "The Suburban",
+   "evidence": "Côte St. Luc held meetings in July, August and September 2024 in connection with its master plan for the future of the city, including the potential redevelopment of Quartier Cavendish, the CSL Shopping Centre and Décarie Square."
+  },
+  {
+   "text": "The City of Côte Saint-Luc and Mandevco, the developer of Quartier Cavendish, are not yet aligned on a potential redevelopment of the mall site.",
+   "url": "https://www.thesuburban.com/news/city_news/no-agreement-yet-between-csl-and-quartier-cavendish/article_606ea144-e31c-11ef-8c4b-d76ae005aba3.html",
+   "publisher": "The Suburban",
+   "evidence": "The City of Côte St. Luc and Mandevco, the developer of Quartier Cavendish, are not yet agreed on the city's position regarding a potential redevelopment of the mall site."
+  },
+  {
+   "text": "Côte Saint-Luc is a mostly residential suburb forming an enclave within Montreal, and a Canadian Pacific Railway marshalling yard lies within its borders.",
+   "url": "https://en.wikipedia.org/wiki/C%C3%B4te_Saint-Luc",
+   "publisher": "Wikipedia",
+   "evidence": "Côte Saint-Luc is a city on the Island of Montreal... a mostly residential suburb of Montreal within which it forms an enclave. The Canadian Pacific Railway Marshalling yard is situated within its borders."
+  }
+ ],
+ "meta": {
+  "populationApprox": 34504,
+  "descriptor": "a mostly residential enclave city on the Island of Montreal",
+  "fact": "planning the redevelopment of its Quartier Cavendish, CSL Shopping Centre and Décarie Square sites",
+  "industries": [
+   "Retail",
+   "Healthcare",
+   "Real estate",
+   "Professional services",
+   "Transportation"
+  ],
+  "areas": [
+   "Quartier Cavendish",
+   "Kildare",
+   "Westminster",
+   "Merton",
+   "Mackle"
+  ]
+ },
+ "copy": {
+  "overview": [
+   "Côte Saint-Luc had 34,504 residents in the 2021 Census, up 6.3 percent from 32,448 in 2016, packed into just 7.04 square kilometres. That makes it a very dense market, where most customers live within a short drive or walk of any local business.",
+   "The city is mostly residential and largely English-speaking, with an older population. Its shopping centres are being reconsidered for redevelopment, so local retail and services face a period of change as new housing and a town centre are planned."
+  ],
+  "byService": {
+   "lead-generation": "Because 34,504 residents live in just 7.04 square kilometres, Côte Saint-Luc lead generation can rely on tightly targeted local campaigns and community referrals rather than broad regional ads.",
+   "seo": "Côte Saint-Luc SEO should prioritise English-language local searches, along with French, and mention landmarks like Quartier Cavendish that residents use to describe where they shop.",
+   "website-development": "A Côte Saint-Luc website should use readable type, clear contrast and simple navigation so older residents can find hours, phone numbers and services easily.",
+   "branding": "With the city growing 6.3 percent since 2016 and a close-knit community, Côte Saint-Luc branding should feel personal, respectful and rooted in the neighbourhood."
+  }
+ }
+}

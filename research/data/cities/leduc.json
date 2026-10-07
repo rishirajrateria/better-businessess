@@ -1,0 +1,63 @@
+{
+  "slug": "leduc",
+  "geographyNote": "City of Leduc (census subdivision), Alberta; not Leduc County",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Leduc&GENDERlist=1%2C2%2C3&STATISTIClist=1&DGUIDlist=2021A00054811016&HEADERlist=0",
+  "figures": {
+    "population2021": 34094,
+    "population2016": null,
+    "growthPct": 13.7,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": null,
+    "landAreaKm2": null
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00054811016",
+    "growthPct": "https://www.leduc.ca/sites/default/files/2021%20ANNUAL%20MONITORING%20REPORT.pdf"
+  },
+  "facts": [
+    {
+      "text": "Leduc Business Park is home to over 500 companies employing more than 15,000 skilled workers and is one of the largest manufacturing clusters in North America.",
+      "url": "https://www.leduc.ca/invest-in-leduc",
+      "publisher": "City of Leduc",
+      "evidence": "Leduc Business Park is home to over 500 companies employing more than 15,000 skilled workers and is one of the largest manufacturing clusters in North America."
+    },
+    {
+      "text": "Leduc is immediately adjacent to Edmonton International Airport, Canada's fifth largest major airport, which has seen over $300 million in cargo development investment.",
+      "url": "https://www.leduc.ca/invest-in-leduc",
+      "publisher": "City of Leduc",
+      "evidence": "Leduc is immediately adjacent to Edmonton International Airport (YEG), Canada's fifth largest major airport ... Recent investments of over $300 million in cargo development at YEG"
+    },
+    {
+      "text": "Leduc has 1,458 businesses in 2025, up 1.53 per cent from 1,436 in 2024.",
+      "url": "https://regionaldashboard.alberta.ca/region/leduc/number-of-businesses/",
+      "publisher": "Alberta Regional Dashboard, Government of Alberta",
+      "evidence": "Leduc had 1,458 businesses in 2025, increasing 1.53% from 1,436 in 2024."
+    },
+    {
+      "text": "The City of Leduc reports an average permit approval time of 3.2 days.",
+      "url": "https://www.leduc.ca/invest-in-leduc",
+      "publisher": "City of Leduc",
+      "evidence": "a pro-business municipal government known for fast, responsive service, with an average permit approval time of just 3.2 days."
+    }
+  ],
+  "meta": {
+    "populationApprox": 34094,
+    "descriptor": "a growing city south of Edmonton beside Edmonton International Airport",
+    "fact": "home to Leduc Business Park, where over 500 companies employ more than 15,000 workers",
+    "industries": ["Manufacturing", "Logistics", "Retail", "Transportation", "Energy"],
+    "areas": ["Southfork", "Meadowview Park", "Linsford Park", "Bridgeport", "Windrose", "Tribute"]
+  },
+  "copy": {
+    "overview": [
+      "Leduc had 34,094 residents in 2021, up 13.7 per cent from 2016, well above the Alberta average. Many of those newcomers are young households in new subdivisions who are still choosing their local providers.",
+      "The city sits beside Edmonton International Airport and hosts a large manufacturing and logistics business park, so it draws workers and business buyers from across the region every day. Local firms can sell to residents, commuting employees and industrial companies, but compete with south Edmonton for all three."
+    ],
+    "byService": {
+      "lead-generation": "With population up 13.7 per cent from 2016 to 2021, lead generation in Leduc should reach new households early and target business park employers for commercial work.",
+      "seo": "Leduc SEO needs to win local searches that south Edmonton businesses also target, using the city name, neighbourhood names and airport-area terms for business customers.",
+      "website-development": "A Leduc website serving industrial clients should show capacity, certifications and turnaround times clearly, while consumer sites need fast mobile booking for busy commuting families.",
+      "branding": "In a city of about 34,000 people next to a major metro, branding should position a business as the convenient local choice rather than a drive into Edmonton."
+    }
+  }
+}

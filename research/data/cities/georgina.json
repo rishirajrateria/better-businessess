@@ -1,0 +1,67 @@
+{
+  "slug": "georgina",
+  "geographyNote": "Town of Georgina (census subdivision)",
+  "censusProfileUrl": "",
+  "figures": {
+    "population2021": 47642,
+    "population2016": 45418,
+    "growthPct": 4.9,
+    "medianAge": null,
+    "medianHouseholdIncome2020": 98000,
+    "privateDwellings": 17895,
+    "landAreaKm2": 287.69
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053519070",
+    "population2016": "https://en.wikipedia.org/wiki/Georgina,_Ontario",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053519070",
+    "medianHouseholdIncome2020": "https://www.choosegeorgina.ca/data/population",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053519070",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053519070"
+  },
+  "facts": [
+    {
+      "text": "Over 3,400 businesses operate in Georgina, about 73% of them owner-operated without employees.",
+      "url": "https://choosegeorgina.ca/blog/town-georgina-economic-statistics",
+      "publisher": "Town of Georgina Economic Development",
+      "evidence": "There are over 3,400 businesses with and without employees operating within Georgina. About 73% of these businesses are owner operated, without employees."
+    },
+    {
+      "text": "The Keswick Business Park has generated more than 250 jobs, and Milwaukee Tool announced its expansion into Georgina in 2025.",
+      "url": "https://www.choosegeorgina.ca/sites/default/files/2026-05/2025-year-in-review.pdf",
+      "publisher": "Town of Georgina Economic Development",
+      "evidence": "The park has generated more than 250 jobs and continues to attract companies seeking relocation and expansion opportunities. In 2025, Milwaukee Tool announced its expansion into Georgina"
+    },
+    {
+      "text": "Georgina's three business improvement areas in Jackson's Point, Keswick and Sutton represent more than 150 storefront businesses.",
+      "url": "https://georgina.ca/downtowns",
+      "publisher": "Town of Georgina",
+      "evidence": "The municipality has three designated business improvement areas (BIAs) that offer walkable downtown shopping and dining experiences close to Lake Simcoe in Jackson's Point (est. 1992), Keswick (est. 2014) and Sutton (est. 1995), representing more than 150 storefront businesses."
+    },
+    {
+      "text": "Keswick is Georgina's largest urban centre and is home to about half of the town's residents.",
+      "url": "https://www.georgina.ca/doing-business/economic-development",
+      "publisher": "Town of Georgina",
+      "evidence": "The community of Keswick is the largest urban centre and is home to about half of the Town's residents."
+    }
+  ],
+  "meta": {
+    "populationApprox": 47642,
+    "descriptor": "a lakeside town on the south shore of Lake Simcoe in York Region",
+    "fact": "home to more than 3,400 businesses, most of them owner-operated",
+    "industries": ["Tourism", "Construction", "Manufacturing", "Retail", "Hospitality"],
+    "areas": ["Keswick", "Sutton", "Jackson's Point", "Pefferlaw", "Baldwin", "Udora"]
+  },
+  "copy": {
+    "overview": [
+      "Georgina had 47,642 residents in 2021, up 4.9% from 45,418 in 2016, living in 17,895 occupied homes on 287.69 square kilometres. The median household income in 2020 was $98,000, giving many households solid spending power.",
+      "Most local firms are owner-operated, and shoppers are split among Keswick, Sutton, Jackson's Point and rural hamlets along Lake Simcoe. Tourists add summer demand, so businesses need to serve both residents and seasonal visitors."
+    ],
+    "byService": {
+      "lead-generation": "Lead generation in Georgina should split budgets between year-round residents earning a $98,000 median income and lakeside visitors who arrive in warmer months.",
+      "seo": "Since about half of residents live in Keswick, SEO should prioritize Keswick searches first, then add pages for Sutton, Jackson's Point and Pefferlaw.",
+      "website-development": "For a mostly owner-operated business community, a Georgina website should be simple to update, quick on phones and focused on calls, quotes and directions.",
+      "branding": "Branding that reflects Lake Simcoe and small-town main streets helps a Georgina business stand out among thousands of local competitors, many of them one-person firms."
+    }
+  }
+}

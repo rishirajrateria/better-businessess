@@ -1,0 +1,60 @@
+{
+  "slug": "north-york",
+  "geographyNote": "North York district of the City of Toronto (former City of North York). No figure was confirmed by two sources for this whole district: Wikipedia gives 683,511 residents in 2021 for the former city, while the City of Toronto's North York Community Council Area profile covers a different set of wards and reports 814,475. populationApprox uses the Wikipedia figure for the former city.",
+  "censusProfileUrl": "",
+  "figures": {
+    "population2021": null,
+    "population2016": null,
+    "growthPct": null,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": null,
+    "landAreaKm2": null
+  },
+  "figureSources": {},
+  "facts": [
+    {
+      "text": "More than 52,000 students are enrolled in undergraduate and graduate programs at York University's Keele Campus in North York.",
+      "url": "https://futurestudents.yorku.ca/keele-campus",
+      "publisher": "York University",
+      "evidence": "More than 52,000 students from across the world are enrolled in undergraduate and graduate programs at the Keele Campus."
+    },
+    {
+      "text": "The 520-acre Downsview redevelopment plans 10 new neighbourhoods with an anticipated 65,000 residential units over 30 years.",
+      "url": "https://dailyhive.com/toronto/downsview-redevelopment",
+      "publisher": "Daily Hive",
+      "evidence": "The 520-acre redevelopment in Toronto's Downsview area ... The Downsview redevelopment will create 10 new neighbourhoods with an anticipated 65,000 residential units at a cost of $30-billion over 30 years."
+    },
+    {
+      "text": "Line 6 Finch West opened on December 7, 2025, running 10.3 kilometres with 18 stops from Finch West station to Humber College station.",
+      "url": "https://en.wikipedia.org/wiki/Line_6_Finch_West",
+      "publisher": "Wikipedia",
+      "evidence": "Line 6 Finch West opened on December 7, 2025. The line is 10.3 kilometres (6.4 miles) long with 18 stops. The line extends from Finch West station on Line 1 Yonge–University at Keele Street to Humber College station"
+    },
+    {
+      "text": "Bayview Village, Yorkdale and Don Mills in North York each contain namesake shopping centres that attract visitors from near and far.",
+      "url": "https://wahi.com/ca/en/neighbourhoods/ontario/gta/north-york",
+      "publisher": "Wahi",
+      "evidence": "Three neighbourhoods quickly come to mind when thinking about North York: Bayview Village, Yorkdale, and Don Mills. It also just so happens that these neighbourhoods all contain namesake shopping centres that attract visitors from near and far."
+    }
+  ],
+  "meta": {
+    "populationApprox": 683511,
+    "descriptor": "a district of the City of Toronto and the former City of North York",
+    "fact": "home to York University's Keele Campus, where more than 52,000 students are enrolled",
+    "industries": ["Education", "Retail", "Construction", "Real estate", "Transportation"],
+    "areas": ["Willowdale", "Don Mills", "Downsview", "York Mills", "Bayview Village", "Newtonbrook"]
+  },
+  "copy": {
+    "overview": [
+      "North York is one of Toronto's largest districts, stretching from the high-rise core at Yonge and Sheppard to quieter streets in York Mills and Don Mills. Major shopping centres at Yorkdale, Bayview Village and Don Mills draw customers from across the city.",
+      "For a local business, that means strong demand and strong competition in the same place. York University's Keele Campus, the new Finch West line and the planned Downsview neighbourhoods keep adding students, commuters and residents to reach."
+    ],
+    "byService": {
+      "lead-generation": "North York lead generation works best by neighbourhood, since a condo resident in Willowdale and a homeowner in York Mills want different services and respond to different offers.",
+      "seo": "Searchers in North York often name their area, so SEO should build pages for Willowdale, Don Mills and Downsview instead of competing only for broad Toronto terms.",
+      "website-development": "With York University students and transit commuters in the mix, a North York website needs fast mobile pages, clear directions and simple online booking.",
+      "branding": "Competing beside Yorkdale and other big shopping centres, a North York brand should feel personal and neighbourhood-based to stand apart from national chains."
+    }
+  }
+}
