@@ -42,8 +42,20 @@
     "populationApprox": 132979,
     "descriptor": "a fast-growing town in Halton Region",
     "fact": "home to the Milton Education Village, where Conestoga College and Wilfrid Laurier University opened campuses in 2024",
-    "industries": ["Manufacturing", "Logistics", "Education", "Professional services", "Retail", "Construction"],
-    "areas": ["Old Milton", "Timberlea", "Dempsey", "Campbellville", "Hawthorne Village"]
+    "industries": [
+      "Manufacturing",
+      "Logistics",
+      "Education",
+      "Professional services",
+      "Retail",
+      "Construction"
+    ],
+    "areas": [
+      "Old Milton",
+      "Timberlea",
+      "Dempsey",
+      "Campbellville"
+    ]
   },
   "copy": {
     "overview": [
@@ -54,7 +66,7 @@
       "lead-generation": "With population up 20.7% between 2016 and 2021, Milton lead generation should focus on new subdivisions, where households are actively looking for their first local providers.",
       "seo": "Milton's newer neighbourhoods change fast, so SEO should pair town-wide service pages with content naming areas such as Old Milton, Timberlea and Dempsey.",
       "website-development": "Many of Milton's 40,038 households are young families comparing options on phones, which makes fast mobile pages, clear service areas and simple booking essential.",
-      "branding": "In a town still defining itself, a Milton brand that feels local and dependable can stand out from regional chains following the growth along Highway 401."
+      "branding": "In a town still defining itself, a Milton brand that feels local and dependable can stand out from the regional chains that arrive as new subdivisions fill in."
     }
   }
 }
