@@ -1,0 +1,60 @@
+{
+  "slug": "newmarket",
+  "geographyNote": "Town of Newmarket (census subdivision), York Region",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Newmarket&DGUIDlist=2021A00053519048&GENDERlist=1&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 87942,
+    "population2016": 84224,
+    "growthPct": 4.4,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": 30301,
+    "landAreaKm2": 38.5
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053519048",
+    "population2016": "https://en.wikipedia.org/wiki/Newmarket,_Ontario",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053519048",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053519048",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053519048"
+  },
+  "facts": [
+    {
+      "text": "Southlake Regional Health Centre is Newmarket's largest employer, with over 3,000 staff members.",
+      "url": "https://sire.newmarket.ca/Business/ecodev/growwithus/Pages/Health-Sciences.aspx",
+      "publisher": "Town of Newmarket Economic Development",
+      "evidence": "Southlake Regional Health Centre is the community's largest employer with over 3,000 staff members."
+    },
+    {
+      "text": "Major employers in Newmarket include Curtiss-Wright Power, IBM Global Services, Ontario Power Generation, Magna International, TS Tech Canada and CPG Aerospace.",
+      "url": "https://sire.newmarket.ca/Business/ecodev/whynewmarket/Pages/About-Newmarket.aspx",
+      "publisher": "Town of Newmarket Economic Development",
+      "evidence": "Other major employers in Newmarket include Curtiss-Wright Power, IBM Global Services, Ontario Power Generation, Turf Care Products Canada, Magna International, Food Basics, TS Tech Canada Inc., CPG Aerospace, and Infinite IT Solutions."
+    },
+    {
+      "text": "Newmarket's economic development focuses on business services, health sciences, information and communications technology, manufacturing, and retail and creative industries.",
+      "url": "https://sire.newmarket.ca/Business/ecodev/growwithus",
+      "publisher": "Town of Newmarket Economic Development",
+      "evidence": "Newmarket's economic growth focuses on five strategic sectors: Business Services, Health Sciences anchored by Southlake Regional Health Centre, Information and Communications Technology, Manufacturing, and Retail and Creative Industries."
+    }
+  ],
+  "meta": {
+    "populationApprox": 87942,
+    "descriptor": "a compact town in York Region north of Toronto",
+    "fact": "home to Southlake Regional Health Centre, its largest employer with over 3,000 staff",
+    "industries": ["Healthcare", "Retail", "Professional services", "Technology", "Manufacturing"],
+    "areas": ["Central Newmarket", "Stonehaven", "Summerhill Estates", "Woodland Hill", "Glenway"]
+  },
+  "copy": {
+    "overview": [
+      "Newmarket had 87,942 residents in 2021, up 4.4% from 84,224 in 2016, in 30,301 occupied homes on only 38.5 square kilometres. It is a dense, settled town where most customers already have favourite businesses.",
+      "With Southlake Regional Health Centre as the largest employer and Upper Canada Mall drawing shoppers from across northern York Region, competition for attention is real. Local businesses win by being visible, trusted and easy to reach."
+    ],
+    "byService": {
+      "lead-generation": "Newmarket's growth of 4.4% between 2016 and 2021 was modest, so lead generation should focus on winning customers from competitors rather than waiting for newcomers.",
+      "seo": "Because 87,942 residents live within 38.5 square kilometres, SEO in Newmarket rewards tight local targeting around Main Street, Yonge Street and named neighbourhoods.",
+      "website-development": "Many Newmarket residents work shifts at Southlake or commute south, so a website should answer key questions quickly and offer booking at any hour.",
+      "branding": "In an established town of 30,301 households, a brand built on reputation, reviews and community involvement matters more than flashy launches."
+    }
+  }
+}
