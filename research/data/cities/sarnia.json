@@ -1,0 +1,72 @@
+{
+  "slug": "sarnia",
+  "geographyNote": "City of Sarnia (census subdivision), Lambton County; not the Sarnia census agglomeration",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Sarnia&DGUIDlist=2021A00053538030&GENDERlist=1,2,3&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 72047,
+    "population2016": 71594,
+    "growthPct": 0.6,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": 32188,
+    "landAreaKm2": 163.9
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00053538030",
+    "population2016": "https://en.wikipedia.org/wiki/Sarnia",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00053538030",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00053538030",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00053538030"
+  },
+  "facts": [
+    {
+      "text": "Lambton County, home to Sarnia, is the birthplace of North America's oil industry and today is Canada's second largest petrochemical cluster.",
+      "url": "https://www.sarnialambton.on.ca/invest-in-sarnia-lambton",
+      "publisher": "Sarnia-Lambton Economic Partnership",
+      "evidence": "Lambton County is the birthplace of North America's oil industry (1858) and today is Canada's 2nd largest petrochemical cluster."
+    },
+    {
+      "text": "Bluewater Health is a major public employer in Sarnia with 1,700 employees.",
+      "url": "https://www.sarnialambton.on.ca/wp-content/uploads/2021/01/EmployMilitary_Aamjiwnaang_2020-12-22.pdf",
+      "publisher": "Sarnia-Lambton Economic Partnership",
+      "evidence": "Other significant employers include public sector organizations like Bluewater Health (1,700 employees) and the Lambton Kent District School Board (1,150 employees)."
+    },
+    {
+      "text": "Major private employers in Sarnia-Lambton include NOVA Chemicals with 943 employees and Imperial's Sarnia Manufacturing Site with 870 employees.",
+      "url": "https://www.sarnialambton.on.ca/wp-content/uploads/2021/01/EmployMilitary_Aamjiwnaang_2020-12-22.pdf",
+      "publisher": "Sarnia-Lambton Economic Partnership",
+      "evidence": "Major private employers include NOVA Chemicals (Canada) Ltd. with 943 current employees and Imperial's Sarnia Manufacturing Site with 870 current employees."
+    },
+    {
+      "text": "Sarnia-Lambton's economic partnership works with businesses in agri-food processing, chemicals and energy, hydrogen, advanced manufacturing, and EV and battery supply chains.",
+      "url": "https://www.sarnialambton.on.ca/our-services",
+      "publisher": "Sarnia-Lambton Economic Partnership",
+      "evidence": "The Sarnia-Lambton Economic Partnership works with existing businesses in the value-added agricultural & food processing, chemicals & energy, hydrogen, advanced manufacturing, and EV & battery supply chain sectors."
+    },
+    {
+      "text": "Lambton College's Sarnia campus has about 30 per cent fewer students after changes to international student visa programs.",
+      "url": "https://petrolialambtonindependent.ca/2025/08/27/fewer-students-less-cash-as-lambton-college-classes-start/",
+      "publisher": "Petrolia Lambton Independent",
+      "evidence": "There are about 30 per cent fewer students at the Sarnia campus this year due to changes to the International Student Visa programs."
+    }
+  ],
+  "meta": {
+    "populationApprox": 72047,
+    "descriptor": "the largest city on Lake Huron, in Lambton County",
+    "fact": "the centre of Canada's Chemical Valley, with NOVA Chemicals and Imperial among its largest employers",
+    "industries": ["Energy", "Manufacturing", "Healthcare", "Education", "Agri-food"],
+    "areas": ["Downtown Sarnia", "Brights Grove", "Blackwell", "Mitton Village"]
+  },
+  "copy": {
+    "overview": [
+      "Sarnia had 72,047 residents in 2021, a 0.6 per cent rise from 2016, in 32,188 occupied homes. With a near-flat population, growth for a local business comes from winning customers away from competitors rather than from a wave of newcomers.",
+      "The economy rests on petrochemical plants, Bluewater Health and Lambton College, alongside newer work in hydrogen and battery supply chains. Industrial employers and their contractors form a valuable business-to-business market, while household spending supports retail and services across the city."
+    ],
+    "byService": {
+      "lead-generation": "Because Sarnia grew only 0.6 per cent between 2016 and 2021, lead generation should focus on converting existing households and the contractors who supply the city's petrochemical plants.",
+      "seo": "In a stable market of about 72,000 people, Sarnia SEO wins by out-ranking established competitors on specific services and neighbourhood terms such as Brights Grove and downtown.",
+      "website-development": "Sarnia firms selling to industrial clients need websites that show safety credentials, certifications and project experience clearly, since plant buyers check those details before calling.",
+      "branding": "Loyalty runs deep in a long-settled city like Sarnia, so branding should stress reliability and local history to pull customers from businesses they have used for years."
+    }
+  }
+}

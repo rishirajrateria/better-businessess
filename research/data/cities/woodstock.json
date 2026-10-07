@@ -1,0 +1,76 @@
+{
+  "slug": "woodstock",
+  "geographyNote": "City of Woodstock, Oxford County, Ontario (census subdivision)",
+  "censusProfileUrl": "",
+  "figures": {
+    "population2021": 46705,
+    "population2016": 41098,
+    "growthPct": 13.6,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": 18886,
+    "landAreaKm2": 56.46
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053532042",
+    "population2016": "https://www.careerbeacon.com/en/canada/ontario/woodstock",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053532042",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053532042",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053532042"
+  },
+  "facts": [
+    {
+      "text": "Woodstock, once known as Canada's dairy capital, is now a major player in Ontario's auto industry, with Toyota, Vuteq and other auto suppliers employing thousands.",
+      "url": "https://thecanadianencyclopedia.ca/en/article/woodstock-ont",
+      "publisher": "The Canadian Encyclopedia",
+      "evidence": "Woodstock was once known as Canada's dairy capital, but is now a major player in Ontario's auto industry. Major employers include Toyota, which operates an assembly plant there, auto parts maker Vuteq and other auto industry suppliers that together employ thousands."
+    },
+    {
+      "text": "Toyota Motor Manufacturing Canada employs 8,500 people across its Cambridge and Woodstock plants and can build over 500,000 vehicles a year.",
+      "url": "https://www.toyota.com/usa/operations/map/tmmc",
+      "publisher": "Toyota",
+      "evidence": "Toyota Motor Manufacturing Canada Inc. (TMMC) currently employs 8,500 people across plants in Cambridge and Woodstock, Ontario, with the ability to build over 500,000 vehicles annually."
+    },
+    {
+      "text": "The City of Woodstock owns and maintains four industrial business parks, all close to the Highway 401/403 interchange.",
+      "url": "https://www.cityofwoodstock.ca/ecdev/",
+      "publisher": "City of Woodstock Economic Development",
+      "evidence": "The City of Woodstock is located in southwestern Ontario at the crossroads of super highways 401 and 403. The city owns and maintains four industrial business parks, all located in close proximity to the Highway 401/403 interchange."
+    },
+    {
+      "text": "Woodstock's newest industrial park, the North East Business Park, is located less than one mile from the Toyota Motor Manufacturing plant.",
+      "url": "https://www.cityofwoodstock.ca/ecdev/",
+      "publisher": "City of Woodstock Economic Development",
+      "evidence": "the newest North East Business Park located less than one mile from the Toyota Motor Manufacturing plant."
+    }
+  ],
+  "meta": {
+    "populationApprox": 46705,
+    "descriptor": "a fast-growing city in Oxford County at the junction of Highways 401 and 403",
+    "fact": "home to a Toyota assembly plant and a cluster of auto parts suppliers that together employ thousands",
+    "industries": [
+      "Automotive",
+      "Manufacturing",
+      "Logistics",
+      "Agriculture"
+    ],
+    "areas": [
+      "Downtown Woodstock",
+      "South End",
+      "East Woodstock",
+      "North East Business Park"
+    ]
+  },
+  "copy": {
+    "overview": [
+      "Woodstock counted 46,705 residents in 2021, up 13.6% from 41,098 in 2016, in 18,886 occupied private dwellings across 56.46 square kilometres. That pace of growth means a steady stream of newcomers who have not yet picked a dentist, contractor or favourite restaurant.",
+      "The local economy leans on automotive manufacturing, with Toyota and its suppliers employing thousands. For a local business, that points to plant workers and young families as core customers, and to a market where word of mouth still travels fast."
+    ],
+    "byService": {
+      "lead-generation": "With Woodstock growing 13.6% since 2016, lead generation should target recent movers early, using offers timed to home purchases, school enrolment and new subdivision occupancy.",
+      "seo": "Newcomers to Woodstock search before they ask neighbours, so SEO should cover city-wide service terms plus the specific neighbourhoods and subdivisions where new households are settling.",
+      "website-development": "Many Woodstock households work rotating plant shifts, so a website should take bookings and enquiries around the clock and load quickly on a phone between shifts.",
+      "branding": "In a city of about 47,000 shaped by auto manufacturing, branding that feels dependable, local and practical will usually outperform anything that looks borrowed from a big-city agency."
+    }
+  }
+}

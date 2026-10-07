@@ -1,0 +1,67 @@
+{
+  "slug": "pickering",
+  "geographyNote": "City of Pickering (census subdivision), Durham Region",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Pickering&DGUIDlist=2021A00053518001&GENDERlist=1%2C2%2C3&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 99186,
+    "population2016": 91771,
+    "growthPct": 8.1,
+    "medianAge": null,
+    "medianHouseholdIncome2020": 118000,
+    "privateDwellings": 33425,
+    "landAreaKm2": 231.59
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053518001",
+    "population2016": "https://en.wikipedia.org/wiki/Pickering,_Ontario",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00053518005",
+    "medianHouseholdIncome2020": "https://pickering.ca/media/m3zbwyih/pickeringprofileacc.pdf",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053518001",
+    "landAreaKm2": "https://en.wikipedia.org/wiki/Pickering,_Ontario"
+  },
+  "facts": [
+    {
+      "text": "The Seaton community covers over 7,000 acres and is planned for about 61,000 residents and up to 35,000 jobs when fully built out.",
+      "url": "https://pickering.ca/en/city-hall/seatoncommunity.aspx",
+      "publisher": "City of Pickering",
+      "evidence": "The Seaton community is made up of over 7,000 acres of land... planned to accommodate a population of approximately 61,000 residents... with the objective of providing up to 35,000 jobs when fully built out."
+    },
+    {
+      "text": "FGF Brands bought 151 acres in Pickering's Innovation Corridor for a food manufacturing campus, with 1,000 new jobs in its first phase.",
+      "url": "https://pickering.ca/news/posts/wonderbrands-innovation-business-park-to-rise-in-pickering",
+      "publisher": "City of Pickering",
+      "evidence": "The City of Pickering and Province of Ontario completed the sale of 151 acres of provincial lands in Pickering's Innovation Corridor to FGF Brands for development of a high-tech, food manufacturing campus. The first phase will consist of three manufacturing plants and a distribution centre with the creation of 1,000 new jobs"
+    },
+    {
+      "text": "Kubota Canada opened a 565,000 square-foot facility in Pickering, bringing over 350 jobs to the city.",
+      "url": "https://renx.ca/index.php/kubota-red-crest-offices-anchor-pickering-innovation-corridor",
+      "publisher": "Real Estate News Exchange (RENX)",
+      "evidence": "Kubota Canada Ltd., a Japanese construction equipment manufacturer, opened their 565,000 square-foot facility bringing over 350 jobs to the City."
+    },
+    {
+      "text": "The Pickering Nuclear Generating Station supplies enough power for 1.5 million homes and represents 14% of Ontario's electricity.",
+      "url": "https://wnn.world-nuclear.org/articles/pickering-supports-ontario’s-economy,-report-says",
+      "publisher": "World Nuclear News",
+      "evidence": "Pickering Station supplies enough power for 1.5 million homes each day, and represents 14% of Ontario's electricity."
+    }
+  ],
+  "meta": {
+    "populationApprox": 99186,
+    "descriptor": "a lakeshore city in Durham Region on Toronto's eastern border",
+    "fact": "home to the Pickering Nuclear Generating Station and the planned Seaton community",
+    "industries": ["Energy", "Manufacturing", "Food processing", "Logistics", "Construction", "Retail"],
+    "areas": ["Bay Ridges", "Amberlea", "Dunbarton", "Duffin Heights", "Rougemount", "Liverpool"]
+  },
+  "copy": {
+    "overview": [
+      "Pickering had 99,186 residents in 2021, up 8.1% from 91,771 in 2016, in 33,425 occupied homes. Its median household income of $118,000 in 2020 marks it as a comfortable market where customers can pay for quality.",
+      "The city is still expanding north into Seaton, and new employers are arriving in the Innovation Corridor. That means new households forming close to Toronto, while Scarborough, Ajax and Markham businesses compete for the same customers."
+    ],
+    "byService": {
+      "lead-generation": "With Seaton adding homes and Pickering growing 8.1% between 2016 and 2021, lead generation should target new neighbourhoods where families are still choosing their local providers.",
+      "seo": "Pickering sits beside Scarborough and Ajax, so SEO has to win searches that name Pickering and its neighbourhoods, such as Bay Ridges and Duffin Heights, rather than the wider GTA.",
+      "website-development": "Households with a median income of $118,000 in 2020 expect a polished experience, so a Pickering site should look credible, load fast and make booking easy.",
+      "branding": "A Pickering brand can lean on local roots and lakeshore identity to separate itself from larger Toronto competitors just across the Rouge River."
+    }
+  }
+}

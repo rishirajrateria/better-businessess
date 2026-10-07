@@ -1,0 +1,66 @@
+{
+  "slug": "stratford",
+  "geographyNote": "City of Stratford (census subdivision), Perth County area; not the Stratford census agglomeration",
+  "censusProfileUrl": "",
+  "figures": {
+    "population2021": 33232,
+    "population2016": 31465,
+    "growthPct": 5.6,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": 14743,
+    "landAreaKm2": 30.02
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00053531011",
+    "population2016": "https://en.wikipedia.org/wiki/Stratford,_Ontario",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00053531011",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00053531011",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=1&dguid=2021A00053531011"
+  },
+  "facts": [
+    {
+      "text": "The Stratford Festival's 2024 season draws attendance of 430,000, plus 19,500 at Forum events.",
+      "url": "https://www.stratfordfestival.ca/landingpages/2024-Achievements",
+      "publisher": "Stratford Festival",
+      "evidence": "The 2024 season attracted attendance of 430,000 people, with an additional 19,500 attending Forum events. A further 46,000 streamed productions on Stratfest@Home."
+    },
+    {
+      "text": "Aisin Canada, which makes sunroofs, door frames and seating components in Stratford, is expanding its plant with 135,000 square feet of new manufacturing and office space.",
+      "url": "https://www.aisinworld.com/2024/02/05/aisin-canada-announces-stratford-plant-expansion/",
+      "publisher": "AISIN",
+      "evidence": "The planned expansion includes 135,000 square feet of new manufacturing and office space. ... The company manufactures sunroofs, doorframes, power back doors, moldings, and seating components."
+    },
+    {
+      "text": "A $2.2 million provincial investment in Aisin Canada creates 30 new jobs and protects 530 positions in Stratford.",
+      "url": "https://matthewrae.ca/rae-announces-2-2m-to-protect-tariff-impacted-workers-and-businesses-in-stratford/",
+      "publisher": "Office of Matthew Rae, MPP for Perth-Wellington",
+      "evidence": "the investment will create 30 new, good-paying jobs and protect 530 positions in Stratford."
+    },
+    {
+      "text": "Schaeffler Canada designs and manufactures rolling bearings for cars in Stratford, where a $13.1 million expansion added two assembly lines and 44 jobs.",
+      "url": "https://kitchener.ctvnews.ca/province-announces-funding-that-will-help-bring-new-jobs-to-stratford-1.2948920",
+      "publisher": "CTV News Kitchener",
+      "evidence": "Schaeffler Canada designs and manufactures rolling bearings and related systems for cars. The company planned a $13.1 million expansion project ... adding two new assembly lines and creating 44 new jobs."
+    }
+  ],
+  "meta": {
+    "populationApprox": 33232,
+    "descriptor": "a small city on the Avon River in southwestern Ontario",
+    "fact": "home to the Stratford Festival, which drew 430,000 attendees in 2024, and a large auto-parts base",
+    "industries": ["Tourism", "Manufacturing", "Automotive", "Hospitality", "Retail"],
+    "areas": ["Downtown Stratford", "Avon West", "Romeo", "Hamlet", "Falstaff"]
+  },
+  "copy": {
+    "overview": [
+      "Stratford had 33,232 residents in 2021, up 5.6 per cent from 2016, in 14,743 occupied homes packed into just 30 square kilometres. That density means most customers are a short drive from any downtown storefront.",
+      "The city runs on two engines: the Stratford Festival, which brings hundreds of thousands of theatre visitors each season, and auto-parts plants such as Aisin and Schaeffler. Businesses compete for steady local households and a large seasonal visitor market, and need to be found by both."
+    ],
+    "byService": {
+      "lead-generation": "Lead generation in Stratford should run on two calendars, reaching the 14,743 local households year round and ramping up campaigns aimed at theatre visitors during the Festival season.",
+      "seo": "Visitors plan Stratford trips weeks ahead, so SEO should target searches pairing the city with the Festival, dining and lodging, while separate pages capture year-round local service searches.",
+      "website-development": "Because many Stratford customers arrive from out of town for a performance, a website there needs clear booking, hours, parking details and maps that work well on a phone.",
+      "branding": "In a compact city of about 33,000 people that trades on arts and heritage, branding should feel considered and local, signalling quality to both theatre visitors and long-time residents."
+    }
+  }
+}

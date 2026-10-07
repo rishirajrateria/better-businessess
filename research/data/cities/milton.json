@@ -1,0 +1,72 @@
+{
+  "slug": "milton",
+  "geographyNote": "Town of Milton (census subdivision), Halton Region",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Milton&DGUIDlist=2021A00053524009%2C2021S051235241018&GENDERlist=1%2C2%2C3&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 132979,
+    "population2016": 110128,
+    "growthPct": 20.7,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": 40038,
+    "landAreaKm2": 363.83
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053524009",
+    "population2016": "https://en.wikipedia.org/wiki/Milton,_Ontario",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053524009",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053524009",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053524009"
+  },
+  "facts": [
+    {
+      "text": "Conestoga College and Wilfrid Laurier University opened interim campuses in Milton in 2024, expected to serve more than 3,000 students.",
+      "url": "https://www.milton.ca/en/news/milton-driving-growth-in-housing-education-and-business.aspx",
+      "publisher": "Town of Milton",
+      "evidence": "Conestoga College and Wilfrid Laurier University opened interim campuses in Milton in 2024 as part of their long-term plans to establish permanent sites within the MEV, with these campuses expected to serve more than 3,000 students."
+    },
+    {
+      "text": "In 2024 Milton facilitated 2.8 million square feet of industrial, commercial and institutional development, bringing employers such as Kioti Tractors to the Derry Green Corporate Business Park.",
+      "url": "https://www.milton.ca/en/news/milton-driving-growth-in-housing-education-and-business.aspx",
+      "publisher": "Town of Milton",
+      "evidence": "In 2024, the Town facilitated 2.8 million square feet of Industrial, Commercial and Institutional (ICI) development, bringing new employers such as Kioti Tractors and HPG to the Derry Green Corporate Business Park."
+    },
+    {
+      "text": "The Milton Education Village is a planned neighbourhood combining education and research facilities, knowledge-based employers, housing and transit.",
+      "url": "https://milton.ca/en/business-and-development/milton-education-village.aspx",
+      "publisher": "Town of Milton",
+      "evidence": "The MEV is a comprehensively planned, modern neighbourhood conceived as a hub for innovators, bringing together state-of-the-art educational and research facilities, knowledge-based employers, diverse housing options, accessible transportation, natural green space, and urban amenities."
+    }
+  ],
+  "meta": {
+    "populationApprox": 132979,
+    "descriptor": "a fast-growing town in Halton Region",
+    "fact": "home to the Milton Education Village, where Conestoga College and Wilfrid Laurier University opened campuses in 2024",
+    "industries": [
+      "Manufacturing",
+      "Logistics",
+      "Education",
+      "Professional services",
+      "Retail",
+      "Construction"
+    ],
+    "areas": [
+      "Old Milton",
+      "Timberlea",
+      "Dempsey",
+      "Campbellville"
+    ]
+  },
+  "copy": {
+    "overview": [
+      "Milton grew from 110,128 residents in 2016 to 132,979 in 2021, a 20.7% jump that far outpaced Ontario. The number of occupied homes reached 40,038, spread over 363.83 square kilometres that include rural land as well as new subdivisions.",
+      "For a local business, that growth means a steady stream of new households with no established loyalties, but also new competitors opening each year. Being easy to find early in a family's move is often what decides who wins them."
+    ],
+    "byService": {
+      "lead-generation": "With population up 20.7% between 2016 and 2021, Milton lead generation should focus on new subdivisions, where households are actively looking for their first local providers.",
+      "seo": "Milton's newer neighbourhoods change fast, so SEO should pair town-wide service pages with content naming areas such as Old Milton, Timberlea and Dempsey.",
+      "website-development": "Many of Milton's 40,038 households are young families comparing options on phones, which makes fast mobile pages, clear service areas and simple booking essential.",
+      "branding": "In a town still defining itself, a Milton brand that feels local and dependable can stand out from the regional chains that arrive as new subdivisions fill in."
+    }
+  }
+}

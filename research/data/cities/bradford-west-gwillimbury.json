@@ -1,0 +1,79 @@
+{
+  "slug": "bradford-west-gwillimbury",
+  "geographyNote": "Town of Bradford West Gwillimbury, Simcoe County, Ontario (census subdivision)",
+  "censusProfileUrl": "",
+  "figures": {
+    "population2021": 42880,
+    "population2016": 35325,
+    "growthPct": 21.4,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": 13415,
+    "landAreaKm2": 200.68
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053543014",
+    "population2016": "https://en.wikipedia.org/wiki/Bradford_West_Gwillimbury",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053543014",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053543014",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053543014"
+  },
+  "facts": [
+    {
+      "text": "The Holland Marsh, drained for vegetable growing from 1925, is an important producer of market garden crops such as carrots, onions and salad greens.",
+      "url": "https://thecanadianencyclopedia.ca/en/article/bradford-west-gwillimbury",
+      "publisher": "The Canadian Encyclopedia",
+      "evidence": "In 1925, William Day pioneered the drainage and irrigation of Holland Marsh to grow vegetables, and the experiment proved successful with the area becoming an important producer of market garden crops such as carrots, onions and salad greens."
+    },
+    {
+      "text": "Bradford West Gwillimbury, together with the Township of King, maintains the Holland Marsh drainage system.",
+      "url": "https://en.wikipedia.org/wiki/Bradford_West_Gwillimbury",
+      "publisher": "Wikipedia",
+      "evidence": "Holland Marsh, a region of #9 humus soil, is located partly in Bradford West Gwillimbury. The town, along with the Township of King is the governing body responsible for the maintenance of the drainage system of this source of Canada's produce supply."
+    },
+    {
+      "text": "Bradford's population grew by more than 20% in the five years to 2021, according to Statistics Canada.",
+      "url": "https://bradfordtoday.ca/local-news/bradford-population-grows-over-20-in-last-5-years-statcan-6017797",
+      "publisher": "BradfordToday",
+      "evidence": "Bradford population grows over 20% in last 5 years: StatCan"
+    },
+    {
+      "text": "Bradford West Gwillimbury was incorporated as a town in 1991 from the former Town of Bradford and most of the former Township of West Gwillimbury.",
+      "url": "https://www.townofbwg.com/recreation-culture/history-and-heritage/",
+      "publisher": "Town of Bradford West Gwillimbury",
+      "evidence": "Bradford West Gwillimbury was incorporated as a Town in 1991. It is comprised of the former Town of Bradford, most of the lands of the former Township of West Gwillimbury and a small portion of land from the Township of Tecumseth."
+    }
+  ],
+  "meta": {
+    "populationApprox": 42880,
+    "descriptor": "a fast-growing town on the Holland River in southern Simcoe County",
+    "fact": "home to part of the Holland Marsh, a major producer of carrots, onions and salad greens",
+    "industries": [
+      "Agriculture",
+      "Agri-food",
+      "Construction",
+      "Retail",
+      "Manufacturing"
+    ],
+    "areas": [
+      "Bradford",
+      "Bond Head",
+      "Coulson's Hill",
+      "Newton Robinson",
+      "Pinkerton",
+      "Green Valley"
+    ]
+  },
+  "copy": {
+    "overview": [
+      "Bradford West Gwillimbury grew 21.4% between 2016 and 2021, from 35,325 to 42,880 residents, with 13,415 occupied private dwellings on 200.68 square kilometres. Growth that fast means thousands of households arrived recently and are still choosing their service providers.",
+      "Most residents live in Bradford itself, while the Holland Marsh and surrounding farmland keep agriculture central to the local economy. Because the town sits inside the Toronto census metropolitan area, local firms also compete with larger GTA businesses for attention."
+    ],
+    "byService": {
+      "lead-generation": "After 21.4% growth since 2016, lead generation in Bradford West Gwillimbury should focus on new homeowners in recent subdivisions who are actively looking for trades, childcare and home services.",
+      "seo": "Bradford West Gwillimbury sits within the Toronto census metropolitan area, so SEO must win searches on the town name against much larger GTA competitors bidding on the same terms.",
+      "website-development": "With 13,415 households, many of them new, a Bradford website should explain services plainly, show reviews and let busy commuters book or request quotes online.",
+      "branding": "Branding here can draw on Holland Marsh farm heritage and a fast-changing town, positioning a business as both rooted locally and modern enough for newcomers."
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "cambridge",
+  "geographyNote": "City of Cambridge (census subdivision), Waterloo Region",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Cambridge&DGUIDlist=2021A00053530010&GENDERlist=1%2C2%2C3&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 138479,
+    "population2016": 129920,
+    "growthPct": 6.6,
+    "medianAge": null,
+    "medianHouseholdIncome2020": 93000,
+    "privateDwellings": 51269,
+    "landAreaKm2": 112.99
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?dguid=2021A00053530010&topic=1&lang=E",
+    "population2016": "https://www.careerbeacon.com/en/canada/ontario/cambridge",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?dguid=2021A00053530010&topic=1&lang=E",
+    "medianHouseholdIncome2020": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=5&dguid=2021A00053530010",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?dguid=2021A00053530010&topic=1&lang=E",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?dguid=2021A00053530010&topic=1&lang=E"
+  },
+  "facts": [
+    {
+      "text": "Advanced manufacturing accounts for nearly 20% of Cambridge's workforce.",
+      "url": "https://www.cambridge.ca/business-building-development/economic-development/advanced-manufacturing/",
+      "publisher": "City of Cambridge Economic Development",
+      "evidence": "Advanced manufacturing accounts for nearly 20% of the City's workforce."
+    },
+    {
+      "text": "Cambridge hosts some of the largest facilities in robotics and automation, automotive, aerospace and nuclear industries in Ontario and Canada.",
+      "url": "https://www.cambridge.ca/business-building-development/economic-development/advanced-manufacturing/",
+      "publisher": "City of Cambridge Economic Development",
+      "evidence": "Cambridge is well-established as a hub for advanced manufacturing in Ontario and Canada, hosting some of the largest facilities in robotics and automation, automotive, aerospace, and nuclear industries."
+    },
+    {
+      "text": "Toyota Motor Manufacturing Canada operates two plants in Cambridge, the North Plant and South Plant, assembling the Toyota RAV4 and Lexus NX and RX.",
+      "url": "https://en.wikipedia.org/wiki/Toyota_Motor_Manufacturing_Canada",
+      "publisher": "Wikipedia",
+      "evidence": "TMMC currently operates two plants in Cambridge, Ontario, called the North Plant and South Plant, and a third in Woodstock, Ontario called the West Plant. The plant assembles compact crossover SUVs: the Lexus NX, Lexus RX and the Toyota RAV4."
+    },
+    {
+      "text": "Cambridge sits in the middle of the Toronto-Waterloo Innovation Corridor, within an hour's drive of the Greater Toronto Area.",
+      "url": "https://www.cambridge.ca/en/build-invest-grow/Economic-Development.aspx",
+      "publisher": "City of Cambridge",
+      "evidence": "Cambridge is located in the middle of the Toronto-Waterloo Innovation Corridor and within an hour drive of the Greater Toronto Area (GTA), making it a great place to do business."
+    }
+  ],
+  "meta": {
+    "populationApprox": 138479,
+    "descriptor": "a manufacturing city in Waterloo Region on the Grand River",
+    "fact": "home to two Toyota assembly plants and a workforce nearly one-fifth in advanced manufacturing",
+    "industries": ["Manufacturing", "Automotive", "Aerospace", "Energy", "Logistics", "Retail"],
+    "areas": ["Galt", "Preston", "Hespeler", "Blair"]
+  },
+  "copy": {
+    "overview": [
+      "Cambridge had 138,479 residents in 2021, up 6.6% from 129,920 in 2016, living in 51,269 occupied homes across 112.99 square kilometres. The median household income of $93,000 in 2020 points to a market with steady spending power.",
+      "Much of that income comes from factory and plant jobs, so many customers work shifts and decide quickly. Local businesses compete with Kitchener, Waterloo and the GTA for the same buyers, and need to show why staying in Cambridge is the easier choice."
+    ],
+    "byService": {
+      "lead-generation": "With 51,269 households and a median income of $93,000 in 2020, lead generation in Cambridge should favour quick quote requests that shift workers can complete on a phone.",
+      "seo": "Residents still say Galt, Preston or Hespeler, so SEO in Cambridge works best when service pages target those community names alongside the city name.",
+      "website-development": "A Cambridge website has to win against Kitchener and GTA competitors, which means fast mobile pages, clear hours and booking that works outside standard office time.",
+      "branding": "In a city of 138,479 built on manufacturing, a brand that signals reliability, practical value and local roots tends to land better than polished big-city styling."
+    }
+  }
+}

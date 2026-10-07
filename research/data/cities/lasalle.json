@@ -1,0 +1,66 @@
+{
+  "slug": "lasalle",
+  "geographyNote": "Town of LaSalle (census subdivision), Essex County, within the Windsor CMA",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?DGUIDlist=2021A00053537034&GENDERlist=1&HEADERlist=0&Lang=E&STATISTIClist=1&SearchText=LaSalle",
+  "figures": {
+    "population2021": 32721,
+    "population2016": 30180,
+    "growthPct": 8.4,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": 11644,
+    "landAreaKm2": 64.96
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053537034",
+    "population2016": "https://en.wikipedia.org/wiki/LaSalle,_Ontario",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053537034",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053537034",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053537034"
+  },
+  "facts": [
+    {
+      "text": "The $200 million Shoppes at Heritage development in LaSalle plans roughly 150,000 square feet of commercial space across nine buildings and 400 to 500 jobs.",
+      "url": "https://canadiangrocer.com/lasalles-shoppes-heritage-create-500-jobs-add-grocery-hotel-and-more",
+      "publisher": "Canadian Grocer",
+      "evidence": "the Shoppes at Heritage development, a $200 million project ... delivering roughly 150,000 square feet of commercial space across nine buildings ... expected to create between 400 to 500 jobs for the region."
+    },
+    {
+      "text": "LaSalle bought 60 acres of Detroit River waterfront land in 2020 and renovated its boathouse into 21,500 square feet of event and trade show space.",
+      "url": "https://businessviewmagazine.com/civil-municipal/may-2025/123/",
+      "publisher": "Business View Magazine",
+      "evidence": "The Town's ambitious waterfront revitalization took flight in 2020 with the purchase of 60 acres of riverfront land. Since that purchase, they've renovated the boathouse with 21,500 square feet of interior space that is used for trade shows and events"
+    },
+    {
+      "text": "The 200-acre Vollmer Complex in LaSalle features 30 soccer fields and ice rinks with year-round activity.",
+      "url": "https://businessviewmagazine.com/civil-municipal/may-2025/123/",
+      "publisher": "Business View Magazine",
+      "evidence": "The 200-acre Vollmer Complex features 30 soccer fields and ice rinks, buzzing with year-round activity."
+    },
+    {
+      "text": "Ontario is committing $22.4 million to LaSalle to help build more residential and commercial development.",
+      "url": "https://prd.ctvnews.ca/windsor/article/ontario-investing-22-million-to-help-build-new-homes-in-lasalle",
+      "publisher": "CTV News Windsor",
+      "evidence": "Ontario has committed $22.4 million to LaSalle to build more residential and commercial developments."
+    }
+  ],
+  "meta": {
+    "populationApprox": 32721,
+    "descriptor": "a growing town on the Detroit River south of Windsor in Essex County",
+    "fact": "home to the 200-acre Vollmer Complex and a 60-acre Detroit River waterfront the town is redeveloping",
+    "industries": ["Retail", "Construction", "Hospitality", "Real estate"],
+    "areas": ["Petite Côte", "Front Road", "Malden Road", "Sandwich West"]
+  },
+  "copy": {
+    "overview": [
+      "LaSalle grew 8.4 per cent between 2016 and 2021 to 32,721 residents in 11,644 occupied homes, faster than Ontario as a whole. It is largely a residential community, and many households work and shop in neighbouring Windsor.",
+      "That is changing as the Shoppes at Heritage brings a grocery store and national chains, and the town redevelops its Detroit River waterfront. Local businesses face more competition at home, but also gain new foot traffic and a stronger reason for residents to spend locally."
+    ],
+    "byService": {
+      "lead-generation": "LaSalle added 8.4 per cent more residents from 2016 to 2021, so lead generation should reach new households in recently built areas before Windsor competitors win them.",
+      "seo": "Because many LaSalle searches default to Windsor results, SEO should target LaSalle-specific terms and Front Road or Malden Road locations to capture residents who prefer to stay close.",
+      "website-development": "For LaSalle's 11,644 households, a website should make booking simple on a phone and state clearly that the business serves LaSalle rather than greater Windsor.",
+      "branding": "With national chains arriving at the Shoppes at Heritage, LaSalle businesses should brand around local ownership and the town's French heritage to stand apart from familiar logos."
+    }
+  }
+}

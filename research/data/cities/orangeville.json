@@ -1,0 +1,66 @@
+{
+  "slug": "orangeville",
+  "geographyNote": "Town of Orangeville (census subdivision), Dufferin County",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Toronto&GENDERlist=1%2C2%2C3&STATISTIClist=1&DGUIDlist=2021A00053522014&HEADERlist=0",
+  "figures": {
+    "population2021": 30167,
+    "population2016": 28900,
+    "growthPct": 4.4,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": 11059,
+    "landAreaKm2": 15.16
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00053522014",
+    "population2016": "https://en.wikipedia.org/wiki/Orangeville,_Ontario",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00053522014",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00053522014",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=E&topic=1&dguid=2021A00053522014"
+  },
+  "facts": [
+    {
+      "text": "Manufacturing in Orangeville employs a local workforce of more than 1,100 people in 81 business operations, led by plastics and rubber products makers.",
+      "url": "https://orangeville.ic12.esolg.ca/en/economic-development/key-sectors.aspx",
+      "publisher": "Town of Orangeville Economic Development",
+      "evidence": "Manufacturing plays a significant role with a local workforce of more than 1,100 people in 81 local business operations. Manufacturers of plastics and rubber products are the largest employers in this sector."
+    },
+    {
+      "text": "Legal, accounting, engineering, architectural and computer systems design firms in Orangeville employ almost 600 people, including many home-based operations.",
+      "url": "https://orangeville.ic12.esolg.ca/en/economic-development/key-sectors.aspx",
+      "publisher": "Town of Orangeville Economic Development",
+      "evidence": "Orangeville is home to a growing number of legal and accounting firms, engineering and architectural services, computer systems design, and related services, which employ almost 600 people. ... including many home-based operations."
+    },
+    {
+      "text": "Headwaters Health Care Centre in Orangeville is a major regional employer with over 700 staff and over 160 physicians.",
+      "url": "https://headwatershealth.ca/who-we-are",
+      "publisher": "Headwaters Health Care Centre",
+      "evidence": "Headwaters Health Care Centre is at the heart of medical services for the Greater Dufferin area and a major employer in the region ... With over 700 staff and over 160 physicians"
+    },
+    {
+      "text": "Georgian College's Orangeville Campus offers health, wellness and sciences, human services, and business and management programs.",
+      "url": "https://www.georgiancollege.ca/about-georgian/campuses/orangeville-campus",
+      "publisher": "Georgian College",
+      "evidence": "The Orangeville Campus, situated in Dufferin County, provides high-quality education in an intimate setting and offers Health, Wellness and Sciences, Human Services, as well as Business and Management programs."
+    }
+  ],
+  "meta": {
+    "populationApprox": 30167,
+    "descriptor": "the commercial and administrative hub of Dufferin County",
+    "fact": "home to Headwaters Health Care Centre, with over 700 staff, and a plastics and rubber manufacturing base",
+    "industries": ["Manufacturing", "Retail", "Healthcare", "Professional services", "Construction"],
+    "areas": ["Downtown Orangeville", "Montgomery Village", "Credit Meadows", "Rolling Hills"]
+  },
+  "copy": {
+    "overview": [
+      "Orangeville had 30,167 residents in 2021, up 4.4 per cent from 2016, living in 11,059 occupied homes on just 15 square kilometres. It is a compact town where most households sit a few minutes from downtown and the main retail corridors.",
+      "As the service centre for Dufferin County, Orangeville draws shoppers and patients from surrounding townships as well as its own residents. Local businesses compete with each other and with Brampton and Toronto, so being clearly visible as the nearby choice matters."
+    ],
+    "byService": {
+      "lead-generation": "Orangeville's customer base reaches past its 11,059 households into rural Dufferin County, so lead generation should target the surrounding townships as well as the town itself.",
+      "seo": "For SEO, Orangeville businesses should rank for both the town name and Dufferin County terms, since rural residents search for the nearest hub rather than their own township.",
+      "website-development": "With a growing professional services sector and many home-based firms, an Orangeville website must establish credibility quickly through clear credentials, service areas and easy contact options.",
+      "branding": "Branding in a compact town of about 30,000 people should lean on local roots and reputation, helping a business stand out from Brampton and Toronto competitors chasing the same commuters."
+    }
+  }
+}

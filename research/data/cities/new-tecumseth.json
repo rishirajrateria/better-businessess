@@ -1,0 +1,76 @@
+{
+  "slug": "new-tecumseth",
+  "geographyNote": "Town of New Tecumseth, Simcoe County, Ontario (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=New+Tecumseth&GENDERlist=1&STATISTIClist=1&DGUIDlist=2021A00053543007&HEADERlist=0",
+  "figures": {
+    "population2021": 43948,
+    "population2016": 34242,
+    "growthPct": 28.3,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": 15854,
+    "landAreaKm2": 273.87
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053543007",
+    "population2016": "https://en.wikipedia.org/wiki/New_Tecumseth",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053543007",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053543007",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053543007"
+  },
+  "facts": [
+    {
+      "text": "Honda's Alliston manufacturing plant continues to produce the Honda Civic and CR-V.",
+      "url": "https://editorialsui.autotrader.ca/editorial/20250513/honda-postpones-canadian-ev-production-denies-that-cr-v-production-will-go-to-u-s",
+      "publisher": "AutoTrader.ca",
+      "evidence": "employment or production levels at Honda's current manufacturing facility in Alliston are unaffected by this decision, as the facility continues to produce Honda Civic and CR-V models to meet strong demand."
+    },
+    {
+      "text": "Honda has indefinitely suspended plans for a $15-billion electric vehicle project in Ontario.",
+      "url": "https://www.cp24.com/news/canada/2026/05/14/honda-indefinitely-suspends-15b-ev-plant-development-in-ontario-as-company-turns-focus-to-hybrids/",
+      "publisher": "CP24",
+      "evidence": "Honda indefinitely suspends $15B EV plant development in Ontario as company turns focus to hybrids"
+    },
+    {
+      "text": "New Tecumseth was created on January 1, 1991, by amalgamating the Town of Alliston, the Villages of Beeton and Tottenham, and the Township of Tecumseth.",
+      "url": "https://en.wikipedia.org/wiki/New_Tecumseth",
+      "publisher": "Wikipedia",
+      "evidence": "The municipality was created on January 1, 1991, through the amalgamation of the Town of Alliston, the Villages of Beeton and Tottenham, and the Township of Tecumseth."
+    },
+    {
+      "text": "Because of its proximity to Toronto and to road, rail and air routes, manufacturers and service industries such as Honda of Canada have located in New Tecumseth.",
+      "url": "https://en.wikipedia.org/wiki/New_Tecumseth",
+      "publisher": "Wikipedia",
+      "evidence": "because of its proximity to Toronto and location near road, rail and air transportation routes, a number of manufacturers and service industries such as Honda of Canada have located in New Tecumseth."
+    }
+  ],
+  "meta": {
+    "populationApprox": 43948,
+    "descriptor": "a fast-growing Simcoe County town made up of Alliston, Beeton and Tottenham",
+    "fact": "home to Honda's Alliston plant, which builds the Honda Civic and CR-V",
+    "industries": [
+      "Automotive",
+      "Manufacturing",
+      "Agriculture",
+      "Logistics"
+    ],
+    "areas": [
+      "Alliston",
+      "Beeton",
+      "Tottenham",
+      "Penville"
+    ]
+  },
+  "copy": {
+    "overview": [
+      "New Tecumseth grew 28.3% between 2016 and 2021, from 34,242 to 43,948 residents, with 15,854 occupied private dwellings on 273.87 square kilometres. That is far above the provincial average, and it means a large share of households are recent arrivals still choosing local providers.",
+      "Honda's Alliston plant anchors the economy, alongside farming and logistics. Customers are split between three main communities, so a business needs to be visible in each one rather than only in its home village."
+    ],
+    "byService": {
+      "lead-generation": "With 28.3% growth since 2016, New Tecumseth lead generation should prioritize new homeowners in Alliston and Tottenham subdivisions, where demand for home and family services is fresh.",
+      "seo": "Searchers in New Tecumseth usually type Alliston, Beeton or Tottenham rather than the town name, so SEO needs a page and listing strategy for each community.",
+      "website-development": "Plant shift schedules shape when New Tecumseth residents shop, so a website should accept bookings and quote requests at any hour and work well on a phone.",
+      "branding": "Branding in New Tecumseth can reflect small-town roots and manufacturing pride while signalling that a business is ready to serve a much larger, younger customer base."
+    }
+  }
+}

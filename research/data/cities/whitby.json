@@ -1,0 +1,67 @@
+{
+  "slug": "whitby",
+  "geographyNote": "Town of Whitby (census subdivision), Durham Region",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Whitby&GENDERlist=1%2C2%2C3&STATISTIClist=1&DGUIDlist=2021A00053518009&HEADERlist=0",
+  "figures": {
+    "population2021": 138501,
+    "population2016": 128377,
+    "growthPct": 7.9,
+    "medianAge": null,
+    "medianHouseholdIncome2020": 122000,
+    "privateDwellings": 46460,
+    "landAreaKm2": 146.69
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053518009",
+    "population2016": "https://en.wikipedia.org/wiki/Whitby,_Ontario",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053518009",
+    "medianHouseholdIncome2020": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=e&topic=5&dguid=2021A00053518009",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053518009",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053518009"
+  },
+  "facts": [
+    {
+      "text": "Whitby has 3,493 businesses that employ approximately 43,300 people.",
+      "url": "https://whitby.ca/TOW_Community-and-Sector-Profiles_2024_FINAL.pdf",
+      "publisher": "Town of Whitby",
+      "evidence": "Whitby has 3,493 businesses that employ approximately 43,300 people."
+    },
+    {
+      "text": "Whitby's economy is built on four key sectors: advanced manufacturing, professional technical services, downtown and lifestyle businesses, and information and communication technologies.",
+      "url": "https://www.whitby.ca/business-and-economy/economic-development/why-whitby/",
+      "publisher": "Town of Whitby",
+      "evidence": "Whitby's economy is built on four key sectors: advanced manufacturing, professional technical services, downtown and lifestyle businesses, and information and communication technologies."
+    },
+    {
+      "text": "Major employers in Whitby include 360insights, AECOM, Amazon, Atlantic Packaging, Gerdau, GHD, Lear Corp., LKQ Corp., North American Steel and Ontario Shores.",
+      "url": "https://www.whitby.ca/TOW_Community-and-Sector-Profiles_2024_FINAL.pdf",
+      "publisher": "Town of Whitby",
+      "evidence": "Major employers in Whitby include 360insights, AECOM, Amazon, Atlantic Packaging, Gerdau, GHD, Lear Corp., LKQ Corp., North American Steel, and Ontario Shores."
+    },
+    {
+      "text": "Whitby's innovation ecosystem includes the 1855 Whitby Innovation Accelerator and the Ontario Power Generation X-Lab nuclear innovation accelerator.",
+      "url": "https://www.whitby.ca/business-and-economy/economic-development/why-whitby/",
+      "publisher": "Town of Whitby",
+      "evidence": "Whitby has a thriving innovation ecosystem ... including the Business Advisory Centre of Durham, Downtown Whitby Business Improvement Area, 1855 Whitby Innovation Accelerator, Spark Centre Regional Innovation Centre, and Ontario Power Generation (OPG) X-Lab nuclear innovation accelerator."
+    }
+  ],
+  "meta": {
+    "populationApprox": 138501,
+    "descriptor": "a growing lakeshore town in Durham Region east of Toronto",
+    "fact": "home to 3,493 businesses that employ approximately 43,300 people",
+    "industries": ["Manufacturing", "Professional services", "Technology", "Healthcare", "Logistics", "Retail"],
+    "areas": ["Downtown Whitby", "Brooklin", "Port Whitby", "Williamsburg", "Pringle Creek", "Taunton North"]
+  },
+  "copy": {
+    "overview": [
+      "Whitby counted 138,501 residents in 2021, up 7.9% from 128,377 in 2016, in 46,460 occupied homes. The median household income was $122,000 in 2020, so many local customers have room in their budgets for quality services.",
+      "Growth also brings competition. New households are still choosing their providers, while established firms and GTA chains chase the same buyers. A Whitby business that shows up clearly in local search and earns trust early can build loyalty that lasts."
+    ],
+    "byService": {
+      "lead-generation": "Whitby grew 7.9% between 2016 and 2021, so lead generation should reach new homeowners in Brooklin and the north end before they settle on their regular providers.",
+      "seo": "Because Whitby has two downtowns, SEO should target Downtown Whitby and Brooklin separately, with location pages that match how residents actually search for nearby services.",
+      "website-development": "Households earning a median of $122,000 in 2020 compare options carefully, so a Whitby website needs clear pricing cues, reviews and easy online booking.",
+      "branding": "For a business serving 46,460 Whitby households, a brand that feels established and community-minded helps it stand apart from the GTA chains moving east."
+    }
+  }
+}

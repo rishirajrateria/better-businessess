@@ -1,0 +1,85 @@
+{
+  "slug": "quinte-west",
+  "geographyNote": "City of Quinte West, Hastings County, Ontario (census subdivision); not the Belleville - Quinte West CMA",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=Quinte+West&DGUIDlist=2021A00053512015&GENDERlist=1%2C2%2C3&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 46560,
+    "population2016": 43577,
+    "growthPct": 6.8,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": 19056,
+    "landAreaKm2": 495.45
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053512015",
+    "population2016": "https://en.wikipedia.org/wiki/Quinte_West",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053512015",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053512015",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053512015"
+  },
+  "facts": [
+    {
+      "text": "8 Wing is the largest employer in the Bay of Quinte Region, with an annual payroll of more than $110 million.",
+      "url": "https://quintedevelopment.com/companies-that-support-our-troops-thrive-in-the-bay-of-quinte/",
+      "publisher": "Quinte Economic Development Commission",
+      "evidence": "8 Wing is the largest employer in the Bay of Quinte Region with an annual payroll of more than $110 million, creating a significant impact in the local economy."
+    },
+    {
+      "text": "About 5,000 regular force, reserve force and civilian members make up the CFB Trenton/8 Wing workforce, and the majority live in Quinte West.",
+      "url": "https://en.wikipedia.org/wiki/Trenton,_Ontario",
+      "publisher": "Wikipedia",
+      "evidence": "CFB Trenton/8 Wing is Trenton's main employer ... Approximately 5,000 regular force, reserve force, and civilian members make up the workforce and the majority live in Quinte West."
+    },
+    {
+      "text": "Other large employers in Trenton include Trenton Cold Storage, Kruger, Nestlé, Pentair Thermal Controls, McKesson Canada and DECA Cables.",
+      "url": "https://en.wikipedia.org/wiki/Trenton,_Ontario",
+      "publisher": "Wikipedia",
+      "evidence": "Other large employers include Trenton Cold Storage, Norampac, Kruger, Mapco, Citipack, Jobsters, Pentair Thermal Controls, Nestlé, ElectroCables, Domtech, Global Med Inc., Mckesson Canada and DECA Cables."
+    },
+    {
+      "text": "Quinte West's economy has a strong focus in food processing, advanced manufacturing, logistics and aerospace industries servicing 8 Wing/CFB Trenton.",
+      "url": "https://quintewest.ca/wp-content/uploads/2024/03/J12804_66588-2024-Community-Profile-V15-1.pdf",
+      "publisher": "City of Quinte West",
+      "evidence": "The city has a diverse economy with a strong focus in food processing, advanced manufacturing, logistics and aerospace industries servicing Canada's largest air force base, 8 Wing/CFB Trenton."
+    },
+    {
+      "text": "Quinte West was formed in 1998 from the amalgamation of Trenton, Frankford, Sidney and Murray Townships.",
+      "url": "https://en.wikipedia.org/wiki/Quinte_West",
+      "publisher": "Wikipedia",
+      "evidence": "Quinte West was formed in 1998 from the amalgamation of Trenton, Frankford, Sidney, and Murray Townships."
+    }
+  ],
+  "meta": {
+    "populationApprox": 46560,
+    "descriptor": "a city on the Bay of Quinte and the Trent-Severn Waterway in Hastings County",
+    "fact": "home to 8 Wing/CFB Trenton, the largest employer in the Bay of Quinte Region",
+    "industries": [
+      "Government",
+      "Aerospace",
+      "Food processing",
+      "Manufacturing",
+      "Logistics"
+    ],
+    "areas": [
+      "Trenton",
+      "Frankford",
+      "Batawa",
+      "Bayside",
+      "Wooler",
+      "Glen Miller"
+    ]
+  },
+  "copy": {
+    "overview": [
+      "Quinte West had 46,560 residents in 2021, up 6.8% from 43,577 in 2016, living in 19,056 occupied private dwellings spread over 495.45 square kilometres. That is a large, mostly rural footprint around one main urban centre, Trenton, so customers often drive past several competitors to reach you.",
+      "The air force base anchors local spending and brings regular turnover as military families are posted in and out. Businesses that are easy to find quickly, and easy to trust, win those new arrivals."
+    ],
+    "byService": {
+      "lead-generation": "Because military postings bring a steady flow of new households to Quinte West, lead generation should run year-round so each new wave of arrivals finds you first.",
+      "seo": "Search terms in Quinte West split between Trenton, Frankford and the rural communities, so pages should name each place a business actually serves rather than one city label.",
+      "website-development": "Families arriving at the air force base often shop for services before they unpack, so a site needs clear service areas, pricing cues and a fast, mobile contact form.",
+      "branding": "In a community of about 47,000 shaped by the base and by local manufacturers, branding that signals reliability and long-term roots carries more weight than flashy design."
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "aurora",
+  "geographyNote": "Town of Aurora (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&amp=&SearchText=Aurora&amp=&DGUIDlist=2021A00053519046&amp=&GENDERlist=1&amp=&STATISTIClist=1&amp=&HEADERlist=0",
+  "figures": {
+    "population2021": 62057,
+    "population2016": 55445,
+    "growthPct": 11.9,
+    "medianAge": null,
+    "medianHouseholdIncome2020": null,
+    "privateDwellings": 21506,
+    "landAreaKm2": 50
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053519046",
+    "population2016": "https://en.wikipedia.org/wiki/Aurora,_Ontario",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053519046",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053519046",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/Page.cfm?lang=e&topic=1&dguid=2021A00053519046"
+  },
+  "facts": [
+    {
+      "text": "Aurora is home to nearly 2,400 businesses, and 63% of them have 1 to 4 employees.",
+      "url": "https://www.aurora.ca/business-and-development/community-profile-and-site-selection-information/",
+      "publisher": "Town of Aurora",
+      "evidence": "Aurora is home to nearly 2400 businesses, with 63% of businesses made up of 1-4 employees."
+    },
+    {
+      "text": "Magna International, the Canadian automotive parts manufacturer, has its headquarters in Aurora.",
+      "url": "https://en.wikipedia.org/wiki/Magna_International",
+      "publisher": "Wikipedia",
+      "evidence": "Magna International headquarters is located in Aurora, Ontario, Canada."
+    },
+    {
+      "text": "Key businesses in Aurora include Magna International, Bulk Barn Canada and Desjardins Insurance, along with Kirchhoff Automotive and Genpak.",
+      "url": "https://www.aurora.ca/business-and-development/economic-development/relocate-expand/",
+      "publisher": "Town of Aurora",
+      "evidence": "Aurora continues to attract major companies including Magna International, Desjardins, Bulk Barn, Kirchhoff Automotive, Genpak LP, Flow Water, and others."
+    },
+    {
+      "text": "Aurora's companies are part of the region's information technology, fintech, food processing, health and life sciences, and advanced manufacturing clusters.",
+      "url": "https://www.aurora.ca/business-and-development/community-profile-and-site-selection-information/",
+      "publisher": "Town of Aurora",
+      "evidence": "Aurora's companies are cornerstones of York Region/Greater Toronto Area's flourishing Information Technology; Financial, Insurance & Accounting Services (FinTech); Food Processing; Health and Life Sciences (MedTech); and Advanced Manufacturing clusters."
+    }
+  ],
+  "meta": {
+    "populationApprox": 62057,
+    "descriptor": "a fast-growing town in York Region north of Toronto",
+    "fact": "home to the headquarters of auto parts maker Magna International",
+    "industries": ["Automotive", "Manufacturing", "Technology", "Finance", "Insurance", "Food processing"],
+    "areas": ["Aurora Village", "Aurora Heights", "Aurora Highlands", "Bayview Wellington", "Aurora Grove"]
+  },
+  "copy": {
+    "overview": [
+      "Aurora had 62,057 residents in 2021, up 11.9% from 55,445 in 2016, living in 21,506 occupied homes on 50 square kilometres. That growth is roughly double the provincial pace, so new households keep arriving and looking for local providers.",
+      "Most businesses here are small, and many compete beside head offices such as Magna International. Newcomers have not yet picked their dentist, contractor or gym, which gives local firms a steady stream of customers to win."
+    ],
+    "byService": {
+      "lead-generation": "Since Aurora grew 11.9% after 2016, lead generation should target newly arrived households with welcome offers before they settle on a provider.",
+      "seo": "With thousands of businesses packed into 50 square kilometres, Aurora SEO has to win tightly local searches and reviews instead of broad York Region terms.",
+      "website-development": "New residents research everything online, so an Aurora website should answer common questions, show service areas and make booking a first appointment simple.",
+      "branding": "In a town where most firms have only a few employees, distinctive branding helps a small Aurora business look as credible as the larger names nearby."
+    }
+  }
+}
