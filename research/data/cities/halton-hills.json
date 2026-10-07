@@ -1,0 +1,61 @@
+{
+  "slug": "halton-hills",
+  "geographyNote": "Town of Halton Hills (census subdivision)",
+  "censusProfileUrl": "https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/page.cfm?Lang=E&SearchText=halton+hills&DGUIDlist=2021A00053524015&GENDERlist=1&STATISTIClist=1&HEADERlist=0",
+  "figures": {
+    "population2021": 62951,
+    "population2016": 61161,
+    "growthPct": 2.9,
+    "medianAge": null,
+    "medianHouseholdIncome2020": 127000,
+    "privateDwellings": 21825,
+    "landAreaKm2": 276.81
+  },
+  "figureSources": {
+    "population2021": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053524015",
+    "population2016": "https://en.wikipedia.org/wiki/Halton_Hills",
+    "growthPct": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053524015",
+    "medianHouseholdIncome2020": "https://www.point2homes.com/CA/Demographics/ON/Halton-Hills-Demographics.html",
+    "privateDwellings": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053524015",
+    "landAreaKm2": "https://www12.statcan.gc.ca/census-recensement/2021/as-sa/fogs-spg/page.cfm?lang=E&topic=1&dguid=2021A00053524015"
+  },
+  "facts": [
+    {
+      "text": "Active projects in the Premier Gateway area along Steeles Avenue have the potential for over $1.2 billion in investment and over 3,000 direct jobs.",
+      "url": "https://www.haltonhills.ca/en/news/mayor-ann-lawlor-s-june-2023-message.aspx",
+      "publisher": "Town of Halton Hills",
+      "evidence": "The active projects in the Steeles Avenue area have the potential for over $1.2 billion in investment dollars, over 3,000 direct jobs and nearly 6 million square feet of commercial and industrial building."
+    },
+    {
+      "text": "Prologis Halton Hills Gateway on Trafalgar Road will offer about 1.3 million square feet in three buildings and generate up to 2,000 jobs.",
+      "url": "https://www.haltonhills.ca/en/news/town-welcomes-prologis-to-halton-hills.aspx",
+      "publisher": "Town of Halton Hills",
+      "evidence": "The site will feature three high-quality and sustainable buildings, offering an approximate total of 1.3 million square feet of space. The new site will generate up to 2,000 jobs"
+    },
+    {
+      "text": "Invest Halton Hills, the town's economic development division, focuses on business attraction, retention and expansion.",
+      "url": "https://www.haltonhills.ca/work/business/invest",
+      "publisher": "Town of Halton Hills",
+      "evidence": "The Town of Halton Hills has an Economic Development division called Invest Halton Hills that provides high-quality services and supports to the local business community and is focused on business attraction, retention and expansion."
+    }
+  ],
+  "meta": {
+    "populationApprox": 62951,
+    "descriptor": "a town of rural hamlets and two urban centres in Halton Region",
+    "fact": "home to the Premier Gateway employment area where Highways 401 and 407 meet",
+    "industries": ["Logistics", "Manufacturing", "Retail", "Agriculture", "Construction"],
+    "areas": ["Georgetown", "Acton", "Glen Williams", "Limehouse", "Terra Cotta", "Norval"]
+  },
+  "copy": {
+    "overview": [
+      "Halton Hills had 62,951 residents in 2021, up 2.9% from 61,161 in 2016, living in 21,825 occupied homes on 276.81 square kilometres. The median household income in 2020 was $127,000, so households here have strong spending power.",
+      "Growth is slow, so new customers come mainly from winning share rather than new subdivisions. Meanwhile, warehouses and distribution centres along Steeles Avenue are adding jobs, giving business-to-business suppliers a growing market."
+    ],
+    "byService": {
+      "lead-generation": "With a $127,000 median household income, lead generation in Halton Hills can favour premium offers, while B2B firms should target new employers opening in the Premier Gateway.",
+      "seo": "People search by community here, so SEO pages should name Georgetown, Acton and nearby hamlets instead of relying only on a town-wide Halton Hills keyword.",
+      "website-development": "Since population grew just 2.9% after 2016, a Halton Hills website must earn repeat visits from existing residents through reviews, clear pricing and easy booking.",
+      "branding": "Branding that feels local and established suits a small-town market of about 63,000 people whose affluent households value reputation and familiar faces over flashy messaging."
+    }
+  }
+}
