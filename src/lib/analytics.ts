@@ -1,26 +1,40 @@
 import { prisma } from "./db";
+import { bucketsFor, bucketKey, dateKey, type ResolvedRange } from "./date-range";
 
-export type Range = 7 | 30 | 90;
+const pct = (a: number, b: number) => (b === 0 ? (a > 0 ? 100 : 0) : Math.round(((a - b) / b) * 100));
+const VIEW_CAP = 100_000;
+const EVENT_CAP = 50_000;
 
-const since = (days: number) => new Date(Date.now() - days * 24 * 60 * 60 * 1000);
-const dayKey = (d: Date) => d.toISOString().slice(0, 10);
+/** Local date ("YYYY-MM-DD", business time zone) of the first recorded activity, for the "All time" range. */
+export async function getEarliestActivityKey(): Promise<string | null> {
+  try {
+    const [v, e, l] = await Promise.all([
+      prisma.pageView.findFirst({ orderBy: { createdAt: "asc" }, select: { createdAt: true } }),
+      prisma.event.findFirst({ orderBy: { createdAt: "asc" }, select: { createdAt: true } }),
+      prisma.lead.findFirst({ orderBy: { createdAt: "asc" }, select: { createdAt: true } }),
+    ]);
+    const first = [v, e, l].filter(Boolean).map((x) => x!.createdAt.getTime());
+    return first.length ? dateKey(new Date(Math.min(...first))) : null;
+  } catch {
+    return null;
+  }
+}
 
-export async function getDashboardStats(days: Range = 30) {
-  const from = since(days);
-  const prevFrom = since(days * 2);
+export async function getDashboardStats(r: ResolvedRange) {
+  const inRange = { gte: r.from, lt: r.to };
   const [views, prevViews, leads, prevLeads, events, recentLeads, allTimeLeads] = await Promise.all([
-    prisma.pageView.findMany({ where: { createdAt: { gte: from }, isBot: false }, select: { path: true, referrerHost: true, sessionId: true, visitorId: true, device: true, browser: true, country: true, utmSource: true, createdAt: true }, orderBy: { createdAt: "asc" }, take: 100000 }),
-    prisma.pageView.count({ where: { createdAt: { gte: prevFrom, lt: from }, isBot: false } }),
-    prisma.lead.findMany({ where: { createdAt: { gte: from } }, select: { createdAt: true, service: true, source: true, status: true } }),
-    prisma.lead.count({ where: { createdAt: { gte: prevFrom, lt: from } } }),
-    prisma.event.findMany({ where: { createdAt: { gte: from } }, select: { name: true, path: true, createdAt: true } , take: 50000 }),
+    prisma.pageView.findMany({ where: { createdAt: inRange, isBot: false }, select: { path: true, referrerHost: true, sessionId: true, visitorId: true, device: true, browser: true, country: true, utmSource: true, createdAt: true }, orderBy: { createdAt: "desc" }, take: VIEW_CAP }),
+    r.comparable ? prisma.pageView.count({ where: { createdAt: { gte: r.prevFrom, lt: r.prevTo }, isBot: false } }) : Promise.resolve(0),
+    prisma.lead.findMany({ where: { createdAt: inRange }, select: { createdAt: true, service: true, source: true, status: true } }),
+    r.comparable ? prisma.lead.count({ where: { createdAt: { gte: r.prevFrom, lt: r.prevTo } } }) : Promise.resolve(0),
+    prisma.event.findMany({ where: { createdAt: inRange }, select: { name: true, path: true, createdAt: true }, take: EVENT_CAP }),
     prisma.lead.findMany({ orderBy: { createdAt: "desc" }, take: 8 }),
     prisma.lead.count(),
   ]);
 
-  // daily series
-  const daily: Record<string, { views: number; sessions: Set<string>; leads: number }> = {};
-  for (let i = days - 1; i >= 0; i--) daily[dayKey(since(i))] = { views: 0, sessions: new Set(), leads: 0 };
+  // time series: one bucket per hour / day / week / month of the range, in the business time zone
+  const buckets = bucketsFor(r);
+  const series = new Map(buckets.map((b) => [b.key, { views: 0, sessions: new Set<string>(), leads: 0 }]));
   const sessions = new Set<string>();
   const visitors = new Set<string>();
   const pages: Record<string, number> = {};
@@ -30,10 +44,10 @@ export async function getDashboardStats(days: Range = 30) {
   const countries: Record<string, number> = {};
   const utms: Record<string, number> = {};
   for (const v of views) {
-    const k = dayKey(v.createdAt);
-    if (daily[k]) {
-      daily[k].views++;
-      daily[k].sessions.add(v.sessionId);
+    const b = series.get(bucketKey(r, v.createdAt));
+    if (b) {
+      b.views++;
+      b.sessions.add(v.sessionId);
     }
     sessions.add(v.sessionId);
     if (v.visitorId) visitors.add(v.visitorId);
@@ -45,8 +59,8 @@ export async function getDashboardStats(days: Range = 30) {
     if (v.utmSource) utms[v.utmSource] = (utms[v.utmSource] ?? 0) + 1;
   }
   for (const l of leads) {
-    const k = dayKey(l.createdAt);
-    if (daily[k]) daily[k].leads++;
+    const b = series.get(bucketKey(r, l.createdAt));
+    if (b) b.leads++;
   }
   const eventCounts: Record<string, number> = {};
   for (const e of events) eventCounts[e.name] = (eventCounts[e.name] ?? 0) + 1;
@@ -59,17 +73,16 @@ export async function getDashboardStats(days: Range = 30) {
     leadsByStatus[l.status] = (leadsByStatus[l.status] ?? 0) + 1;
   }
   const top = (o: Record<string, number>, n = 8) => Object.entries(o).sort((a, b) => b[1] - a[1]).slice(0, n);
-  const pct = (a: number, b: number) => (b === 0 ? (a > 0 ? 100 : 0) : Math.round(((a - b) / b) * 100));
 
   return {
-    days,
+    range: r,
     totals: {
       views: views.length,
-      viewsChange: pct(views.length, prevViews),
+      viewsChange: r.comparable ? pct(views.length, prevViews) : undefined,
       sessions: sessions.size,
       visitors: visitors.size,
       leads: leads.length,
-      leadsChange: pct(leads.length, prevLeads),
+      leadsChange: r.comparable ? pct(leads.length, prevLeads) : undefined,
       conversion: sessions.size ? +((leads.length / sessions.size) * 100).toFixed(2) : 0,
       ctaClicks: (eventCounts.cta_click ?? 0) + Object.entries(eventCounts).filter(([k]) => k.startsWith("cta_")).reduce((a, [, v]) => a + v, 0),
       phoneClicks: (eventCounts.phone_click ?? 0) + (eventCounts.phone_click_floating ?? 0),
@@ -77,7 +90,12 @@ export async function getDashboardStats(days: Range = 30) {
       formStarts: eventCounts.form_start ?? 0,
       allTimeLeads,
     },
-    series: Object.entries(daily).map(([date, d]) => ({ date, views: d.views, sessions: d.sessions.size, leads: d.leads })),
+    /** True when the range holds more page views than are loaded; figures then cover the most recent ones. */
+    truncated: views.length >= VIEW_CAP || events.length >= EVENT_CAP,
+    series: buckets.map((b) => {
+      const d = series.get(b.key)!;
+      return { key: b.key, label: b.label, full: b.full, views: d.views, sessions: d.sessions.size, leads: d.leads };
+    }),
     topPages: top(pages, 10),
     topReferrers: top(refs),
     devices: top(devices, 3),
@@ -106,11 +124,13 @@ const parseMeta = (m: string | null): Meta => {
   }
 };
 
-export async function getCallStats(days: Range = 30) {
-  const from = since(days);
-  const [events, views] = await Promise.all([
-    prisma.event.findMany({ where: { name: { in: [...CALL_EVENTS, ...COPY_EVENTS] }, createdAt: { gte: from } }, select: { id: true, name: true, path: true, sessionId: true, meta: true, createdAt: true }, orderBy: { createdAt: "desc" }, take: 20000 }),
-    prisma.pageView.findMany({ where: { createdAt: { gte: from }, isBot: false }, select: { sessionId: true }, distinct: ["sessionId"], take: 100000 }),
+export async function getCallStats(r: ResolvedRange) {
+  const names = [...CALL_EVENTS, ...COPY_EVENTS];
+  const [events, views, prevCalls, prevCopies] = await Promise.all([
+    prisma.event.findMany({ where: { name: { in: names }, createdAt: { gte: r.from, lt: r.to } }, select: { id: true, name: true, path: true, sessionId: true, meta: true, createdAt: true }, orderBy: { createdAt: "desc" }, take: 20000 }),
+    prisma.pageView.findMany({ where: { createdAt: { gte: r.from, lt: r.to }, isBot: false }, select: { sessionId: true }, distinct: ["sessionId"], take: 100000 }),
+    r.comparable ? prisma.event.count({ where: { name: { in: CALL_EVENTS }, createdAt: { gte: r.prevFrom, lt: r.prevTo } } }) : Promise.resolve(0),
+    r.comparable ? prisma.event.count({ where: { name: { in: COPY_EVENTS }, createdAt: { gte: r.prevFrom, lt: r.prevTo } } }) : Promise.resolve(0),
   ]);
   const rows = events.map((e) => {
     const m = parseMeta(e.meta);
@@ -126,37 +146,56 @@ export async function getCallStats(days: Range = 30) {
       method: m.method,
     };
   });
-  const calls = rows.filter((r) => r.kind === "call");
-  const copies = rows.filter((r) => r.kind === "copy");
-  const tally = (list: typeof rows, key: (r: (typeof rows)[number]) => string) => {
+  const calls = rows.filter((x) => x.kind === "call");
+  const copies = rows.filter((x) => x.kind === "copy");
+  const tally = (list: typeof rows, key: (x: (typeof rows)[number]) => string) => {
     const o: Record<string, number> = {};
-    for (const r of list) o[key(r)] = (o[key(r)] ?? 0) + 1;
+    for (const x of list) o[key(x)] = (o[key(x)] ?? 0) + 1;
     return Object.entries(o).sort((a, b) => b[1] - a[1]);
   };
-  const daily: Record<string, { calls: number; copies: number }> = {};
-  for (let i = days - 1; i >= 0; i--) daily[dayKey(since(i))] = { calls: 0, copies: 0 };
-  for (const r of rows) {
-    const d = daily[dayKey(r.at)];
-    if (d) r.kind === "call" ? d.calls++ : d.copies++;
+
+  // one bucket per hour / day / week / month of the range, in the business time zone
+  const buckets = bucketsFor(r);
+  const series = new Map(buckets.map((b) => [b.key, { calls: 0, copies: 0, menu: 0, people: new Set<string>() }]));
+  for (const x of rows) {
+    const b = series.get(bucketKey(r, x.at));
+    if (!b) continue;
+    if (x.kind === "call") b.calls++;
+    else if (x.method === "menu") b.menu++;
+    else b.copies++;
+    b.people.add(x.sessionId);
   }
   const sessions = views.length;
-  const actors = new Set(rows.map((r) => r.sessionId)).size;
+  const actors = new Set(rows.map((x) => x.sessionId)).size;
+  // Engagement rate only counts engaged people who also visited in this period (a visit that started
+  // before midnight can click after it), so it can never exceed 100%.
+  const visitedSessions = new Set(views.map((v) => v.sessionId));
+  const engagedVisitors = new Set(rows.filter((x) => visitedSessions.has(x.sessionId)).map((x) => x.sessionId)).size;
+  const totalActions = calls.length + copies.length;
+  const prevActions = prevCalls + prevCopies;
   return {
-    days,
+    range: r,
     totals: {
       calls: calls.length,
+      callsChange: r.comparable ? pct(calls.length, prevCalls) : undefined,
       copies: copies.filter((c) => c.method !== "menu").length,
       menu: copies.filter((c) => c.method === "menu").length,
+      actions: totalActions,
+      actionsChange: r.comparable ? pct(totalActions, prevActions) : undefined,
       floating: calls.filter((c) => c.location === "Floating call button").length,
       people: actors,
-      rate: sessions ? +((actors / sessions) * 100).toFixed(1) : 0,
+      rate: sessions ? +((engagedVisitors / sessions) * 100).toFixed(1) : 0,
       sessions,
     },
-    series: Object.entries(daily).map(([date, d]) => ({ date, ...d })),
-    byLocation: tally(calls, (r) => r.location).slice(0, 8),
-    copyByLocation: tally(copies, (r) => r.location).slice(0, 8),
-    byDevice: tally(rows, (r) => r.device),
-    byPage: tally(rows, (r) => r.path).slice(0, 10),
+    truncated: events.length >= 20000,
+    series: buckets.map((b) => {
+      const d = series.get(b.key)!;
+      return { key: b.key, label: b.label, full: b.full, calls: d.calls, copies: d.copies + d.menu, copiedOnly: d.copies, menu: d.menu, people: d.people.size };
+    }),
+    byLocation: tally(calls, (x) => x.location).slice(0, 8),
+    copyByLocation: tally(copies, (x) => x.location).slice(0, 8),
+    byDevice: tally(rows, (x) => x.device),
+    byPage: tally(rows, (x) => x.path).slice(0, 10),
     recent: rows.slice(0, 40),
   };
 }

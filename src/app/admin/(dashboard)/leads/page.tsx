@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { prisma } from "@/lib/db";
 import { Card, StatusBadge } from "@/components/admin/Charts";
-import { formatDate, cn } from "@/lib/utils";
+import { formatAdminDate, cn } from "@/lib/utils";
 import { getService } from "@/lib/services";
 
 export const dynamic = "force-dynamic";
@@ -45,7 +45,7 @@ export default async function LeadsPage({ searchParams }: { searchParams: Promis
                     <td className="py-3 pr-4">{l.budget ?? "—"}</td>
                     <td className="py-3 pr-4 text-slate">{l.source ?? "—"}{l.utmSource ? <><br />utm: {l.utmSource}</> : null}</td>
                     <td className="py-3 pr-4"><StatusBadge status={l.status} /></td>
-                    <td className="py-3 text-slate">{formatDate(l.createdAt, { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" })}</td>
+                    <td className="py-3 text-slate">{formatAdminDate(l.createdAt, { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" })}</td>
                   </tr>
                 ))}
               </tbody>

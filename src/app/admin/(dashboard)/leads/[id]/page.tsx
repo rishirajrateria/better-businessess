@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { prisma } from "@/lib/db";
 import { Card, StatusBadge } from "@/components/admin/Charts";
 import { LeadForm } from "./LeadForm";
-import { formatDate } from "@/lib/utils";
+import { formatAdminDate } from "@/lib/utils";
 import { getService } from "@/lib/services";
 
 export const dynamic = "force-dynamic";
@@ -22,7 +22,7 @@ export default async function LeadDetail({ params }: { params: Promise<{ id: str
     ["Submitted from", lead.source ?? "—"],
     ["Referrer", lead.referrer ?? "—"],
     ["UTM", [lead.utmSource, lead.utmMedium, lead.utmCampaign].filter(Boolean).join(" / ") || "—"],
-    ["Received", formatDate(lead.createdAt, { dateStyle: "medium", timeStyle: "short" })],
+    ["Received", formatAdminDate(lead.createdAt, { dateStyle: "medium", timeStyle: "short" })],
   ];
   return (
     <div className="space-y-6">

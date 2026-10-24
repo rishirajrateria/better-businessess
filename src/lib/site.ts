@@ -32,6 +32,9 @@ export const site = {
     lng: -79.526,
   },
   hours: "Monday to Friday, 9:00 AM to 6:00 PM (Eastern Time)",
+  /** Business time zone: admin reports bucket and display every date/time in it, not the server's UTC. */
+  timeZone: "America/Toronto",
+  timeZoneLabel: "Eastern Time (Toronto)",
   foundedYear: 2019,
   social: {
     linkedin: "https://www.linkedin.com/company/betterbusinesses",
