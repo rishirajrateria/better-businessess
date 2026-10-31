@@ -53,7 +53,7 @@ export const metadata: Metadata = {
   verification: {
     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "kmjjedxUkgDVEWyRmkkMU7E-K90Tp1PRQmHs_iXGcZU",
     // Bing Webmaster Tools (Bing's index powers ChatGPT search, Copilot and DuckDuckGo).
-    ...(process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION ? { other: { "msvalidate.01": process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION } } : {}),
+    other: { "msvalidate.01": process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION || "3335B64CE8EDC553F1713CA50767C1D8" },
   },
   other: { "geo.region": "CA", "geo.placename": "Canada" },
 };
