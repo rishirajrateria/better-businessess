@@ -37,9 +37,9 @@ export const site = {
   timeZoneLabel: "Eastern Time (Toronto)",
   foundedYear: 2019,
   social: {
-    linkedin: "https://www.linkedin.com/company/betterbusinesses",
-    instagram: "https://www.instagram.com/betterbusinesses.ca",
-    facebook: "https://www.facebook.com/betterbusinesses.ca",
+    linkedin: "https://www.linkedin.com/in/better-business-295a50447",
+    instagram: "https://www.instagram.com/better_business._?rpxt=MWd6dG13Z3R3MjVhdA==",
+    facebook: "https://www.facebook.com/share/1CNGb4rKcs/",
     x: "https://x.com/betterbusinessca",
     youtube: "https://www.youtube.com/@betterbusinesses",
   },
