@@ -56,7 +56,7 @@ export const site = {
    * Named author for blog articles (E-E-A-T). Fill in a real person: name, role, a public profile
    * URL (LinkedIn) and a one-line bio. With an empty name, articles stay attributed to the company.
    */
-  author: { name: "", role: "", url: "", bio: "" },
+  author: { name: "Azeem Karbhari", role: "Founder & CEO", url: "https://www.linkedin.com/in/azeem-karbhari-42aab33b/", bio: "Digital growth strategist driving lead generation, SEO, and web development for Canadian businesses." },
   /**
    * Date the fixed site copy (services, locations, FAQs) last changed. Drives <lastmod> for the
    * ~420 non-CMS pages in the sitemap. Bump it when you edit content — never on every deploy,
