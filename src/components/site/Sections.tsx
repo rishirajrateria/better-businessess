@@ -184,3 +184,44 @@ export function InlineCta({ text = "Want this for your business?", cta = "Talk t
     </div>
   );
 }
+
+/* ---------- Blog Category-Specific CTA ---------- */
+const categoryCtaMap: Record<string, { service: string; text: string; cta: string; href: string }> = {
+  SEO: { service: "seo", text: "Ready to dominate search results?", cta: "Explore SEO services", href: "/services/seo" },
+  "Local SEO": { service: "local-seo", text: "Ready to become the #1 choice locally?", cta: "Learn about local SEO", href: "/services/local-seo" },
+  "Lead Generation": { service: "lead-generation", text: "Want a steady flow of qualified leads?", cta: "See lead generation options", href: "/services/lead-generation" },
+  "Web Design": { service: "website-development", text: "Ready to convert more visitors?", cta: "Explore website services", href: "/services/website-development" },
+  Branding: { service: "branding", text: "Ready to stand out in your market?", cta: "Discover branding services", href: "/services/branding" },
+  Strategy: { service: "lead-generation", text: "Want a clear growth roadmap?", cta: "Get a growth strategy", href: "/contact" },
+  "Industry Guides": { service: "lead-generation", text: "Ready to apply these strategies?", cta: "Talk to an expert", href: "/contact" },
+};
+
+export function BlogCta({ category = "Strategy", position = "mid" }: { category?: string | null; position?: "mid" | "end" }) {
+  const config = (category && categoryCtaMap[category]) || categoryCtaMap.Strategy;
+  const isEnd = position === "end";
+
+  if (isEnd) {
+    return (
+      <div className={`glass-dark mt-12 flex flex-col items-start justify-between gap-4 rounded-glass p-8 text-paper sm:flex-row sm:items-center`} data-reveal>
+        <div>
+          <p className="font-display text-lg font-semibold tracking-tight">{config.text}</p>
+          <p className="mt-2 text-[14px] text-paper/70">Let our strategists build a custom plan for your business.</p>
+        </div>
+        <div className="flex gap-2">
+          <Button href={config.href} size="sm" track="cta_blog_end">{config.cta} <ArrowIcon /></Button>
+          {site.phone && <Button href={site.phoneHref} size="sm" variant="outline" className="text-paper border-paper/20 hover:bg-paper/10" track="phone_click">Call us</Button>}
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="glass mt-10 flex flex-col items-start justify-between gap-4 rounded-glass p-6 sm:flex-row sm:items-center" data-reveal>
+      <p className="font-display text-lg font-semibold tracking-tight text-ink">{config.text}</p>
+      <div className="flex gap-2">
+        <Button href={config.href} size="sm" track="cta_blog_mid">{config.cta} <ArrowIcon /></Button>
+        {site.phone && <Button href={site.phoneHref} size="sm" variant="outline" track="phone_click">Call now</Button>}
+      </div>
+    </div>
+  );
+}

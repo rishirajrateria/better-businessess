@@ -8,7 +8,7 @@ import { FaqAccordion } from "@/components/site/FaqAccordion";
 import { CtaBanner } from "@/components/site/CtaBanner";
 import { JsonLd } from "@/components/site/JsonLd";
 import { ProjectTile } from "@/components/site/Visuals";
-import { InlineCta } from "@/components/site/Sections";
+import { InlineCta, BlogCta } from "@/components/site/Sections";
 import { Section, Eyebrow } from "@/components/ui/Section";
 import { Container } from "@/components/ui/Container";
 import { getPostBySlug, getPublishedPosts, parseJson, splitList } from "@/lib/queries";
@@ -99,6 +99,7 @@ export default async function PostPage({ params }: Props) {
                   <FaqAccordion faqs={faqs} />
                 </div>
               )}
+              <BlogCta category={post.category} position="mid" />
               {site.author.name && (
                 <aside className="mt-12 flex items-start gap-4 rounded-glass border border-ink/5 bg-white/60 p-6" aria-label="About the author">
                   <span className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-gold-gradient font-display text-sm font-semibold text-ink">{initials(site.author.name)}</span>
@@ -111,7 +112,7 @@ export default async function PostPage({ params }: Props) {
                   </div>
                 </aside>
               )}
-              <InlineCta text="Want help putting this into practice?" cta="Talk to a strategist" />
+              <BlogCta category={post.category} position="end" />
             </div>
             <aside className="lg:col-span-4">
               <div className="sticky top-28 space-y-5">
