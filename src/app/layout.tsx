@@ -51,7 +51,7 @@ export const metadata: Metadata = {
   icons: { icon: [{ url: "/icon.svg", type: "image/svg+xml" }], apple: "/apple-icon.png" },
   manifest: "/manifest.webmanifest",
   verification: {
-    ...(process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION ? { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION } : {}),
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "kmjjedxUkgDVEWyRmkkMU7E-K90Tp1PRQmHs_iXGcZU",
     // Bing Webmaster Tools (Bing's index powers ChatGPT search, Copilot and DuckDuckGo).
     ...(process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION ? { other: { "msvalidate.01": process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION } } : {}),
   },
